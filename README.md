@@ -3,7 +3,7 @@
 **An open-source, secure, and user-friendly self-custodial cryptocurrency wallet for the Solana blockchain.**  
 Manage your tokens & NFTs, explore dApps, and engage with DeFi seamlessly.
 
-Kyoku Wallet is a Chrome browser extension designed to provide a safe and intuitive gateway to the Solana ecosystem. Whether you're managing SPL tokens, curating your NFT collection, interacting with decentralized applications (dApps), or diving into DeFi, Kyoku aims to make your Solana experience smooth and secure. As an open-source project, we prioritise transparency and community trust.
+Kyoku Wallet is a Chrome browser extension designed to provide a safe and intuitive gateway to the Solana ecosystem. Whether you’re managing SPL tokens, curating your NFT collection, interacting with decentralized applications (dApps), or diving into DeFi, Kyoku aims to make your Solana experience smooth and secure. As an open-source project, we prioritise transparency and community trust.
 
 ---
 
@@ -55,7 +55,7 @@ We welcome code reviews and contributions—see [Contributing](#contributing) be
    - [Clone the Repository](#clone-the-repository)  
    - [Install Dependencies](#install-dependencies)  
    - [Environment Variables](#environment-variables)  
-   - [Build for Production/Development](#build-for-productiondevelopment)  
+   - [Build for Production / Development](#build-for-production--development)  
    - [Start Development Server](#start-development-server)  
    - [Running Tests](#running-tests)  
    - [Install the Development Version of the Extension](#install-the-development-version-of-the-extension)  
@@ -97,99 +97,103 @@ Interested in contributing or running Kyoku Wallet from source? Follow these ste
 ```bash
 git clone https://github.com/kyoku-labs/kyoku-wallet.git
 cd kyoku-wallet
+```
 
-Install Dependencies
+### Install Dependencies
+
+```bash
 npm install
 # or
 yarn install
+```
 
-Environment Variables
+### Environment Variables
+
 Kyoku Wallet requires API keys for certain services (e.g., Helius for enhanced NFT/token data and ExchangeRate-API for currency conversion).
 
-Create a .env file in the project root:
-cp .env.example .env
-Populate it with your keys:
-VITE_HELIUS_API_KEY="YOUR_HELIUS_API_KEY"
-VITE_EXCHANGERATE_API_KEY="YOUR_EXCHANGERATE_API_KEY"
+1. Create a `.env` file in the project root:
+   ```bash
+   cp .env.example .env
+   ```
+2. Populate it with your keys:
+   ```env
+   VITE_HELIUS_API_KEY="YOUR_HELIUS_API_KEY"
+   VITE_EXCHANGERATE_API_KEY="YOUR_EXCHANGERATE_API_KEY"
+   ```
+3. Get your keys from:  
+   - [Helius](https://helius.dev/)  
+   - [ExchangeRate-API](https://www.exchangerate-api.com/)
 
-Get your keys from:
+> **Note:** For testing, these variables are mocked in `jest.setup.js`.
 
-Helius
+### Build for Production / Development
 
-ExchangeRate-API
+- **Production (minified):**
+  ```bash
+  npm run build
+  ```
+- **Development (with source maps):**
+  ```bash
+  npm run build:dev
+  ```
+  Builds are output to the `dist/` directory.
 
-Note: For testing, these variables are mocked in jest.setup.js.
+### Start Development Server
 
-Build for Production / Development
-Production (minified):
-
-bash
-Copy
-Edit
-npm run build
-Development (with source maps):
-
-bash
-Copy
-Edit
-npm run build:dev
-Builds are output to the dist/ directory.
-
-Start Development Server
-bash
-Copy
-Edit
+```bash
 npm run dev
-Serves the popup UI at http://localhost:3000 (or another available port).
+```
 
-For full extension functionality (background scripts, content scripts), load the built extension into Chrome (see below).
+- Serves the popup UI at `http://localhost:3000` (or another available port).  
+- For full extension functionality (background scripts, content scripts), load the built extension into Chrome (see below).
 
-Running Tests
-bash
-Copy
-Edit
+### Running Tests
+
+```bash
 npm run test
-# or watch mode
+# or in watch mode
 npm run test:watch
-Install the Development Version
-Build a development version:
+```
 
-bash
-Copy
-Edit
-npm run build:dev
-In Chrome, go to chrome://extensions, enable Developer mode, click Load unpacked, and select the dist folder.
+### Install the Development Version of the Extension
 
-To apply code changes:
+1. Build a development version:
+   ```bash
+   npm run build:dev
+   ```
+2. In Chrome, go to `chrome://extensions`, enable **Developer mode**, click **Load unpacked**, and select the `dist` folder.  
+3. To apply code changes:
+   - Re-run `npm run build:dev`.  
+   - Click **Reload** next to Kyoku Wallet in `chrome://extensions`.
 
-Re-run npm run build:dev.
+---
 
-Click Reload next to Kyoku Wallet in chrome://extensions.
+## 💻 Tech Stack
 
-💻 Tech Stack
-Language & Frameworks: TypeScript, React
+- **Language & Frameworks:** TypeScript, React  
+- **State Management:** Zustand  
+- **Build Tool:** Vite  
+- **Styling:** Tailwind CSS  
+- **Blockchain SDK:** `@solana/web3.js`  
+- **Testing:** Jest & ts-jest  
+- **Internationalisation:** i18next  
 
-State Management: Zustand
+---
 
-Build Tool: Vite
+## 🌱 Contributing
 
-Styling: Tailwind CSS
+We welcome contributions of all kinds! Please read our [Contributing Guidelines](CONTRIBUTING.md) before you start.
 
-Blockchain SDK: @solana/web3.js
+---
 
-Testing: Jest & ts-jest
+## 📜 License
 
-i18n: i18next
+Kyoku Wallet is open-source software licensed under the [MIT License](LICENSE).
 
-🌱 Contributing
-We welcome contributions of all kinds! Please read our Contributing Guidelines before you start.
+---
 
-📜 License
-Kyoku Wallet is open-source software licensed under the MIT License.
+## 💬 Connect With Us
 
-💬 Connect With Us
-X (Twitter): @kyokuwallet
-
-
-
-
+- **X (Twitter):** [@kyokuwallet](https://twitter.com/kyokuwallet)  
+- **Discord:** [Invite Link](#)  
+- **GitHub Discussions:** [Kyoku Wallet Community](https://github.com/kyoku-labs/kyoku-wallet/discussions)
