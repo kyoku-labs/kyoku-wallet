@@ -182,7 +182,7 @@ npm run test:watch
 
 ## 🌱 Contributing
 
-We welcome contributions of all kinds! Please read our [Contributing Guidelines](CONTRIBUTING.md) before you start.
+We welcome contributions of all kinds!
 
 ---
 
@@ -195,5 +195,4 @@ Kyoku Wallet is open-source software licensed under the [MIT License](LICENSE).
 ## 💬 Connect With Us
 
 - **X (Twitter):** [@kyokuwallet](https://twitter.com/kyokuwallet)  
-- **Discord:** [Invite Link](#)  
-- **GitHub Discussions:** [Kyoku Wallet Community](https://github.com/kyoku-labs/kyoku-wallet/discussions)
+
