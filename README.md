@@ -3,7 +3,7 @@
 **An open-source, secure, and user-friendly self-custodial cryptocurrency wallet for the Solana blockchain.**  
 Manage your tokens & NFTs, explore dApps, and engage with DeFi seamlessly.
 
-Kyoku Wallet is a Chrome browser extension designed to provide a safe and intuitive gateway to the Solana ecosystem. Whether you're managing SPL tokens, curating your NFT collection, interacting with decentralized applications (dApps), or diving into DeFi, Kyoku aims to make your Solana experience smooth and secure. As an open-source project, we prioritize transparency and community trust.
+Kyoku Wallet is a Chrome browser extension designed to provide a safe and intuitive gateway to the Solana ecosystem. Whether you're managing SPL tokens, curating your NFT collection, interacting with decentralized applications (dApps), or diving into DeFi, Kyoku aims to make your Solana experience smooth and secure. As an open-source project, we prioritise transparency and community trust.
 
 ---
 
@@ -27,7 +27,7 @@ Kyoku Wallet is a Chrome browser extension designed to provide a safe and intuit
   - Create multiple derived accounts  
   - Import existing Solana wallets (mnemonic/recovery phrase, private key)  
   - Add view-only accounts to monitor addresses
-- 🌐 **Customizable**  
+- 🌐 **Customisable**  
   - Choose your network (Mainnet, Devnet, Testnet, Custom RPC)  
   - Select your preferred block explorer  
   - Set transaction priority fees  
@@ -75,10 +75,10 @@ We welcome code reviews and contributions—see [Contributing](#contributing) be
 
 ### 2. Manual Installation (Developer Mode)
 
-1. Download `kyoku-wallet-vX.X.X.zip` from our [Releases page](https://github.com/kyoku-labs/kyoku-wallet/releases).
-2. Unzip the file.
-3. Open Chrome and go to `chrome://extensions`.
-4. Enable **Developer mode** (toggle in the top right).
+1. Download `kyoku-wallet-vX.X.X.zip` from our [Releases page](https://github.com/kyoku-labs/kyoku-wallet/releases).  
+2. Unzip the file.  
+3. Open Chrome and go to `chrome://extensions`.  
+4. Enable **Developer mode** (toggle in the top right).  
 5. Click **Load unpacked** and select the unzipped `dist` folder.
 
 ---
@@ -97,3 +97,99 @@ Interested in contributing or running Kyoku Wallet from source? Follow these ste
 ```bash
 git clone https://github.com/kyoku-labs/kyoku-wallet.git
 cd kyoku-wallet
+
+Install Dependencies
+npm install
+# or
+yarn install
+
+Environment Variables
+Kyoku Wallet requires API keys for certain services (e.g., Helius for enhanced NFT/token data and ExchangeRate-API for currency conversion).
+
+Create a .env file in the project root:
+cp .env.example .env
+Populate it with your keys:
+VITE_HELIUS_API_KEY="YOUR_HELIUS_API_KEY"
+VITE_EXCHANGERATE_API_KEY="YOUR_EXCHANGERATE_API_KEY"
+
+Get your keys from:
+
+Helius
+
+ExchangeRate-API
+
+Note: For testing, these variables are mocked in jest.setup.js.
+
+Build for Production / Development
+Production (minified):
+
+bash
+Copy
+Edit
+npm run build
+Development (with source maps):
+
+bash
+Copy
+Edit
+npm run build:dev
+Builds are output to the dist/ directory.
+
+Start Development Server
+bash
+Copy
+Edit
+npm run dev
+Serves the popup UI at http://localhost:3000 (or another available port).
+
+For full extension functionality (background scripts, content scripts), load the built extension into Chrome (see below).
+
+Running Tests
+bash
+Copy
+Edit
+npm run test
+# or watch mode
+npm run test:watch
+Install the Development Version
+Build a development version:
+
+bash
+Copy
+Edit
+npm run build:dev
+In Chrome, go to chrome://extensions, enable Developer mode, click Load unpacked, and select the dist folder.
+
+To apply code changes:
+
+Re-run npm run build:dev.
+
+Click Reload next to Kyoku Wallet in chrome://extensions.
+
+💻 Tech Stack
+Language & Frameworks: TypeScript, React
+
+State Management: Zustand
+
+Build Tool: Vite
+
+Styling: Tailwind CSS
+
+Blockchain SDK: @solana/web3.js
+
+Testing: Jest & ts-jest
+
+i18n: i18next
+
+🌱 Contributing
+We welcome contributions of all kinds! Please read our Contributing Guidelines before you start.
+
+📜 License
+Kyoku Wallet is open-source software licensed under the MIT License.
+
+💬 Connect With Us
+X (Twitter): @kyokuwallet
+
+
+
+
