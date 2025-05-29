@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyoku Wallet Confirmation</title>
+    <link rel="stylesheet" href="/src/styles/index.css" />
+    <style>
+      /* Ensure the root fills the small popup window */
+      html, body, #confirmation-root {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevent scrollbars in the small popup window */
+        background-color: #090f14; /* Match your theme */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="confirmation-root"></div>
+    <script type="module" src="/src/popup/confirmationApp/main.tsx"></script>
+  </body>
+</html>
