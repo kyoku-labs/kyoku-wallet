@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Kyoku",
+  "description": "An open-source Solana crypto wallet offering secure, user-friendly management of tokens, NFTs, and transactions",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "tabs"
+  ],
+  "host_permissions": [], 
+  "background": {
+    "service_worker": "background.js", 
+    "type": "module"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"], 
+      "js": ["contentScript.js"],
+      "run_at": "document_start", 
+      "all_frames": true,
+      "exclude_globs": ["*://*.google.com/*", "*chrome-extension://*"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "injected.js", "assets/*.js", "icons/*.png" ], 
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+  
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
