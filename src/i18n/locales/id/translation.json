@@ -1,0 +1,1133 @@
+{
+  "common": {
+    "back": "Kembali",
+    "goBack": "Kembali",
+    "savePreference": "Simpan Preferensi",
+    "loading": "Memuat...",
+    "loadingSettings": "Memuat pengaturan...",
+    "processing": "Memproses...",
+    "processingSwap": "Memproses Pertukaran...",
+    "error": "Kesalahan",
+    "unknownError": "Kesalahan tidak diketahui",
+    "communicationError": "Kesalahan komunikasi",
+    "notAvailable": "N/A",
+    "usdCurrencyCode": "USD",
+    "tokensFallback": "token",
+    "explorer": "Penjelajah",
+    "done": "Selesai",
+    "close": "Tutup",
+    "copy": "Salin",
+    "copied": "Tersalin!",
+    "copyAddress": "Salin Alamat",
+    "viewOnly": "Hanya Lihat",
+    "viewOnlyAccount": "Akun Hanya Lihat",
+    "clearSearch": "Hapus Pencarian"
+  },
+  "buttons": {
+    "confirm": "Konfirmasi",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "reject": "Tolak",
+    "tryAgain": "Coba Lagi",
+    "close": "Tutup",
+    "continue": "Lanjutkan",
+    "unlock": "Buka Kunci",
+    "ok": "OK",
+    "changeAccount": "Ganti Akun",
+    "approve": "Setujui",
+    "approveAnywayRisky": "Tetap Setujui (Berisiko)",
+    "connect": "Hubungkan",
+    "signIn": "Masuk",
+    "save": "Simpan"
+  },
+  "main": {
+    "errors": {
+      "rootNotFound": "Kesalahan: Elemen root tidak ditemukan. Tidak dapat merender aplikasi."
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "general": "Umum",
+    "generalDescription": "Jaringan, prioritas biaya, penjelajah, mata uang, bahasa",
+    "securityPrivacy": "Keamanan & Privasi",
+    "securityPrivacyDescription": "Kata sandi, kunci otomatis, aplikasi terhubung",
+    "addressBook": "Buku Alamat",
+    "addressBookDescription": "Kelola alamat tersimpan",
+    "aboutKyoku": "Tentang Kyoku",
+    "aboutKyokuDescription": "Versi, syarat, dan kebijakan",
+    "lockWallet": "Kunci Dompet",
+    "lockWalletDescription": "Amankan dompet Anda segera",
+    "network": "Jaringan",
+    "networkDescription": "Pilih jaringan blockchain (Mainnet, Devnet)",
+    "transactionPriority": "Prioritas Transaksi",
+    "transactionPriorityDescription": "Atur tingkat biaya default untuk transaksi",
+    "preferredExplorer": "Penjelajah Pilihan",
+    "preferredExplorerDescription": "Pilih penjelajah blok default Anda",
+    "displayCurrency": "Mata Uang Tampilan",
+    "displayCurrencyDescription": "Atur mata uang fiat pilihan (misalnya USD, EUR)",
+    "displayLanguage": "Bahasa Tampilan",
+    "displayLanguageDescription": "Ubah bahasa aplikasi",
+    "autoLockTimer": "Timer Kunci Otomatis",
+    "autoLockTimerDescription": "Atur dompet untuk mengunci setelah tidak aktif",
+    "changePassword": "Ubah Kata Sandi",
+    "changePasswordDescription": "Perbarui kata sandi akses dompet Anda",
+    "connectedApps": "Aplikasi Terhubung",
+    "connectedAppsDescription": "Kelola izin untuk dApps",
+    "categoryTitles": {
+        "main": "Pengaturan",
+        "general": "Pengaturan Umum",
+        "securityPrivacy": "Keamanan & Privasi",
+        "addressBook": "Buku Alamat",
+        "about": "Tentang Kyoku"
+    },
+    "subViewTitles": {
+        "network": "Pengaturan Jaringan",
+        "explorer": "Pengaturan Penjelajah",
+        "currency": "Mata Uang Tampilan",
+        "language": "Bahasa Tampilan",
+        "autoLock": "Timer Kunci Otomatis",
+        "changePassword": "Ubah Kata Sandi",
+        "connectedDapps": "Aplikasi Terhubung",
+        "addressBook": "Buku Alamat",
+        "about": "Tentang Kyoku",
+        "feeSettings": "Prioritas Transaksi"
+    }
+  },
+  "currencySettings": {
+    "description": "Pilih mata uang pilihan Anda untuk menampilkan nilai fiat."
+  },
+  "currency": {
+    "usd": "Dolar Amerika Serikat",
+    "eur": "Euro",
+    "gbp": "Pound Inggris",
+    "jpy": "Yen Jepang"
+  },
+  "languageSettings": {
+    "description": "Pilih bahasa pilihan Anda untuk antarmuka."
+  },
+  "languages": {
+    "english": { "name": "Inggris", "nativeName": "English" },
+    "spanish": { "name": "Spanyol", "nativeName": "Español" },
+    "chinese_simplified": { "name": "Mandarin (Sederhana)", "nativeName": "简体中文" },
+    "hindi": { "name": "Hindi", "nativeName": "हिन्दी" },
+    "vietnamese": { "name": "Vietnam", "nativeName": "Tiếng Việt" },
+    "indonesian": { "name": "Indonesia", "nativeName": "Bahasa Indonesia" },
+    "japanese": { "name": "Jepang", "nativeName": "日本語" },
+    "korean": { "name": "Korea", "nativeName": "한국어" }
+  },
+  "dAppInfoCard": {
+    "altIconText": "Ikon dApp",
+    "requestFrom": "Permintaan dari:",
+    "unknownDApp": "dApp Tidak Dikenal"
+  },
+  "transactionSummary": {
+    "nftPlaceholder": "NFT",
+    "unknownTokenPlaceholder": "Token Tidak Dikenal",
+    "accountLabel": "Akun",
+    "loadingPreview": "Memuat pratinjau transaksi...",
+    "simulationFailedSeeDetails": "Simulasi gagal. Lihat detail di atas.",
+    "simulationErrorTitle": "Kesalahan Simulasi",
+    "simulationErrorDefault": "Transaksi ini kemungkinan akan gagal jika dikirim.",
+    "solChangesLabel": "Perubahan SOL (untuk Anda):",
+    "tokenChangesLabel": "Perubahan Token (untuk Anda):",
+    "noDirectChanges": "Tidak ada perubahan langsung pada saldo aset Anda (selain biaya jaringan).",
+    "otherAccountChangesLabel": "Perubahan Akun Lain:",
+    "transactionInsightsTitle": "Wawasan Transaksi",
+    "networkFeeDetailsTitle": "Detail Biaya Jaringan:",
+    "baseFeeLabel": "Biaya Dasar",
+    "baseFeeTooltip": "Biaya standar berdasarkan jumlah tanda tangan yang diperlukan oleh transaksi.",
+    "priorityFeeLabel": "Biaya Prioritas",
+    "priorityFeeTooltip": "Biaya opsional untuk membantu memprioritaskan transaksi Anda di jaringan. Diperkirakan untuk prioritas 'sedang'.",
+    "totalEstimatedFeeLabel": "Total Estimasi Biaya:",
+    "estComputeLimitLabel": "Batas Komputasi Est.",
+    "estComputeLimitTooltip": "Batas unit komputasi yang akan diminta untuk transaksi ini untuk mengakomodasi perkiraan biaya prioritas.",
+    "estComputePriceLabel": "Harga Komputasi Est.",
+    "estComputePriceTooltip": "Harga per unit komputasi (dalam micro-lamport) untuk perkiraan biaya prioritas.",
+    "rawTxCUsConsumedLabel": "CU Tx Mentah Digunakan",
+    "rawTxCUsConsumedTooltip": "Unit komputasi yang digunakan oleh transaksi dalam simulasi (tanpa instruksi biaya prioritas eksplisit)."
+  },
+  "warningDisplay": {
+    "defaultTitles": {
+      "critical": "Peringatan Keamanan!",
+      "warning": "Perhatian",
+      "info": "Informasi"
+    }
+  },
+  "confirmationApp": {
+    "analyzingTransaction": "Menganalisis transaksi...",
+    "loadingRequest": "Memuat permintaan...",
+    "requestErrorTitle": "Kesalahan Permintaan",
+    "unlockWalletTitle": "Buka Kunci Dompet Kyoku",
+    "unlockToApproveRequest": "Untuk menyetujui permintaan dari <1>{{dappName}}</1>, silakan masukkan kata sandi Anda.",
+    "actionNotAllowedTitle": "Tindakan Tidak Diizinkan",
+    "viewOnlyCannotSign": "Akun yang dipilih <1>{{accountName}} ({{accountKey}}...)</1> hanya lihat dan tidak dapat digunakan untuk operasi penandatanganan.",
+    "selectDifferentAccountOrReject": "Silakan pilih akun lain atau tolak permintaan.",
+    "noOtherAccountsForAction": "Anda tidak memiliki akun lain yang dapat melakukan tindakan ini.",
+    "userRejectedUnlock": "Pengguna menolak membuka kunci.",
+    "operationCancelledViewOnly": "Operasi dibatalkan karena akun hanya lihat.",
+    "signingAs": "Menandatangani sebagai",
+    "connectAllowApp": "Ini akan mengizinkan aplikasi untuk:",
+    "connectViewAddress": "Lihat alamat dompet Anda",
+    "connectRequestApproval": "Minta persetujuan untuk transaksi (jika akun ini dapat menandatangani).",
+    "signInRequestDetailsTitle": "Detail Permintaan Masuk:",
+    "signInDomain": "Domain",
+    "signInAddress": "Alamat",
+    "messageLabel": "Pesan ({{format}}):",
+    "transactionNumber": "Transaksi {{number}}",
+    "assetChangesCount_one": "{{count}} perubahan aset untuk Anda",
+    "assetChangesCount_other": "{{count}} perubahan aset untuk Anda",
+    "noDirectAssetChanges": "Tidak ada perubahan langsung pada aset Anda",
+    "simulationFailedLabel": "Simulasi Gagal",
+    "simulationDataUnavailable": "Data simulasi tidak tersedia. Data transaksi mentah akan ditandatangani.",
+    "messageSigningTitle": "Penandatanganan Pesan",
+    "messageSigningInfo": "Anda sedang menandatangani pesan. Pastikan Anda mempercayai situs yang meminta dan memahami konten serta tujuan pesan tersebut.",
+    "transactionBatchInsightsTitle": "Wawasan Batch Transaksi",
+    "transactionApprovalCautionTitle": "Perhatian Persetujuan Transaksi",
+    "transactionApprovalCautionMessage": "Tinjau transaksi dengan cermat. Menyetujui transaksi berbahaya dapat menyebabkan kehilangan dana.",
+    "userRejected": "Pengguna menolak permintaan.",
+    "userRejectedAfterSimFailure": "Pengguna menolak setelah simulasi gagal.",
+    "userRejectedAfterError": "Popup ditutup oleh pengguna setelah terjadi kesalahan.",
+    "titles": {
+      "connectionRequest": "Permintaan Koneksi",
+      "signMessage": "Tanda Tangani Pesan",
+      "approveTransaction": "Setujui Transaksi",
+      "approveMultipleTransactions_one": "Setujui {{count}} Transaksi",
+      "approveMultipleTransactions_other": "Setujui {{count}} Transaksi",
+      "transactionPreviewFailed": "Pratinjau Transaksi Gagal"
+    },
+    "errors": {
+      "invalidRequestParams": "Permintaan tidak valid: Parameter penting hilang.",
+      "failedToRetrieveStagedData": "Gagal mengambil data yang disimpan: {{error}}",
+      "requiredDataNotFound": "Data yang diperlukan tidak ditemukan untuk ID permintaan {{requestId}}.",
+      "sessionDataKeyMissing": "Kunci data sesi hilang untuk operasi penandatanganan.",
+      "unsupportedInteractionType": "Jenis interaksi tidak didukung: {{type}}.",
+      "messageDataUnavailable": "Data pesan tidak tersedia atau rusak.",
+      "unknownDisplayFormat": "Format tampilan tidak dikenal untuk pesan.",
+      "errorDecodingMessage": "Kesalahan saat mendekode konten pesan.",
+      "missingRequestId": "Kesalahan kritis: ID permintaan hilang.",
+      "passwordEmpty": "Kata sandi tidak boleh kosong.",
+      "unlockFailed": "Kata sandi salah atau gagal membuka kunci.",
+      "noAccountSelected": "Tidak dapat menyetujui: Tidak ada akun yang dipilih.",
+      "cannotApproveSimFailed": "Tidak dapat menyetujui: Simulasi transaksi gagal. {{error}}",
+      "cannotApproveBatchSimFailed": "Tidak dapat menyetujui: Satu atau lebih simulasi transaksi gagal. {{error}}",
+      "unexpectedError": "Terjadi kesalahan tak terduga. Anda dapat menutup jendela ini.",
+      "simulationFailedUnknown": "Simulasi transaksi gagal karena alasan yang tidak diketahui."
+    },
+    "placeholders": {
+        "enterPassword": "Masukkan kata sandi"
+    },
+    "simulationFailedTitle": "Simulasi Gagal",
+    "simulationFailedRecommendNotProceed": "Transaksi ini kemungkinan akan gagal jika dikirim ke jaringan. Tidak disarankan untuk melanjutkan."
+  },
+  "addViewOnlyAccount": {
+    "title": "Tambah Akun Hanya Lihat",
+    "description": "Masukkan alamat Solana (kunci publik) untuk diawasi.",
+    "placeholders": {
+      "pasteAddress": "Tempel alamat Solana..."
+    },
+    "buttons": {
+      "validating": "Memvalidasi...",
+      "confirmAddress": "Konfirmasi Alamat"
+    },
+    "errors": {
+      "publicKeyRequired": "Silakan masukkan kunci publik.",
+      "invalidPublicKey": "Kunci publik tidak valid."
+    }
+  },
+  "fundedAccountSelector": {
+    "title": "Impor Akun",
+    "descriptionWithFunds": "Pilih akun yang berasal dari frasa Anda yang ingin Anda impor.",
+    "descriptionWithoutFunds": "Tidak ada akun dengan saldo ditemukan. Anda dapat mengimpor akun default.",
+    "noAccountsToDisplay": "Tidak ada akun untuk ditampilkan.",
+    "accountNamePrefix": "Akun",
+    "importButton_one": "Impor {{count}} Akun",
+    "importButton_other": "Impor {{count}} Akun"
+  },
+  "importOptions": {
+    "title": "Impor Dompet yang Ada",
+    "tagline": "Bawa dompet Anda ke Kyoku dengan aman dalam hitungan detik.",
+    "buttons": {
+      "seedPhrase": {
+        "label": "Impor dengan Frasa Pemulihan Rahasia",
+        "description": "Gunakan frasa pemulihan rahasia 12 atau 24 kata Anda."
+      },
+      "privateKey": {
+        "label": "Impor dengan Kunci Pribadi",
+        "description": "Impor kunci pribadi Solana Anda secara manual."
+      },
+      "viewOnly": {
+        "label": "Impor sebagai Dompet Hanya Lihat",
+        "description": "Lacak alamat publik tanpa akses penuh."
+      }
+    }
+  },
+  "importPrivateKey": {
+    "title": "Impor Kunci Pribadi",
+    "description": "Tempel kunci pribadi Anda (Base58, Hex, atau Byte Array).",
+    "placeholders": {
+      "pastePrivateKey": "Tempel kunci pribadi di sini..."
+    },
+    "buttons": {
+      "validating": "Memvalidasi...",
+      "confirmAndImport": "Konfirmasi & Impor"
+    },
+    "errors": {
+      "pastePrivateKey": "Silakan tempel kunci pribadi Anda.",
+      "validationFailedUnknown": "Validasi gagal: Kesalahan tidak diketahui."
+    }
+  },
+  "mnemonicSetup": {
+    "generatingPhrase": "Menghasilkan frasa aman...",
+    "downloadFilename": "solana-recovery-phrase.txt",
+    "headers": {
+      "display": {
+        "title": "Frasa Pemulihan Rahasia Anda",
+        "description": "Simpan ini dengan aman! Ini adalah satu-satunya cara untuk memulihkan dompet Anda."
+      },
+      "confirm": {
+        "title": "Konfirmasi Frasa Pemulihan",
+        "description": "Masukkan frasa yang Anda simpan untuk diverifikasi."
+      },
+      "import": {
+        "title": "Impor Frasa Pemulihan",
+        "description": "Masukkan frasa {{count}} kata Anda."
+      }
+    },
+    "importantWarning": {
+      "title": "Penting!",
+      "message": "Tulis dan simpan kata-kata ini dengan aman. Jangan pernah bagikan dengan siapa pun."
+    },
+    "confirmSaveCheckboxLabel": "Saya mengerti bahwa jika saya kehilangan frasa pemulihan saya, saya tidak akan dapat mengakses dompet saya.",
+    "buttons": {
+      "copy": "Salin",
+      "copied": "Tersalin!",
+      "download": "Unduh",
+      "nextConfirm": "Berikutnya: Konfirmasi",
+      "pastePhrase": "Tempel Frasa",
+      "importWallet": "Impor Dompet",
+      "verifyAndContinue": "Verifikasi & Lanjutkan"
+    },
+    "ariaLabels": {
+      "wordInput": "Kata {{number}}"
+    },
+    "errors": {
+      "generationFailed": "Tidak dapat menghasilkan frasa pemulihan. Silakan segarkan.",
+      "copyFailed": "Gagal menyalin frasa ke clipboard.",
+      "confirmSaveRequired": "Harap konfirmasi bahwa Anda telah menyimpan frasa pemulihan Anda dengan aman.",
+      "pasteFailed": "Tidak dapat membaca dari clipboard. Silakan tempel secara manual.",
+      "allWordsRequired": "Silakan masukkan semua {{count}} kata.",
+      "invalidWordCount": "Frasa tidak valid: Diharapkan 12 atau 24 kata, ditemukan {{count}}.",
+      "invalidPhrase": "Frasa pemulihan tidak valid. Silakan periksa kata-kata Anda dan coba lagi.",
+      "phraseMismatch": "Frasa tidak cocok dengan yang dihasilkan. Silakan masukkan kembali dengan hati-hati."
+    }
+  },
+  "onboardingApp": {
+    "checkingStatus": "Memeriksa Status Dompet...",
+    "kyokuWalletSetup": "Pengaturan Dompet Kyoku",
+    "altKyokuLogo": "Logo Dompet Kyoku",
+    "errorOccurredTitle": "Terjadi Kesalahan",
+    "buttons": {
+      "restartSetup": "Mulai Ulang Pengaturan",
+      "back": "Kembali"
+    },
+    "setupCompleteTitle": "Pengaturan Selesai!",
+    "setupCompleteMessage": "Dompet Solana Anda siap.",
+    "importSuccessfulTitle": "Impor Berhasil!",
+    "importSuccessfulMessage": "Akun yang dipilih telah ditambahkan.",
+    "windowCloseMessage": "Jendela ini akan tertutup secara otomatis.",
+    "errors": {
+      "verifyStatusFailed": "Tidak dapat memverifikasi status dompet. Silakan segarkan.",
+      "stateLost": "Status proses pengaturan hilang atau tidak valid. Silakan mulai ulang prosesnya.",
+      "mnemonicEmpty": "Frasa mnemonik tidak boleh kosong.",
+      "addRootMnemonicFailed": "Gagal menambahkan frasa pemulihan: {{error}}",
+      "prepareCreateFailed": "Gagal mempersiapkan pembuatan dompet: {{error}}",
+      "accountScanFailed": "Pemindaian akun gagal: {{error}}",
+      "selectOneAccount": "Pilih setidaknya satu akun.",
+      "importFailed": "Impor gagal: {{error}}",
+      "mnemonicNotStaged": "Mnemonik tidak dipersiapkan dengan benar.",
+      "prepareImportFailed": "Gagal mempersiapkan impor: {{error}}",
+      "addAccountFailed": "Gagal menambahkan akun: {{error}}",
+      "setupFailed": "Pengaturan gagal: {{error}}",
+      "cannotInitWithViewOnly": "Tidak dapat menginisialisasi dompet baru dengan akun hanya lihat.",
+      "unexpectedError": "Terjadi kesalahan tak terduga."
+    }
+  },
+  "passwordPage": {
+    "loadingStatus": "Memuat Status Dompet...",
+    "walletNotFoundTitle": "Dompet Tidak Ditemukan",
+    "resetting": "Mengatur Ulang...",
+    "placeholders": {
+      "password": "Kata Sandi"
+    },
+    "buttons": {
+      "unlocking": "Membuka Kunci...",
+      "forgotPasswordReset": "Lupa kata sandi? Atur Ulang Dompet",
+      "goToSetup": "Pergi ke Pengaturan"
+    },
+    "errors": {
+      "verifyStatusFailed": "Tidak dapat memverifikasi status dompet. Pastikan ekstensi diaktifkan dan coba muat ulang.",
+      "walletNotFoundGoToOnboarding": "Dompet tidak ditemukan. Silakan buka onboarding.html untuk mengatur dompet Anda.",
+      "walletNotFoundOpenManually": "Dompet tidak ditemukan. Silakan buka onboarding.html secara manual.",
+      "invalidStatusResponse": "Menerima status tidak valid dari latar belakang. Dompet mungkin belum diatur.",
+      "contactBackgroundFailed": "Kesalahan saat menghubungi layanan latar belakang.",
+      "passwordEmpty": "Kata sandi tidak boleh kosong.",
+      "communicationError": "Kesalahan komunikasi: {{error}}",
+      "unlockFailedTryAgain": "Gagal membuka kunci. Silakan coba lagi.",
+      "walletNotSetUp": "Dompet belum diatur.",
+      "incorrectPassword": "Kata sandi salah.",
+      "resetFailed": "Gagal mengatur ulang: {{error}}",
+      "resetCompleteGoToSetup": "Pengaturan ulang selesai. Silakan buka onboarding.html untuk mengatur dompet Anda.",
+      "sendResetRequestFailed": "Gagal mengirim permintaan pengaturan ulang.",
+      "resetFailedUnknown": "Gagal mengatur ulang."
+    },
+    "resetWallet": {
+      "warningConfirm": "PERINGATAN: Ini akan menghapus SEMUA data dompet (kunci, akun) yang tersimpan di ekstensi ini secara permanen. Tindakan ini tidak dapat dibatalkan. Apakah Anda benar-benar yakin?",
+      "finalConfirm": "KONFIRMASI AKHIR: Harap konfirmasi bahwa Anda ingin mengatur ulang dompet. Semua data akan hilang.",
+      "successAlert": "Dompet berhasil diatur ulang. Mengarahkan ke pengaturan.",
+      "manualSetupAlert": "Pengaturan ulang selesai. Silakan buka kembali ekstensi secara manual untuk pengaturan."
+    }
+  },
+  "actionButtons": {
+    "receive": "Terima",
+    "send": "Kirim",
+    "stake": "Stake",
+    "stakeClickedTodo": "Stake diklik (TODO)"
+  },
+  "balanceCard": {
+    "refreshBalance": "Segarkan saldo",
+    "loadErrorTitle": "Kesalahan Muat",
+    "loadErrorMessage": "Tidak dapat memuat saldo.",
+    "totalPortfolioValue": "Total Nilai Portofolio",
+    "solBalanceLabel": "Saldo SOL"
+  },
+  "burnConfirmationModal": {
+    "title": "Konfirmasi Bakar {{itemType}}",
+    "aboutToBurn": "Anda akan membakar secara permanen:",
+    "warningTitle": "Peringatan",
+    "irreversibleAction": "Tindakan ini tidak dapat diurungkan. Setelah dibakar, {{itemType}} tidak dapat dipulihkan.",
+    "rentRecoveryToken": "Membakar token ini juga akan mencoba menutup akun token terkaitnya, yang dapat mengembalikan sejumlah sewa SOL ke dompet Anda.",
+    "permanentActionNft": "Membakar NFT ini bersifat permanen. Pastikan Anda memahami tindakan ini.",
+    "loading": "Membakar {{itemType}}...",
+    "burnFailedTitle": "Gagal Membakar",
+    "buttons": {
+      "confirmBurn": "Konfirmasi Bakar",
+      "retryBurn": "Coba Lagi Bakar"
+    }
+  },
+  "footerNav": {
+    "home": "Beranda",
+    "swap": "Tukar",
+    "settings": "Pengaturan",
+    "swapClickedTodo": "Tukar Diklik (TODO - Handler Default)"
+  },
+  "header": {
+    "selectAccount": "Pilih Akun",
+    "addAccountImport": "Tambah / Impor Akun",
+    "walletsPageTitle": "Dompet",
+    "accountOptions": "Opsi Akun"
+  },
+  "itemList": {
+    "nativeToken": "Token Asli",
+    "noTokensToDisplay": "Anda saat ini tidak memiliki token untuk ditampilkan.",
+    "tokenLogoAlt": "Logo {{tokenSymbol}}"
+  },
+  "nftCard": {
+    "unnamedNft": "NFT Tanpa Nama",
+    "unknownCollectionPlaceholder": "Koleksi Tidak Dikenal",
+    "altNftImage": "Gambar NFT {{nftName}}",
+    "ariaViewDetails": "Lihat detail untuk {{nftName}}"
+  },
+  "nftGrid": {
+    "unnamedCollection": "Koleksi Tanpa Nama",
+    "ariaViewCollection": "Lihat koleksi {{collectionName}} dengan {{count}} item",
+    "altCollectionImage": "Gambar koleksi {{collectionName}}",
+    "errorLoading": "Kesalahan saat memuat koleksi: {{errorDetail}}",
+    "noCollectiblesFound": "Tidak ada koleksi yang ditemukan."
+  },
+  "renameModal": {
+    "title": "Edit Nama Dompet",
+    "inputAriaLabel": "Nama dompet baru"
+  },
+  "showPrivateKeyModal": {
+    "title": "Tampilkan Kunci Pribadi",
+    "forAccount": "Untuk akun:",
+    "warning": "Peringatan: Jangan pernah bagikan kunci pribadi Anda. Siapa pun yang memilikinya dapat mengakses dana Anda.",
+    "enterPasswordToReveal": "Masukkan Kata Sandi untuk Menampilkan",
+    "placeholders": {
+      "walletPassword": "Kata sandi dompet Anda"
+    },
+    "buttons": {
+      "reveal": "Tampilkan Kunci Pribadi",
+      "copyKey": "Salin Kunci"
+    },
+    "yourPrivateKeyFor": "Kunci pribadi Anda untuk {{accountName}}:",
+    "storeKeySecurely": "Simpan kunci ini dengan aman. Jangan sampai hilang. Jangan bagikan.",
+    "copiedToClipboard": "Kunci pribadi disalin ke clipboard!",
+    "errors": {
+      "passwordRequired": "Kata sandi diperlukan.",
+      "failedToRetrieve": "Gagal mengambil kunci pribadi.",
+      "copyFailed": "Gagal menyalin kunci pribadi."
+    }
+  },
+  "showSeedPhraseModal": {
+    "title": "Tampilkan Frasa Pemulihan",
+    "forAccount": "Untuk akun:",
+    "warning": "Peringatan: Jangan pernah bagikan frasa pemulihan Anda. Siapa pun yang memilikinya dapat mengakses semua akun yang berasal darinya.",
+    "enterPasswordToReveal": "Masukkan Kata Sandi untuk Menampilkan",
+    "placeholders": {
+      "walletPassword": "Kata sandi dompet Anda"
+    },
+    "buttons": {
+      "revealPhrase": "Tampilkan Frasa",
+      "copied": "Tersalin!",
+      "copyPhrase": "Salin Frasa"
+    },
+    "yourRecoveryPhraseFor": "Frasa pemulihan Anda untuk {{accountName}}:",
+    "storePhraseSecurely": "Simpan frasa ini dengan aman. Jangan sampai hilang. Jangan bagikan.",
+    "errors": {
+      "passwordRequired": "Kata sandi diperlukan.",
+      "failedToRetrieve": "Gagal mengambil frasa pemulihan.",
+      "copyFailed": "Gagal menyalin frasa pemulihan."
+    }
+  },
+  "tabSelector": {
+    "previousTab": "Tab sebelumnya",
+    "switchToTab": "Beralih ke tab {{tabName}}",
+    "nextTab": "Tab berikutnya",
+    "expandContentView": "Perluas tampilan konten"
+  },
+  "tokenDetails": {
+    "titleFallback": "Detail Token",
+    "detailsUnavailable": "Detail token tidak tersedia.",
+    "backToDashboard": "Kembali ke Dasbor",
+    "loadingData": "Memuat data token...",
+    "tokenFallback": "Token",
+    "burnInitiatedTitle": "Pembakaran Dimulai!",
+    "transactionIdLabel": "ID Transaksi",
+    "moreOptionsAriaLabel": "Opsi lainnya",
+    "fetchingLatestDetails": "Mengambil detail terbaru...",
+    "viewOnlyWarning": "Ini adalah akun hanya lihat. Tindakan Kirim/Bakar dinonaktifkan.",
+    "sectionTitle": "Informasi Token",
+    "labels": {
+      "name": "Nama",
+      "symbol": "Simbol",
+      "pricePerToken": "Harga per Token",
+      "addressMint": "Alamat (Mint)",
+      "explorer": "Penjelajah"
+    },
+    "menu": {
+      "viewOnExplorer": "Lihat di Penjelajah",
+      "burnToken": "Bakar Token"
+    },
+    "buttons": {
+      "send": "Kirim",
+      "receive": "Terima"
+    },
+    "burnSuccessMessage": "Pembakaran {{tokenName}} berhasil dimulai!",
+    "errors": {
+      "fetchFailed": "Gagal mengambil detail token lengkap.",
+      "detailsNotFound": "Detail token lengkap tidak dapat diambil.",
+      "fetchInitiationFailed": "Kesalahan saat memulai pengambilan detail: {{error}}",
+      "burnMissingInfo": "Tidak dapat membakar: Detail akun aktif atau token hilang.",
+      "burnUnknownError": "Kesalahan tidak diketahui saat membakar token."
+    }
+  },
+  "tokenManagement": {
+    "headerTitle": "Kelola Daftar Token",
+    "fallbackTokenName": "Token",
+    "spamToggle": {
+      "label": "Tampilkan Token Spam/Tidak Dikenal",
+      "description": "Token spam/tidak dikenal adalah token yang tidak memiliki logo DAN tidak memiliki harga, nama, atau simbol. Secara default, token tersebut disembunyikan."
+    },
+    "lowBalanceToggle": {
+      "label": "Sembunyikan Token Bernilai Di Bawah $1"
+    },
+    "individualManagementInfo": {
+      "withSpam": "Kelola visibilitas token secara individual (termasuk token spam/tidak dikenal).",
+      "withoutSpam": "Kelola visibilitas token secara individual (tidak termasuk token spam/tidak dikenal)."
+    },
+    "buttons": {
+      "hideAllBelow": "Sembunyikan Semua Di Bawah",
+      "showAllBelow": "Tampilkan Semua Di Bawah",
+      "showTokenAria": "Tampilkan {{tokenName}}",
+      "hideTokenAria": "Sembunyikan {{tokenName}}"
+    },
+    "loadingTokens": "Memuat token...",
+    "emptyState": {
+      "noNonNativeTokens": "Tidak ada token non-asli yang ditemukan di akun ini.",
+      "noNonSpamToManage": "Tidak ada token non-spam/tidak dikenal untuk dikelola. Coba aktifkan 'Tampilkan Token Spam/Tidak Dikenal'."
+    },
+    "errors": {
+      "loadFailed": "Kesalahan saat memuat token: {{error}}"
+    }
+  },
+  "tokenSelect": {
+    "modalTitleInput": "Pilih Token Pembayaran",
+    "modalTitleOutput": "Pilih Token Penerima",
+    "modalTitleGeneric": "Pilih Token",
+    "searchPlaceholder": "Cari nama, simbol, atau tempel alamat",
+    "loadingTokens": "Memuat token...",
+    "noTokensMatchSearch": "Tidak ada token yang cocok dengan pencarian Anda.",
+    "noTokensFoundShort": "Tidak ada token yang ditemukan.",
+    "customTokenName": "Token ({{addressPart}}...)",
+    "unknownToken": "Token Tidak Dikenal",
+    "customAddressLabel": "Alamat Kustom",
+    "ariaLabels": {
+      "selectToken": "Pilih {{tokenName}}"
+    }
+  },
+  "swapErrorView": {
+    "title": "Pertukaran Gagal",
+    "errorDetailsLabel": "Detail Kesalahan:"
+  },
+  "swapSuccessView": {
+    "noDetailsFound": "Tidak ada detail keberhasilan yang ditemukan.",
+    "title": "Pertukaran Berhasil!",
+    "swappedMessage": "Anda menukar {{amount}} {{symbol}}",
+    "forEstimatedMessage": "Untuk perkiraan {{amount}} {{symbol}}.",
+    "transactionIdLabel": "ID Transaksi",
+    "buttons": {
+      "newSwap": "Pertukaran Baru"
+    }
+  },
+  "swapView": {
+    "title": "Tukar Token",
+    "loadingInterface": "Memuat Antarmuka Pertukaran...",
+    "settingsPlaceholderAlert": "Placeholder pengaturan pertukaran",
+    "kyokuWalletSwap": "Pertukaran Dompet Kyoku",
+    "kyokuWalletOrigin": "Dompet Kyoku",
+    "tokenIdentifierFallback": "TKN",
+    "fetchingBestPrice": "Mengambil harga terbaik...",
+    "labels": {
+      "youPay": "Anda Bayar",
+      "youReceiveEstimated": "Anda Terima (Estimasi)"
+    },
+    "tokenInput": {
+      "balancePrefix": "Saldo: ",
+      "amountPlaceholder": "0.00",
+      "selectTokenFallback": "Pilih",
+      "selectTokenAria": "Pilih {{currentToken}} untuk pertukaran"
+    },
+    "buttons": {
+      "max": "MAKS",
+      "fetchingQuote": "Mengambil Kutipan...",
+      "errorGettingQuote": "Kesalahan Saat Mengambil Kutipan",
+      "reviewSwap": "Tinjau Pertukaran"
+    },
+    "quoteInfo": {
+      "rate": "Kurs",
+      "priceImpact": "Dampak Harga",
+      "minReceived": "Minimal Diterima",
+      "route": "Rute",
+      "directRoute": "Langsung"
+    },
+    "ariaLabels": {
+      "closeSwap": "Tutup Pertukaran",
+      "swapSettings": "Pengaturan Pertukaran",
+      "usePercentage": "Gunakan {{percentage}}% dari saldo",
+      "swapDirection": "Tukar token input dan output"
+    },
+    "errors": {
+      "invalidNumber": "Harap masukkan angka yang valid (misalnya 123.45)",
+      "amountExceedsBalance": "Jumlah melebihi saldo yang tersedia.",
+      "invalidInputForQuote": "Input tidak valid untuk mengambil kutipan.",
+      "invalidInputAmount": "Jumlah input tidak valid.",
+      "quoteFetchFailed": "Gagal mengambil kutipan. Coba sesuaikan jumlah atau pasangan.",
+      "quoteRequestPrepFailed": "Kesalahan saat mempersiapkan permintaan kutipan. Periksa nilai input.",
+      "missingInfoForExecute": "Informasi yang diperlukan untuk menjalankan pertukaran hilang.",
+      "failedToGetJupiterTx": "Gagal mendapatkan transaksi pertukaran dari Jupiter."
+    }
+  },
+  "networkSettings": {
+    "options": {
+      "mainnet": "Mainnet Beta",
+      "devnet": "Devnet",
+      "testnet": "Testnet",
+      "customRpc": "RPC Kustom"
+    },
+    "customRpcConfigurationTitle": "Konfigurasi RPC Kustom",
+    "customRpcDescription": "Masukkan URL endpoint RPC Anda sendiri untuk akses jaringan kustom",
+    "customRpcInputAriaLabel": "URL Endpoint RPC Kustom",
+    "placeholders": {
+      "rpcEndpoint": "https://your-rpc-endpoint.com"
+    },
+    "errors": {
+      "updateFailed": "Gagal memperbarui jaringan: {{details}}"
+    }
+  },
+  "autoLockSettings": {
+    "title": "Timer Kunci Otomatis",
+    "description": "Konfigurasikan kapan dompet terkunci secara otomatis.",
+    "enableLabel": "Aktifkan Kunci Otomatis",
+    "enableAutoLockAria": "Aktifkan kunci otomatis",
+    "disableAutoLockAria": "Nonaktifkan kunci otomatis",
+    "durationLabel": "Kunci setelah (menit)",
+    "saveSuccessMessage": "Pengaturan berhasil disimpan",
+    "errors": {
+      "loadFailed": "Gagal memuat pengaturan",
+      "saveFailed": "Gagal menyimpan pengaturan",
+      "durationTooShort": "Durasi kunci otomatis harus minimal 1 menit"
+    }
+  },
+  "changePassword": {
+    "labels": {
+      "currentPassword": "Kata Sandi Saat Ini",
+      "newPassword": "Kata Sandi Baru",
+      "confirmNewPassword": "Konfirmasi Kata Sandi Baru"
+    },
+    "placeholders": {
+      "currentPassword": "Masukkan kata sandi Anda saat ini",
+      "newPassword": "Masukkan kata sandi baru",
+      "confirmNewPassword": "Konfirmasi kata sandi baru"
+    },
+    "newPasswordHint": "Minimal 8 karakter.",
+    "buttons": {
+      "changing": "Mengubah...",
+      "changePassword": "Ubah Kata Sandi"
+    },
+    "errors": {
+      "allFieldsRequired": "Semua kolom kata sandi wajib diisi.",
+      "newPasswordsDoNotMatch": "Kata sandi baru tidak cocok.",
+      "newPasswordTooShort": "Kata sandi baru minimal 8 karakter.",
+      "newPasswordSameAsCurrent": "Kata sandi baru tidak boleh sama dengan kata sandi saat ini.",
+      "changeFailedUnknown": "Gagal mengubah kata sandi karena kesalahan yang tidak diketahui."
+    },
+    "successMessage": "Kata sandi berhasil diubah! Dompet akan terkunci."
+  },
+  "explorerSettings": {
+    "description": "Pilih penjelajah blok pilihan Anda. Tautan ke transaksi dan alamat akan menggunakan pilihan ini.",
+    "saveSuccessMessage": "Preferensi berhasil disimpan!",
+    "saveFailedMessage": "Gagal menyimpan preferensi. Silakan coba lagi.",
+    "saveFailedMessageNoParam": "Gagal menyimpan preferensi"
+  },
+  "feeSettings": {
+    "description": "Pilih prioritas default untuk transaksi Anda. Ini membantu menentukan seberapa cepat transaksi Anda diproses, terutama selama kemacetan jaringan. Anda mungkin dapat mengganti ini per transaksi dalam beberapa kasus.",
+    "options": {
+      "auto": {
+        "label": "Otomatis (Disarankan)",
+        "description": "Dompet mencoba mengatur biaya optimal berdasarkan kondisi jaringan (default ke Sedang)."
+      },
+      "low": {
+        "label": "Rendah",
+        "description": "Biaya lebih rendah, waktu konfirmasi berpotensi lebih lambat."
+      },
+      "medium": {
+        "label": "Sedang",
+        "description": "Biaya seimbang untuk waktu konfirmasi yang wajar."
+      },
+      "high": {
+        "label": "Tinggi",
+        "description": "Biaya lebih tinggi untuk konfirmasi lebih cepat, berguna selama kemacetan."
+      }
+    }
+  },
+  "aboutSettings": {
+    "title": "Tentang Dompet Kyoku",
+    "versionLabel": "Versi",
+    "brandName": "Dompet Kyoku",
+    "links": {
+      "website": "Situs Web",
+      "terms": "Ketentuan Layanan",
+      "privacy": "Kebijakan Privasi"
+    }
+  },
+  "addressBook": {
+    "title": "Buku Alamat",
+    "loading": "Memuat buku alamat...",
+    "addNewAddressTitle": "Tambah Alamat Baru",
+    "editAddressTitle": "Edit Alamat",
+    "addressIdentifierForErrorCheck": "alamat",
+    "labels": {
+      "name": "Nama",
+      "address": "Alamat"
+    },
+    "placeholders": {
+      "nameExample": "Contoh: Teman Saya Budi",
+      "pasteAddress": "Tempel alamat Solana"
+    },
+    "buttons": {
+      "addNewAddress": "Tambah Alamat Baru",
+      "editAddress": "Edit {{name}}",
+      "deleteAddress": "Hapus {{name}}"
+    },
+    "emptyStateLine1": "Buku alamat Anda kosong.",
+    "emptyStateLine2": "Klik tombol '+' untuk menambahkan alamat.",
+    "confirmDeleteMessage": "Apakah Anda yakin ingin menghapus alamat ini?",
+    "errors": {
+      "loadFailed": "Gagal memuat buku alamat",
+      "saveFailed": "Gagal menyimpan buku alamat",
+      "nameAndAddressRequired": "Nama dan alamat diperlukan.",
+      "invalidSolanaAddress": "Format alamat Solana tidak valid.",
+      "addressExists": "Alamat ini sudah ada di buku alamat.",
+      "addressExistsDifferentName": "Alamat ini sudah ada dengan nama yang berbeda."
+    }
+  },
+  "activityDetails": {
+    "detailsUnavailable": "Detail transaksi tidak tersedia.",
+    "backToActivities": "Kembali ke Aktivitas",
+    "tokenFallback": "Token",
+    "assetFallback": "Aset",
+    "headers": {
+      "default": "Detail Transaksi",
+      "sentAsset": "{{assetName}} Terkirim",
+      "receivedAsset": "{{assetName}} Diterima",
+      "swap": "Tukar: {{tokenA}} untuk {{tokenB}}",
+      "dappInteractionNamed": "Interaksi: {{dappName}}",
+      "dappInteraction": "Interaksi dApp",
+      "interaction": "Interaksi Program"
+    },
+    "labels": {
+      "date": "Tanggal",
+      "status": "Status",
+      "interaction": "Interaksi",
+      "from": "Dari",
+      "to": "Ke",
+      "source": "Sumber",
+      "networkFee": "Biaya Jaringan",
+      "mintAddress": "Alamat Mint",
+      "externalLink": "Tautan Eksternal",
+      "explorer": "Penjelajah"
+    },
+    "prefixes": {
+        "youPaid": "Anda Membayar: ",
+        "youReceived": "Anda Menerima: ",
+        "amountSent": "Jumlah Terkirim: ",
+        "amountReceived": "Jumlah Diterima: "
+    },
+    "statusConfirmed": "Terkonfirmasi",
+    "transactionIdLabel": "ID Transaksi",
+    "viewOnExplorer": "Lihat di {{explorerName}}"
+  },
+  "activityItem": {
+    "unknownActivity": "Aktivitas Tidak Dikenal",
+    "unknownToken": "Token",
+    "actions": {
+      "sent": "Terkirim",
+      "sentToken": "{{tokenSymbol}} Terkirim",
+      "received": "Diterima",
+      "receivedToken": "{{tokenSymbol}} Diterima",
+      "swap": "Tukar",
+      "appInteraction": "Interaksi Aplikasi",
+      "programInteraction": "Interaksi Program",
+      "approval": "Persetujuan"
+    },
+    "labels": {
+      "to": "Ke",
+      "from": "Dari",
+      "program": "Program",
+      "for": "Untuk",
+      "source": "Sumber"
+    }
+  },
+  "activityView": {
+    "loadingFromCache": "Memuat dari cache...",
+    "errorLoadingTitle": "Kesalahan Memuat Aktivitas",
+    "noRecentActivityTitle": "Tidak Ada Aktivitas Terbaru",
+    "transactionsAppearHere": "Transaksi Anda akan muncul di sini.",
+    "loadingMore": "Memuat lebih banyak...",
+    "noMoreActivities": "Tidak ada aktivitas lagi untuk dimuat."
+  },
+  "mainPopupApp": {
+    "loadingWallet": "Memuat Dompet...",
+    "redirectingToSetup": "Mengarahkan ke pengaturan...",
+    "dismissErrorAriaLabel": "Tutup kesalahan",
+    "deleteModal": {
+      "title": "Hapus Akun?",
+      "messagePart1": "Hapus:",
+      "messagePart2": "?",
+      "warning": "Tindakan ini tidak dapat dibatalkan."
+    },
+    "errors": {
+      "connectFailed": "Gagal terhubung: {{error}}",
+      "getInitialStateFailed": "Gagal mendapatkan status awal.",
+      "noBackgroundResponse": "Tidak ada respons dari latar belakang untuk status awal.",
+      "commError": "Kesalahan komunikasi: {{error}}",
+      "loadAccountsFailedAfterUnlock": "Gagal memuat akun setelah membuka kunci.",
+      "accountSwitchFailed": "Gagal mengganti akun: {{error}}",
+      "accountSwitchFailedUnknown": "Gagal mengganti akun.",
+      "openOnboardingFailed": "Gagal membuka orientasi: {{error}}",
+      "renameFailed": "Gagal mengganti nama: {{error}}",
+      "saveOrderFailed": "Gagal menyimpan urutan akun.",
+      "accountNotFoundForDelete": "Akun tidak ditemukan untuk dihapus.",
+      "cannotDeleteLastNonViewOnly": "Tidak dapat menghapus akun terakhir yang bukan hanya lihat. Buat akun lain atau impor terlebih dahulu.",
+      "deleteFailed": "Gagal menghapus: {{error}}",
+      "deleteFailedNamed": "Gagal menghapus akun '{{name}}'."
+    }
+  },
+  "dashboard": {
+    "tabs": {
+        "tokens": "Token",
+        "collectibles": "Koleksi",
+        "activity": "Aktivitas"
+    },
+    "manageTokenList": "Kelola Daftar Token",
+    "manageNftList": "Kelola Daftar NFT",
+    "buttons": {
+        "createNewAccount": "Buat Akun Baru",
+        "importRecoveryPhrase": "Impor Frasa Pemulihan",
+        "importPrivateKey": "Impor Kunci Pribadi",
+        "addViewOnlyAccount": "Tambah Akun Hanya Lihat"
+    },
+    "collectionTitleFallback": "Koleksi",
+    "backToAllCollectibles": "Kembali ke Semua Koleksi",
+    "closeExpandedView": "Tutup Tampilan Diperluas"
+  },
+  "sendForm": {
+    "balanceLabel": "Saldo",
+    "toLabel": "Ke",
+    "amountLabel": "Jumlah",
+    "sendingToSaved": "Mengirim ke {{name}}",
+    "loadingContacts": "Memuat kontak...",
+    "noMatchingContacts": "Tidak ada kontak yang cocok.",
+    "noContactsOrAccounts": "Tidak ada kontak di buku alamat atau akun Anda yang lain.",
+    "startTypingToSearch": "Mulai mengetik untuk mencari kontak.",
+    "buttons": {
+        "sendMax": "Maks",
+        "reviewTransaction": "Tinjau Transaksi"
+    },
+    "placeholders": {
+        "recipientAddress": "Tempel alamat Solana atau pilih kontak",
+        "nftAmount": "1 (NFT)",
+        "tokenAmount": "0.00"
+    },
+    "ariaLabels": {
+        "clearRecipient": "Hapus penerima",
+        "showSuggestions": "Tampilkan saran"
+    },
+    "errors": {
+        "recipientRequired": "Alamat penerima diperlukan.",
+        "invalidSolanaAddress": "Format alamat Solana tidak valid.",
+        "nftAmountMustBeOne": "Jumlah NFT harus 1.",
+        "amountRequired": "Jumlah diperlukan.",
+        "validPositiveAmount": "Harap masukkan jumlah positif yang valid.",
+        "amountExceedsBalance": "Jumlah melebihi saldo yang tersedia ({{balance}} {{symbol}}).",
+        "couldNotVerifyRecipient": "Tidak dapat memverifikasi status penerima.",
+        "failedToVerifyRecipient": "Gagal memverifikasi status penerima."
+    }
+  },
+  "transactionConfirm": {
+    "customRpcLabel": "RPC Kustom",
+    "youAreSending": "Anda mengirim",
+    "fromLabel": "Dari",
+    "yourWalletLabel": "Dompet Anda",
+    "toLabel": "Ke",
+    "networkLabel": "Jaringan",
+    "networkFeeLabel": "Biaya Jaringan",
+    "calculatingFee": "Menghitung biaya...",
+    "feeUnavailable": "Tidak dapat memperkirakan biaya",
+    "warningIrreversible": "Peringatan: Transaksi ini tidak dapat diurungkan. Harap tinjau semua detail dengan cermat sebelum melanjutkan.",
+    "buttons": {
+        "sending": "Mengirim...",
+        "confirmAndSend": "Konfirmasi & Kirim"
+    }
+  },
+  "sendView": {
+    "errors": {
+        "unexpectedError": "Terjadi kesalahan tak terduga.",
+        "sendFromViewOnly": "Tidak dapat mengirim dari akun hanya lihat.",
+        "activeAccountNotFound": "Akun aktif tidak ditemukan.",
+        "feeEstimationFailed": "Estimasi biaya gagal: {{error}}",
+        "decodeFailed": "Gagal mendekode: {{error}}",
+        "couldNotSimulateFee": "Tidak dapat mensimulasikan transaksi untuk estimasi biaya.",
+        "missingDetailsOrAccount": "Detail transaksi atau akun aktif hilang.",
+        "swapFailedToSend": "Gagal mengirim pertukaran.",
+        "errorLoadingTokens": "Kesalahan memuat token",
+        "feeNotReady": "Informasi biaya belum siap. Silakan tunggu.",
+        "transactionFailed": "Transaksi gagal: {{error}}",
+        "unknownErrorOccurred": "Terjadi kesalahan tidak diketahui."
+    },
+    "success": {
+        "title": "Transaksi Terkirim!",
+        "message": "Transaksi Anda telah berhasil dikirim ke jaringan.",
+        "viewOnExplorer": "Lihat di {{explorerName}}"
+    },
+    "headers": {
+        "processingTransaction": "Memproses Transaksi...",
+        "selectToken": "Pilih Token",
+        "sendToken": "Kirim {{tokenSymbol}}",
+        "confirmTransaction": "Konfirmasi Transaksi",
+        "transactionSent": "Transaksi Terkirim",
+        "transactionFailed": "Transaksi Gagal",
+        "send": "Kirim"
+    },
+    "noTokenSelected": "Tidak ada token yang dipilih untuk dikirim.",
+    "buttons": {
+        "selectToken": "Pilih Token"
+    },
+    "loadingForm": "Memuat formulir...",
+    "loadingTransactionDetails": "Memuat detail transaksi...",
+    "tokenFallback": "Token",
+    "errorSending": {
+        "title": "Kesalahan Pengiriman"
+    },
+    "loadingState": "Memuat status..."
+  },
+  "accountSettings": {
+    "noAccountSelected": "Tidak ada akun yang dipilih.",
+    "menu": {
+        "walletAddress": "Alamat Dompet",
+        "renameWallet": "Ganti Nama Dompet",
+        "showPrivateKey": "Tampilkan Kunci Pribadi",
+        "showRecoveryPhrase": "Tampilkan Frasa Pemulihan",
+        "removeWallet": "Hapus Dompet"
+    },
+    "errors": {
+        "copyFailed": "Gagal menyalin alamat."
+    }
+  },
+  "nftDetails": {
+    "menu": {
+        "viewOnExplorer": "Lihat di Penjelajah",
+        "burnNft": "Bakar NFT",
+        "setAsProfilePicture": "Atur sebagai Foto Profil",
+        "removeProfilePicture": "Hapus Foto Profil"
+    },
+    "profilePictureBadge": "Foto Profil",
+    "errors": {
+        "fetchFailed": "Gagal mengambil detail NFT lengkap.",
+        "detailsNotFound": "Detail NFT lengkap tidak dapat diambil.",
+        "fetchInitiationFailed": "Kesalahan saat memulai pengambilan detail: {{error}}",
+        "burnMissingInfo": "Tidak dapat membakar: Detail akun aktif atau NFT hilang.",
+        "burnUnknownError": "Kesalahan tidak diketahui saat membakar NFT.",
+        "couldNotFetchFullDetails": "Tidak dapat mengambil detail lengkap: {{error}}"
+    },
+    "moreOptionsAriaLabel": "Opsi lainnya",
+    "fetchingLatestDetails": "Mengambil detail terbaru...",
+    "viewOnlyWarning": "Ini adalah akun hanya lihat. Tindakan Kirim/Bakar dinonaktifkan.",
+    "buttons": {
+        "sendNft": "Kirim NFT"
+    },
+    "compressedBadge": "Terkompresi",
+    "sectionTitles": {
+        "description": "Deskripsi",
+        "aboutCollection": "Tentang Koleksi {{collectionName}}",
+        "attributes": "Atribut",
+        "details": "Detail"
+    },
+    "labels": {
+        "mintAddress": "Alamat Mint",
+        "externalLink": "Tautan Eksternal",
+        "explorer": "Penjelajah"
+    },
+    "links": {
+        "viewCollection": "Lihat Koleksi",
+        "viewAsset": "Lihat Aset"
+    },
+    "burnSuccessMessage": "Pembakaran {{nftName}} berhasil dimulai!",
+    "transactionIdLabel": "ID Transaksi",
+    "detailsUnavailable": "Detail NFT tidak tersedia.",
+    "loadingData": "Memuat data NFT..."
+  },
+  "nftManagement": {
+    "unnamedNft": "NFT Tanpa Nama",
+    "potentialSpam": "Potensi Spam",
+    "spamHidden": "Spam (Tersembunyi)",
+    "headerTitle": "Kelola Daftar NFT",
+    "spamToggle": {
+        "label": "Tampilkan NFT Spam/Tidak Dikenal",
+        "description": "NFT spam/tidak dikenal adalah NFT yang tidak memiliki logo DAN tidak memiliki harga, nama, atau simbol. Secara default, NFT tersebut disembunyikan."
+    },
+    "buttons": {
+        "showNftAria": "Tampilkan {{nftName}}",
+        "hideNftAria": "Sembunyikan {{nftName}}"
+    },
+    "loadingDataAndPreferences": "Memuat data dan preferensi...",
+    "errors": {
+        "loadFailed": "Kesalahan saat memuat NFT: {{error}}"
+    },
+    "emptyState": {
+        "title": "Tidak Ada NFT untuk Dikelola",
+        "description": "Ketika Anda memiliki NFT, Anda dapat mengelola visibilitasnya di sini."
+    },
+    "hiddenSpamInfo": "{{count}} NFT spam/tidak dikenal disembunyikan. Alihkan di atas untuk melihatnya."
+  },
+  "connectedDapps": {
+    "errors": {
+        "loadFailed": "Gagal memuat dApp yang terhubung.",
+        "couldNotRetrieve": "Tidak dapat mengambil dApp yang terhubung.",
+        "disconnectFailed": "Gagal memutuskan koneksi."
+    },
+    "loading": "Memuat dApp yang terhubung...",
+    "dAppIconAlt": "Ikon dApp {{appName}}",
+    "confirmDisconnect": "Apakah Anda yakin ingin memutuskan koneksi dari {{appName}}?",
+    "buttons": {
+        "disconnectAriaLabel": "Putuskan koneksi dari {{appName}}",
+        "disconnect": "Putuskan Koneksi"
+    },
+    "connectedDateLabel": "Terhubung",
+    "emptyState": {
+        "noAppsConnected": "Tidak ada dApp yang terhubung.",
+        "appsWillAppearHere": "dApp yang Anda hubungkan akan muncul di sini."
+    },
+    "description": "Kelola aplikasi yang telah diberikan izin untuk mengakses dompet Anda. Mencabut akses akan mengharuskan aplikasi untuk meminta koneksi lagi pada interaksi berikutnya."
+  },
+  "passwordSetup": {
+    "errors": {
+        "passwordsDoNotMatch": "Kata sandi tidak cocok.",
+        "passwordTooShort": "Kata sandi minimal 8 karakter.",
+        "initializationFailed": "Inisialisasi dompet gagal: {{error}}",
+        "setupFailedUnknown": "Pengaturan gagal: {{error}}",
+        "secretNotStagedAlert": "Kesalahan kritis dalam proses pengaturan (data yang disimpan hilang). Harap mulai ulang proses orientasi.",
+        "secretNotStagedDetailed": "Kesalahan dalam proses pengaturan: Data yang disimpan hilang. Harap kembali dan mulai ulang proses pembuatan atau impor dompet.",
+        "sendRequestFailed": "Gagal mengirim permintaan inisialisasi: {{error}}"
+    },
+    "title": "Buat Kata Sandi",
+    "descriptionLine1": "Kata sandi ini akan digunakan untuk membuka kunci Dompet Kyoku Anda.",
+    "descriptionLine2": "Pastikan untuk menyimpannya di tempat yang aman.",
+    "placeholders": {
+        "enterPassword": "Masukkan kata sandi",
+        "confirmPassword": "Konfirmasi kata sandi"
+    },
+    "ariaLabels": {
+        "hidePassword": "Sembunyikan kata sandi",
+        "showPassword": "Tampilkan kata sandi",
+        "hideConfirmPassword": "Sembunyikan konfirmasi kata sandi",
+        "showConfirmPassword": "Tampilkan konfirmasi kata sandi"
+    },
+    "buttons": {
+        "securingWallet": "Mengamankan Dompet...",
+        "createWallet": "Buat Dompet"
+    }
+  },
+  "walletSetup": {
+    "errors": {
+        "contactBackgroundFailed": "Kesalahan saat menghubungi layanan latar belakang: {{error}}",
+        "invalidStatusResponse": "Respons tidak valid dari checkKeyringStatus",
+        "sendStatusCheckFailed": "Kesalahan saat mengirim pesan pemeriksaan status",
+        "ensureExtensionEnabled": "Harap pastikan ekstensi diaktifkan dan coba muat ulang."
+    },
+    "checkingStatus": "Memeriksa Status Dompet...",
+    "alreadySetupTitle": "Dompet Sudah Diatur!",
+    "alreadySetupMessage": "Dompet Kyoku sudah ada di peramban ini. Anda dapat mengaksesnya dari ikon ekstensi.",
+    "welcomeTitle": "Selamat Datang di Dompet Kyoku",
+    "termsAgreementPrefix": "Saya telah membaca dan menyetujui",
+    "termsAndConditionsLink": "Syarat dan Ketentuan",
+    "createWalletTitle": "Buat Dompet Baru",
+    "createWalletDescription": "Jika Anda baru mengenal Kyoku, buat dompet aman baru.",
+    "importWalletTitle": "Impor Dompet yang Ada",
+    "importWalletDescription": "Akses dompet yang ada menggunakan frasa pemulihan rahasia atau kunci pribadi Anda.",
+    "buttons": {
+        "createWallet": "Buat Dompet",
+        "importWallet": "Impor Dompet"
+    }
+  },
+  "confirmSwap": {
+    "errors": {
+        "feeEstimationFailed": "Estimasi biaya gagal.",
+        "decodeFailed": "Gagal mendekode: {{error}}",
+        "couldNotVerifyLocally": "Tidak dapat memverifikasi transaksi secara lokal. Masih dapat disetujui.",
+        "missingDetailsOrAccount": "Detail transaksi atau akun aktif hilang."
+    },
+    "ariaLabels": {
+        "rejectTransaction": "Tolak transaksi"
+    },
+    "title": "Konfirmasi Pertukaran",
+    "youAreSwapping": "Anda menukar:",
+    "tokenFallback": "Token",
+    "toReceiveNet": "Penerimaan Bersih:",
+    "afterPlatformFee": "(setelah biaya platform)",
+    "estimatingNetworkFee": "Memperkirakan biaya jaringan...",
+    "ourSimulationFailedTitle": "Simulasi Kami Gagal",
+    "showLogs": "Tampilkan Log"
+  }
+}

@@ -1,0 +1,1137 @@
+{
+  "common": {
+    "back": "Volver",
+    "goBack": "Volver",
+    "savePreference": "Guardar Preferencia",
+    "loading": "Cargando...",
+    "loadingSettings": "Cargando configuración...",
+    "processing": "Procesando...",
+    "processingSwap": "Procesando Intercambio...",
+    "error": "Error",
+    "unknownError": "Error desconocido",
+    "communicationError": "Error de comunicación",
+    "notAvailable": "N/D",
+    "usdCurrencyCode": "USD",
+    "tokensFallback": "tokens",
+    "explorer": "Explorador",
+    "done": "Hecho",
+    "close": "Cerrar",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "copyAddress": "Copiar Dirección",
+    "viewOnly": "Solo Lectura",
+    "viewOnlyAccount": "Cuenta de Solo Lectura",
+    "clearSearch": "Limpiar búsqueda"
+  },
+  "buttons": {
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "reject": "Rechazar",
+    "tryAgain": "Intentar de Nuevo",
+    "close": "Cerrar",
+    "continue": "Continuar",
+    "unlock": "Desbloquear",
+    "ok": "OK",
+    "changeAccount": "Cambiar Cuenta",
+    "approve": "Aprobar",
+    "approveAnywayRisky": "Aprobar de Todos Modos (Riesgoso)",
+    "connect": "Conectar",
+    "signIn": "Iniciar Sesión",
+    "save": "Guardar"
+  },
+  "main": {
+    "errors": {
+      "rootNotFound": "Error: Elemento raíz no encontrado. No se puede renderizar la aplicación."
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "general": "General",
+    "generalDescription": "Red, prioridad de tarifa, explorador, moneda, idioma",
+    "securityPrivacy": "Seguridad y Privacidad",
+    "securityPrivacyDescription": "Contraseña, bloqueo automático, aplicaciones conectadas",
+    "addressBook": "Libreta de Direcciones",
+    "addressBookDescription": "Administrar direcciones guardadas",
+    "aboutKyoku": "Acerca de Kyoku",
+    "aboutKyokuDescription": "Versión, términos y políticas",
+    "lockWallet": "Bloquear Billetera",
+    "lockWalletDescription": "Asegura tu billetera inmediatamente",
+    "network": "Red",
+    "networkDescription": "Seleccionar red blockchain (Mainnet, Devnet)",
+    "transactionPriority": "Prioridad de Transacción",
+    "transactionPriorityDescription": "Establecer nivel de tarifa predeterminado para transacciones",
+    "preferredExplorer": "Explorador Preferido",
+    "preferredExplorerDescription": "Elige tu explorador de bloques predeterminado",
+    "displayCurrency": "Moneda de Visualización",
+    "displayCurrencyDescription": "Establecer moneda fiduciaria preferida (ej. USD, EUR)",
+    "displayLanguage": "Idioma de Visualización",
+    "displayLanguageDescription": "Cambiar el idioma de la aplicación",
+    "autoLockTimer": "Temporizador de Auto-Bloqueo",
+    "autoLockTimerDescription": "Establecer bloqueo de billetera tras inactividad",
+    "changePassword": "Cambiar Contraseña",
+    "changePasswordDescription": "Actualiza la contraseña de acceso a tu billetera",
+    "connectedApps": "Aplicaciones Conectadas",
+    "connectedAppsDescription": "Administrar permisos para dApps",
+    "categoryTitles": {
+        "main": "Configuración",
+        "general": "Configuración General",
+        "securityPrivacy": "Seguridad y Privacidad",
+        "addressBook": "Libreta de Direcciones",
+        "about": "Acerca de Kyoku"
+    },
+    "subViewTitles": {
+        "network": "Configuración de Red",
+        "explorer": "Configuración de Explorador",
+        "currency": "Moneda de Visualización",
+        "language": "Idioma de Visualización",
+        "autoLock": "Temporizador de Auto-Bloqueo",
+        "changePassword": "Cambiar Contraseña",
+        "connectedDapps": "Aplicaciones Conectadas",
+        "addressBook": "Libreta de Direcciones",
+        "about": "Acerca de Kyoku",
+        "feeSettings": "Prioridad de Transacción"
+    }
+  },
+  "currencySettings": {
+    "description": "Seleccione su moneda preferida para mostrar los valores fiduciarios."
+  },
+  "currency": {
+    "usd": "Dólar estadounidense",
+    "eur": "Euro",
+    "gbp": "Libra esterlina",
+    "jpy": "Yen japonés"
+  },
+  "languageSettings": {
+    "description": "Seleccione su idioma preferido para la interfaz."
+  },
+  "languages": {
+    "english": {
+      "name": "Inglés",
+      "nativeName": "English"
+    },
+    "spanish": {
+      "name": "Español",
+      "nativeName": "Español"
+    },
+    "french": {
+      "name": "Francés",
+      "nativeName": "Français"
+    }
+  },
+  "dAppInfoCard": {
+    "altIconText": "Icono de dApp",
+    "requestFrom": "Solicitud de:",
+    "unknownDApp": "dApp Desconocida"
+  },
+  "transactionSummary": {
+    "nftPlaceholder": "NFT",
+    "unknownTokenPlaceholder": "Token Desconocido",
+    "accountLabel": "Cuenta",
+    "loadingPreview": "Cargando vista previa de la transacción...",
+    "simulationFailedSeeDetails": "La simulación falló. Ver detalles arriba.",
+    "simulationErrorTitle": "Error de Simulación",
+    "simulationErrorDefault": "Esta transacción probablemente fallaría si se enviara.",
+    "solChangesLabel": "Cambios en SOL (para ti):",
+    "tokenChangesLabel": "Cambios en Tokens (para ti):",
+    "noDirectChanges": "No hay cambios directos en los saldos de tus activos (aparte de la tarifa de red).",
+    "otherAccountChangesLabel": "Cambios en Otras Cuentas:",
+    "transactionInsightsTitle": "Perspectivas de la Transacción",
+    "networkFeeDetailsTitle": "Detalles de la Tarifa de Red:",
+    "baseFeeLabel": "Tarifa Base",
+    "baseFeeTooltip": "Tarifa estándar basada en el número de firmas requeridas por la transacción.",
+    "priorityFeeLabel": "Tarifa de Prioridad",
+    "priorityFeeTooltip": "Tarifa opcional para ayudar a priorizar tu transacción en la red. Estimada para prioridad 'media'.",
+    "totalEstimatedFeeLabel": "Tarifa Total Estimada:",
+    "estComputeLimitLabel": "Límite Comp. Est.",
+    "estComputeLimitTooltip": "El límite de unidades de cómputo que se solicitará para esta transacción para acomodar la tarifa de prioridad estimada.",
+    "estComputePriceLabel": "Precio Comp. Est.",
+    "estComputePriceTooltip": "El precio por unidad de cómputo (en micro-lamports) para la tarifa de prioridad estimada.",
+    "rawTxCUsConsumedLabel": "UCs Consumidas (Tx Bruta)",
+    "rawTxCUsConsumedTooltip": "Unidades de cómputo consumidas por la transacción en simulación (sin instrucciones explícitas de tarifa de prioridad)."
+  },
+  "warningDisplay": {
+    "defaultTitles": {
+      "critical": "¡Alerta de Seguridad!",
+      "warning": "Precaución",
+      "info": "Información"
+    }
+  },
+  "confirmationApp": {
+    "analyzingTransaction": "Analizando transacción...",
+    "loadingRequest": "Cargando solicitud...",
+    "requestErrorTitle": "Error en la Solicitud",
+    "unlockWalletTitle": "Desbloquear Kyoku Wallet",
+    "unlockToApproveRequest": "Para aprobar la solicitud de <1>{{dappName}}</1>, por favor introduce tu contraseña.",
+    "actionNotAllowedTitle": "Acción No Permitida",
+    "viewOnlyCannotSign": "La cuenta seleccionada <1>{{accountName}} ({{accountKey}}...)</1> es de solo lectura y no puede usarse para firmar operaciones.",
+    "selectDifferentAccountOrReject": "Por favor, selecciona una cuenta diferente o rechaza la solicitud.",
+    "noOtherAccountsForAction": "No tienes otras cuentas que puedan realizar esta acción.",
+    "userRejectedUnlock": "Usuario rechazó el desbloqueo.",
+    "operationCancelledViewOnly": "Operación cancelada debido a cuenta de solo lectura.",
+    "signingAs": "Firmando como",
+    "connectAllowApp": "Esto permitirá a la aplicación:",
+    "connectViewAddress": "Ver la dirección de tu billetera",
+    "connectRequestApproval": "Solicitar aprobación para transacciones (si esta cuenta puede firmar).",
+    "signInRequestDetailsTitle": "Detalles de la Solicitud de Inicio de Sesión:",
+    "signInDomain": "Dominio",
+    "signInAddress": "Dirección",
+    "messageLabel": "Mensaje ({{format}}):",
+    "transactionNumber": "Transacción {{number}}",
+    "assetChangesCount_one": "{{count}} cambio de activo para ti",
+    "assetChangesCount_other": "{{count}} cambios de activos para ti",
+    "noDirectAssetChanges": "Sin cambios directos en tus activos",
+    "simulationFailedLabel": "Simulación Fallida",
+    "simulationDataUnavailable": "Datos de simulación no disponibles. Se firmarán los datos brutos de la transacción.",
+    "messageSigningTitle": "Firma de Mensaje",
+    "messageSigningInfo": "Estás firmando un mensaje. Asegúrate de confiar en el sitio solicitante y de entender el contenido y propósito del mensaje.",
+    "transactionBatchInsightsTitle": "Perspectivas del Lote de Transacciones",
+    "transactionApprovalCautionTitle": "Precaución al Aprobar Transacción",
+    "transactionApprovalCautionMessage": "Revisa las transacciones cuidadosamente. Aprobar una transacción maliciosa podría resultar en la pérdida de fondos.",
+    "userRejected": "Usuario rechazó la solicitud.",
+    "userRejectedAfterSimFailure": "Usuario rechazó después de fallo de simulación.",
+    "userRejectedAfterError": "Popup cerrado por el usuario después de un error.",
+    "titles": {
+      "connectionRequest": "Solicitud de Conexión",
+      "signMessage": "Firmar Mensaje",
+      "approveTransaction": "Aprobar Transacción",
+      "approveMultipleTransactions_one": "Aprobar {{count}} Transacción",
+      "approveMultipleTransactions_other": "Aprobar {{count}} Transacciones",
+      "transactionPreviewFailed": "Falló la Vista Previa de la Transacción"
+    },
+    "errors": {
+      "invalidRequestParams": "Solicitud inválida: Faltan parámetros críticos.",
+      "failedToRetrieveStagedData": "Error al recuperar datos preparados: {{error}}",
+      "requiredDataNotFound": "Datos requeridos no encontrados para el ID de solicitud {{requestId}}.",
+      "sessionDataKeyMissing": "Falta la clave de datos de sesión para la operación de firma.",
+      "unsupportedInteractionType": "Tipo de interacción no soportado: {{type}}.",
+      "messageDataUnavailable": "Datos del mensaje no disponibles o malformados.",
+      "unknownDisplayFormat": "Formato de visualización desconocido para el mensaje.",
+      "errorDecodingMessage": "Error al decodificar el contenido del mensaje.",
+      "missingRequestId": "Error crítico: Falta el ID de la solicitud.",
+      "passwordEmpty": "La contraseña no puede estar vacía.",
+      "unlockFailed": "Contraseña incorrecta o fallo al desbloquear.",
+      "noAccountSelected": "No se puede aprobar: Ninguna cuenta seleccionada.",
+      "cannotApproveSimFailed": "No se puede aprobar: Falló la simulación de la transacción. {{error}}",
+      "cannotApproveBatchSimFailed": "No se puede aprobar: Falló la simulación de una o más transacciones. {{error}}",
+      "unexpectedError": "Ocurrió un error inesperado. Puedes cerrar esta ventana.",
+      "simulationFailedUnknown": "La simulación de la transacción falló por una razón desconocida."
+    },
+    "placeholders": {
+        "enterPassword": "Introduce la contraseña"
+    },
+    "simulationFailedTitle": "Simulación Fallida",
+    "simulationFailedRecommendNotProceed": "Esta transacción probablemente fallaría si se enviara a la red. No se recomienda proceder."
+  },
+  "addViewOnlyAccount": {
+    "title": "Añadir Cuenta de Solo Lectura",
+    "description": "Introduce la dirección de Solana (clave pública) para observar.",
+    "placeholders": {
+      "pasteAddress": "Pegar dirección de Solana..."
+    },
+    "buttons": {
+      "validating": "Validando...",
+      "confirmAddress": "Confirmar Dirección"
+    },
+    "errors": {
+      "publicKeyRequired": "Por favor, introduce la clave pública.",
+      "invalidPublicKey": "Clave pública inválida."
+    }
+  },
+  "fundedAccountSelector": {
+    "title": "Importar Cuentas",
+    "descriptionWithFunds": "Selecciona las cuentas derivadas de tu frase que deseas importar.",
+    "descriptionWithoutFunds": "No se encontraron cuentas con saldo. Puedes importar la cuenta predeterminada.",
+    "noAccountsToDisplay": "No hay cuentas para mostrar.",
+    "accountNamePrefix": "Cuenta",
+    "importButton_one": "Importar {{count}} Cuenta",
+    "importButton_other": "Importar {{count}} Cuentas"
+  },
+  "importOptions": {
+    "title": "Importar Billetera Existente",
+    "tagline": "Importa tu billetera a Kyoku de forma segura en segundos.",
+    "buttons": {
+      "seedPhrase": {
+        "label": "Importar con Frase de Recuperación Secreta",
+        "description": "Usa tu frase de recuperación secreta de 12 o 24 palabras."
+      },
+      "privateKey": {
+        "label": "Importar con Clave Privada",
+        "description": "Importa manually tu clave privada de Solana."
+      },
+      "viewOnly": {
+        "label": "Importar como Billetera de Solo Lectura",
+        "description": "Rastrea una dirección pública sin acceso completo."
+      }
+    }
+  },
+  "importPrivateKey": {
+    "title": "Importar Clave Privada",
+    "description": "Pega tu clave privada (Base58, Hex, o Array de Bytes).",
+    "placeholders": {
+      "pastePrivateKey": "Pega la clave privada aquí..."
+    },
+    "buttons": {
+      "validating": "Validando...",
+      "confirmAndImport": "Confirmar e Importar"
+    },
+    "errors": {
+      "pastePrivateKey": "Por favor, pega tu clave privada.",
+      "validationFailedUnknown": "Falló la validación: Error desconocido."
+    }
+  },
+  "mnemonicSetup": {
+    "generatingPhrase": "Generando frase segura...",
+    "downloadFilename": "frase-recuperacion-solana.txt",
+    "headers": {
+      "display": {
+        "title": "Tu Frase Secreta de Recuperación",
+        "description": "¡Guarda esto de forma segura! Es la única forma de recuperar tu billetera."
+      },
+      "confirm": {
+        "title": "Confirmar Frase de Recuperación",
+        "description": "Ingresa la frase que guardaste para verificar."
+      },
+      "import": {
+        "title": "Importar Frase de Recuperación",
+        "description": "Ingresa tu frase de {{count}} palabras."
+      }
+    },
+    "importantWarning": {
+      "title": "¡Importante!",
+      "message": "Anota y guarda estas palabras de forma segura. Nunca las compartas con nadie."
+    },
+    "confirmSaveCheckboxLabel": "Entiendo que si pierdo mi frase de recuperación, no podré acceder a mi billetera.",
+    "buttons": {
+      "copy": "Copiar",
+      "copied": "¡Copiado!",
+      "download": "Descargar",
+      "nextConfirm": "Siguiente: Confirmar",
+      "pastePhrase": "Pegar Frase",
+      "importWallet": "Importar Billetera",
+      "verifyAndContinue": "Verificar y Continuar"
+    },
+    "ariaLabels": {
+      "wordInput": "Palabra {{number}}"
+    },
+    "errors": {
+      "generationFailed": "No se pudo generar la frase de recuperación. Por favor, actualiza.",
+      "copyFailed": "No se pudo copiar la frase al portapapeles.",
+      "confirmSaveRequired": "Por favor, confirma que has guardado de forma segura tu frase de recuperación.",
+      "pasteFailed": "No se pudo leer del portapapeles. Por favor, pega manualmente.",
+      "allWordsRequired": "Por favor, ingresa todas las {{count}} palabras.",
+      "invalidWordCount": "Frase inválida: Se esperaban 12 o 24 palabras, se encontraron {{count}}.",
+      "invalidPhrase": "Frase de recuperación inválida. Por favor, revisa tus palabras e inténtalo de nuevo.",
+      "phraseMismatch": "La frase no coincide con la generada. Por favor, vuelve a ingresarla con cuidado."
+    }
+  },
+  "onboardingApp": {
+    "checkingStatus": "Verificando Estado de la Billetera...",
+    "kyokuWalletSetup": "Configuración de Kyoku Wallet",
+    "altKyokuLogo": "Logo de Kyoku Wallet",
+    "errorOccurredTitle": "Ocurrió un Error",
+    "buttons": {
+      "restartSetup": "Reiniciar Configuración",
+      "back": "Volver"
+    },
+    "setupCompleteTitle": "¡Configuración Completa!",
+    "setupCompleteMessage": "Tu billetera Solana está lista.",
+    "importSuccessfulTitle": "¡Importación Exitosa!",
+    "importSuccessfulMessage": "Las cuentas seleccionadas han sido añadidas.",
+    "windowCloseMessage": "Esta ventana se cerrará automáticamente.",
+    "errors": {
+      "verifyStatusFailed": "No se pudo verificar el estado de la billetera. Por favor, actualiza.",
+      "stateLost": "El estado del proceso de configuración se perdió o es inválido. Por favor, reinicia el proceso.",
+      "mnemonicEmpty": "La frase mnemónica no puede estar vacía.",
+      "addRootMnemonicFailed": "Error al añadir frase de recuperación: {{error}}",
+      "prepareCreateFailed": "Error al preparar la creación de la billetera: {{error}}",
+      "accountScanFailed": "El escaneo de cuentas falló: {{error}}",
+      "selectOneAccount": "Selecciona al menos una cuenta.",
+      "importFailed": "La importación falló: {{error}}",
+      "mnemonicNotStaged": "La frase mnemónica no se preparó correctamente.",
+      "prepareImportFailed": "Error al preparar la importación: {{error}}",
+      "addAccountFailed": "Error al añadir cuenta: {{error}}",
+      "setupFailed": "La configuración falló: {{error}}",
+      "cannotInitWithViewOnly": "No se puede inicializar una nueva billetera con una cuenta de solo lectura.",
+      "unexpectedError": "Ocurrió un error inesperado."
+    }
+  },
+  "passwordPage": {
+    "loadingStatus": "Cargando Estado de la Billetera...",
+    "walletNotFoundTitle": "Billetera No Encontrada",
+    "resetting": "Restableciendo...",
+    "placeholders": {
+      "password": "Contraseña"
+    },
+    "buttons": {
+      "unlocking": "Desbloqueando...",
+      "forgotPasswordReset": "¿Olvidaste la contraseña? Restablecer Billetera",
+      "goToSetup": "Ir a Configuración"
+    },
+    "errors": {
+      "verifyStatusFailed": "No se pudo verificar el estado de la billetera. Asegúrate de que la extensión esté habilitada e intenta recargar.",
+      "walletNotFoundGoToOnboarding": "Billetera no encontrada. Por favor, ve a onboarding.html para configurar tu billetera.",
+      "walletNotFoundOpenManually": "Billetera no encontrada. Por favor, abre onboarding.html manualmente.",
+      "invalidStatusResponse": "Respuesta inválida del background. Es posible que la billetera no esté configurada.",
+      "contactBackgroundFailed": "Error al contactar el servicio de background.",
+      "passwordEmpty": "La contraseña no puede estar vacía.",
+      "communicationError": "Error de comunicación: {{error}}",
+      "unlockFailedTryAgain": "Desbloqueo fallido. Por favor, inténtalo de nuevo.",
+      "walletNotSetUp": "Billetera no configurada.",
+      "incorrectPassword": "Contraseña incorrecta.",
+      "resetFailed": "Falló el restablecimiento: {{error}}",
+      "resetCompleteGoToSetup": "Restablecimiento completo. Por favor, ve a onboarding.html para configurar tu billetera.",
+      "sendResetRequestFailed": "Error al enviar la solicitud de restablecimiento.",
+      "resetFailedUnknown": "Falló el restablecimiento."
+    },
+    "resetWallet": {
+      "warningConfirm": "ADVERTENCIA: Esto eliminará permanentemente TODOS los datos de la billetera (claves, cuentas) almacenados en esta extensión. Esta acción no se puede deshacer. ¿Estás absolutamente seguro?",
+      "finalConfirm": "CONFIRMACIÓN FINAL: Por favor, confirma que deseas restablecer la billetera. Todos los datos se perderán.",
+      "successAlert": "Billetera restablecida con éxito. Redirigiendo a la configuración.",
+      "manualSetupAlert": "Restablecimiento completo. Por favor, abre la extensión de nuevo manually para la configuración."
+    }
+  },
+  "actionButtons": {
+    "receive": "Recibir",
+    "send": "Enviar",
+    "stake": "Apostar",
+    "stakeClickedTodo": "Clic en Apostar (PENDIENTE)"
+  },
+  "balanceCard": {
+    "refreshBalance": "Actualizar saldo",
+    "loadErrorTitle": "Error al Cargar",
+    "loadErrorMessage": "No se pudo cargar el saldo.",
+    "totalPortfolioValue": "Valor Total del Portafolio",
+    "solBalanceLabel": "Saldo de SOL"
+  },
+  "burnConfirmationModal": {
+    "title": "Confirmar Quema de {{itemType}}",
+    "aboutToBurn": "Estás a punto de quemar permanentemente:",
+    "warningTitle": "Advertencia",
+    "irreversibleAction": "Esta acción es irreversible. Una vez quemado, el {{itemType}} no se puede recuperar.",
+    "rentRecoveryToken": "Quemar este token también intentará cerrar su cuenta de token asociada, lo que podría devolver algo de SOL de alquiler a tu billetera.",
+    "permanentActionNft": "Quemar este NFT es permanente. Asegúrate de entender esta acción.",
+    "loading": "Quemando {{itemType}}...",
+    "burnFailedTitle": "Falló la Quema",
+    "buttons": {
+      "confirmBurn": "Confirmar Quema",
+      "retryBurn": "Reintentar Quema"
+    }
+  },
+  "footerNav": {
+    "home": "Inicio",
+    "swap": "Intercambiar",
+    "settings": "Configuración",
+    "swapClickedTodo": "Clic en Intercambiar (PENDIENTE - Manejador Predeterminado)"
+  },
+  "header": {
+    "selectAccount": "Seleccionar Cuenta",
+    "addAccountImport": "Añadir / Importar Cuenta",
+    "walletsPageTitle": "Billeteras",
+    "accountOptions": "Opciones de Cuenta"
+  },
+  "itemList": {
+    "nativeToken": "Token Nativo",
+    "noTokensToDisplay": "Actualmente no tienes tokens para mostrar.",
+    "tokenLogoAlt": "Logo de {{tokenSymbol}}"
+  },
+  "nftCard": {
+    "unnamedNft": "NFT sin Nombre",
+    "unknownCollectionPlaceholder": "Colección Desconocida",
+    "altNftImage": "Imagen del NFT {{nftName}}",
+    "ariaViewDetails": "Ver detalles de {{nftName}}"
+  },
+  "nftGrid": {
+    "unnamedCollection": "Colección sin Nombre",
+    "ariaViewCollection": "Ver colección {{collectionName}} con {{count}} artículos",
+    "altCollectionImage": "Imagen de la colección {{collectionName}}",
+    "errorLoading": "Error al cargar coleccionables: {{errorDetail}}",
+    "noCollectiblesFound": "No se encontraron coleccionables."
+  },
+  "renameModal": {
+    "title": "Editar Nombre de Billetera",
+    "inputAriaLabel": "Nuevo nombre de billetera"
+  },
+  "showPrivateKeyModal": {
+    "title": "Mostrar Clave Privada",
+    "forAccount": "Para la cuenta:",
+    "warning": "Advertencia: Nunca compartas tu clave privada. Cualquiera con ella puede acceder a tus fondos.",
+    "enterPasswordToReveal": "Introduce la Contraseña para Revelar",
+    "placeholders": {
+      "walletPassword": "Contraseña de tu billetera"
+    },
+    "buttons": {
+      "reveal": "Revelar Clave Privada",
+      "copyKey": "Copiar Clave"
+    },
+    "yourPrivateKeyFor": "Tu clave privada para {{accountName}}:",
+    "storeKeySecurely": "Guarda esta clave de forma segura. No la pierdas. No la compartas.",
+    "copiedToClipboard": "¡Clave privada copiada al portapapeles!",
+    "errors": {
+      "passwordRequired": "Se requiere la contraseña.",
+      "failedToRetrieve": "No se pudo recuperar la clave privada.",
+      "copyFailed": "No se pudo copiar la clave privada."
+    }
+  },
+  "showSeedPhraseModal": {
+    "title": "Mostrar Frase de Recuperación",
+    "forAccount": "Para la cuenta:",
+    "warning": "Advertencia: Nunca compartas tu frase de recuperación. Cualquiera con ella puede acceder a todas las cuentas derivadas de ella.",
+    "enterPasswordToReveal": "Introduce la Contraseña para Revelar",
+    "placeholders": {
+      "walletPassword": "Contraseña de tu billetera"
+    },
+    "buttons": {
+      "revealPhrase": "Revelar Frase",
+      "copied": "¡Copiado!",
+      "copyPhrase": "Copiar Frase"
+    },
+    "yourRecoveryPhraseFor": "Tu frase de recuperación para {{accountName}}:",
+    "storePhraseSecurely": "Guarda esta frase de forma segura. No la pierdas. No la compartas.",
+    "errors": {
+      "passwordRequired": "Se requiere la contraseña.",
+      "failedToRetrieve": "No se pudo recuperar la frase de recuperación.",
+      "copyFailed": "No se pudo copiar la frase de recuperación."
+    }
+  },
+  "tabSelector": {
+    "previousTab": "Pestaña anterior",
+    "switchToTab": "Cambiar a la pestaña {{tabName}}",
+    "nextTab": "Siguiente pestaña",
+    "expandContentView": "Expandir vista de contenido"
+  },
+  "tokenDetails": {
+    "titleFallback": "Detalles del Token",
+    "detailsUnavailable": "Detalles del token no disponibles.",
+    "backToDashboard": "Volver al Panel",
+    "loadingData": "Cargando datos del token...",
+    "tokenFallback": "Token",
+    "burnInitiatedTitle": "¡Quema Iniciada!",
+    "transactionIdLabel": "Tx",
+    "moreOptionsAriaLabel": "Más opciones",
+    "fetchingLatestDetails": "Obteniendo últimos detalles...",
+    "viewOnlyWarning": "Esta es una cuenta de solo lectura. Las acciones de Enviar/Quemar están deshabilitadas.",
+    "sectionTitle": "Información del Token",
+    "labels": {
+      "name": "Nombre",
+      "symbol": "Símbolo",
+      "pricePerToken": "Precio por Token",
+      "addressMint": "Dirección (Mint)",
+      "explorer": "Explorador"
+    },
+    "menu": {
+      "viewOnExplorer": "Ver en Explorador",
+      "burnToken": "Quemar Token"
+    },
+    "buttons": {
+      "send": "Enviar",
+      "receive": "Recibir"
+    },
+    "burnSuccessMessage": "¡La quema de {{tokenName}} se inició con éxito!",
+    "errors": {
+      "fetchFailed": "Error al obtener todos los detalles del token.",
+      "detailsNotFound": "No se pudieron recuperar todos los detalles del token.",
+      "fetchInitiationFailed": "Error al iniciar la obtención de detalles: {{error}}",
+      "burnMissingInfo": "No se puede quemar: Faltan detalles de la cuenta activa o del token.",
+      "burnUnknownError": "Error desconocido al quemar el token."
+    }
+  },
+  "tokenManagement": {
+    "headerTitle": "Gestionar Lista de Tokens",
+    "fallbackTokenName": "Token",
+    "spamToggle": {
+      "label": "Mostrar Tokens de Spam/Desconocidos",
+      "description": "Los tokens de spam/desconocidos son aquellos sin logo Y que carecen de precio, nombre o símbolo. Por defecto, están ocultos."
+    },
+    "lowBalanceToggle": {
+      "label": "Ocultar Tokens Valuados en Menos de $1"
+    },
+    "individualManagementInfo": {
+      "withSpam": "Gestiona individualmente la visibilidad de los tokens (incluyendo tokens de spam/desconocidos).",
+      "withoutSpam": "Gestiona individualmente la visibilidad de los tokens (excluyendo tokens de spam/desconocidos)."
+    },
+    "buttons": {
+      "hideAllBelow": "Ocultar Todos Abajo",
+      "showAllBelow": "Mostrar Todos Abajo",
+      "showTokenAria": "Mostrar {{tokenName}}",
+      "hideTokenAria": "Ocultar {{tokenName}}"
+    },
+    "loadingTokens": "Cargando tokens...",
+    "emptyState": {
+      "noNonNativeTokens": "No se encontraron tokens no nativos en esta cuenta.",
+      "noNonSpamToManage": "No hay tokens no spam/desconocidos para gestionar. Intenta habilitar 'Mostrar Tokens de Spam/Desconocidos'."
+    },
+    "errors": {
+      "loadFailed": "Error al cargar los tokens: {{error}}"
+    }
+  },
+  "tokenSelect": {
+    "modalTitleInput": "Seleccionar Token de Pago",
+    "modalTitleOutput": "Seleccionar Token a Recibir",
+    "modalTitleGeneric": "Seleccionar Token",
+    "searchPlaceholder": "Buscar nombre, símbolo o pegar dirección",
+    "loadingTokens": "Cargando tokens...",
+    "noTokensMatchSearch": "No se encontraron tokens que coincidan con tu búsqueda.",
+    "noTokensFoundShort": "No se encontraron tokens.",
+    "customTokenName": "Token ({{addressPart}}...)",
+    "unknownToken": "Token Desconocido",
+    "customAddressLabel": "Dirección Personalizada",
+    "ariaLabels": {
+      "selectToken": "Seleccionar {{tokenName}}"
+    }
+  },
+  "swapErrorView": {
+    "title": "Intercambio Fallido",
+    "errorDetailsLabel": "Detalles del Error:"
+  },
+  "swapSuccessView": {
+    "noDetailsFound": "No se encontraron detalles del éxito.",
+    "title": "¡Intercambio Exitoso!",
+    "swappedMessage": "Intercambiaste {{amount}} {{symbol}}",
+    "forEstimatedMessage": "Por un estimado de {{amount}} {{symbol}}.",
+    "transactionIdLabel": "Tx",
+    "buttons": {
+      "newSwap": "Nuevo Intercambio"
+    }
+  },
+  "swapView": {
+    "title": "Intercambiar Tokens",
+    "loadingInterface": "Cargando Interfaz de Intercambio...",
+    "settingsPlaceholderAlert": "Configuración de intercambio (placeholder)",
+    "kyokuWalletSwap": "Intercambio Kyoku Wallet",
+    "kyokuWalletOrigin": "Kyoku Wallet",
+    "tokenIdentifierFallback": "TKN",
+    "fetchingBestPrice": "Obteniendo mejor precio...",
+    "labels": {
+      "youPay": "Pagas",
+      "youReceiveEstimated": "Recibes (Estimado)"
+    },
+    "tokenInput": {
+      "balancePrefix": "Saldo: ",
+      "amountPlaceholder": "0.00",
+      "selectTokenFallback": "Sel.",
+      "selectTokenAria": "Seleccionar {{currentToken}} para intercambio"
+    },
+    "buttons": {
+      "max": "MÁX",
+      "fetchingQuote": "Obteniendo Cotización...",
+      "errorGettingQuote": "Error al Obtener Cotización",
+      "reviewSwap": "Revisar Intercambio"
+    },
+    "quoteInfo": {
+      "rate": "Tasa",
+      "priceImpact": "Impacto en Precio",
+      "minReceived": "Mínimo Recibido",
+      "route": "Ruta",
+      "directRoute": "Directa"
+    },
+    "ariaLabels": {
+      "closeSwap": "Cerrar Intercambio",
+      "swapSettings": "Configuración de Intercambio",
+      "usePercentage": "Usar {{percentage}}% del saldo",
+      "swapDirection": "Intercambiar tokens de entrada y salida"
+    },
+    "errors": {
+      "invalidNumber": "Por favor, introduce un número válido (ej: 123.45)",
+      "amountExceedsBalance": "La cantidad excede el saldo disponible.",
+      "invalidInputForQuote": "Entrada inválida para obtener cotización.",
+      "invalidInputAmount": "Cantidad de entrada inválida.",
+      "quoteFetchFailed": "Error al obtener cotización. Intenta ajustar la cantidad o el par.",
+      "quoteRequestPrepFailed": "Error al preparar la solicitud de cotización. Revisa los valores de entrada.",
+      "missingInfoForExecute": "Falta información necesaria para ejecutar el intercambio.",
+      "failedToGetJupiterTx": "Error al obtener la transacción de intercambio de Jupiter."
+    }
+  },
+  "networkSettings": {
+    "options": {
+      "mainnet": "Mainnet Beta",
+      "devnet": "Devnet",
+      "testnet": "Testnet",
+      "customRpc": "RPC Personalizado"
+    },
+    "customRpcConfigurationTitle": "Configuración de RPC Personalizado",
+    "customRpcDescription": "Introduce la URL de tu propio RPC para acceso a una red personalizada",
+    "customRpcInputAriaLabel": "URL del RPC Personalizado",
+    "placeholders": {
+      "rpcEndpoint": "https://tu-rpc-endpoint.com"
+    },
+    "errors": {
+      "updateFailed": "Error al actualizar la red: {{details}}"
+    }
+  },
+  "autoLockSettings": {
+    "title": "Temporizador de Auto-Bloqueo",
+    "description": "Configura cuándo se bloquea automáticamente la billetera.",
+    "enableLabel": "Habilitar Auto-Bloqueo",
+    "enableAutoLockAria": "Habilitar bloqueo automático",
+    "disableAutoLockAria": "Deshabilitar bloqueo automático",
+    "durationLabel": "Bloquear después de (minutos)",
+    "saveSuccessMessage": "Configuración guardada exitosamente",
+    "errors": {
+      "loadFailed": "Error al cargar la configuración",
+      "saveFailed": "Error al guardar la configuración",
+      "durationTooShort": "La duración del auto-bloqueo debe ser de al menos 1 minuto"
+    }
+  },
+  "changePassword": {
+    "labels": {
+      "currentPassword": "Contraseña Actual",
+      "newPassword": "Nueva Contraseña",
+      "confirmNewPassword": "Confirmar Nueva Contraseña"
+    },
+    "placeholders": {
+      "currentPassword": "Introduce tu contraseña actual",
+      "newPassword": "Introduce la nueva contraseña",
+      "confirmNewPassword": "Confirma la nueva contraseña"
+    },
+    "newPasswordHint": "Debe tener al menos 8 caracteres.",
+    "buttons": {
+      "changing": "Cambiando...",
+      "changePassword": "Cambiar Contraseña"
+    },
+    "errors": {
+      "allFieldsRequired": "Todos los campos de contraseña son obligatorios.",
+      "newPasswordsDoNotMatch": "Las nuevas contraseñas no coinciden.",
+      "newPasswordTooShort": "La nueva contraseña debe tener al menos 8 caracteres.",
+      "newPasswordSameAsCurrent": "La nueva contraseña no puede ser igual a la actual.",
+      "changeFailedUnknown": "Error al cambiar la contraseña debido a un error desconocido."
+    },
+    "successMessage": "¡Contraseña cambiada con éxito! La billetera se bloqueará."
+  },
+  "explorerSettings": {
+    "description": "Elige tu explorador de bloques preferido. Los enlaces a transacciones y direcciones usarán esta selección.",
+    "saveSuccessMessage": "¡Preferencia guardada con éxito!",
+    "saveFailedMessage": "Error al guardar la preferencia. Por favor, inténtalo de nuevo.",
+    "saveFailedMessageNoParam": "Error al guardar la preferencia"
+  },
+  "feeSettings": {
+    "description": "Elige una prioridad predeterminada para tus transacciones. Esto ayuda a determinar qué tan rápido se procesan tus transacciones, especialmente durante la congestión de la red. Es posible que puedas anular esto por transacción en algunos casos.",
+    "options": {
+      "auto": {
+        "label": "Automático (Recomendado)",
+        "description": "La billetera intenta establecer una tarifa óptima basada en las condiciones de la red (predeterminado a Medio)."
+      },
+      "low": {
+        "label": "Bajo",
+        "description": "Tarifa más baja, tiempos de confirmación potencialmente más lentos."
+      },
+      "medium": {
+        "label": "Medio",
+        "description": "Tarifa equilibrada para tiempos de confirmación razonables."
+      },
+      "high": {
+        "label": "Alto",
+        "description": "Tarifa más alta para una confirmación más rápida, útil durante la congestión."
+      }
+    }
+  },
+  "aboutSettings": {
+    "title": "Acerca de Kyoku Wallet",
+    "versionLabel": "Versión",
+    "brandName": "Kyoku Wallet",
+    "links": {
+      "website": "Sitio Web",
+      "terms": "Términos de Servicio",
+      "privacy": "Política de Privacidad"
+    }
+  },
+  "addressBook": {
+    "title": "Libreta de Direcciones",
+    "loading": "Cargando libreta de direcciones...",
+    "addNewAddressTitle": "Añadir Nueva Dirección",
+    "editAddressTitle": "Editar Dirección",
+    "addressIdentifierForErrorCheck": "dirección",
+    "labels": {
+      "name": "Nombre",
+      "address": "Dirección"
+    },
+    "placeholders": {
+      "nameExample": "Ej: Mi Amigo Juan",
+      "pasteAddress": "Pegar dirección de Solana"
+    },
+    "buttons": {
+      "addNewAddress": "Añadir Nueva Dirección",
+      "editAddress": "Editar {{name}}",
+      "deleteAddress": "Eliminar {{name}}"
+    },
+    "emptyStateLine1": "Tu libreta de direcciones está vacía.",
+    "emptyStateLine2": "Haz clic en el botón '+' para añadir una dirección.",
+    "confirmDeleteMessage": "¿Estás seguro de que quieres eliminar esta dirección?",
+    "errors": {
+      "loadFailed": "Error al cargar la libreta de direcciones",
+      "saveFailed": "Error al guardar la libreta de direcciones",
+      "nameAndAddressRequired": "El nombre y la dirección son obligatorios.",
+      "invalidSolanaAddress": "Formato de dirección de Solana inválido.",
+      "addressExists": "Esta dirección ya existe en la libreta.",
+      "addressExistsDifferentName": "Esta dirección ya existe con un nombre diferente."
+    }
+  },
+  "activityDetails": {
+    "detailsUnavailable": "Detalles de la transacción no disponibles.",
+    "backToActivities": "Volver a Actividades",
+    "tokenFallback": "Token",
+    "assetFallback": "Activo",
+    "headers": {
+      "default": "Detalles de la Transacción",
+      "sentAsset": "{{assetName}} Enviado",
+      "receivedAsset": "{{assetName}} Recibido",
+      "swap": "Intercambio: {{tokenA}} por {{tokenB}}",
+      "dappInteractionNamed": "Interacción: {{dappName}}",
+      "dappInteraction": "Interacción con dApp",
+      "interaction": "Interacción con Programa"
+    },
+    "labels": {
+      "date": "Fecha",
+      "status": "Estado",
+      "interaction": "Interacción",
+      "from": "Desde",
+      "to": "Para",
+      "source": "Origen",
+      "networkFee": "Tarifa de Red",
+      "mintAddress": "Dirección de Mint",
+      "externalLink": "Enlace Externo",
+      "explorer": "Explorador"
+    },
+    "prefixes": {
+        "youPaid": "Pagaste: ",
+        "youReceived": "Recibiste: ",
+        "amountSent": "Cantidad Enviada: ",
+        "amountReceived": "Cantidad Recibida: "
+    },
+    "statusConfirmed": "Confirmado",
+    "transactionIdLabel": "ID de Transacción",
+    "viewOnExplorer": "Ver en {{explorerName}}"
+  },
+  "activityItem": {
+    "unknownActivity": "Actividad Desconocida",
+    "unknownToken": "Token",
+    "actions": {
+      "sent": "Enviado",
+      "sentToken": "{{tokenSymbol}} Enviado",
+      "received": "Recibido",
+      "receivedToken": "{{tokenSymbol}} Recibido",
+      "swap": "Intercambio",
+      "appInteraction": "Interacción con App",
+      "programInteraction": "Interacción con Programa",
+      "approval": "Aprobación"
+    },
+    "labels": {
+      "to": "Para",
+      "from": "Desde",
+      "program": "Programa",
+      "for": "Para",
+      "source": "Origen"
+    }
+  },
+  "activityView": {
+    "loadingFromCache": "Cargando desde caché...",
+    "errorLoadingTitle": "Error al Cargar Actividad",
+    "noRecentActivityTitle": "Sin Actividad Reciente",
+    "transactionsAppearHere": "Tus transacciones aparecerán aquí.",
+    "loadingMore": "Cargando más...",
+    "noMoreActivities": "No hay más actividades para cargar."
+  },
+  "mainPopupApp": {
+    "loadingWallet": "Cargando Billetera...",
+    "redirectingToSetup": "Redirigiendo a configuración...",
+    "dismissErrorAriaLabel": "Descartar error",
+    "deleteModal": {
+      "title": "¿Eliminar Cuenta?",
+      "messagePart1": "Eliminar:",
+      "messagePart2": "?",
+      "warning": "Esta acción no se puede deshacer."
+    },
+    "errors": {
+      "connectFailed": "Error al conectar: {{error}}",
+      "getInitialStateFailed": "Error al obtener el estado inicial.",
+      "noBackgroundResponse": "Sin respuesta del background para el estado inicial.",
+      "commError": "Error de comunicación: {{error}}",
+      "loadAccountsFailedAfterUnlock": "Error al cargar cuentas después del desbloqueo.",
+      "accountSwitchFailed": "Falló el cambio de cuenta: {{error}}",
+      "accountSwitchFailedUnknown": "Error al cambiar de cuenta.",
+      "openOnboardingFailed": "Error al abrir la incorporación: {{error}}",
+      "renameFailed": "Falló el renombrar: {{error}}",
+      "saveOrderFailed": "Error al guardar el orden de las cuentas.",
+      "accountNotFoundForDelete": "Cuenta no encontrada para eliminar.",
+      "cannotDeleteLastNonViewOnly": "No se puede eliminar la última cuenta que no es de solo lectura. Crea otra o importa primero.",
+      "deleteFailed": "Falló la eliminación: {{error}}",
+      "deleteFailedNamed": "Error al eliminar la cuenta '{{name}}'."
+    }
+  },
+  "dashboard": {
+    "tabs": {
+        "tokens": "Tokens",
+        "collectibles": "Coleccionables",
+        "activity": "Actividad"
+    },
+    "manageTokenList": "Gestionar Lista de Tokens",
+    "manageNftList": "Gestionar Lista de NFT",
+    "buttons": {
+        "createNewAccount": "Crear Nueva Cuenta",
+        "importRecoveryPhrase": "Importar Frase de Recuperación",
+        "importPrivateKey": "Importar Clave Privada",
+        "addViewOnlyAccount": "Añadir Cuenta de Solo Lectura"
+    },
+    "collectionTitleFallback": "Colección",
+    "backToAllCollectibles": "Volver a Todos los Coleccionables",
+    "closeExpandedView": "Cerrar Vista Expandida"
+  },
+  "sendForm": {
+    "balanceLabel": "Saldo",
+    "toLabel": "Para",
+    "amountLabel": "Cantidad",
+    "sendingToSaved": "Enviando a {{name}}",
+    "loadingContacts": "Cargando contactos...",
+    "noMatchingContacts": "No se encontraron contactos coincidentes.",
+    "noContactsOrAccounts": "No hay contactos en la libreta de direcciones ni en tus otras cuentas.",
+    "startTypingToSearch": "Empieza a escribir para buscar contactos.",
+    "buttons": {
+        "sendMax": "MÁX",
+        "reviewTransaction": "Revisar Transacción"
+    },
+    "placeholders": {
+        "recipientAddress": "Pegar dirección de Solana o seleccionar contacto",
+        "nftAmount": "1 (NFT)",
+        "tokenAmount": "0.00"
+    },
+    "ariaLabels": {
+        "clearRecipient": "Limpiar destinatario",
+        "showSuggestions": "Mostrar sugerencias"
+    },
+    "errors": {
+        "recipientRequired": "Se requiere la dirección del destinatario.",
+        "invalidSolanaAddress": "Formato de dirección de Solana inválido.",
+        "nftAmountMustBeOne": "La cantidad de NFT debe ser 1.",
+        "amountRequired": "Se requiere la cantidad.",
+        "validPositiveAmount": "Por favor, introduce una cantidad positiva válida.",
+        "amountExceedsBalance": "La cantidad excede el saldo disponible ({{balance}} {{symbol}}).",
+        "couldNotVerifyRecipient": "No se pudo verificar el estado del destinatario.",
+        "failedToVerifyRecipient": "Error al verificar el estado del destinatario."
+    }
+  },
+  "transactionConfirm": {
+    "customRpcLabel": "RPC Personalizado",
+    "youAreSending": "Estás enviando",
+    "fromLabel": "Desde",
+    "yourWalletLabel": "Tu billetera",
+    "toLabel": "Para",
+    "networkLabel": "Red",
+    "networkFeeLabel": "Tarifa de Red",
+    "calculatingFee": "Calculando tarifa...",
+    "feeUnavailable": "No se puede estimar la tarifa",
+    "warningIrreversible": "Advertencia: Esta transacción es irreversible. Por favor, revisa todos los detalles cuidadosamente antes de proceder.",
+    "buttons": {
+        "sending": "Enviando...",
+        "confirmAndSend": "Confirmar y Enviar"
+    }
+  },
+  "sendView": {
+    "errors": {
+        "unexpectedError": "Ocurrió un error inesperado.",
+        "sendFromViewOnly": "No se puede enviar desde una cuenta de solo lectura.",
+        "activeAccountNotFound": "Cuenta activa no encontrada.",
+        "feeEstimationFailed": "Falló la estimación de tarifa: {{error}}",
+        "decodeFailed": "Falló la decodificación: {{error}}",
+        "couldNotSimulateFee": "No se pudo simular la transacción para estimar la tarifa.",
+        "missingDetailsOrAccount": "Faltan detalles de la transacción o cuenta activa.",
+        "swapFailedToSend": "Falló el envío del intercambio.",
+        "errorLoadingTokens": "Error al cargar tokens",
+        "feeNotReady": "La información de la tarifa no está lista. Por favor, espera.",
+        "transactionFailed": "Falló la transacción: {{error}}",
+        "unknownErrorOccurred": "Ocurrió un error desconocido."
+    },
+    "success": {
+        "title": "¡Transacción Enviada!",
+        "message": "Tu transacción ha sido enviada con éxito a la red.",
+        "viewOnExplorer": "Ver en {{explorerName}}"
+    },
+    "headers": {
+        "processingTransaction": "Procesando Transacción...",
+        "selectToken": "Seleccionar Token",
+        "sendToken": "Enviar {{tokenSymbol}}",
+        "confirmTransaction": "Confirmar Transacción",
+        "transactionSent": "Transacción Enviada",
+        "transactionFailed": "Falló la Transacción",
+        "send": "Enviar"
+    },
+    "noTokenSelected": "No se seleccionó ningún token para enviar.",
+    "buttons": {
+        "selectToken": "Seleccionar Token"
+    },
+    "loadingForm": "Cargando formulario...",
+    "loadingTransactionDetails": "Cargando detalles de la transacción...",
+    "tokenFallback": "Token",
+    "errorSending": {
+        "title": "Error de Envío"
+    },
+    "loadingState": "Cargando estado..."
+  },
+  "accountSettings": {
+    "noAccountSelected": "Ninguna cuenta seleccionada.",
+    "menu": {
+        "walletAddress": "Dirección de Billetera",
+        "renameWallet": "Renombrar Billetera",
+        "showPrivateKey": "Mostrar Clave Privada",
+        "showRecoveryPhrase": "Mostrar Frase de Recuperación",
+        "removeWallet": "Eliminar Billetera"
+    },
+    "errors": {
+        "copyFailed": "Error al copiar la dirección."
+    }
+  },
+  "nftDetails": {
+    "menu": {
+        "viewOnExplorer": "Ver en Explorador",
+        "burnNft": "Quemar NFT",
+        "setAsProfilePicture": "Establecer como foto de perfil",
+        "removeProfilePicture": "Quitar foto de perfil"
+    },
+    "profilePictureBadge": "Foto P.",
+    "errors": {
+        "fetchFailed": "Error al obtener todos los detalles del NFT.",
+        "detailsNotFound": "No se pudieron recuperar todos los detalles del NFT.",
+        "fetchInitiationFailed": "Error al iniciar la obtención de detalles: {{error}}",
+        "burnMissingInfo": "No se puede quemar: Faltan detalles de la cuenta activa o del NFT.",
+        "burnUnknownError": "Error desconocido al quemar el NFT.",
+        "couldNotFetchFullDetails": "No se pudieron recuperar todos los detalles: {{error}}"
+    },
+    "moreOptionsAriaLabel": "Más opciones",
+    "fetchingLatestDetails": "Obteniendo últimos detalles...",
+    "viewOnlyWarning": "Esta es una cuenta de solo lectura. Las acciones de Enviar/Quemar están deshabilitadas.",
+    "buttons": {
+        "sendNft": "Enviar NFT"
+    },
+    "compressedBadge": "Comprimido",
+    "sectionTitles": {
+        "description": "Descripción",
+        "aboutCollection": "Acerca de la Colección {{collectionName}}",
+        "attributes": "Atributos",
+        "details": "Detalles"
+    },
+    "labels": {
+        "mintAddress": "Dirección de Mint",
+        "externalLink": "Enlace Externo",
+        "explorer": "Explorador"
+    },
+    "links": {
+        "viewCollection": "Ver Colección",
+        "viewAsset": "Ver Activo"
+    },
+    "burnSuccessMessage": "¡La quema de {{nftName}} se inició con éxito!",
+    "transactionIdLabel": "ID de Transacción",
+    "detailsUnavailable": "Detalles del NFT no disponibles.",
+    "loadingData": "Cargando datos del NFT..."
+  },
+  "nftManagement": {
+    "unnamedNft": "NFT sin Nombre",
+    "potentialSpam": "Spam Potencial",
+    "spamHidden": "Spam (Oculto)",
+    "headerTitle": "Gestionar Lista de NFT",
+    "spamToggle": {
+        "label": "Mostrar NFT de Spam/Desconocidos",
+        "description": "Los NFT de spam/desconocidos son aquellos sin logo Y que carecen de precio, nombre o símbolo. Por defecto, están ocultos."
+    },
+    "buttons": {
+        "showNftAria": "Mostrar {{nftName}}",
+        "hideNftAria": "Ocultar {{nftName}}"
+    },
+    "loadingDataAndPreferences": "Cargando datos y preferencias...",
+    "errors": {
+        "loadFailed": "Error al cargar los NFT: {{error}}"
+    },
+    "emptyState": {
+        "title": "No Hay NFT para Gestionar",
+        "description": "Cuando poseas NFT, podrás gestionar su visibilidad aquí."
+    },
+    "hiddenSpamInfo": "{{count}} NFT de spam/desconocidos están ocultos. Activa el interruptor de arriba para verlos."
+  },
+  "connectedDapps": {
+    "errors": {
+        "loadFailed": "Error al cargar dapps conectadas.",
+        "couldNotRetrieve": "No se pudieron recuperar dapps conectadas.",
+        "disconnectFailed": "Falló la desconexión."
+    },
+    "loading": "Cargando dapps conectadas...",
+    "dAppIconAlt": "Icono de dApp {{appName}}",
+    "confirmDisconnect": "¿Estás seguro de que quieres desconectarte de {{appName}}?",
+    "buttons": {
+        "disconnectAriaLabel": "Desconectar de {{appName}}",
+        "disconnect": "Desconectar"
+    },
+    "connectedDateLabel": "Conectado",
+    "emptyState": {
+        "noAppsConnected": "No hay dApps conectadas.",
+        "appsWillAppearHere": "Las dApps a las que te conectes aparecerán aquí."
+    },
+    "description": "Administra las aplicaciones a las que se les ha otorgado permiso para acceder a tu billetera. Revocar el acceso requerirá que la aplicación solicite conexión nuevamente en la próxima interacción."
+  },
+  "passwordSetup": {
+    "errors": {
+        "passwordsDoNotMatch": "Las contraseñas no coinciden.",
+        "passwordTooShort": "La contraseña debe tener al menos 8 caracteres.",
+        "initializationFailed": "Falló la inicialización de la billetera: {{error}}",
+        "setupFailedUnknown": "Falló la configuración: {{error}}",
+        "secretNotStagedAlert": "Error crítico en el proceso de configuración (faltan datos preparados). Por favor, reinicia el proceso de incorporación.",
+        "secretNotStagedDetailed": "Error en el proceso de configuración: Faltan datos preparados. Por favor, vuelve atrás y reinicia el proceso de creación o importación de la billetera.",
+        "sendRequestFailed": "Error al enviar la solicitud de inicialización: {{error}}"
+    },
+    "title": "Crear Contraseña",
+    "descriptionLine1": "Esta contraseña se usará para desbloquear tu Kyoku Wallet.",
+    "descriptionLine2": "Asegúrate de guardarla en un lugar seguro.",
+    "placeholders": {
+        "enterPassword": "Introduce la contraseña",
+        "confirmPassword": "Confirma la contraseña"
+    },
+    "ariaLabels": {
+        "hidePassword": "Ocultar contraseña",
+        "showPassword": "Mostrar contraseña",
+        "hideConfirmPassword": "Ocultar contraseña de confirmación",
+        "showConfirmPassword": "Mostrar contraseña de confirmación"
+    },
+    "buttons": {
+        "securingWallet": "Asegurando Billetera...",
+        "createWallet": "Crear Billetera"
+    }
+  },
+  "walletSetup": {
+    "errors": {
+        "contactBackgroundFailed": "Error al contactar el servicio de background: {{error}}",
+        "invalidStatusResponse": "Respuesta inválida de checkKeyringStatus",
+        "sendStatusCheckFailed": "Error al enviar mensaje de verificación de estado",
+        "ensureExtensionEnabled": "Por favor, asegúrate de que la extensión esté habilitada e intenta recargar."
+    },
+    "checkingStatus": "Verificando Estado de la Billetera...",
+    "alreadySetupTitle": "¡Billetera Ya Configurada!",
+    "alreadySetupMessage": "Ya existe una Kyoku Wallet en este navegador. Puedes acceder a ella desde el icono de la extensión.",
+    "welcomeTitle": "Bienvenido a Kyoku Wallet",
+    "termsAgreementPrefix": "He leído y acepto los",
+    "termsAndConditionsLink": "Términos y Condiciones",
+    "createWalletTitle": "Crear Nueva Billetera",
+    "createWalletDescription": "Si eres nuevo en Kyoku, genera una nueva billetera segura.",
+    "importWalletTitle": "Importar Billetera Existente",
+    "importWalletDescription": "Accede a una billetera existente usando tu frase de recuperación secreta o clave privada.",
+    "buttons": {
+        "createWallet": "Crear Billetera",
+        "importWallet": "Importar Billetera"
+    }
+  },
+  "confirmSwap": {
+    "errors": {
+        "feeEstimationFailed": "Falló la estimación de tarifa.",
+        "decodeFailed": "Falló la decodificación: {{error}}",
+        "couldNotVerifyLocally": "No se pudo verificar la transacción localmente. Aún se puede aprobar.",
+        "missingDetailsOrAccount": "Faltan detalles de la transacción o cuenta activa."
+    },
+    "ariaLabels": {
+        "rejectTransaction": "Rechazar transacción"
+    },
+    "title": "Confirmar Intercambio",
+    "youAreSwapping": "Estás intercambiando:",
+    "tokenFallback": "Token",
+    "toReceiveNet": "Neto a Recibir:",
+    "afterPlatformFee": "(después de la tarifa de plataforma)",
+    "estimatingNetworkFee": "Estimando tarifa de red...",
+    "ourSimulationFailedTitle": "Nuestra Simulación Falló",
+    "showLogs": "Mostrar Registros"
+  }
+}

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html, #root {
+  width: 360px;  /* Standard width for extension popups */
+  height: 600px; /* Reasonable height for extension popups */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.token-list-scrollable {
+  /* Original scrollbar styles */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.token-list-scrollable::-webkit-scrollbar {
+  display: none;
+}

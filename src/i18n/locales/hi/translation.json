@@ -1,0 +1,1133 @@
+{
+  "common": {
+    "back": "वापस",
+    "goBack": "वापस जाओ",
+    "savePreference": "वरीयता सहेजें",
+    "loading": "लोड हो रहा है...",
+    "loadingSettings": "सेटिंग्स लोड हो रही हैं...",
+    "processing": "संसाधित हो रहा है...",
+    "processingSwap": "स्वैप संसाधित हो रहा है...",
+    "error": "त्रुटि",
+    "unknownError": "अज्ञात त्रुटि",
+    "communicationError": "संचार त्रुटि",
+    "notAvailable": "उपलब्ध नहीं है",
+    "usdCurrencyCode": "USD",
+    "tokensFallback": "टोकन",
+    "explorer": "एक्सप्लोरर",
+    "done": "पूर्ण",
+    "close": "बंद करे",
+    "copy": "प्रतिलिपि",
+    "copied": "प्रतिलिपि बनाई गई!",
+    "copyAddress": "पता कॉपी करें",
+    "viewOnly": "केवल देखने के लिए",
+    "viewOnlyAccount": "केवल देखने के लिए खाता",
+    "clearSearch": "खोज साफ़ करें"
+  },
+  "buttons": {
+    "confirm": "पुष्टि करे",
+    "cancel": "रद्द करे",
+    "delete": "मिटाए",
+    "reject": "अस्वीकार",
+    "tryAgain": "पुनः प्रयास करें",
+    "close": "बंद करे",
+    "continue": "जारी रखें",
+    "unlock": "अनलॉक",
+    "ok": "ठीक है",
+    "changeAccount": "खाता बदलें",
+    "approve": "अनुमोदन",
+    "approveAnywayRisky": "फिर भी स्वीकृत करें ( जोखिम भरा )",
+    "connect": "जुडिये",
+    "signIn": "साइन इन करें",
+    "save": "सहेजें"
+  },
+  "main": {
+    "errors": {
+      "rootNotFound": "त्रुटि: रूट तत्व नहीं मिला। एप्लिकेशन प्रस्तुत नहीं किया जा सकता है।"
+    }
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "general": "सामान्य",
+    "generalDescription": "नेटवर्क, शुल्क प्राथमिकता, एक्सप्लोरर, मुद्रा, भाषा",
+    "securityPrivacy": "सुरक्षा और गोपनीयता",
+    "securityPrivacyDescription": "पासवर्ड, ऑटो-लॉक, कनेक्टेड ऐप्स",
+    "addressBook": "पता पुस्तिका",
+    "addressBookDescription": "सहेजे गए पते प्रबंधित करें",
+    "aboutKyoku": "Kyoku के बारे में",
+    "aboutKyokuDescription": "संस्करण, शर्तें और नीतियां",
+    "lockWallet": "वॉलेट लॉक करें",
+    "lockWalletDescription": "तुरंत अपना वॉलेट सुरक्षित करें",
+    "network": "नेटवर्क",
+    "networkDescription": "ब्लॉकचेन नेटवर्क चुनें (Mainnet, Devnet)",
+    "transactionPriority": "लेनदेन प्राथमिकता",
+    "transactionPriorityDescription": "लेनदेन के लिए डिफ़ॉल्ट शुल्क स्तर सेट करें",
+    "preferredExplorer": " पसंदीदा एक्सप्लोरर",
+    "preferredExplorerDescription": "अपना डिफ़ॉल्ट ब्लॉक एक्सप्लोरर चुनें",
+    "displayCurrency": " प्रदर्शन मुद्रा",
+    "displayCurrencyDescription": " पसंदीदा फिएट मुद्रा सेट करें (जैसे USD, EUR)",
+    "displayLanguage": " प्रदर्शन भाषा",
+    "displayLanguageDescription": "एप्लिकेशन भाषा बदलें",
+    "autoLockTimer": "ऑटो-लॉक टाइमर",
+    "autoLockTimerDescription": "निष्क्रियता के बाद वॉलेट को लॉक करने के लिए सेट करें",
+    "changePassword": "पासवर्ड बदलें",
+    "changePasswordDescription": "अपना वॉलेट एक्सेस पासवर्ड अपडेट करें",
+    "connectedApps": "कनेक्टेड ऐप्स",
+    "connectedAppsDescription": "डीएपी के लिए अनुमतियां प्रबंधित करें",
+    "categoryTitles": {
+        "main": "सेटिंग्स",
+        "general": "सामान्य सेटिंग्स",
+        "securityPrivacy": "सुरक्षा और गोपनीयता",
+        "addressBook": "पता पुस्तिका",
+        "about": "Kyoku के बारे में"
+    },
+    "subViewTitles": {
+        "network": "नेटवर्क सेटिंग्स",
+        "explorer": "एक्सप्लोरर सेटिंग्स",
+        "currency": "प्रदर्शन मुद्रा",
+        "language": "प्रदर्शन भाषा",
+        "autoLock": "ऑटो-लॉक टाइमर",
+        "changePassword": "पासवर्ड बदलें",
+        "connectedDapps": "कनेक्टेड ऐप्स",
+        "addressBook": "पता पुस्तिका",
+        "about": "Kyoku के बारे में",
+        "feeSettings": "लेनदेन प्राथमिकता"
+    }
+  },
+  "currencySettings": {
+    "description": "पसंदीदा मुद्रा चुनें जिसमें आप मूल्य देखना चाहते हैं।"
+  },
+  "currency": {
+    "usd": "अमेरिकी डॉलर",
+    "eur": "यूरो",
+    "gbp": "ब्रिटिश पाउंड",
+    "jpy": "जापानी येन"
+  },
+  "languageSettings": {
+    "description": "इंटरफ़ेस के लिए अपनी पसंदीदा भाषा चुनें।"
+  },
+  "languages": {
+    "english": { "name": "अंग्रेज़ी", "nativeName": "English" },
+    "spanish": { "name": "स्पेनिश", "nativeName": "Español" },
+    "chinese_simplified": { "name": "सरलीकृत चीनी", "nativeName": "简体中文" },
+    "hindi": { "name": "हिन्दी", "nativeName": "हिन्दी" },
+    "vietnamese": { "name": "वियतनामी", "nativeName": "Tiếng Việt" },
+    "indonesian": { "name": " इंडोनेशियाई", "nativeName": "Bahasa Indonesia" },
+    "japanese": { "name": "जापानी", "nativeName": "日本語" },
+    "korean": { "name": "कोरियाई", "nativeName": "한국어" }
+  },
+  "dAppInfoCard": {
+    "altIconText": "dApp आइकन",
+    "requestFrom": "से अनुरोध:",
+    "unknownDApp": "अज्ञात dApp"
+  },
+  "transactionSummary": {
+    "nftPlaceholder": "NFT",
+    "unknownTokenPlaceholder": "अज्ञात टोकन",
+    "accountLabel": "खाता",
+    "loadingPreview": "लेनदेन पूर्वावलोकन लोड हो रहा है...",
+    "simulationFailedSeeDetails": "सिमुलेशन विफल। ऊपर विवरण देखें।",
+    "simulationErrorTitle": "सिमुलेशन त्रुटि",
+    "simulationErrorDefault": "यह लेनदेन प्रस्तुत करने पर संभवतः विफल हो जाएगा।",
+    "solChangesLabel": "SOL परिवर्तन (आपके लिए):",
+    "tokenChangesLabel": "टोकन परिवर्तन (आपके लिए):",
+    "noDirectChanges": "आपके संपत्ति शेष में कोई प्रत्यक्ष परिवर्तन नहीं (नेटवर्क शुल्क के अलावा)।",
+    "otherAccountChangesLabel": "अन्य खाता परिवर्तन:",
+    "transactionInsightsTitle": "लेनदेन अंतर्दृष्टि",
+    "networkFeeDetailsTitle": "नेटवर्क शुल्क विवरण:",
+    "baseFeeLabel": "आधार शुल्क",
+    "baseFeeTooltip": "लेनदेन के लिए आवश्यक हस्ताक्षरों की संख्या के आधार पर मानक शुल्क।",
+    "priorityFeeLabel": "प्राथमिकता शुल्क",
+    "priorityFeeTooltip": "नेटवर्क पर आपके लेनदेन को प्राथमिकता देने में मदद करने के लिए वैकल्पिक शुल्क। 'मध्यम' प्राथमिकता के लिए अनुमानित।",
+    "totalEstimatedFeeLabel": "कुल अनुमानित शुल्क:",
+    "estComputeLimitLabel": "अनु. गणना सीमा",
+    "estComputeLimitTooltip": "अनुमानित प्राथमिकता शुल्क को समायोजित करने के लिए इस लेनदेन के लिए अनुरोध की जाने वाली गणना इकाई सीमा।",
+    "estComputePriceLabel": "अनु. गणना मूल्य",
+    "estComputePriceTooltip": "अनुमानित प्राथमिकता शुल्क के लिए प्रति गणना इकाई मूल्य (माइक्रो-लैम्पर्ट्स में)।",
+    "rawTxCUsConsumedLabel": "कच्चा लेनदेन सीयू खपत",
+    "rawTxCUsConsumedTooltip": "सिमुलेशन में लेनदेन द्वारा खपत की गई गणना इकाइयां (स्पष्ट प्राथमिकता शुल्क निर्देशों के बिना)।"
+  },
+  "warningDisplay": {
+    "defaultTitles": {
+      "critical": "सुरक्षा चेतावनी!",
+      "warning": "सावधान",
+      "info": "जानकारी"
+    }
+  },
+  "confirmationApp": {
+    "analyzingTransaction": "लेनदेन का विश्लेषण किया जा रहा है...",
+    "loadingRequest": "अनुरोध लोड हो रहा है...",
+    "requestErrorTitle": "अनुरोध त्रुटि",
+    "unlockWalletTitle": "Kyoku वॉलेट अनलॉक करें",
+    "unlockToApproveRequest": "<1>{{dappName}}</1> से अनुरोध को स्वीकृत करने के लिए, कृपया अपना पासवर्ड दर्ज करें।",
+    "actionNotAllowedTitle": "कार्रवाई की अनुमति नहीं है",
+    "viewOnlyCannotSign": "चयनित खाता <1>{{accountName}} ({{accountKey}}...)</1> केवल देखने के लिए है और हस्ताक्षर संचालन के लिए उपयोग नहीं किया जा सकता है।",
+    "selectDifferentAccountOrReject": "कृपया कोई भिन्न खाता चुनें या अनुरोध को अस्वीकार करें।",
+    "noOtherAccountsForAction": "आपके पास कोई अन्य खाता नहीं है जो यह कार्रवाई कर सके।",
+    "userRejectedUnlock": "उपयोगकर्ता ने अनलॉक अस्वीकार कर दिया।",
+    "operationCancelledViewOnly": "केवल देखने के लिए खाते के कारण ऑपरेशन रद्द कर दिया गया।",
+    "signingAs": "के रूप में हस्ताक्षर करना",
+    "connectAllowApp": "यह एप्लिकेशन को अनुमति देगा:",
+    "connectViewAddress": "अपना वॉलेट पता देखें",
+    "connectRequestApproval": "लेनदेन के लिए स्वीकृति का अनुरोध करें (यदि यह खाता हस्ताक्षर कर सकता है)।",
+    "signInRequestDetailsTitle": "साइन-इन अनुरोध विवरण:",
+    "signInDomain": "डोमेन",
+    "signInAddress": "पता",
+    "messageLabel": "संदेश ({{format}}):",
+    "transactionNumber": "लेनदेन {{number}}",
+    "assetChangesCount_one": "आपके लिए {{count}} संपत्ति परिवर्तन",
+    "assetChangesCount_other": "आपके लिए {{count}} संपत्ति परिवर्तन",
+    "noDirectAssetChanges": "आपकी संपत्तियों में कोई प्रत्यक्ष परिवर्तन नहीं",
+    "simulationFailedLabel": "सिमुलेशन विफल",
+    "simulationDataUnavailable": "सिमुलेशन डेटा उपलब्ध नहीं है। कच्चा लेनदेन डेटा हस्ताक्षरित किया जाएगा।",
+    "messageSigningTitle": "संदेश हस्ताक्षर",
+    "messageSigningInfo": "आप एक संदेश पर हस्ताक्षर कर रहे हैं। सुनिश्चित करें कि आप अनुरोध करने वाली साइट पर भरोसा करते हैं और संदेश की सामग्री और उद्देश्य को समझते हैं।",
+    "transactionBatchInsightsTitle": "लेनदेन बैच अंतर्दृष्टि",
+    "transactionApprovalCautionTitle": "लेनदेन स्वीकृति सावधानी",
+    "transactionApprovalCautionMessage": "लेनदेन की सावधानीपूर्वक समीक्षा करें। दुर्भावनापूर्ण लेनदेन को स्वीकृत करने से धन की हानि हो सकती है।",
+    "userRejected": "उपयोगकर्ता ने अनुरोध अस्वीकार कर दिया।",
+    "userRejectedAfterSimFailure": "सिमुलेशन विफलता के बाद उपयोगकर्ता ने अस्वीकार कर दिया।",
+    "userRejectedAfterError": "त्रुटि के बाद उपयोगकर्ता द्वारा पॉपअप बंद कर दिया गया।",
+    "titles": {
+      "connectionRequest": "कनेक्शन अनुरोध",
+      "signMessage": "संदेश पर हस्ताक्षर करें",
+      "approveTransaction": "लेनदेन स्वीकृत करें",
+      "approveMultipleTransactions_one": "{{count}} लेनदेन स्वीकृत करें",
+      "approveMultipleTransactions_other": "{{count}} लेनदेन स्वीकृत करें",
+      "transactionPreviewFailed": "लेनदेन पूर्वावलोकन विफल"
+    },
+    "errors": {
+      "invalidRequestParams": "अमान्य अनुरोध: महत्वपूर्ण पैरामीटर गायब हैं।",
+      "failedToRetrieveStagedData": "तैयार डेटा पुनर्प्राप्त करने में विफल: {{error}}",
+      "requiredDataNotFound": "अनुरोध आईडी {{requestId}} के लिए आवश्यक डेटा नहीं मिला।",
+      "sessionDataKeyMissing": "हस्ताक्षर ऑपरेशन के लिए सत्र डेटा कुंजी गायब है।",
+      "unsupportedInteractionType": "असमर्थित इंटरैक्शन प्रकार: {{type}}।",
+      "messageDataUnavailable": "संदेश डेटा उपलब्ध नहीं है या विकृत है।",
+      "unknownDisplayFormat": "संदेश के लिए अज्ञात प्रदर्शन प्रारूप।",
+      "errorDecodingMessage": "संदेश सामग्री को डीकोड करने में त्रुटि।",
+      "missingRequestId": "गंभीर त्रुटि: अनुरोध आईडी गायब है।",
+      "passwordEmpty": "पासवर्ड खाली नहीं हो सकता।",
+      "unlockFailed": "गलत पासवर्ड या अनलॉक विफल।",
+      "noAccountSelected": "स्वीकृत नहीं किया जा सकता: कोई खाता चयनित नहीं है।",
+      "cannotApproveSimFailed": "स्वीकृत नहीं किया जा सकता: लेनदेन सिमुलेशन विफल। {{error}}",
+      "cannotApproveBatchSimFailed": "स्वीकृत नहीं किया जा सकता: एक या अधिक लेनदेन सिमुलेशन विफल। {{error}}",
+      "unexpectedError": "एक अप्रत्याशित त्रुटि हुई। आप इस विंडो को बंद कर सकते हैं।",
+      "simulationFailedUnknown": "लेनदेन सिमुलेशन अज्ञात कारण से विफल रहा।"
+    },
+    "placeholders": {
+        "enterPassword": "पासवर्ड दर्ज करें"
+    },
+    "simulationFailedTitle": "सिमुलेशन विफल",
+    "simulationFailedRecommendNotProceed": "यह लेनदेन नेटवर्क पर प्रस्तुत करने पर संभवतः विफल हो जाएगा। आगे बढ़ने की अनुशंसा नहीं की जाती है।"
+  },
+  "addViewOnlyAccount": {
+    "title": "केवल देखने के लिए खाता जोड़ें",
+    "description": "देखने के लिए सोलाना पता (सार्वजनिक कुंजी) दर्ज करें।",
+    "placeholders": {
+      "pasteAddress": "सोलाना पता पेस्ट करें..."
+    },
+    "buttons": {
+      "validating": "सत्यापित किया जा रहा है...",
+      "confirmAddress": "पता पुष्टि करें"
+    },
+    "errors": {
+      "publicKeyRequired": "कृपया सार्वजनिक कुंजी दर्ज करें।",
+      "invalidPublicKey": "अमान्य सार्वजनिक कुंजी।"
+    }
+  },
+  "fundedAccountSelector": {
+    "title": "खाते आयात करें",
+    "descriptionWithFunds": "अपनी वाक्यांश से प्राप्त उन खातों का चयन करें जिन्हें आप आयात करना चाहते हैं।",
+    "descriptionWithoutFunds": "शेष राशि वाला कोई खाता नहीं मिला। आप डिफ़ॉल्ट खाता आयात कर सकते हैं।",
+    "noAccountsToDisplay": "प्रदर्शित करने के लिए कोई खाता नहीं।",
+    "accountNamePrefix": "खाता",
+    "importButton_one": "{{count}} खाता आयात करें",
+    "importButton_other": "{{count}} खाते आयात करें"
+  },
+  "importOptions": {
+    "title": "मौजूदा वॉलेट आयात करें",
+    "tagline": "सेकंडों में अपने वॉलेट को सुरक्षित रूप से Kyoku में लाएं।",
+    "buttons": {
+      "seedPhrase": {
+        "label": "गुप्त पुनर्प्राप्ति वाक्यांश के साथ आयात करें",
+        "description": "अपने 12- या 24-शब्द गुप्त पुनर्प्राप्ति वाक्यांश का उपयोग करें।"
+      },
+      "privateKey": {
+        "label": "निजी कुंजी के साथ आयात करें",
+        "description": "अपनी सोलाना निजी कुंजी मैन्युअल रूप से आयात करें।"
+      },
+      "viewOnly": {
+        "label": "केवल देखने के लिए वॉलेट के रूप में आयात करें",
+        "description": "पूर्ण पहुंच के बिना एक सार्वजनिक पते को ट्रैक करें।"
+      }
+    }
+  },
+  "importPrivateKey": {
+    "title": "निजी कुंजी आयात करें",
+    "description": "अपनी निजी कुंजी (Base58, Hex, या बाइट ऐरे) पेस्ट करें।",
+    "placeholders": {
+      "pastePrivateKey": "यहां निजी कुंजी पेस्ट करें..."
+    },
+    "buttons": {
+      "validating": "सत्यापित किया जा रहा है...",
+      "confirmAndImport": "पुष्टि करें और आयात करें"
+    },
+    "errors": {
+      "pastePrivateKey": "कृपया अपनी निजी कुंजी पेस्ट करें।",
+      "validationFailedUnknown": "सत्यापन विफल: अज्ञात त्रुटि।"
+    }
+  },
+  "mnemonicSetup": {
+    "generatingPhrase": "सुरक्षित वाक्यांश उत्पन्न किया जा रहा है...",
+    "downloadFilename": "solana-recovery-phrase.txt",
+    "headers": {
+      "display": {
+        "title": "आपका गुप्त पुनर्प्राप्ति वाक्यांश",
+        "description": "इसे सुरक्षित रूप से सहेजें! यह आपके वॉलेट को पुनर्प्राप्त करने का एकमात्र तरीका है।"
+      },
+      "confirm": {
+        "title": "पुनर्प्राप्ति वाक्यांश की पुष्टि करें",
+        "description": "सत्यापित करने के लिए आपके द्वारा सहेजा गया वाक्यांश दर्ज करें।"
+      },
+      "import": {
+        "title": "पुनर्प्राप्ति वाक्यांश आयात करें",
+        "description": "अपना {{count}}-शब्द वाक्यांश दर्ज करें।"
+      }
+    },
+    "importantWarning": {
+      "title": "महत्वपूर्ण!",
+      "message": "इन शब्दों को लिखें और सुरक्षित रूप से संग्रहीत करें। उन्हें कभी किसी के साथ साझा न करें।"
+    },
+    "confirmSaveCheckboxLabel": "मैं समझता हूं कि यदि मैं अपना पुनर्प्राप्ति वाक्यांश खो देता हूं, तो मैं अपने वॉलेट तक नहीं पहुंच पाऊंगा।",
+    "buttons": {
+      "copy": "प्रतिलिपि",
+      "copied": "प्रतिलिपि बनाई गई!",
+      "download": "डाउनलोड",
+      "nextConfirm": "अगला: पुष्टि करें",
+      "pastePhrase": "वाक्यांश पेस्ट करें",
+      "importWallet": "वॉलेट आयात करें",
+      "verifyAndContinue": "सत्यापित करें और जारी रखें"
+    },
+    "ariaLabels": {
+      "wordInput": "शब्द {{number}}"
+    },
+    "errors": {
+      "generationFailed": "पुनर्प्राप्ति वाक्यांश उत्पन्न नहीं किया जा सका। कृपया रीफ्रेश करें।",
+      "copyFailed": "वाक्यांश को क्लिपबोर्ड पर कॉपी करने में विफल।",
+      "confirmSaveRequired": "कृपया पुष्टि करें कि आपने अपना पुनर्प्राप्ति वाक्यांश सुरक्षित रूप से सहेज लिया है।",
+      "pasteFailed": "क्लिपबोर्ड से पढ़ने में विफल। कृपया मैन्युअल रूप से पेस्ट करें।",
+      "allWordsRequired": "कृपया सभी {{count}} शब्द दर्ज करें।",
+      "invalidWordCount": "अमान्य वाक्यांश: 12 या 24 शब्द अपेक्षित थे, {{count}} पाए गए।",
+      "invalidPhrase": "अमान्य पुनर्प्राप्ति वाक्यांश। कृपया अपने शब्दों की जांच करें और पुनः प्रयास करें।",
+      "phraseMismatch": "वाक्यांश उत्पन्न वाक्यांश से मेल नहीं खाता। कृपया ध्यान से पुनः दर्ज करें।"
+    }
+  },
+  "onboardingApp": {
+    "checkingStatus": "वॉलेट स्थिति की जाँच की जा रही है...",
+    "kyokuWalletSetup": "Kyoku वॉलेट सेटअप",
+    "altKyokuLogo": "Kyoku वॉलेट लोगो",
+    "errorOccurredTitle": "एक त्रुटि हुई",
+    "buttons": {
+      "restartSetup": "सेटअप पुनरारंभ करें",
+      "back": "वापस"
+    },
+    "setupCompleteTitle": "सेटअप पूर्ण!",
+    "setupCompleteMessage": "आपका सोलाना वॉलेट तैयार है।",
+    "importSuccessfulTitle": "आयात सफल!",
+    "importSuccessfulMessage": "चयनित खाते (खातों) को जोड़ दिया गया है।",
+    "windowCloseMessage": "यह विंडो स्वचालित रूप से बंद हो जाएगी।",
+    "errors": {
+      "verifyStatusFailed": "वॉलेट स्थिति सत्यापित नहीं की जा सकी। कृपया रीफ्रेश करें।",
+      "stateLost": "सेटअप प्रक्रिया स्थिति खो गई या अमान्य है। कृपया प्रक्रिया को पुनरारंभ करें।",
+      "mnemonicEmpty": "स्मृति वाक्यांश खाली नहीं हो सकता।",
+      "addRootMnemonicFailed": "पुनर्प्राप्ति वाक्यांश जोड़ने में विफल: {{error}}",
+      "prepareCreateFailed": "वॉलेट निर्माण तैयार करने में विफल: {{error}}",
+      "accountScanFailed": "खाता स्कैन विफल: {{error}}",
+      "selectOneAccount": "कम से कम एक खाता चुनें।",
+      "importFailed": "आयात विफल: {{error}}",
+      "mnemonicNotStaged": "स्मृति वाक्यांश सही ढंग से तैयार नहीं किया गया था।",
+      "prepareImportFailed": "आयात तैयार करने में विफल: {{error}}",
+      "addAccountFailed": "खाता जोड़ने में विफल: {{error}}",
+      "setupFailed": "सेटअप विफल: {{error}}",
+      "cannotInitWithViewOnly": "केवल देखने के लिए खाते के साथ नया वॉलेट प्रारंभ नहीं किया जा सकता।",
+      "unexpectedError": "एक अप्रत्याशित त्रुटि हुई।"
+    }
+  },
+  "passwordPage": {
+    "loadingStatus": "वॉलेट स्थिति लोड हो रही है...",
+    "walletNotFoundTitle": "वॉलेट नहीं मिला",
+    "resetting": "रीसेट किया जा रहा है...",
+    "placeholders": {
+      "password": "पासवर्ड"
+    },
+    "buttons": {
+      "unlocking": "अनलॉक किया जा रहा है...",
+      "forgotPasswordReset": "पासवर्ड भूल गए? वॉलेट रीसेट करें",
+      "goToSetup": "सेटअप पर जाएं"
+    },
+    "errors": {
+      "verifyStatusFailed": "वॉलेट स्थिति सत्यापित नहीं की जा सकी। सुनिश्चित करें कि एक्सटेंशन सक्षम है और पुनः लोड करने का प्रयास करें।",
+      "walletNotFoundGoToOnboarding": "वॉलेट नहीं मिला। कृपया अपना वॉलेट सेटअप करने के लिए onboarding.html पर जाएं।",
+      "walletNotFoundOpenManually": "वॉलेट नहीं मिला। कृपया onboarding.html मैन्युअल रूप से खोलें।",
+      "invalidStatusResponse": "पृष्ठभूमि से अमान्य स्थिति प्राप्त हुई। वॉलेट सेटअप नहीं हो सकता है।",
+      "contactBackgroundFailed": "पृष्ठभूमि सेवा से संपर्क करने में त्रुटि।",
+      "passwordEmpty": "पासवर्ड खाली नहीं हो सकता।",
+      "communicationError": "संचार त्रुटि: {{error}}",
+      "unlockFailedTryAgain": "अनलॉक विफल। कृपया पुनः प्रयास करें।",
+      "walletNotSetUp": "वॉलेट सेटअप नहीं है।",
+      "incorrectPassword": "गलत पासवर्ड।",
+      "resetFailed": "रीसेट विफल: {{error}}",
+      "resetCompleteGoToSetup": "रीसेट पूर्ण। कृपया अपना वॉलेट सेटअप करने के लिए onboarding.html पर जाएं।",
+      "sendResetRequestFailed": "रीसेट अनुरोध भेजने में विफल।",
+      "resetFailedUnknown": "रीसेट विफल।"
+    },
+    "resetWallet": {
+      "warningConfirm": "चेतावनी: यह इस एक्सटेंशन में संग्रहीत सभी वॉलेट डेटा (कुंजी, खाते) को स्थायी रूप से हटा देगा। यह कार्रवाई पूर्ववत नहीं की जा सकती। क्या आप पूरी तरह से निश्चित हैं?",
+      "finalConfirm": "अंतिम पुष्टि: कृपया पुष्टि करें कि आप वॉलेट रीसेट करना चाहते हैं। सारा डेटा खो जाएगा।",
+      "successAlert": "वॉलेट सफलतापूर्वक रीसेट किया गया। सेटअप पर रीडायरेक्ट किया जा रहा है।",
+      "manualSetupAlert": "रीसेट पूर्ण। कृपया सेटअप के लिए एक्सटेंशन को फिर से मैन्युअल रूप से खोलें।"
+    }
+  },
+  "actionButtons": {
+    "receive": "प्राप्त करें",
+    "send": "भेजें",
+    "stake": "स्टेक",
+    "stakeClickedTodo": "स्टेक पर क्लिक किया गया (TODO)"
+  },
+  "balanceCard": {
+    "refreshBalance": "शेष राशि ताज़ा करें",
+    "loadErrorTitle": "लोड त्रुटि",
+    "loadErrorMessage": "शेष राशि लोड नहीं की जा सकी।",
+    "totalPortfolioValue": "कुल पोर्टफोलियो मूल्य",
+    "solBalanceLabel": "SOL शेष राशि"
+  },
+  "burnConfirmationModal": {
+    "title": "{{itemType}} जलाना पुष्टि करें",
+    "aboutToBurn": "आप स्थायी रूप से जलाने वाले हैं:",
+    "warningTitle": "चेतावनी",
+    "irreversibleAction": "यह क्रिया अपरिवर्तनीय है। एक बार जला दिए जाने के बाद, {{itemType}} को पुनर्प्राप्त नहीं किया जा सकता है।",
+    "rentRecoveryToken": "इस टोकन को जलाने से इसके संबंधित टोकन खाते को बंद करने का भी प्रयास किया जाएगा, जिससे कुछ SOL किराया आपके वॉलेट में वापस आ सकता है।",
+    "permanentActionNft": "इस NFT को जलाना स्थायी है। सुनिश्चित करें कि आप इस क्रिया को समझते हैं।",
+    "loading": "{{itemType}} जलाया जा रहा है...",
+    "burnFailedTitle": "जलाना विफल",
+    "buttons": {
+      "confirmBurn": "जलाना पुष्टि करें",
+      "retryBurn": "पुनः प्रयास करें"
+    }
+  },
+  "footerNav": {
+    "home": "होम",
+    "swap": "स्वैप",
+    "settings": "सेटिंग्स",
+    "swapClickedTodo": "स्वैप पर क्लिक किया गया (TODO - डिफ़ॉल्ट हैंडलर)"
+  },
+  "header": {
+    "selectAccount": "खाता चुनें",
+    "addAccountImport": "खाता जोड़ें / आयात करें",
+    "walletsPageTitle": "वॉलेट",
+    "accountOptions": "खाता विकल्प"
+  },
+  "itemList": {
+    "nativeToken": "देशी टोकन",
+    "noTokensToDisplay": "आपके पास वर्तमान में प्रदर्शित करने के लिए कोई टोकन नहीं है।",
+    "tokenLogoAlt": "{{tokenSymbol}} लोगो"
+  },
+  "nftCard": {
+    "unnamedNft": "अनाम NFT",
+    "unknownCollectionPlaceholder": "अज्ञात संग्रह",
+    "altNftImage": "{{nftName}} NFT छवि",
+    "ariaViewDetails": "{{nftName}} का विवरण देखें"
+  },
+  "nftGrid": {
+    "unnamedCollection": "अनाम संग्रह",
+    "ariaViewCollection": "{{collectionName}} संग्रह देखें जिसमें {{count}} आइटम हैं",
+    "altCollectionImage": "{{collectionName}} संग्रह छवि",
+    "errorLoading": "संग्रहणीय वस्तुएँ लोड करने में त्रुटि: {{errorDetail}}",
+    "noCollectiblesFound": "कोई संग्रहणीय वस्तु नहीं मिली।"
+  },
+  "renameModal": {
+    "title": "वॉलेट का नाम संपादित करें",
+    "inputAriaLabel": "नया वॉलेट नाम"
+  },
+  "showPrivateKeyModal": {
+    "title": "निजी कुंजी दिखाएं",
+    "forAccount": "खाते के लिए:",
+    "warning": "चेतावनी: अपनी निजी कुंजी कभी साझा न करें। जिसके पास भी यह है, वह आपके फंड तक पहुंच सकता है।",
+    "enterPasswordToReveal": "दिखाने के लिए पासवर्ड दर्ज करें",
+    "placeholders": {
+      "walletPassword": "आपका वॉलेट पासवर्ड"
+    },
+    "buttons": {
+      "reveal": "निजी कुंजी दिखाएं",
+      "copyKey": "कुंजी कॉपी करें"
+    },
+    "yourPrivateKeyFor": "{{accountName}} के लिए आपकी निजी कुंजी:",
+    "storeKeySecurely": "इस कुंजी को सुरक्षित रूप से संग्रहीत करें। इसे खोएं नहीं। इसे साझा न करें।",
+    "copiedToClipboard": "निजी कुंजी क्लिपबोर्ड पर कॉपी की गई!",
+    "errors": {
+      "passwordRequired": "पासवर्ड आवश्यक है।",
+      "failedToRetrieve": "निजी कुंजी पुनर्प्राप्त करने में विफल।",
+      "copyFailed": "निजी कुंजी कॉपी करने में विफल।"
+    }
+  },
+  "showSeedPhraseModal": {
+    "title": "पुनर्प्राप्ति वाक्यांश दिखाएं",
+    "forAccount": "खाते के लिए:",
+    "warning": "चेतावनी: अपना पुनर्प्राप्ति वाक्यांश कभी साझा न करें। जिसके पास भी यह है, वह इससे प्राप्त सभी खातों तक पहुंच सकता है।",
+    "enterPasswordToReveal": "दिखाने के लिए पासवर्ड दर्ज करें",
+    "placeholders": {
+      "walletPassword": "आपका वॉलेट पासवर्ड"
+    },
+    "buttons": {
+      "revealPhrase": "वाक्यांश दिखाएं",
+      "copied": "प्रतिलिपि बनाई गई!",
+      "copyPhrase": "वाक्यांश कॉपी करें"
+    },
+    "yourRecoveryPhraseFor": "{{accountName}} के लिए आपका पुनर्प्राप्ति वाक्यांश:",
+    "storePhraseSecurely": "इस वाक्यांश को सुरक्षित रूप से संग्रहीत करें। इसे खोएं नहीं। इसे साझा न करें।",
+    "errors": {
+      "passwordRequired": "पासवर्ड आवश्यक है।",
+      "failedToRetrieve": "पुनर्प्राप्ति वाक्यांश पुनर्प्राप्त करने में विफल।",
+      "copyFailed": "पुनर्प्राप्ति वाक्यांश कॉपी करने में विफल।"
+    }
+  },
+  "tabSelector": {
+    "previousTab": "पिछला टैब",
+    "switchToTab": "{{tabName}} टैब पर स्विच करें",
+    "nextTab": "अगला टैब",
+    "expandContentView": "सामग्री दृश्य का विस्तार करें"
+  },
+  "tokenDetails": {
+    "titleFallback": "टोकन विवरण",
+    "detailsUnavailable": "टोकन विवरण उपलब्ध नहीं है।",
+    "backToDashboard": "डैशबोर्ड पर वापस जाएं",
+    "loadingData": "टोकन डेटा लोड हो रहा है...",
+    "tokenFallback": "टोकन",
+    "burnInitiatedTitle": "जलाना शुरू किया गया!",
+    "transactionIdLabel": "लेनदेन आईडी",
+    "moreOptionsAriaLabel": "अधिक विकल्प",
+    "fetchingLatestDetails": "नवीनतम विवरण प्राप्त किए जा रहे हैं...",
+    "viewOnlyWarning": "यह केवल देखने के लिए खाता है। भेजें/जलाएं क्रियाएं अक्षम हैं।",
+    "sectionTitle": "टोकन जानकारी",
+    "labels": {
+      "name": "नाम",
+      "symbol": "प्रतीक",
+      "pricePerToken": "प्रति टोकन मूल्य",
+      "addressMint": "पता (मिंट)",
+      "explorer": "एक्सप्लोरर"
+    },
+    "menu": {
+      "viewOnExplorer": "एक्सप्लोरर पर देखें",
+      "burnToken": "टोकन जलाएं"
+    },
+    "buttons": {
+      "send": "भेजें",
+      "receive": "प्राप्त करें"
+    },
+    "burnSuccessMessage": "{{tokenName}} सफलतापूर्वक जलाना शुरू किया गया!",
+    "errors": {
+      "fetchFailed": "पूर्ण टोकन विवरण प्राप्त करने में विफल।",
+      "detailsNotFound": "पूर्ण टोकन विवरण पुनर्प्राप्त नहीं किया जा सका।",
+      "fetchInitiationFailed": "विवरण प्राप्त करना शुरू करने में त्रुटि: {{error}}",
+      "burnMissingInfo": "जलाया नहीं जा सकता: सक्रिय खाता या टोकन विवरण गायब है।",
+      "burnUnknownError": "टोकन जलाने में अज्ञात त्रुटि।"
+    }
+  },
+  "tokenManagement": {
+    "headerTitle": "टोकन सूची प्रबंधित करें",
+    "fallbackTokenName": "टोकन",
+    "spamToggle": {
+      "label": "स्पैम/अज्ञात टोकन दिखाएं",
+      "description": "स्पैम/अज्ञात टोकन वे हैं जिनके पास लोगो नहीं है और मूल्य, नाम या प्रतीक गायब है। डिफ़ॉल्ट रूप से, वे छिपे हुए हैं।"
+    },
+    "lowBalanceToggle": {
+      "label": "$1 से कम मूल्य वाले टोकन छिपाएं"
+    },
+    "individualManagementInfo": {
+      "withSpam": "टोकन की दृश्यता को व्यक्तिगत रूप से प्रबंधित करें (स्पैम/अज्ञात टोकन सहित)।",
+      "withoutSpam": "टोकन की दृश्यता को व्यक्तिगत रूप से प्रबंधित करें (स्पैम/अज्ञात टोकन को छोड़कर)।"
+    },
+    "buttons": {
+      "hideAllBelow": "नीचे सभी छिपाएं",
+      "showAllBelow": "नीचे सभी दिखाएं",
+      "showTokenAria": "{{tokenName}} दिखाएं",
+      "hideTokenAria": "{{tokenName}} छिपाएं"
+    },
+    "loadingTokens": "टोकन लोड हो रहे हैं...",
+    "emptyState": {
+      "noNonNativeTokens": "इस खाते में कोई गैर-देशी टोकन नहीं मिला।",
+      "noNonSpamToManage": "प्रबंधित करने के लिए कोई गैर-स्पैम/अज्ञात टोकन नहीं। 'स्पैम/अज्ञात टोकन दिखाएं' सक्षम करने का प्रयास करें।"
+    },
+    "errors": {
+      "loadFailed": "टोकन लोड करने में त्रुटि: {{error}}"
+    }
+  },
+  "tokenSelect": {
+    "modalTitleInput": "भुगतान टोकन चुनें",
+    "modalTitleOutput": "प्राप्त टोकन चुनें",
+    "modalTitleGeneric": "टोकन चुनें",
+    "searchPlaceholder": "नाम, प्रतीक खोजें, या पता पेस्ट करें",
+    "loadingTokens": "टोकन लोड हो रहे हैं...",
+    "noTokensMatchSearch": "आपकी खोज से मेल खाने वाला कोई टोकन नहीं मिला।",
+    "noTokensFoundShort": "कोई टोकन नहीं मिला।",
+    "customTokenName": "टोकन ({{addressPart}}...)",
+    "unknownToken": "अज्ञात टोकन",
+    "customAddressLabel": "कस्टम पता",
+    "ariaLabels": {
+      "selectToken": "{{tokenName}} चुनें"
+    }
+  },
+  "swapErrorView": {
+    "title": "स्वैप विफल",
+    "errorDetailsLabel": "त्रुटि विवरण:"
+  },
+  "swapSuccessView": {
+    "noDetailsFound": "कोई सफलता विवरण नहीं मिला।",
+    "title": "स्वैप सफल!",
+    "swappedMessage": "आपने {{amount}} {{symbol}} स्वैप किया",
+    "forEstimatedMessage": "अनुमानित {{amount}} {{symbol}} के लिए।",
+    "transactionIdLabel": "लेनदेन आईडी",
+    "buttons": {
+      "newSwap": "नया स्वैप"
+    }
+  },
+  "swapView": {
+    "title": "टोकन स्वैप करें",
+    "loadingInterface": "स्वैप इंटरफ़ेस लोड हो रहा है...",
+    "settingsPlaceholderAlert": "स्वैप सेटिंग्स प्लेसहोल्डर",
+    "kyokuWalletSwap": "Kyoku वॉलेट स्वैप",
+    "kyokuWalletOrigin": "Kyoku वॉलेट",
+    "tokenIdentifierFallback": "TKN",
+    "fetchingBestPrice": "सर्वोत्तम मूल्य प्राप्त किया जा रहा है...",
+    "labels": {
+      "youPay": "आप भुगतान करते हैं",
+      "youReceiveEstimated": "आप प्राप्त करते हैं (अनुमानित)"
+    },
+    "tokenInput": {
+      "balancePrefix": "शेष राशि: ",
+      "amountPlaceholder": "0.00",
+      "selectTokenFallback": "चुनें",
+      "selectTokenAria": "स्वैप के लिए {{currentToken}} चुनें"
+    },
+    "buttons": {
+      "max": "अधिकतम",
+      "fetchingQuote": "कोटेशन प्राप्त किया जा रहा है...",
+      "errorGettingQuote": "कोटेशन प्राप्त करने में त्रुटि",
+      "reviewSwap": "स्वैप की समीक्षा करें"
+    },
+    "quoteInfo": {
+      "rate": "दर",
+      "priceImpact": "मूल्य प्रभाव",
+      "minReceived": "न्यूनतम प्राप्त",
+      "route": "मार्ग",
+      "directRoute": "प्रत्यक्ष"
+    },
+    "ariaLabels": {
+      "closeSwap": "स्वैप बंद करें",
+      "swapSettings": "स्वैप सेटिंग्स",
+      "usePercentage": "{{percentage}}% शेष राशि का उपयोग करें",
+      "swapDirection": "इनपुट और आउटपुट टोकन स्वैप करें"
+    },
+    "errors": {
+      "invalidNumber": "कृपया एक मान्य संख्या दर्ज करें (जैसे 123.45)",
+      "amountExceedsBalance": "राशि उपलब्ध शेष राशि से अधिक है।",
+      "invalidInputForQuote": "कोटेशन प्राप्त करने के लिए अमान्य इनपुट।",
+      "invalidInputAmount": "अमान्य इनपुट राशि।",
+      "quoteFetchFailed": "कोटेशन प्राप्त करने में विफल। राशि या जोड़ी समायोजित करने का प्रयास करें।",
+      "quoteRequestPrepFailed": "कोटेशन अनुरोध तैयार करने में त्रुटि। इनपुट मान जांचें।",
+      "missingInfoForExecute": "स्वैप निष्पादित करने के लिए आवश्यक जानकारी गायब है।",
+      "failedToGetJupiterTx": "ज्यूपिटर से स्वैप लेनदेन प्राप्त करने में विफल।"
+    }
+  },
+  "networkSettings": {
+    "options": {
+      "mainnet": "मेननेट बीटा",
+      "devnet": "डेवनेट",
+      "testnet": "टेस्टनेट",
+      "customRpc": "कस्टम आरपीसी"
+    },
+    "customRpcConfigurationTitle": "कस्टम आरपीसी कॉन्फ़िगरेशन",
+    "customRpcDescription": "कस्टम नेटवर्क एक्सेस के लिए अपना आरपीसी एंडपॉइंट यूआरएल दर्ज करें",
+    "customRpcInputAriaLabel": "कस्टम आरपीसी एंडपॉइंट यूआरएल",
+    "placeholders": {
+      "rpcEndpoint": "https://your-rpc-endpoint.com"
+    },
+    "errors": {
+      "updateFailed": "नेटवर्क अपडेट करने में विफल: {{details}}"
+    }
+  },
+  "autoLockSettings": {
+    "title": "ऑटो-लॉक टाइमर",
+    "description": "कॉन्फ़िगर करें कि वॉलेट कब स्वचालित रूप से लॉक हो जाए।",
+    "enableLabel": "ऑटो-लॉक सक्षम करें",
+    "enableAutoLockAria": "ऑटो-लॉक सक्षम करें",
+    "disableAutoLockAria": "ऑटो-लॉक अक्षम करें",
+    "durationLabel": "लॉक करने के बाद (मिनट)",
+    "saveSuccessMessage": "सेटिंग्स सफलतापूर्वक सहेजी गईं",
+    "errors": {
+      "loadFailed": "सेटिंग्स लोड करने में विफल",
+      "saveFailed": "सेटिंग्स सहेजने में विफल",
+      "durationTooShort": "ऑटो-लॉक अवधि कम से कम 1 मिनट होनी चाहिए"
+    }
+  },
+  "changePassword": {
+    "labels": {
+      "currentPassword": "वर्तमान पासवर्ड",
+      "newPassword": "नया पासवर्ड",
+      "confirmNewPassword": "नया पासवर्ड पुष्टि करें"
+    },
+    "placeholders": {
+      "currentPassword": "अपना वर्तमान पासवर्ड दर्ज करें",
+      "newPassword": "नया पासवर्ड दर्ज करें",
+      "confirmNewPassword": "नया पासवर्ड पुष्टि करें"
+    },
+    "newPasswordHint": "कम से कम 8 वर्ण का होना चाहिए।",
+    "buttons": {
+      "changing": "बदला जा रहा है...",
+      "changePassword": "पासवर्ड बदलें"
+    },
+    "errors": {
+      "allFieldsRequired": "सभी पासवर्ड फ़ील्ड आवश्यक हैं।",
+      "newPasswordsDoNotMatch": "नए पासवर्ड मेल नहीं खाते।",
+      "newPasswordTooShort": "नया पासवर्ड कम से कम 8 वर्ण का होना चाहिए।",
+      "newPasswordSameAsCurrent": "नया पासवर्ड वर्तमान पासवर्ड के समान नहीं हो सकता।",
+      "changeFailedUnknown": "अज्ञात त्रुटि के कारण पासवर्ड बदलने में विफल।"
+    },
+    "successMessage": "पासवर्ड सफलतापूर्वक बदला गया! वॉलेट लॉक हो जाएगा।"
+  },
+  "explorerSettings": {
+    "description": "अपना पसंदीदा ब्लॉक एक्सप्लोरर चुनें। लेनदेन और पतों के लिंक इस चयन का उपयोग करेंगे।",
+    "saveSuccessMessage": "वरीयता सफलतापूर्वक सहेजी गई!",
+    "saveFailedMessage": "वरीयता सहेजने में विफल। कृपया पुनः प्रयास करें।",
+    "saveFailedMessageNoParam": "वरीयता सहेजने में विफल"
+  },
+  "feeSettings": {
+    "description": "अपने लेनदेन के लिए एक डिफ़ॉल्ट प्राथमिकता चुनें। यह आपके लेनदेन को कितनी तेजी से संसाधित किया जाता है, यह निर्धारित करने में मदद करता है, खासकर नेटवर्क भीड़ के दौरान। कुछ मामलों में आप प्रति-लेनदेन आधार पर इसे ओवरराइड करने में सक्षम हो सकते हैं।",
+    "options": {
+      "auto": {
+        "label": "स्वचालित (अनुशंसित)",
+        "description": "वॉलेट नेटवर्क स्थितियों के आधार पर एक इष्टतम शुल्क निर्धारित करने का प्रयास करता है (डिफ़ॉल्ट रूप से मध्यम)।"
+      },
+      "low": {
+        "label": "कम",
+        "description": "कम शुल्क, संभावित रूप से धीमी पुष्टि समय।"
+      },
+      "medium": {
+        "label": "मध्यम",
+        "description": "उचित पुष्टि समय के लिए संतुलित शुल्क।"
+      },
+      "high": {
+        "label": "उच्च",
+        "description": "तेजी से पुष्टि के लिए उच्च शुल्क, भीड़ के दौरान उपयोगी।"
+      }
+    }
+  },
+  "aboutSettings": {
+    "title": "Kyoku वॉलेट के बारे में",
+    "versionLabel": "संस्करण",
+    "brandName": "Kyoku वॉलेट",
+    "links": {
+      "website": "वेबसाइट",
+      "terms": "सेवा की शर्तें",
+      "privacy": "गोपनीयता नीति"
+    }
+  },
+  "addressBook": {
+    "title": "पता पुस्तिका",
+    "loading": "पता पुस्तिका लोड हो रही है...",
+    "addNewAddressTitle": "नया पता जोड़ें",
+    "editAddressTitle": "पता संपादित करें",
+    "addressIdentifierForErrorCheck": "पता",
+    "labels": {
+      "name": "नाम",
+      "address": "पता"
+    },
+    "placeholders": {
+      "nameExample": "उदा. मेरा दोस्त बॉब",
+      "pasteAddress": "सोलाना पता पेस्ट करें"
+    },
+    "buttons": {
+      "addNewAddress": "नया पता जोड़ें",
+      "editAddress": "{{name}} संपादित करें",
+      "deleteAddress": "{{name}} हटाएं"
+    },
+    "emptyStateLine1": "आपकी पता पुस्तिका खाली है।",
+    "emptyStateLine2": "पता जोड़ने के लिए '+' बटन पर क्लिक करें।",
+    "confirmDeleteMessage": "क्या आप वाकई इस पते को हटाना चाहते हैं?",
+    "errors": {
+      "loadFailed": "पता पुस्तिका लोड करने में विफल",
+      "saveFailed": "पता पुस्तिका सहेजने में विफल",
+      "nameAndAddressRequired": "नाम और पता आवश्यक हैं।",
+      "invalidSolanaAddress": "अमान्य सोलाना पता प्रारूप।",
+      "addressExists": "यह पता पहले से ही पता पुस्तिका में मौजूद है।",
+      "addressExistsDifferentName": "यह पता पहले से ही एक अलग नाम से मौजूद है।"
+    }
+  },
+  "activityDetails": {
+    "detailsUnavailable": "लेनदेन विवरण उपलब्ध नहीं है।",
+    "backToActivities": "गतिविधियों पर वापस जाएं",
+    "tokenFallback": "टोकन",
+    "assetFallback": "संपत्ति",
+    "headers": {
+      "default": "लेनदेन विवरण",
+      "sentAsset": "{{assetName}} भेजा गया",
+      "receivedAsset": "{{assetName}} प्राप्त हुआ",
+      "swap": "स्वैप: {{tokenA}} के लिए {{tokenB}}",
+      "dappInteractionNamed": "इंटरेक्शन: {{dappName}}",
+      "dappInteraction": "डीएपी इंटरेक्शन",
+      "interaction": "प्रोग्राम इंटरेक्शन"
+    },
+    "labels": {
+      "date": "दिनांक",
+      "status": "स्थिति",
+      "interaction": "इंटरेक्शन",
+      "from": "से",
+      "to": "को",
+      "source": "स्रोत",
+      "networkFee": "नेटवर्क शुल्क",
+      "mintAddress": "मिंट पता",
+      "externalLink": "बाहरी लिंक",
+      "explorer": "एक्सप्लोरर"
+    },
+    "prefixes": {
+        "youPaid": "आपने भुगतान किया: ",
+        "youReceived": "आपको प्राप्त हुआ: ",
+        "amountSent": "भेजी गई राशि: ",
+        "amountReceived": "प्राप्त राशि: "
+    },
+    "statusConfirmed": "पुष्टि की गई",
+    "transactionIdLabel": "लेनदेन आईडी",
+    "viewOnExplorer": "{{explorerName}} पर देखें"
+  },
+  "activityItem": {
+    "unknownActivity": "अज्ञात गतिविधि",
+    "unknownToken": "टोकन",
+    "actions": {
+      "sent": "भेजा गया",
+      "sentToken": "{{tokenSymbol}} भेजा गया",
+      "received": "प्राप्त हुआ",
+      "receivedToken": "{{tokenSymbol}} प्राप्त हुआ",
+      "swap": "स्वैप",
+      "appInteraction": "ऐप इंटरेक्शन",
+      "programInteraction": "प्रोग्राम इंटरेक्शन",
+      "approval": "स्वीकृति"
+    },
+    "labels": {
+      "to": "को",
+      "from": "से",
+      "program": "प्रोग्राम",
+      "for": "के लिए",
+      "source": "स्रोत"
+    }
+  },
+  "activityView": {
+    "loadingFromCache": "कैश से लोड हो रहा है...",
+    "errorLoadingTitle": "गतिविधि लोड करने में त्रुटि",
+    "noRecentActivityTitle": "कोई हालिया गतिविधि नहीं",
+    "transactionsAppearHere": "आपके लेनदेन यहां दिखाई देंगे।",
+    "loadingMore": "और लोड हो रहा है...",
+    "noMoreActivities": "लोड करने के लिए और गतिविधियां नहीं।"
+  },
+  "mainPopupApp": {
+    "loadingWallet": "वॉलेट लोड हो रहा है...",
+    "redirectingToSetup": "सेटअप पर रीडायरेक्ट किया जा रहा है...",
+    "dismissErrorAriaLabel": "त्रुटि खारिज करें",
+    "deleteModal": {
+      "title": "खाता हटाएं?",
+      "messagePart1": "हटाएं:",
+      "messagePart2": "?",
+      "warning": "यह कार्रवाई पूर्ववत नहीं की जा सकती।"
+    },
+    "errors": {
+      "connectFailed": "कनेक्ट करने में विफल: {{error}}",
+      "getInitialStateFailed": "प्रारंभिक स्थिति प्राप्त करने में विफल।",
+      "noBackgroundResponse": "प्रारंभिक स्थिति के लिए पृष्ठभूमि से कोई प्रतिक्रिया नहीं।",
+      "commError": "संचार त्रुटि: {{error}}",
+      "loadAccountsFailedAfterUnlock": "अनलॉक के बाद खाते लोड करने में विफल।",
+      "accountSwitchFailed": "खाता स्विच विफल: {{error}}",
+      "accountSwitchFailedUnknown": "खाता स्विच करने में विफल।",
+      "openOnboardingFailed": "ऑनबोर्डिंग खोलने में विफल: {{error}}",
+      "renameFailed": "नाम बदलने में विफल: {{error}}",
+      "saveOrderFailed": "खाता क्रम सहेजने में विफल।",
+      "accountNotFoundForDelete": "हटाने के लिए खाता नहीं मिला।",
+      "cannotDeleteLastNonViewOnly": "अंतिम गैर-केवल-देखने वाला खाता नहीं हटाया जा सकता। पहले दूसरा बनाएं या आयात करें।",
+      "deleteFailed": "हटाने में विफल: {{error}}",
+      "deleteFailedNamed": "खाता '{{name}}' हटाने में विफल।"
+    }
+  },
+  "dashboard": {
+    "tabs": {
+        "tokens": "टोकन",
+        "collectibles": "संग्रहणीय",
+        "activity": "गतिविधि"
+    },
+    "manageTokenList": "टोकन सूची प्रबंधित करें",
+    "manageNftList": "NFT सूची प्रबंधित करें",
+    "buttons": {
+        "createNewAccount": "नया खाता बनाएं",
+        "importRecoveryPhrase": "पुनर्प्राप्ति वाक्यांश आयात करें",
+        "importPrivateKey": "निजी कुंजी आयात करें",
+        "addViewOnlyAccount": "केवल देखने के लिए खाता जोड़ें"
+    },
+    "collectionTitleFallback": "संग्रह",
+    "backToAllCollectibles": "सभी संग्रहणीय वस्तुओं पर वापस जाएं",
+    "closeExpandedView": "विस्तारित दृश्य बंद करें"
+  },
+  "sendForm": {
+    "balanceLabel": "शेष राशि",
+    "toLabel": "को",
+    "amountLabel": "राशि",
+    "sendingToSaved": "{{name}} को भेजा जा रहा है",
+    "loadingContacts": "संपर्क लोड हो रहे हैं...",
+    "noMatchingContacts": "कोई मेल खाने वाला संपर्क नहीं मिला।",
+    "noContactsOrAccounts": "पता पुस्तिका या आपके अन्य खातों में कोई संपर्क नहीं।",
+    "startTypingToSearch": "संपर्क खोजने के लिए टाइप करना शुरू करें।",
+    "buttons": {
+        "sendMax": "अधिकतम",
+        "reviewTransaction": "लेनदेन की समीक्षा करें"
+    },
+    "placeholders": {
+        "recipientAddress": "सोलाना पता पेस्ट करें या संपर्क चुनें",
+        "nftAmount": "1 (NFT)",
+        "tokenAmount": "0.00"
+    },
+    "ariaLabels": {
+        "clearRecipient": "प्राप्तकर्ता साफ़ करें",
+        "showSuggestions": "सुझाव दिखाएं"
+    },
+    "errors": {
+        "recipientRequired": "प्राप्तकर्ता पता आवश्यक है।",
+        "invalidSolanaAddress": "अमान्य सोलाना पता प्रारूप।",
+        "nftAmountMustBeOne": "NFT राशि 1 होनी चाहिए।",
+        "amountRequired": "राशि आवश्यक है।",
+        "validPositiveAmount": "कृपया एक मान्य सकारात्मक राशि दर्ज करें।",
+        "amountExceedsBalance": "राशि उपलब्ध शेष राशि ({{balance}} {{symbol}}) से अधिक है।",
+        "couldNotVerifyRecipient": "प्राप्तकर्ता स्थिति सत्यापित नहीं की जा सकी।",
+        "failedToVerifyRecipient": "प्राप्तकर्ता स्थिति सत्यापित करने में विफल।"
+    }
+  },
+  "transactionConfirm": {
+    "customRpcLabel": "कस्टम आरपीसी",
+    "youAreSending": "आप भेज रहे हैं",
+    "fromLabel": "से",
+    "yourWalletLabel": "आपका वॉलेट",
+    "toLabel": "को",
+    "networkLabel": "नेटवर्क",
+    "networkFeeLabel": "नेटवर्क शुल्क",
+    "calculatingFee": "शुल्क की गणना की जा रही है...",
+    "feeUnavailable": "शुल्क का अनुमान लगाने में असमर्थ",
+    "warningIrreversible": "चेतावनी: यह लेनदेन अपरिवर्तनीय है। जारी रखने से पहले कृपया सभी विवरणों की सावधानीपूर्वक समीक्षा करें।",
+    "buttons": {
+        "sending": "भेजा जा रहा है...",
+        "confirmAndSend": "पुष्टि करें और भेजें"
+    }
+  },
+  "sendView": {
+    "errors": {
+        "unexpectedError": "एक अप्रत्याशित त्रुटि हुई।",
+        "sendFromViewOnly": "केवल देखने के लिए खाते से नहीं भेजा जा सकता।",
+        "activeAccountNotFound": "सक्रिय खाता नहीं मिला।",
+        "feeEstimationFailed": "शुल्क अनुमान विफल: {{error}}",
+        "decodeFailed": "डीकोड विफल: {{error}}",
+        "couldNotSimulateFee": "शुल्क का अनुमान लगाने के लिए लेनदेन का अनुकरण नहीं किया जा सका।",
+        "missingDetailsOrAccount": "लेनदेन विवरण या सक्रिय खाता गायब है।",
+        "swapFailedToSend": "स्वैप भेजने में विफल।",
+        "errorLoadingTokens": "टोकन लोड करने में त्रुटि",
+        "feeNotReady": "शुल्क जानकारी अभी तैयार नहीं है। कृपया प्रतीक्षा करें।",
+        "transactionFailed": "लेनदेन विफल: {{error}}",
+        "unknownErrorOccurred": "एक अज्ञात त्रुटि हुई।"
+    },
+    "success": {
+        "title": "लेनदेन भेजा गया!",
+        "message": "आपका लेनदेन सफलतापूर्वक नेटवर्क पर सबमिट कर दिया गया है।",
+        "viewOnExplorer": "{{explorerName}} पर देखें"
+    },
+    "headers": {
+        "processingTransaction": "लेनदेन संसाधित किया जा रहा है...",
+        "selectToken": "टोकन चुनें",
+        "sendToken": "{{tokenSymbol}} भेजें",
+        "confirmTransaction": "लेनदेन की पुष्टि करें",
+        "transactionSent": "लेनदेन भेजा गया",
+        "transactionFailed": "लेनदेन विफल",
+        "send": "भेजें"
+    },
+    "noTokenSelected": "भेजने के लिए कोई टोकन चयनित नहीं।",
+    "buttons": {
+        "selectToken": "टोकन चुनें"
+    },
+    "loadingForm": "फॉर्म लोड हो रहा है...",
+    "loadingTransactionDetails": "लेनदेन विवरण लोड हो रहा है...",
+    "tokenFallback": "टोकन",
+    "errorSending": {
+        "title": "भेजने में त्रुटि"
+    },
+    "loadingState": "स्थिति लोड हो रही है..."
+  },
+  "accountSettings": {
+    "noAccountSelected": "कोई खाता चयनित नहीं।",
+    "menu": {
+        "walletAddress": "वॉलेट पता",
+        "renameWallet": "वॉलेट का नाम बदलें",
+        "showPrivateKey": "निजी कुंजी दिखाएं",
+        "showRecoveryPhrase": "पुनर्प्राप्ति वाक्यांश दिखाएं",
+        "removeWallet": "वॉलेट हटाएं"
+    },
+    "errors": {
+        "copyFailed": "पता कॉपी करने में विफल।"
+    }
+  },
+  "nftDetails": {
+    "menu": {
+        "viewOnExplorer": "एक्सप्लोरर पर देखें",
+        "burnNft": "NFT जलाएं",
+        "setAsProfilePicture": "प्रोफ़ाइल चित्र के रूप में सेट करें",
+        "removeProfilePicture": "प्रोफ़ाइल चित्र हटाएं"
+    },
+    "profilePictureBadge": "प्रोफ़ाइल चित्र",
+    "errors": {
+        "fetchFailed": "पूर्ण NFT विवरण प्राप्त करने में विफल।",
+        "detailsNotFound": "पूर्ण NFT विवरण पुनर्प्राप्त नहीं किया जा सका।",
+        "fetchInitiationFailed": "विवरण प्राप्त करना शुरू करने में त्रुटि: {{error}}",
+        "burnMissingInfo": "जलाया नहीं जा सकता: सक्रिय खाता या NFT विवरण गायब है।",
+        "burnUnknownError": "NFT जलाने में अज्ञात त्रुटि।",
+        "couldNotFetchFullDetails": "पूर्ण विवरण प्राप्त नहीं किया जा सका: {{error}}"
+    },
+    "moreOptionsAriaLabel": "अधिक विकल्प",
+    "fetchingLatestDetails": "नवीनतम विवरण प्राप्त किए जा रहे हैं...",
+    "viewOnlyWarning": "यह केवल देखने के लिए खाता है। भेजें/जलाएं क्रियाएं अक्षम हैं।",
+    "buttons": {
+        "sendNft": "NFT भेजें"
+    },
+    "compressedBadge": "संपीड़ित",
+    "sectionTitles": {
+        "description": "विवरण",
+        "aboutCollection": "{{collectionName}} संग्रह के बारे में",
+        "attributes": "गुण",
+        "details": "विवरण"
+    },
+    "labels": {
+        "mintAddress": "मिंट पता",
+        "externalLink": "बाहरी लिंक",
+        "explorer": "एक्सप्लोरर"
+    },
+    "links": {
+        "viewCollection": "संग्रह देखें",
+        "viewAsset": "संपत्ति देखें"
+    },
+    "burnSuccessMessage": "{{nftName}} सफलतापूर्वक जलाना शुरू किया गया!",
+    "transactionIdLabel": "लेनदेन आईडी",
+    "detailsUnavailable": "NFT विवरण उपलब्ध नहीं है।",
+    "loadingData": "NFT डेटा लोड हो रहा है..."
+  },
+  "nftManagement": {
+    "unnamedNft": "अनाम NFT",
+    "potentialSpam": "संभावित स्पैम",
+    "spamHidden": "स्पैम (छिपा हुआ)",
+    "headerTitle": "NFT सूची प्रबंधित करें",
+    "spamToggle": {
+        "label": "स्पैम/अज्ञात NFT दिखाएं",
+        "description": "स्पैम/अज्ञात NFT वे हैं जिनके पास लोगो नहीं है और मूल्य, नाम या प्रतीक गायब है। डिफ़ॉल्ट रूप से, वे छिपे हुए हैं।"
+    },
+    "buttons": {
+        "showNftAria": "{{nftName}} दिखाएं",
+        "hideNftAria": "{{nftName}} छिपाएं"
+    },
+    "loadingDataAndPreferences": "डेटा और वरीयताएँ लोड हो रही हैं...",
+    "errors": {
+        "loadFailed": "NFT लोड करने में त्रुटि: {{error}}"
+    },
+    "emptyState": {
+        "title": "प्रबंधित करने के लिए कोई NFT नहीं",
+        "description": "जब आपके पास NFT होंगे, तो आप यहां उनकी दृश्यता प्रबंधित कर सकते हैं।"
+    },
+    "hiddenSpamInfo": "{{count}} स्पैम/अज्ञात NFT छिपे हुए हैं। उन्हें देखने के लिए ऊपर टॉगल करें।"
+  },
+  "connectedDapps": {
+    "errors": {
+        "loadFailed": "कनेक्टेड डीएपी लोड करने में विफल।",
+        "couldNotRetrieve": "कनेक्टेड डीएपी पुनर्प्राप्त नहीं किया जा सका।",
+        "disconnectFailed": "डिस्कनेक्ट करने में विफल।"
+    },
+    "loading": "कनेक्टेड डीएपी लोड हो रहे हैं...",
+    "dAppIconAlt": "{{appName}} डीएपी आइकन",
+    "confirmDisconnect": "क्या आप वाकई {{appName}} से डिस्कनेक्ट करना चाहते हैं?",
+    "buttons": {
+        "disconnectAriaLabel": "{{appName}} से डिस्कनेक्ट करें",
+        "disconnect": "डिस्कनेक्ट करें"
+    },
+    "connectedDateLabel": "जुड़े हुए",
+    "emptyState": {
+        "noAppsConnected": "कोई डीएपी कनेक्टेड नहीं।",
+        "appsWillAppearHere": "आपके कनेक्टेड डीएपी यहां दिखाई देंगे।"
+    },
+    "description": "उन एप्लिकेशन के लिए अनुमतियां प्रबंधित करें जिन्हें आपके वॉलेट तक पहुंचने की अनुमति दी गई है। एक्सेस रद्द करने पर एप्लिकेशन को अगली बार इंटरैक्ट करने पर फिर से कनेक्शन का अनुरोध करना होगा।"
+  },
+  "passwordSetup": {
+    "errors": {
+        "passwordsDoNotMatch": "पासवर्ड मेल नहीं खाते।",
+        "passwordTooShort": "पासवर्ड कम से कम 8 वर्ण का होना चाहिए।",
+        "initializationFailed": "वॉलेट प्रारंभ करने में विफल: {{error}}",
+        "setupFailedUnknown": "सेटअप विफल: {{error}}",
+        "secretNotStagedAlert": "सेटअप प्रक्रिया में गंभीर त्रुटि (तैयार डेटा गायब है)। कृपया ऑनबोर्डिंग प्रक्रिया को पुनरारंभ करें।",
+        "secretNotStagedDetailed": "सेटअप प्रक्रिया में त्रुटि: तैयार डेटा गायब है। कृपया वापस जाएं और वॉलेट निर्माण या आयात प्रक्रिया को पुनरारंभ करें।",
+        "sendRequestFailed": "प्रारंभिक अनुरोध भेजने में विफल: {{error}}"
+    },
+    "title": "पासवर्ड बनाएं",
+    "descriptionLine1": "यह पासवर्ड आपके Kyoku वॉलेट को अनलॉक करने के लिए उपयोग किया जाएगा।",
+    "descriptionLine2": "कृपया सुनिश्चित करें कि इसे सुरक्षित स्थान पर संग्रहीत किया गया है।",
+    "placeholders": {
+        "enterPassword": "पासवर्ड दर्ज करें",
+        "confirmPassword": "पासवर्ड पुष्टि करें"
+    },
+    "ariaLabels": {
+        "hidePassword": "पासवर्ड छिपाएं",
+        "showPassword": "पासवर्ड दिखाएं",
+        "hideConfirmPassword": "पुष्टि पासवर्ड छिपाएं",
+        "showConfirmPassword": "पुष्टि पासवर्ड दिखाएं"
+    },
+    "buttons": {
+        "securingWallet": "वॉलेट सुरक्षित किया जा रहा है...",
+        "createWallet": "वॉलेट बनाएं"
+    }
+  },
+  "walletSetup": {
+    "errors": {
+        "contactBackgroundFailed": "पृष्ठभूमि सेवा से संपर्क करने में त्रुटि: {{error}}",
+        "invalidStatusResponse": "चेककीरिंग स्टेटस से अमान्य प्रतिक्रिया",
+        "sendStatusCheckFailed": "स्थिति जांच संदेश भेजने में त्रुटि",
+        "ensureExtensionEnabled": "कृपया सुनिश्चित करें कि एक्सटेंशन सक्षम है और पुनः लोड करने का प्रयास करें।"
+    },
+    "checkingStatus": "वॉलेट स्थिति की जाँच की जा रही है...",
+    "alreadySetupTitle": "वॉलेट पहले से ही सेटअप है!",
+    "alreadySetupMessage": "इस ब्राउज़र में Kyoku वॉलेट पहले से मौजूद है। आप एक्सटेंशन आइकन से इसे एक्सेस कर सकते हैं।",
+    "welcomeTitle": "Kyoku वॉलेट में आपका स्वागत है",
+    "termsAgreementPrefix": "मैंने पढ़ा है और सहमत हूं",
+    "termsAndConditionsLink": "नियम और शर्तें",
+    "createWalletTitle": "नया वॉलेट बनाएं",
+    "createWalletDescription": "यदि आप Kyoku में नए हैं, तो एक नया सुरक्षित वॉलेट उत्पन्न करें।",
+    "importWalletTitle": "मौजूदा वॉलेट आयात करें",
+    "importWalletDescription": "अपने गुप्त पुनर्प्राप्ति वाक्यांश या निजी कुंजी का उपयोग करके मौजूदा वॉलेट तक पहुंचें।",
+    "buttons": {
+        "createWallet": "वॉलेट बनाएं",
+        "importWallet": "वॉलेट आयात करें"
+    }
+  },
+  "confirmSwap": {
+    "errors": {
+        "feeEstimationFailed": "शुल्क अनुमान विफल।",
+        "decodeFailed": "डीकोड विफल: {{error}}",
+        "couldNotVerifyLocally": "लेनदेन को स्थानीय रूप से सत्यापित नहीं किया जा सका। फिर भी स्वीकृत किया जा सकता है।",
+        "missingDetailsOrAccount": "लेनदेन विवरण या सक्रिय खाता गायब है।"
+    },
+    "ariaLabels": {
+        "rejectTransaction": "लेनदेन अस्वीकार करें"
+    },
+    "title": "स्वैप की पुष्टि करें",
+    "youAreSwapping": "आप स्वैप कर रहे हैं:",
+    "tokenFallback": "टोकन",
+    "toReceiveNet": "शुद्ध प्राप्त करने के लिए:",
+    "afterPlatformFee": "(प्लेटफ़ॉर्म शुल्क के बाद)",
+    "estimatingNetworkFee": "नेटवर्क शुल्क का अनुमान लगाया जा रहा है...",
+    "ourSimulationFailedTitle": "हमारा सिमुलेशन विफल",
+    "showLogs": "लॉग दिखाएं"
+  }
+}

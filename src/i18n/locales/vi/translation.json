@@ -1,0 +1,1133 @@
+{
+  "common": {
+    "back": "Quay lại",
+    "goBack": "Quay Lại",
+    "savePreference": "Lưu tùy chọn",
+    "loading": "Đang tải...",
+    "loadingSettings": "Đang tải cài đặt...",
+    "processing": "Đang xử lý...",
+    "processingSwap": "Đang xử lý Hoán đổi...",
+    "error": "Lỗi",
+    "unknownError": "Lỗi không xác định",
+    "communicationError": "Lỗi giao tiếp",
+    "notAvailable": "Không có sẵn",
+    "usdCurrencyCode": "USD",
+    "tokensFallback": "token",
+    "explorer": "Trình khám phá",
+    "done": "Hoàn tất",
+    "close": "Đóng",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép!",
+    "copyAddress": "Sao chép địa chỉ",
+    "viewOnly": "Chỉ xem",
+    "viewOnlyAccount": "Tài khoản chỉ xem",
+    "clearSearch": "Xóa tìm kiếm"
+  },
+  "buttons": {
+    "confirm": "Xác nhận",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "reject": "Từ chối",
+    "tryAgain": "Thử lại",
+    "close": "Đóng",
+    "continue": "Tiếp tục",
+    "unlock": "Mở khóa",
+    "ok": "OK",
+    "changeAccount": "Đổi tài khoản",
+    "approve": "Phê duyệt",
+    "approveAnywayRisky": "Vẫn Phê duyệt (Rủi ro)",
+    "connect": "Kết nối",
+    "signIn": "Đăng nhập",
+    "save": "Lưu"
+  },
+  "main": {
+    "errors": {
+      "rootNotFound": "Lỗi: Không tìm thấy phần tử gốc. Không thể hiển thị ứng dụng."
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "general": "Chung",
+    "generalDescription": "Mạng, ưu tiên phí, trình khám phá, tiền tệ, ngôn ngữ",
+    "securityPrivacy": "Bảo mật & Quyền riêng tư",
+    "securityPrivacyDescription": "Mật khẩu, tự động khóa, ứng dụng đã kết nối",
+    "addressBook": "Sổ địa chỉ",
+    "addressBookDescription": "Quản lý địa chỉ đã lưu",
+    "aboutKyoku": "Về Kyoku",
+    "aboutKyokuDescription": "Phiên bản, điều khoản và chính sách",
+    "lockWallet": "Khóa ví",
+    "lockWalletDescription": "Bảo vệ ví của bạn ngay lập tức",
+    "network": "Mạng",
+    "networkDescription": "Chọn mạng blockchain (Mainnet, Devnet)",
+    "transactionPriority": "Ưu tiên giao dịch",
+    "transactionPriorityDescription": "Đặt mức phí mặc định cho giao dịch",
+    "preferredExplorer": "Trình khám phá ưa thích",
+    "preferredExplorerDescription": "Chọn trình khám phá khối mặc định của bạn",
+    "displayCurrency": "Tiền tệ hiển thị",
+    "displayCurrencyDescription": "Đặt đơn vị tiền tệ fiat ưa thích (ví dụ: USD, EUR)",
+    "displayLanguage": "Ngôn ngữ hiển thị",
+    "displayLanguageDescription": "Thay đổi ngôn ngữ ứng dụng",
+    "autoLockTimer": "Hẹn giờ tự động khóa",
+    "autoLockTimerDescription": "Đặt ví tự động khóa sau khi không hoạt động",
+    "changePassword": "Đổi mật khẩu",
+    "changePasswordDescription": "Cập nhật mật khẩu truy cập ví của bạn",
+    "connectedApps": "Ứng dụng đã kết nối",
+    "connectedAppsDescription": "Quản lý quyền cho các dApp",
+    "categoryTitles": {
+        "main": "Cài đặt",
+        "general": "Cài đặt chung",
+        "securityPrivacy": "Bảo mật & Quyền riêng tư",
+        "addressBook": "Sổ địa chỉ",
+        "about": "Về Kyoku"
+    },
+    "subViewTitles": {
+        "network": "Cài đặt mạng",
+        "explorer": "Cài đặt trình khám phá",
+        "currency": "Tiền tệ hiển thị",
+        "language": "Ngôn ngữ hiển thị",
+        "autoLock": "Hẹn giờ tự động khóa",
+        "changePassword": "Đổi mật khẩu",
+        "connectedDapps": "Ứng dụng đã kết nối",
+        "addressBook": "Sổ địa chỉ",
+        "about": "Về Kyoku",
+        "feeSettings": "Ưu tiên giao dịch"
+    }
+  },
+  "currencySettings": {
+    "description": "Chọn đơn vị tiền tệ ưa thích của bạn để hiển thị giá trị fiat."
+  },
+  "currency": {
+    "usd": "Đô la Mỹ",
+    "eur": "Euro",
+    "gbp": "Bảng Anh",
+    "jpy": "Yên Nhật"
+  },
+  "languageSettings": {
+    "description": "Chọn ngôn ngữ ưa thích của bạn cho giao diện."
+  },
+  "languages": {
+    "english": { "name": "Tiếng Anh", "nativeName": "English" },
+    "spanish": { "name": "Tiếng Tây Ban Nha", "nativeName": "Español" },
+    "chinese_simplified": { "name": "Tiếng Trung (Giản thể)", "nativeName": "简体中文" },
+    "hindi": { "name": "Tiếng Hindi", "nativeName": "हिन्दी" },
+    "vietnamese": { "name": "Tiếng Việt", "nativeName": "Tiếng Việt" },
+    "indonesian": { "name": "Tiếng Indonesia", "nativeName": "Bahasa Indonesia" },
+    "japanese": { "name": "Tiếng Nhật", "nativeName": "日本語" },
+    "korean": { "name": "Tiếng Hàn", "nativeName": "한국어" }
+  },
+  "dAppInfoCard": {
+    "altIconText": "Biểu tượng dApp",
+    "requestFrom": "Yêu cầu từ:",
+    "unknownDApp": "dApp không xác định"
+  },
+  "transactionSummary": {
+    "nftPlaceholder": "NFT",
+    "unknownTokenPlaceholder": "Token không xác định",
+    "accountLabel": "Tài khoản",
+    "loadingPreview": "Đang tải xem trước giao dịch...",
+    "simulationFailedSeeDetails": "Mô phỏng thất bại. Xem chi tiết ở trên.",
+    "simulationErrorTitle": "Lỗi mô phỏng",
+    "simulationErrorDefault": "Giao dịch này có thể sẽ thất bại nếu được gửi đi.",
+    "solChangesLabel": "Thay đổi SOL (cho bạn):",
+    "tokenChangesLabel": "Thay đổi Token (cho bạn):",
+    "noDirectChanges": "Không có thay đổi trực tiếp nào đối với số dư tài sản của bạn (ngoài phí mạng).",
+    "otherAccountChangesLabel": "Thay đổi tài khoản khác:",
+    "transactionInsightsTitle": "Thông tin chi tiết giao dịch",
+    "networkFeeDetailsTitle": "Chi tiết phí mạng:",
+    "baseFeeLabel": "Phí cơ bản",
+    "baseFeeTooltip": "Phí tiêu chuẩn dựa trên số lượng chữ ký yêu cầu bởi giao dịch.",
+    "priorityFeeLabel": "Phí ưu tiên",
+    "priorityFeeTooltip": "Phí tùy chọn để giúp ưu tiên giao dịch của bạn trên mạng. Ước tính cho mức ưu tiên 'trung bình'.",
+    "totalEstimatedFeeLabel": "Tổng phí ước tính:",
+    "estComputeLimitLabel": "Giới hạn tính toán ước tính",
+    "estComputeLimitTooltip": "Giới hạn đơn vị tính toán sẽ được yêu cầu cho giao dịch này để phù hợp với phí ưu tiên ước tính.",
+    "estComputePriceLabel": "Giá tính toán ước tính",
+    "estComputePriceTooltip": "Giá mỗi đơn vị tính toán (tính bằng micro-lamport) cho phí ưu tiên ước tính.",
+    "rawTxCUsConsumedLabel": "Đơn vị tính toán giao dịch thô đã sử dụng",
+    "rawTxCUsConsumedTooltip": "Đơn vị tính toán được giao dịch sử dụng trong mô phỏng (không có hướng dẫn phí ưu tiên rõ ràng)."
+  },
+  "warningDisplay": {
+    "defaultTitles": {
+      "critical": "Cảnh báo bảo mật!",
+      "warning": "Thận trọng",
+      "info": "Thông tin"
+    }
+  },
+  "confirmationApp": {
+    "analyzingTransaction": "Đang phân tích giao dịch...",
+    "loadingRequest": "Đang tải yêu cầu...",
+    "requestErrorTitle": "Lỗi yêu cầu",
+    "unlockWalletTitle": "Mở khóa Ví Kyoku",
+    "unlockToApproveRequest": "Để phê duyệt yêu cầu từ <1>{{dappName}}</1>, vui lòng nhập mật khẩu của bạn.",
+    "actionNotAllowedTitle": "Hành động không được phép",
+    "viewOnlyCannotSign": "Tài khoản đã chọn <1>{{accountName}} ({{accountKey}}...)</1> chỉ xem và không thể được sử dụng cho các hoạt động ký.",
+    "selectDifferentAccountOrReject": "Vui lòng chọn một tài khoản khác hoặc từ chối yêu cầu.",
+    "noOtherAccountsForAction": "Bạn không có tài khoản nào khác có thể thực hiện hành động này.",
+    "userRejectedUnlock": "Người dùng từ chối mở khóa.",
+    "operationCancelledViewOnly": "Hoạt động bị hủy do tài khoản chỉ xem.",
+    "signingAs": "Ký với tư cách",
+    "connectAllowApp": "Điều này sẽ cho phép ứng dụng:",
+    "connectViewAddress": "Xem địa chỉ ví của bạn",
+    "connectRequestApproval": "Yêu cầu phê duyệt cho các giao dịch (nếu tài khoản này có thể ký).",
+    "signInRequestDetailsTitle": "Chi tiết yêu cầu đăng nhập:",
+    "signInDomain": "Miền",
+    "signInAddress": "Địa chỉ",
+    "messageLabel": "Tin nhắn ({{format}}):",
+    "transactionNumber": "Giao dịch {{number}}",
+    "assetChangesCount_one": "{{count}} thay đổi tài sản cho bạn",
+    "assetChangesCount_other": "{{count}} thay đổi tài sản cho bạn",
+    "noDirectAssetChanges": "Không có thay đổi trực tiếp nào đối với tài sản của bạn",
+    "simulationFailedLabel": "Mô phỏng thất bại",
+    "simulationDataUnavailable": "Dữ liệu mô phỏng không khả dụng. Dữ liệu giao dịch thô sẽ được ký.",
+    "messageSigningTitle": "Ký tin nhắn",
+    "messageSigningInfo": "Bạn đang ký một tin nhắn. Hãy đảm bảo bạn tin tưởng trang web yêu cầu và hiểu nội dung cũng như mục đích của tin nhắn.",
+    "transactionBatchInsightsTitle": "Thông tin chi tiết lô giao dịch",
+    "transactionApprovalCautionTitle": "Thận trọng khi phê duyệt giao dịch",
+    "transactionApprovalCautionMessage": "Xem xét kỹ các giao dịch. Phê duyệt một giao dịch độc hại có thể dẫn đến mất tiền.",
+    "userRejected": "Người dùng đã từ chối yêu cầu.",
+    "userRejectedAfterSimFailure": "Người dùng đã từ chối sau khi mô phỏng thất bại.",
+    "userRejectedAfterError": "Người dùng đã đóng cửa sổ bật lên sau lỗi.",
+    "titles": {
+      "connectionRequest": "Yêu cầu kết nối",
+      "signMessage": "Ký tin nhắn",
+      "approveTransaction": "Phê duyệt giao dịch",
+      "approveMultipleTransactions_one": "Phê duyệt {{count}} giao dịch",
+      "approveMultipleTransactions_other": "Phê duyệt {{count}} giao dịch",
+      "transactionPreviewFailed": "Xem trước giao dịch thất bại"
+    },
+    "errors": {
+      "invalidRequestParams": "Yêu cầu không hợp lệ: Thiếu các tham số quan trọng.",
+      "failedToRetrieveStagedData": "Không thể truy xuất dữ liệu đã lưu trữ: {{error}}",
+      "requiredDataNotFound": "Không tìm thấy dữ liệu cần thiết cho ID yêu cầu {{requestId}}.",
+      "sessionDataKeyMissing": "Thiếu khóa dữ liệu phiên cho hoạt động ký.",
+      "unsupportedInteractionType": "Loại tương tác không được hỗ trợ: {{type}}.",
+      "messageDataUnavailable": "Dữ liệu tin nhắn không khả dụng hoặc bị lỗi.",
+      "unknownDisplayFormat": "Định dạng hiển thị không xác định cho tin nhắn.",
+      "errorDecodingMessage": "Lỗi giải mã nội dung tin nhắn.",
+      "missingRequestId": "Lỗi nghiêm trọng: Thiếu ID yêu cầu.",
+      "passwordEmpty": "Mật khẩu không được để trống.",
+      "unlockFailed": "Sai mật khẩu hoặc mở khóa thất bại.",
+      "noAccountSelected": "Không thể phê duyệt: Không có tài khoản nào được chọn.",
+      "cannotApproveSimFailed": "Không thể phê duyệt: Mô phỏng giao dịch thất bại. {{error}}",
+      "cannotApproveBatchSimFailed": "Không thể phê duyệt: Một hoặc nhiều mô phỏng giao dịch thất bại. {{error}}",
+      "unexpectedError": "Đã xảy ra lỗi không mong muốn. Bạn có thể đóng cửa sổ này.",
+      "simulationFailedUnknown": "Mô phỏng giao dịch thất bại vì lý do không xác định."
+    },
+    "placeholders": {
+        "enterPassword": "Nhập mật khẩu"
+    },
+    "simulationFailedTitle": "Mô phỏng thất bại",
+    "simulationFailedRecommendNotProceed": "Giao dịch này có thể sẽ thất bại nếu được gửi đến mạng. Không nên tiếp tục."
+  },
+  "addViewOnlyAccount": {
+    "title": "Thêm tài khoản chỉ xem",
+    "description": "Nhập địa chỉ Solana (khóa công khai) để theo dõi.",
+    "placeholders": {
+      "pasteAddress": "Dán địa chỉ Solana..."
+    },
+    "buttons": {
+      "validating": "Đang xác thực...",
+      "confirmAddress": "Xác nhận địa chỉ"
+    },
+    "errors": {
+      "publicKeyRequired": "Vui lòng nhập khóa công khai.",
+      "invalidPublicKey": "Khóa công khai không hợp lệ."
+    }
+  },
+  "fundedAccountSelector": {
+    "title": "Nhập tài khoản",
+    "descriptionWithFunds": "Chọn các tài khoản được tạo từ cụm từ của bạn mà bạn muốn nhập.",
+    "descriptionWithoutFunds": "Không tìm thấy tài khoản nào có số dư. Bạn có thể nhập tài khoản mặc định.",
+    "noAccountsToDisplay": "Không có tài khoản nào để hiển thị.",
+    "accountNamePrefix": "Tài khoản",
+    "importButton_one": "Nhập {{count}} tài khoản",
+    "importButton_other": "Nhập {{count}} tài khoản"
+  },
+  "importOptions": {
+    "title": "Nhập ví hiện có",
+    "tagline": "Đưa ví của bạn vào Kyoku một cách an toàn trong vài giây.",
+    "buttons": {
+      "seedPhrase": {
+        "label": "Nhập bằng cụm từ khôi phục bí mật",
+        "description": "Sử dụng cụm từ khôi phục bí mật 12 hoặc 24 từ của bạn."
+      },
+      "privateKey": {
+        "label": "Nhập bằng khóa riêng",
+        "description": "Nhập thủ công khóa riêng Solana của bạn."
+      },
+      "viewOnly": {
+        "label": "Nhập dưới dạng ví chỉ xem",
+        "description": "Theo dõi một địa chỉ công khai mà không có quyền truy cập đầy đủ."
+      }
+    }
+  },
+  "importPrivateKey": {
+    "title": "Nhập khóa riêng",
+    "description": "Dán khóa riêng của bạn (Base58, Hex hoặc Mảng Byte).",
+    "placeholders": {
+      "pastePrivateKey": "Dán khóa riêng vào đây..."
+    },
+    "buttons": {
+      "validating": "Đang xác thực...",
+      "confirmAndImport": "Xác nhận & Nhập"
+    },
+    "errors": {
+      "pastePrivateKey": "Vui lòng dán khóa riêng của bạn.",
+      "validationFailedUnknown": "Xác thực thất bại: Lỗi không xác định."
+    }
+  },
+  "mnemonicSetup": {
+    "generatingPhrase": "Đang tạo cụm từ bảo mật...",
+    "downloadFilename": "solana-recovery-phrase.txt",
+    "headers": {
+      "display": {
+        "title": "Cụm từ khôi phục bí mật của bạn",
+        "description": "Lưu trữ an toàn! Đây là cách duy nhất để khôi phục ví của bạn."
+      },
+      "confirm": {
+        "title": "Xác nhận cụm từ khôi phục",
+        "description": "Nhập cụm từ bạn đã lưu để xác minh."
+      },
+      "import": {
+        "title": "Nhập cụm từ khôi phục",
+        "description": "Nhập cụm từ {{count}} từ của bạn."
+      }
+    },
+    "importantWarning": {
+      "title": "Quan trọng!",
+      "message": "Ghi lại và lưu trữ những từ này một cách an toàn. Không bao giờ chia sẻ chúng với bất kỳ ai."
+    },
+    "confirmSaveCheckboxLabel": "Tôi hiểu rằng nếu mất cụm từ khôi phục, tôi sẽ không thể truy cập ví của mình.",
+    "buttons": {
+      "copy": "Sao chép",
+      "copied": "Đã sao chép!",
+      "download": "Tải xuống",
+      "nextConfirm": "Tiếp theo: Xác nhận",
+      "pastePhrase": "Dán cụm từ",
+      "importWallet": "Nhập ví",
+      "verifyAndContinue": "Xác minh & Tiếp tục"
+    },
+    "ariaLabels": {
+      "wordInput": "Từ {{number}}"
+    },
+    "errors": {
+      "generationFailed": "Không thể tạo cụm từ khôi phục. Vui lòng làm mới.",
+      "copyFailed": "Không thể sao chép cụm từ vào khay nhớ tạm.",
+      "confirmSaveRequired": "Vui lòng xác nhận bạn đã lưu trữ an toàn cụm từ khôi phục của mình.",
+      "pasteFailed": "Không thể đọc từ khay nhớ tạm. Vui lòng dán thủ công.",
+      "allWordsRequired": "Vui lòng nhập tất cả {{count}} từ.",
+      "invalidWordCount": "Cụm từ không hợp lệ: Mong đợi 12 hoặc 24 từ, tìm thấy {{count}}.",
+      "invalidPhrase": "Cụm từ khôi phục không hợp lệ. Vui lòng kiểm tra lại các từ và thử lại.",
+      "phraseMismatch": "Cụm từ không khớp với cụm từ đã tạo. Vui lòng nhập lại cẩn thận."
+    }
+  },
+  "onboardingApp": {
+    "checkingStatus": "Đang kiểm tra trạng thái ví...",
+    "kyokuWalletSetup": "Thiết lập Ví Kyoku",
+    "altKyokuLogo": "Logo Ví Kyoku",
+    "errorOccurredTitle": "Đã xảy ra lỗi",
+    "buttons": {
+      "restartSetup": "Bắt đầu lại thiết lập",
+      "back": "Quay lại"
+    },
+    "setupCompleteTitle": "Thiết lập hoàn tất!",
+    "setupCompleteMessage": "Ví Solana của bạn đã sẵn sàng.",
+    "importSuccessfulTitle": "Nhập thành công!",
+    "importSuccessfulMessage": "Các tài khoản đã chọn đã được thêm.",
+    "windowCloseMessage": "Cửa sổ này sẽ tự động đóng.",
+    "errors": {
+      "verifyStatusFailed": "Không thể xác minh trạng thái ví. Vui lòng làm mới.",
+      "stateLost": "Trạng thái quá trình thiết lập bị mất hoặc không hợp lệ. Vui lòng bắt đầu lại quá trình.",
+      "mnemonicEmpty": "Cụm từ ghi nhớ không được để trống.",
+      "addRootMnemonicFailed": "Không thể thêm cụm từ khôi phục: {{error}}",
+      "prepareCreateFailed": "Không thể chuẩn bị tạo ví: {{error}}",
+      "accountScanFailed": "Quét tài khoản thất bại: {{error}}",
+      "selectOneAccount": "Chọn ít nhất một tài khoản.",
+      "importFailed": "Nhập thất bại: {{error}}",
+      "mnemonicNotStaged": "Cụm từ ghi nhớ không được lưu trữ chính xác.",
+      "prepareImportFailed": "Không thể chuẩn bị nhập: {{error}}",
+      "addAccountFailed": "Không thể thêm tài khoản: {{error}}",
+      "setupFailed": "Thiết lập thất bại: {{error}}",
+      "cannotInitWithViewOnly": "Không thể khởi tạo ví mới bằng tài khoản chỉ xem.",
+      "unexpectedError": "Đã xảy ra lỗi không mong muốn."
+    }
+  },
+  "passwordPage": {
+    "loadingStatus": "Đang tải trạng thái ví...",
+    "walletNotFoundTitle": "Không tìm thấy ví",
+    "resetting": "Đang đặt lại...",
+    "placeholders": {
+      "password": "Mật khẩu"
+    },
+    "buttons": {
+      "unlocking": "Đang mở khóa...",
+      "forgotPasswordReset": "Quên mật khẩu? Đặt lại ví",
+      "goToSetup": "Đến thiết lập"
+    },
+    "errors": {
+      "verifyStatusFailed": "Không thể xác minh trạng thái ví. Hãy đảm bảo tiện ích được bật và thử tải lại.",
+      "walletNotFoundGoToOnboarding": "Không tìm thấy ví. Vui lòng truy cập onboarding.html để thiết lập ví của bạn.",
+      "walletNotFoundOpenManually": "Không tìm thấy ví. Vui lòng mở onboarding.html theo cách thủ công.",
+      "invalidStatusResponse": "Nhận được trạng thái không hợp lệ từ nền. Ví có thể chưa được thiết lập.",
+      "contactBackgroundFailed": "Lỗi khi liên hệ với dịch vụ nền.",
+      "passwordEmpty": "Mật khẩu không được để trống.",
+      "communicationError": "Lỗi giao tiếp: {{error}}",
+      "unlockFailedTryAgain": "Mở khóa thất bại. Vui lòng thử lại.",
+      "walletNotSetUp": "Ví chưa được thiết lập.",
+      "incorrectPassword": "Sai mật khẩu.",
+      "resetFailed": "Đặt lại thất bại: {{error}}",
+      "resetCompleteGoToSetup": "Đặt lại hoàn tất. Vui lòng truy cập onboarding.html để thiết lập ví của bạn.",
+      "sendResetRequestFailed": "Không thể gửi yêu cầu đặt lại.",
+      "resetFailedUnknown": "Đặt lại thất bại."
+    },
+    "resetWallet": {
+      "warningConfirm": "CẢNH BÁO: Thao tác này sẽ xóa vĩnh viễn TẤT CẢ dữ liệu ví (khóa, tài khoản) được lưu trữ trong tiện ích này. Thao tác này không thể hoàn tác. Bạn có hoàn toàn chắc chắn không?",
+      "finalConfirm": "XÁC NHẬN CUỐI CÙNG: Vui lòng xác nhận bạn muốn đặt lại ví. Tất cả dữ liệu sẽ bị mất.",
+      "successAlert": "Đặt lại ví thành công. Đang chuyển hướng đến thiết lập.",
+      "manualSetupAlert": "Đặt lại hoàn tất. Vui lòng mở lại tiện ích theo cách thủ công để thiết lập."
+    }
+  },
+  "actionButtons": {
+    "receive": "Nhận",
+    "send": "Gửi",
+    "stake": "Stake",
+    "stakeClickedTodo": "Đã nhấp vào Stake (TODO)"
+  },
+  "balanceCard": {
+    "refreshBalance": "Làm mới số dư",
+    "loadErrorTitle": "Lỗi tải",
+    "loadErrorMessage": "Không thể tải số dư.",
+    "totalPortfolioValue": "Tổng giá trị danh mục đầu tư",
+    "solBalanceLabel": "Số dư SOL"
+  },
+  "burnConfirmationModal": {
+    "title": "Xác nhận đốt {{itemType}}",
+    "aboutToBurn": "Bạn sắp đốt vĩnh viễn:",
+    "warningTitle": "Cảnh báo",
+    "irreversibleAction": "Hành động này không thể hoàn tác. Sau khi bị đốt, {{itemType}} không thể phục hồi.",
+    "rentRecoveryToken": "Đốt token này cũng sẽ cố gắng đóng tài khoản token liên quan, điều này có thể trả lại một ít tiền thuê SOL vào ví của bạn.",
+    "permanentActionNft": "Đốt NFT này là vĩnh viễn. Hãy đảm bảo bạn hiểu hành động này.",
+    "loading": "Đang đốt {{itemType}}...",
+    "burnFailedTitle": "Đốt thất bại",
+    "buttons": {
+      "confirmBurn": "Xác nhận đốt",
+      "retryBurn": "Thử lại đốt"
+    }
+  },
+  "footerNav": {
+    "home": "Trang chủ",
+    "swap": "Hoán đổi",
+    "settings": "Cài đặt",
+    "swapClickedTodo": "Đã nhấp vào Hoán đổi (TODO - Trình xử lý mặc định)"
+  },
+  "header": {
+    "selectAccount": "Chọn tài khoản",
+    "addAccountImport": "Thêm/Nhập tài khoản",
+    "walletsPageTitle": "Ví",
+    "accountOptions": "Tùy chọn tài khoản"
+  },
+  "itemList": {
+    "nativeToken": "Token gốc",
+    "noTokensToDisplay": "Bạn hiện không có token nào để hiển thị.",
+    "tokenLogoAlt": "Logo {{tokenSymbol}}"
+  },
+  "nftCard": {
+    "unnamedNft": "NFT không tên",
+    "unknownCollectionPlaceholder": "Bộ sưu tập không xác định",
+    "altNftImage": "Hình ảnh NFT {{nftName}}",
+    "ariaViewDetails": "Xem chi tiết cho {{nftName}}"
+  },
+  "nftGrid": {
+    "unnamedCollection": "Bộ sưu tập không tên",
+    "ariaViewCollection": "Xem bộ sưu tập {{collectionName}} với {{count}} mục",
+    "altCollectionImage": "Hình ảnh bộ sưu tập {{collectionName}}",
+    "errorLoading": "Lỗi tải bộ sưu tập: {{errorDetail}}",
+    "noCollectiblesFound": "Không tìm thấy bộ sưu tập nào."
+  },
+  "renameModal": {
+    "title": "Chỉnh sửa tên ví",
+    "inputAriaLabel": "Tên ví mới"
+  },
+  "showPrivateKeyModal": {
+    "title": "Hiển thị khóa riêng",
+    "forAccount": "Cho tài khoản:",
+    "warning": "Cảnh báo: Không bao giờ chia sẻ khóa riêng của bạn. Bất kỳ ai có nó đều có thể truy cập vào tiền của bạn.",
+    "enterPasswordToReveal": "Nhập mật khẩu để hiển thị",
+    "placeholders": {
+      "walletPassword": "Mật khẩu ví của bạn"
+    },
+    "buttons": {
+      "reveal": "Hiển thị khóa riêng",
+      "copyKey": "Sao chép khóa"
+    },
+    "yourPrivateKeyFor": "Khóa riêng của bạn cho {{accountName}}:",
+    "storeKeySecurely": "Lưu trữ khóa này một cách an toàn. Đừng làm mất. Đừng chia sẻ.",
+    "copiedToClipboard": "Đã sao chép khóa riêng vào khay nhớ tạm!",
+    "errors": {
+      "passwordRequired": "Yêu cầu mật khẩu.",
+      "failedToRetrieve": "Không thể truy xuất khóa riêng.",
+      "copyFailed": "Không thể sao chép khóa riêng."
+    }
+  },
+  "showSeedPhraseModal": {
+    "title": "Hiển thị cụm từ khôi phục",
+    "forAccount": "Cho tài khoản:",
+    "warning": "Cảnh báo: Không bao giờ chia sẻ cụm từ khôi phục của bạn. Bất kỳ ai có nó đều có thể truy cập vào tất cả các tài khoản được tạo từ nó.",
+    "enterPasswordToReveal": "Nhập mật khẩu để hiển thị",
+    "placeholders": {
+      "walletPassword": "Mật khẩu ví của bạn"
+    },
+    "buttons": {
+      "revealPhrase": "Hiển thị cụm từ",
+      "copied": "Đã sao chép!",
+      "copyPhrase": "Sao chép cụm từ"
+    },
+    "yourRecoveryPhraseFor": "Cụm từ khôi phục của bạn cho {{accountName}}:",
+    "storePhraseSecurely": "Lưu trữ cụm từ này một cách an toàn. Đừng làm mất. Đừng chia sẻ.",
+    "errors": {
+      "passwordRequired": "Yêu cầu mật khẩu.",
+      "failedToRetrieve": "Không thể truy xuất cụm từ hạt giống.",
+      "copyFailed": "Không thể sao chép cụm từ hạt giống."
+    }
+  },
+  "tabSelector": {
+    "previousTab": "Tab trước",
+    "switchToTab": "Chuyển sang tab {{tabName}}",
+    "nextTab": "Tab tiếp theo",
+    "expandContentView": "Mở rộng chế độ xem nội dung"
+  },
+  "tokenDetails": {
+    "titleFallback": "Chi tiết Token",
+    "detailsUnavailable": "Chi tiết token không khả dụng.",
+    "backToDashboard": "Quay lại bảng điều khiển",
+    "loadingData": "Đang tải dữ liệu token...",
+    "tokenFallback": "Token",
+    "burnInitiatedTitle": "Đã bắt đầu đốt!",
+    "transactionIdLabel": "ID giao dịch",
+    "moreOptionsAriaLabel": "Tùy chọn khác",
+    "fetchingLatestDetails": "Đang lấy chi tiết mới nhất...",
+    "viewOnlyWarning": "Đây là tài khoản chỉ xem. Hành động Gửi/Đốt đã bị tắt.",
+    "sectionTitle": "Thông tin Token",
+    "labels": {
+      "name": "Tên",
+      "symbol": "Ký hiệu",
+      "pricePerToken": "Giá mỗi Token",
+      "addressMint": "Địa chỉ (Mint)",
+      "explorer": "Trình khám phá"
+    },
+    "menu": {
+      "viewOnExplorer": "Xem trên trình khám phá",
+      "burnToken": "Đốt Token"
+    },
+    "buttons": {
+      "send": "Gửi",
+      "receive": "Nhận"
+    },
+    "burnSuccessMessage": "Đã bắt đầu đốt {{tokenName}} thành công!",
+    "errors": {
+      "fetchFailed": "Không thể lấy chi tiết token đầy đủ.",
+      "detailsNotFound": "Không thể truy xuất chi tiết token đầy đủ.",
+      "fetchInitiationFailed": "Lỗi khi bắt đầu lấy chi tiết: {{error}}",
+      "burnMissingInfo": "Không thể đốt: Thiếu tài khoản hoạt động hoặc chi tiết token.",
+      "burnUnknownError": "Lỗi không xác định khi đốt token."
+    }
+  },
+  "tokenManagement": {
+    "headerTitle": "Quản lý danh sách Token",
+    "fallbackTokenName": "Token",
+    "spamToggle": {
+      "label": "Hiển thị Token Spam/Không xác định",
+      "description": "Token spam/không xác định là những token không có logo VÀ thiếu giá, tên hoặc ký hiệu. Theo mặc định, chúng bị ẩn."
+    },
+    "lowBalanceToggle": {
+      "label": "Ẩn Token có giá trị dưới $1"
+    },
+    "individualManagementInfo": {
+      "withSpam": "Quản lý riêng lẻ khả năng hiển thị cho các token (bao gồm cả token spam/không xác định).",
+      "withoutSpam": "Quản lý riêng lẻ khả năng hiển thị cho các token (không bao gồm token spam/không xác định)."
+    },
+    "buttons": {
+      "hideAllBelow": "Ẩn tất cả bên dưới",
+      "showAllBelow": "Hiển thị tất cả bên dưới",
+      "showTokenAria": "Hiển thị {{tokenName}}",
+      "hideTokenAria": "Ẩn {{tokenName}}"
+    },
+    "loadingTokens": "Đang tải token...",
+    "emptyState": {
+      "noNonNativeTokens": "Không tìm thấy token không phải gốc trong tài khoản này.",
+      "noNonSpamToManage": "Không có token không phải spam/không xác định để quản lý. Hãy thử bật 'Hiển thị Token Spam/Không xác định'."
+    },
+    "errors": {
+      "loadFailed": "Lỗi tải token: {{error}}"
+    }
+  },
+  "tokenSelect": {
+    "modalTitleInput": "Chọn Token thanh toán",
+    "modalTitleOutput": "Chọn Token nhận",
+    "modalTitleGeneric": "Chọn Token",
+    "searchPlaceholder": "Tìm kiếm tên, ký hiệu hoặc dán địa chỉ",
+    "loadingTokens": "Đang tải token...",
+    "noTokensMatchSearch": "Không tìm thấy token nào khớp với tìm kiếm của bạn.",
+    "noTokensFoundShort": "Không tìm thấy token.",
+    "customTokenName": "Token ({{addressPart}}...)",
+    "unknownToken": "Token không xác định",
+    "customAddressLabel": "Địa chỉ tùy chỉnh",
+    "ariaLabels": {
+      "selectToken": "Chọn {{tokenName}}"
+    }
+  },
+  "swapErrorView": {
+    "title": "Hoán đổi thất bại",
+    "errorDetailsLabel": "Chi tiết lỗi:"
+  },
+  "swapSuccessView": {
+    "noDetailsFound": "Không tìm thấy chi tiết thành công.",
+    "title": "Hoán đổi thành công!",
+    "swappedMessage": "Bạn đã hoán đổi {{amount}} {{symbol}}",
+    "forEstimatedMessage": "Để nhận ước tính {{amount}} {{symbol}}.",
+    "transactionIdLabel": "ID giao dịch",
+    "buttons": {
+      "newSwap": "Hoán đổi mới"
+    }
+  },
+  "swapView": {
+    "title": "Hoán đổi Token",
+    "loadingInterface": "Đang tải giao diện hoán đổi...",
+    "settingsPlaceholderAlert": "Chỗ заповнення для налаштувань обміну",
+    "kyokuWalletSwap": "Hoán đổi Ví Kyoku",
+    "kyokuWalletOrigin": "Ví Kyoku",
+    "tokenIdentifierFallback": "TKN",
+    "fetchingBestPrice": "Đang lấy giá tốt nhất...",
+    "labels": {
+      "youPay": "Bạn trả",
+      "youReceiveEstimated": "Bạn nhận (Ước tính)"
+    },
+    "tokenInput": {
+      "balancePrefix": "Số dư: ",
+      "amountPlaceholder": "0.00",
+      "selectTokenFallback": "Chọn",
+      "selectTokenAria": "Chọn {{currentToken}} để hoán đổi"
+    },
+    "buttons": {
+      "max": "TỐI ĐA",
+      "fetchingQuote": "Đang lấy báo giá...",
+      "errorGettingQuote": "Lỗi lấy báo giá",
+      "reviewSwap": "Xem lại hoán đổi"
+    },
+    "quoteInfo": {
+      "rate": "Tỷ giá",
+      "priceImpact": "Tác động giá",
+      "minReceived": "Tối thiểu nhận được",
+      "route": "Lộ trình",
+      "directRoute": "Trực tiếp"
+    },
+    "ariaLabels": {
+      "closeSwap": "Đóng hoán đổi",
+      "swapSettings": "Cài đặt hoán đổi",
+      "usePercentage": "Sử dụng {{percentage}}% số dư",
+      "swapDirection": "Hoán đổi token đầu vào và đầu ra"
+    },
+    "errors": {
+      "invalidNumber": "Vui lòng nhập số hợp lệ (ví dụ: 123.45)",
+      "amountExceedsBalance": "Số tiền vượt quá số dư khả dụng.",
+      "invalidInputForQuote": "Đầu vào không hợp lệ để lấy báo giá.",
+      "invalidInputAmount": "Số tiền đầu vào không hợp lệ.",
+      "quoteFetchFailed": "Không thể lấy báo giá. Hãy thử điều chỉnh số tiền hoặc cặp.",
+      "quoteRequestPrepFailed": "Lỗi khi chuẩn bị yêu cầu báo giá. Kiểm tra giá trị đầu vào.",
+      "missingInfoForExecute": "Thiếu thông tin cần thiết để thực hiện hoán đổi.",
+      "failedToGetJupiterTx": "Không thể lấy giao dịch hoán đổi từ Jupiter."
+    }
+  },
+  "networkSettings": {
+    "options": {
+      "mainnet": "Mainnet Beta",
+      "devnet": "Devnet",
+      "testnet": "Testnet",
+      "customRpc": "RPC tùy chỉnh"
+    },
+    "customRpcConfigurationTitle": "Cấu hình RPC tùy chỉnh",
+    "customRpcDescription": "Nhập URL điểm cuối RPC của riêng bạn để truy cập mạng tùy chỉnh",
+    "customRpcInputAriaLabel": "URL điểm cuối RPC tùy chỉnh",
+    "placeholders": {
+      "rpcEndpoint": "https://your-rpc-endpoint.com"
+    },
+    "errors": {
+      "updateFailed": "Không thể cập nhật mạng: {{details}}"
+    }
+  },
+  "autoLockSettings": {
+    "title": "Hẹn giờ tự động khóa",
+    "description": "Cấu hình thời điểm ví tự động khóa.",
+    "enableLabel": "Bật tự động khóa",
+    "enableAutoLockAria": "Bật tự động khóa",
+    "disableAutoLockAria": "Tắt tự động khóa",
+    "durationLabel": "Khóa sau (phút)",
+    "saveSuccessMessage": "Đã lưu cài đặt thành công",
+    "errors": {
+      "loadFailed": "Không thể tải cài đặt",
+      "saveFailed": "Không thể lưu cài đặt",
+      "durationTooShort": "Thời gian tự động khóa phải ít nhất 1 phút"
+    }
+  },
+  "changePassword": {
+    "labels": {
+      "currentPassword": "Mật khẩu hiện tại",
+      "newPassword": "Mật khẩu mới",
+      "confirmNewPassword": "Xác nhận mật khẩu mới"
+    },
+    "placeholders": {
+      "currentPassword": "Nhập mật khẩu hiện tại của bạn",
+      "newPassword": "Nhập mật khẩu mới",
+      "confirmNewPassword": "Xác nhận mật khẩu mới"
+    },
+    "newPasswordHint": "Phải có ít nhất 8 ký tự.",
+    "buttons": {
+      "changing": "Đang thay đổi...",
+      "changePassword": "Đổi mật khẩu"
+    },
+    "errors": {
+      "allFieldsRequired": "Tất cả các trường mật khẩu là bắt buộc.",
+      "newPasswordsDoNotMatch": "Mật khẩu mới không khớp.",
+      "newPasswordTooShort": "Mật khẩu mới phải có ít nhất 8 ký tự.",
+      "newPasswordSameAsCurrent": "Mật khẩu mới không được giống mật khẩu hiện tại.",
+      "changeFailedUnknown": "Không thể đổi mật khẩu do lỗi không xác định."
+    },
+    "successMessage": "Đã đổi mật khẩu thành công! Ví sẽ khóa."
+  },
+  "explorerSettings": {
+    "description": "Chọn trình khám phá khối ưa thích của bạn. Liên kết đến các giao dịch và địa chỉ sẽ sử dụng lựa chọn này.",
+    "saveSuccessMessage": "Đã lưu tùy chọn thành công!",
+    "saveFailedMessage": "Không thể lưu tùy chọn. Vui lòng thử lại.",
+    "saveFailedMessageNoParam": "Không thể lưu tùy chọn"
+  },
+  "feeSettings": {
+    "description": "Chọn mức ưu tiên mặc định cho các giao dịch của bạn. Điều này giúp xác định tốc độ xử lý giao dịch của bạn, đặc biệt là trong thời gian mạng tắc nghẽn. Trong một số trường hợp, bạn có thể ghi đè mức này cho từng giao dịch.",
+    "options": {
+      "auto": {
+        "label": "Tự động (Khuyến nghị)",
+        "description": "Ví cố gắng đặt mức phí tối ưu dựa trên điều kiện mạng (mặc định là Trung bình)."
+      },
+      "low": {
+        "label": "Thấp",
+        "description": "Phí thấp hơn, thời gian xác nhận có thể chậm hơn."
+      },
+      "medium": {
+        "label": "Trung bình",
+        "description": "Phí cân bằng cho thời gian xác nhận hợp lý."
+      },
+      "high": {
+        "label": "Cao",
+        "description": "Phí cao hơn để xác nhận nhanh hơn, hữu ích trong thời gian tắc nghẽn."
+      }
+    }
+  },
+  "aboutSettings": {
+    "title": "Về Ví Kyoku",
+    "versionLabel": "Phiên bản",
+    "brandName": "Ví Kyoku",
+    "links": {
+      "website": "Trang web",
+      "terms": "Điều khoản dịch vụ",
+      "privacy": "Chính sách bảo mật"
+    }
+  },
+  "addressBook": {
+    "title": "Sổ địa chỉ",
+    "loading": "Đang tải sổ địa chỉ...",
+    "addNewAddressTitle": "Thêm địa chỉ mới",
+    "editAddressTitle": "Chỉnh sửa địa chỉ",
+    "addressIdentifierForErrorCheck": "địa chỉ",
+    "labels": {
+      "name": "Tên",
+      "address": "Địa chỉ"
+    },
+    "placeholders": {
+      "nameExample": "Ví dụ: Bạn Tôi Bob",
+      "pasteAddress": "Dán địa chỉ Solana"
+    },
+    "buttons": {
+      "addNewAddress": "Thêm địa chỉ mới",
+      "editAddress": "Chỉnh sửa {{name}}",
+      "deleteAddress": "Xóa {{name}}"
+    },
+    "emptyStateLine1": "Sổ địa chỉ của bạn trống.",
+    "emptyStateLine2": "Nhấp vào nút '+' để thêm địa chỉ.",
+    "confirmDeleteMessage": "Bạn có chắc chắn muốn xóa địa chỉ này không?",
+    "errors": {
+      "loadFailed": "Không thể tải sổ địa chỉ",
+      "saveFailed": "Không thể lưu sổ địa chỉ",
+      "nameAndAddressRequired": "Yêu cầu tên và địa chỉ.",
+      "invalidSolanaAddress": "Định dạng địa chỉ Solana không hợp lệ.",
+      "addressExists": "Địa chỉ này đã tồn tại trong sổ địa chỉ.",
+      "addressExistsDifferentName": "Địa chỉ này đã tồn tại với một tên khác."
+    }
+  },
+  "activityDetails": {
+    "detailsUnavailable": "Chi tiết giao dịch không khả dụng.",
+    "backToActivities": "Quay lại Hoạt động",
+    "tokenFallback": "Token",
+    "assetFallback": "Tài sản",
+    "headers": {
+      "default": "Chi tiết giao dịch",
+      "sentAsset": "Đã gửi {{assetName}}",
+      "receivedAsset": "Đã nhận {{assetName}}",
+      "swap": "Hoán đổi: {{tokenA}} lấy {{tokenB}}",
+      "dappInteractionNamed": "Tương tác: {{dappName}}",
+      "dappInteraction": "Tương tác dApp",
+      "interaction": "Tương tác chương trình"
+    },
+    "labels": {
+      "date": "Ngày",
+      "status": "Trạng thái",
+      "interaction": "Tương tác",
+      "from": "Từ",
+      "to": "Đến",
+      "source": "Nguồn",
+      "networkFee": "Phí mạng",
+      "mintAddress": "Địa chỉ Mint",
+      "externalLink": "Liên kết ngoài",
+      "explorer": "Trình khám phá"
+    },
+    "prefixes": {
+        "youPaid": "Bạn đã trả: ",
+        "youReceived": "Bạn đã nhận: ",
+        "amountSent": "Số tiền đã gửi: ",
+        "amountReceived": "Số tiền đã nhận: "
+    },
+    "statusConfirmed": "Đã xác nhận",
+    "transactionIdLabel": "ID giao dịch",
+    "viewOnExplorer": "Xem trên {{explorerName}}"
+  },
+  "activityItem": {
+    "unknownActivity": "Hoạt động không xác định",
+    "unknownToken": "Token",
+    "actions": {
+      "sent": "Đã gửi",
+      "sentToken": "Đã gửi {{tokenSymbol}}",
+      "received": "Đã nhận",
+      "receivedToken": "Đã nhận {{tokenSymbol}}",
+      "swap": "Hoán đổi",
+      "appInteraction": "Tương tác ứng dụng",
+      "programInteraction": "Tương tác chương trình",
+      "approval": "Phê duyệt"
+    },
+    "labels": {
+      "to": "Đến",
+      "from": "Từ",
+      "program": "Chương trình",
+      "for": "Cho",
+      "source": "Nguồn"
+    }
+  },
+  "activityView": {
+    "loadingFromCache": "Đang tải từ bộ nhớ cache...",
+    "errorLoadingTitle": "Lỗi tải hoạt động",
+    "noRecentActivityTitle": "Không có hoạt động gần đây",
+    "transactionsAppearHere": "Giao dịch của bạn sẽ xuất hiện ở đây.",
+    "loadingMore": "Đang tải thêm...",
+    "noMoreActivities": "Không còn hoạt động nào để tải."
+  },
+  "mainPopupApp": {
+    "loadingWallet": "Đang tải ví...",
+    "redirectingToSetup": "Đang chuyển hướng đến thiết lập...",
+    "dismissErrorAriaLabel": "Bỏ qua lỗi",
+    "deleteModal": {
+      "title": "Xóa tài khoản?",
+      "messagePart1": "Xóa:",
+      "messagePart2": "?",
+      "warning": "Hành động này không thể hoàn tác."
+    },
+    "errors": {
+      "connectFailed": "Không thể kết nối: {{error}}",
+      "getInitialStateFailed": "Không thể lấy trạng thái ban đầu.",
+      "noBackgroundResponse": "Không có phản hồi từ nền cho trạng thái ban đầu.",
+      "commError": "Lỗi giao tiếp: {{error}}",
+      "loadAccountsFailedAfterUnlock": "Không thể tải tài khoản sau khi mở khóa.",
+      "accountSwitchFailed": "Chuyển tài khoản thất bại: {{error}}",
+      "accountSwitchFailedUnknown": "Không thể chuyển tài khoản.",
+      "openOnboardingFailed": "Không thể mở hướng dẫn: {{error}}",
+      "renameFailed": "Đổi tên thất bại: {{error}}",
+      "saveOrderFailed": "Không thể lưu thứ tự tài khoản.",
+      "accountNotFoundForDelete": "Không tìm thấy tài khoản để xóa.",
+      "cannotDeleteLastNonViewOnly": "Không thể xóa tài khoản cuối cùng không phải chỉ xem. Hãy tạo tài khoản khác hoặc nhập trước.",
+      "deleteFailed": "Xóa thất bại: {{error}}",
+      "deleteFailedNamed": "Không thể xóa tài khoản '{{name}}'."
+    }
+  },
+  "dashboard": {
+    "tabs": {
+        "tokens": "Token",
+        "collectibles": "Vật phẩm",
+        "activity": "Hoạt động"
+    },
+    "manageTokenList": "Quản lý danh sách Token",
+    "manageNftList": "Quản lý danh sách NFT",
+    "buttons": {
+        "createNewAccount": "Tạo tài khoản mới",
+        "importRecoveryPhrase": "Nhập cụm từ khôi phục",
+        "importPrivateKey": "Nhập khóa riêng",
+        "addViewOnlyAccount": "Thêm tài khoản chỉ xem"
+    },
+    "collectionTitleFallback": "Bộ sưu tập",
+    "backToAllCollectibles": "Quay lại tất cả vật phẩm",
+    "closeExpandedView": "Đóng chế độ xem mở rộng"
+  },
+  "sendForm": {
+    "balanceLabel": "Số dư",
+    "toLabel": "Đến",
+    "amountLabel": "Số lượng",
+    "sendingToSaved": "Đang gửi đến {{name}}",
+    "loadingContacts": "Đang tải danh bạ...",
+    "noMatchingContacts": "Không tìm thấy liên hệ nào khớp.",
+    "noContactsOrAccounts": "Không có liên hệ nào trong sổ địa chỉ hoặc các tài khoản khác của bạn.",
+    "startTypingToSearch": "Bắt đầu nhập để tìm kiếm liên hệ.",
+    "buttons": {
+        "sendMax": "Tối đa",
+        "reviewTransaction": "Xem lại giao dịch"
+    },
+    "placeholders": {
+        "recipientAddress": "Dán địa chỉ Solana hoặc chọn liên hệ",
+        "nftAmount": "1 (NFT)",
+        "tokenAmount": "0.00"
+    },
+    "ariaLabels": {
+        "clearRecipient": "Xóa người nhận",
+        "showSuggestions": "Hiển thị gợi ý"
+    },
+    "errors": {
+        "recipientRequired": "Yêu cầu địa chỉ người nhận.",
+        "invalidSolanaAddress": "Định dạng địa chỉ Solana không hợp lệ.",
+        "nftAmountMustBeOne": "Số lượng NFT phải là 1.",
+        "amountRequired": "Yêu cầu số lượng.",
+        "validPositiveAmount": "Vui lòng nhập số lượng dương hợp lệ.",
+        "amountExceedsBalance": "Số lượng vượt quá số dư khả dụng ({{balance}} {{symbol}}).",
+        "couldNotVerifyRecipient": "Không thể xác minh trạng thái người nhận.",
+        "failedToVerifyRecipient": "Không thể xác minh trạng thái người nhận."
+    }
+  },
+  "transactionConfirm": {
+    "customRpcLabel": "RPC tùy chỉnh",
+    "youAreSending": "Bạn đang gửi",
+    "fromLabel": "Từ",
+    "yourWalletLabel": "Ví của bạn",
+    "toLabel": "Đến",
+    "networkLabel": "Mạng",
+    "networkFeeLabel": "Phí mạng",
+    "calculatingFee": "Đang tính phí...",
+    "feeUnavailable": "Không thể ước tính phí",
+    "warningIrreversible": "Cảnh báo: Giao dịch này không thể hoàn tác. Vui lòng xem xét kỹ tất cả các chi tiết trước khi tiếp tục.",
+    "buttons": {
+        "sending": "Đang gửi...",
+        "confirmAndSend": "Xác nhận & Gửi"
+    }
+  },
+  "sendView": {
+    "errors": {
+        "unexpectedError": "Đã xảy ra lỗi không mong muốn.",
+        "sendFromViewOnly": "Không thể gửi từ tài khoản chỉ xem.",
+        "activeAccountNotFound": "Không tìm thấy tài khoản hoạt động.",
+        "feeEstimationFailed": "Ước tính phí thất bại: {{error}}",
+        "decodeFailed": "Giải mã thất bại: {{error}}",
+        "couldNotSimulateFee": "Không thể mô phỏng giao dịch để ước tính phí.",
+        "missingDetailsOrAccount": "Thiếu chi tiết giao dịch hoặc tài khoản hoạt động.",
+        "swapFailedToSend": "Gửi hoán đổi thất bại.",
+        "errorLoadingTokens": "Lỗi tải token",
+        "feeNotReady": "Thông tin phí chưa sẵn sàng. Vui lòng đợi.",
+        "transactionFailed": "Giao dịch thất bại: {{error}}",
+        "unknownErrorOccurred": "Đã xảy ra lỗi không xác định."
+    },
+    "success": {
+        "title": "Giao dịch đã gửi!",
+        "message": "Giao dịch của bạn đã được gửi thành công đến mạng.",
+        "viewOnExplorer": "Xem trên {{explorerName}}"
+    },
+    "headers": {
+        "processingTransaction": "Đang xử lý giao dịch...",
+        "selectToken": "Chọn Token",
+        "sendToken": "Gửi {{tokenSymbol}}",
+        "confirmTransaction": "Xác nhận giao dịch",
+        "transactionSent": "Giao dịch đã gửi",
+        "transactionFailed": "Giao dịch thất bại",
+        "send": "Gửi"
+    },
+    "noTokenSelected": "Không có token nào được chọn để gửi.",
+    "buttons": {
+        "selectToken": "Chọn Token"
+    },
+    "loadingForm": "Đang tải biểu mẫu...",
+    "loadingTransactionDetails": "Đang tải chi tiết giao dịch...",
+    "tokenFallback": "Token",
+    "errorSending": {
+        "title": "Lỗi gửi"
+    },
+    "loadingState": "Đang tải trạng thái..."
+  },
+  "accountSettings": {
+    "noAccountSelected": "Không có tài khoản nào được chọn.",
+    "menu": {
+        "walletAddress": "Địa chỉ ví",
+        "renameWallet": "Đổi tên ví",
+        "showPrivateKey": "Hiển thị khóa riêng",
+        "showRecoveryPhrase": "Hiển thị cụm từ khôi phục",
+        "removeWallet": "Xóa ví"
+    },
+    "errors": {
+        "copyFailed": "Không thể sao chép địa chỉ."
+    }
+  },
+  "nftDetails": {
+    "menu": {
+        "viewOnExplorer": "Xem trên trình khám phá",
+        "burnNft": "Đốt NFT",
+        "setAsProfilePicture": "Đặt làm ảnh đại diện",
+        "removeProfilePicture": "Xóa ảnh đại diện"
+    },
+    "profilePictureBadge": "Ảnh ĐD",
+    "errors": {
+        "fetchFailed": "Không thể lấy chi tiết NFT đầy đủ.",
+        "detailsNotFound": "Không thể truy xuất chi tiết NFT đầy đủ.",
+        "fetchInitiationFailed": "Lỗi khi bắt đầu lấy chi tiết: {{error}}",
+        "burnMissingInfo": "Không thể đốt: Thiếu tài khoản hoạt động hoặc chi tiết NFT.",
+        "burnUnknownError": "Lỗi không xác định khi đốt NFT.",
+        "couldNotFetchFullDetails": "Không thể lấy chi tiết đầy đủ: {{error}}"
+    },
+    "moreOptionsAriaLabel": "Tùy chọn khác",
+    "fetchingLatestDetails": "Đang lấy chi tiết mới nhất...",
+    "viewOnlyWarning": "Đây là tài khoản chỉ xem. Hành động Gửi/Đốt đã bị tắt.",
+    "buttons": {
+        "sendNft": "Gửi NFT"
+    },
+    "compressedBadge": "Đã nén",
+    "sectionTitles": {
+        "description": "Mô tả",
+        "aboutCollection": "Về bộ sưu tập {{collectionName}}",
+        "attributes": "Thuộc tính",
+        "details": "Chi tiết"
+    },
+    "labels": {
+        "mintAddress": "Địa chỉ Mint",
+        "externalLink": "Liên kết ngoài",
+        "explorer": "Trình khám phá"
+    },
+    "links": {
+        "viewCollection": "Xem bộ sưu tập",
+        "viewAsset": "Xem tài sản"
+    },
+    "burnSuccessMessage": "Đã bắt đầu đốt {{nftName}} thành công!",
+    "transactionIdLabel": "ID giao dịch",
+    "detailsUnavailable": "Chi tiết NFT không khả dụng.",
+    "loadingData": "Đang tải dữ liệu NFT..."
+  },
+  "nftManagement": {
+    "unnamedNft": "NFT không tên",
+    "potentialSpam": "Spam tiềm ẩn",
+    "spamHidden": "Spam (Đã ẩn)",
+    "headerTitle": "Quản lý danh sách NFT",
+    "spamToggle": {
+        "label": "Hiển thị NFT Spam/Không xác định",
+        "description": "NFT spam/không xác định là những NFT không có logo VÀ thiếu giá, tên hoặc ký hiệu. Theo mặc định, chúng bị ẩn."
+    },
+    "buttons": {
+        "showNftAria": "Hiển thị {{nftName}}",
+        "hideNftAria": "Ẩn {{nftName}}"
+    },
+    "loadingDataAndPreferences": "Đang tải dữ liệu và tùy chọn...",
+    "errors": {
+        "loadFailed": "Lỗi tải NFT: {{error}}"
+    },
+    "emptyState": {
+        "title": "Không có NFT để quản lý",
+        "description": "Khi bạn sở hữu NFT, bạn có thể quản lý khả năng hiển thị của chúng tại đây."
+    },
+    "hiddenSpamInfo": "{{count}} NFT spam/không xác định bị ẩn. Chuyển đổi ở trên để xem chúng."
+  },
+  "connectedDapps": {
+    "errors": {
+        "loadFailed": "Không thể tải các dApp đã kết nối.",
+        "couldNotRetrieve": "Không thể truy xuất các dApp đã kết nối.",
+        "disconnectFailed": "Ngắt kết nối thất bại."
+    },
+    "loading": "Đang tải các dApp đã kết nối...",
+    "dAppIconAlt": "Biểu tượng dApp {{appName}}",
+    "confirmDisconnect": "Bạn có chắc chắn muốn ngắt kết nối khỏi {{appName}} không?",
+    "buttons": {
+        "disconnectAriaLabel": "Ngắt kết nối khỏi {{appName}}",
+        "disconnect": "Ngắt kết nối"
+    },
+    "connectedDateLabel": "Đã kết nối",
+    "emptyState": {
+        "noAppsConnected": "Không có dApp nào được kết nối.",
+        "appsWillAppearHere": "Các dApp bạn kết nối sẽ xuất hiện ở đây."
+    },
+    "description": "Quản lý các ứng dụng đã được cấp quyền truy cập vào ví của bạn. Thu hồi quyền truy cập sẽ yêu cầu ứng dụng phải yêu cầu kết nối lại trong lần tương tác tiếp theo."
+  },
+  "passwordSetup": {
+    "errors": {
+        "passwordsDoNotMatch": "Mật khẩu không khớp.",
+        "passwordTooShort": "Mật khẩu phải có ít nhất 8 ký tự.",
+        "initializationFailed": "Khởi tạo ví thất bại: {{error}}",
+        "setupFailedUnknown": "Thiết lập thất bại: {{error}}",
+        "secretNotStagedAlert": "Lỗi nghiêm trọng trong quá trình thiết lập (thiếu dữ liệu đã lưu trữ). Vui lòng bắt đầu lại quá trình hướng dẫn.",
+        "secretNotStagedDetailed": "Lỗi trong quá trình thiết lập: Thiếu dữ liệu đã lưu trữ. Vui lòng quay lại và bắt đầu lại quá trình tạo hoặc nhập ví.",
+        "sendRequestFailed": "Không thể gửi yêu cầu khởi tạo: {{error}}"
+    },
+    "title": "Tạo mật khẩu",
+    "descriptionLine1": "Mật khẩu này sẽ được sử dụng để mở khóa Ví Kyoku của bạn.",
+    "descriptionLine2": "Hãy đảm bảo lưu trữ nó ở nơi an toàn.",
+    "placeholders": {
+        "enterPassword": "Nhập mật khẩu",
+        "confirmPassword": "Xác nhận mật khẩu"
+    },
+    "ariaLabels": {
+        "hidePassword": "Ẩn mật khẩu",
+        "showPassword": "Hiển thị mật khẩu",
+        "hideConfirmPassword": "Ẩn mật khẩu xác nhận",
+        "showConfirmPassword": "Hiển thị mật khẩu xác nhận"
+    },
+    "buttons": {
+        "securingWallet": "Đang bảo vệ ví...",
+        "createWallet": "Tạo ví"
+    }
+  },
+  "walletSetup": {
+    "errors": {
+        "contactBackgroundFailed": "Lỗi khi liên hệ với dịch vụ nền: {{error}}",
+        "invalidStatusResponse": "Phản hồi không hợp lệ từ checkKeyringStatus",
+        "sendStatusCheckFailed": "Lỗi khi gửi tin nhắn kiểm tra trạng thái",
+        "ensureExtensionEnabled": "Vui lòng đảm bảo tiện ích được bật và thử tải lại."
+    },
+    "checkingStatus": "Đang kiểm tra trạng thái ví...",
+    "alreadySetupTitle": "Ví đã được thiết lập!",
+    "alreadySetupMessage": "Ví Kyoku đã tồn tại trong trình duyệt này. Bạn có thể truy cập nó từ biểu tượng tiện ích.",
+    "welcomeTitle": "Chào mừng đến với Ví Kyoku",
+    "termsAgreementPrefix": "Tôi đã đọc và đồng ý với",
+    "termsAndConditionsLink": "Điều khoản và Điều kiện",
+    "createWalletTitle": "Tạo ví mới",
+    "createWalletDescription": "Nếu bạn mới sử dụng Kyoku, hãy tạo một ví bảo mật mới.",
+    "importWalletTitle": "Nhập ví hiện có",
+    "importWalletDescription": "Truy cập ví hiện có bằng cụm từ khôi phục bí mật hoặc khóa riêng của bạn.",
+    "buttons": {
+        "createWallet": "Tạo ví",
+        "importWallet": "Nhập ví"
+    }
+  },
+  "confirmSwap": {
+    "errors": {
+        "feeEstimationFailed": "Ước tính phí thất bại.",
+        "decodeFailed": "Giải mã thất bại: {{error}}",
+        "couldNotVerifyLocally": "Không thể xác minh giao dịch cục bộ. Vẫn có thể phê duyệt.",
+        "missingDetailsOrAccount": "Thiếu chi tiết giao dịch hoặc tài khoản hoạt động."
+    },
+    "ariaLabels": {
+        "rejectTransaction": "Từ chối giao dịch"
+    },
+    "title": "Xác nhận hoán đổi",
+    "youAreSwapping": "Bạn đang hoán đổi:",
+    "tokenFallback": "Token",
+    "toReceiveNet": "Nhận ròng:",
+    "afterPlatformFee": "(sau phí nền tảng)",
+    "estimatingNetworkFee": "Đang ước tính phí mạng...",
+    "ourSimulationFailedTitle": "Mô phỏng của chúng tôi thất bại",
+    "showLogs": "Hiển thị nhật ký"
+  }
+}

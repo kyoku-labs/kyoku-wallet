@@ -1,0 +1,1133 @@
+{
+  "common": {
+    "back": "戻る",
+    "goBack": "戻る",
+    "savePreference": "設定を保存",
+    "loading": "読み込み中...",
+    "loadingSettings": "設定を読み込み中...",
+    "processing": "処理中...",
+    "processingSwap": "スワップ処理中...",
+    "error": "エラー",
+    "unknownError": "不明なエラー",
+    "communicationError": "通信エラー",
+    "notAvailable": "該当なし",
+    "usdCurrencyCode": "USD",
+    "tokensFallback": "トークン",
+    "explorer": "エクスプローラー",
+    "done": "完了",
+    "close": "閉じる",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "copyAddress": "アドレスをコピー",
+    "viewOnly": "閲覧のみ",
+    "viewOnlyAccount": "閲覧専用アカウント",
+    "clearSearch": "検索をクリア"
+  },
+  "buttons": {
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "reject": "拒否",
+    "tryAgain": "再試行",
+    "close": "閉じる",
+    "continue": "続行",
+    "unlock": "ロック解除",
+    "ok": "OK",
+    "changeAccount": "アカウント変更",
+    "approve": "承認",
+    "approveAnywayRisky": "承認する (危険)",
+    "connect": "接続",
+    "signIn": "サインイン",
+    "save": "保存"
+  },
+  "main": {
+    "errors": {
+      "rootNotFound": "エラー：ルート要素が見つかりません。アプリケーションを描画できません。"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "general": "一般",
+    "generalDescription": "ネットワーク、手数料優先度、エクスプローラー、通貨、言語",
+    "securityPrivacy": "セキュリティとプライバシー",
+    "securityPrivacyDescription": "パスワード、自動ロック、接続済みアプリ",
+    "addressBook": "アドレス帳",
+    "addressBookDescription": "保存済みアドレスの管理",
+    "aboutKyoku": "Kyokuについて",
+    "aboutKyokuDescription": "バージョン、利用規約、ポリシー",
+    "lockWallet": "ウォレットをロック",
+    "lockWalletDescription": "ウォレットをすぐに保護します",
+    "network": "ネットワーク",
+    "networkDescription": "ブロックチェーンネットワークを選択 (メインネット、開発ネット)",
+    "transactionPriority": "取引の優先度",
+    "transactionPriorityDescription": "取引のデフォルト手数料レベルを設定",
+    "preferredExplorer": "優先エクスプローラー",
+    "preferredExplorerDescription": "デフォルトのブロックエクスプローラーを選択",
+    "displayCurrency": "表示通貨",
+    "displayCurrencyDescription": "優先法定通貨を設定 (例: USD, EUR)",
+    "displayLanguage": "表示言語",
+    "displayLanguageDescription": "アプリケーションの言語を変更",
+    "autoLockTimer": "自動ロックタイマー",
+    "autoLockTimerDescription": "非アクティブ後にウォレットをロックするように設定",
+    "changePassword": "パスワードの変更",
+    "changePasswordDescription": "ウォレットのアクセスパスワードを更新",
+    "connectedApps": "接続済みアプリ",
+    "connectedAppsDescription": "dAppの権限を管理",
+    "categoryTitles": {
+        "main": "設定",
+        "general": "一般設定",
+        "securityPrivacy": "セキュリティとプライバシー",
+        "addressBook": "アドレス帳",
+        "about": "Kyokuについて"
+    },
+    "subViewTitles": {
+        "network": "ネットワーク設定",
+        "explorer": "エクスプローラー設定",
+        "currency": "表示通貨",
+        "language": "表示言語",
+        "autoLock": "自動ロックタイマー",
+        "changePassword": "パスワードの変更",
+        "connectedDapps": "接続済みアプリ",
+        "addressBook": "アドレス帳",
+        "about": "Kyokuについて",
+        "feeSettings": "取引の優先度"
+    }
+  },
+  "currencySettings": {
+    "description": "法定通貨の値を表示するための優先通貨を選択してください。"
+  },
+  "currency": {
+    "usd": "米ドル",
+    "eur": "ユーロ",
+    "gbp": "英国ポンド",
+    "jpy": "日本円"
+  },
+  "languageSettings": {
+    "description": "インターフェースの優先言語を選択してください。"
+  },
+  "languages": {
+    "english": { "name": "英語", "nativeName": "English" },
+    "spanish": { "name": "スペイン語", "nativeName": "Español" },
+    "chinese_simplified": { "name": "中国語（簡体字）", "nativeName": "简体中文" },
+    "hindi": { "name": "ヒンディー語", "nativeName": "हिन्दी" },
+    "vietnamese": { "name": "ベトナム語", "nativeName": "Tiếng Việt" },
+    "indonesian": { "name": "インドネシア語", "nativeName": "Bahasa Indonesia" },
+    "japanese": { "name": "日本語", "nativeName": "日本語" },
+    "korean": { "name": "韓国語", "nativeName": "한국어" }
+  },
+  "dAppInfoCard": {
+    "altIconText": "dAppアイコン",
+    "requestFrom": "リクエスト元：",
+    "unknownDApp": "不明なdApp"
+  },
+  "transactionSummary": {
+    "nftPlaceholder": "NFT",
+    "unknownTokenPlaceholder": "不明なトークン",
+    "accountLabel": "アカウント",
+    "loadingPreview": "トランザクションプレビューを読み込み中...",
+    "simulationFailedSeeDetails": "シミュレーションに失敗しました。上記の詳細を参照してください。",
+    "simulationErrorTitle": "シミュレーションエラー",
+    "simulationErrorDefault": "このトランザクションは送信すると失敗する可能性があります。",
+    "solChangesLabel": "SOLの変更（あなた）：",
+    "tokenChangesLabel": "トークンの変更（あなた）：",
+    "noDirectChanges": "資産残高に直接的な変更はありません（ネットワーク手数料を除く）。",
+    "otherAccountChangesLabel": "その他のアカウントの変更：",
+    "transactionInsightsTitle": "トランザクションの洞察",
+    "networkFeeDetailsTitle": "ネットワーク手数料の詳細：",
+    "baseFeeLabel": "基本手数料",
+    "baseFeeTooltip": "トランザクションに必要な署名の数に基づく標準手数料。",
+    "priorityFeeLabel": "優先手数料",
+    "priorityFeeTooltip": "ネットワーク上でのトランザクションを優先処理するためのオプションの手数料。「中」優先度で推定されます。",
+    "totalEstimatedFeeLabel": "推定合計手数料：",
+    "estComputeLimitLabel": "推定計算制限",
+    "estComputeLimitTooltip": "推定優先手数料に対応するために、このトランザクションに対して要求される計算ユニット制限。",
+    "estComputePriceLabel": "推定計算価格",
+    "estComputePriceTooltip": "推定優先手数料の計算ユニットあたりの価格（マイクロランポート単位）。",
+    "rawTxCUsConsumedLabel": "生トランザクション消費CU",
+    "rawTxCUsConsumedTooltip": "シミュレーションでトランザクションによって消費された計算ユニット（明示的な優先手数料命令なし）。"
+  },
+  "warningDisplay": {
+    "defaultTitles": {
+      "critical": "セキュリティアラート！",
+      "warning": "注意",
+      "info": "情報"
+    }
+  },
+  "confirmationApp": {
+    "analyzingTransaction": "トランザクションを分析中...",
+    "loadingRequest": "リクエストを読み込み中...",
+    "requestErrorTitle": "リクエストエラー",
+    "unlockWalletTitle": "Kyokuウォレットのロックを解除",
+    "unlockToApproveRequest": "<1>{{dappName}}</1>からのリクエストを承認するには、パスワードを入力してください。",
+    "actionNotAllowedTitle": "許可されていないアクション",
+    "viewOnlyCannotSign": "選択されたアカウント<1>{{accountName}}（{{accountKey}}...）</1>は閲覧専用であり、署名操作には使用できません。",
+    "selectDifferentAccountOrReject": "別のアカウントを選択するか、リクエストを拒否してください。",
+    "noOtherAccountsForAction": "このアクションを実行できる他のアカウントはありません。",
+    "userRejectedUnlock": "ユーザーがロック解除を拒否しました。",
+    "operationCancelledViewOnly": "閲覧専用アカウントのため、操作はキャンセルされました。",
+    "signingAs": "署名者として",
+    "connectAllowApp": "これにより、アプリケーションは次のことを行えます：",
+    "connectViewAddress": "ウォレットアドレスを表示",
+    "connectRequestApproval": "トランザクションの承認をリクエスト（このアカウントが署名できる場合）。",
+    "signInRequestDetailsTitle": "サインインリクエストの詳細：",
+    "signInDomain": "ドメイン",
+    "signInAddress": "アドレス",
+    "messageLabel": "メッセージ（{{format}}）：",
+    "transactionNumber": "トランザクション {{number}}",
+    "assetChangesCount_one": "あなたのアセット変更 {{count}} 件",
+    "assetChangesCount_other": "あなたのアセット変更 {{count}} 件",
+    "noDirectAssetChanges": "アセットへの直接的な変更はありません",
+    "simulationFailedLabel": "シミュレーション失敗",
+    "simulationDataUnavailable": "シミュレーションデータが利用できません。生のトランザクションデータが署名されます。",
+    "messageSigningTitle": "メッセージ署名",
+    "messageSigningInfo": "メッセージに署名しています。リクエスト元のサイトを信頼し、メッセージの内容と目的を理解していることを確認してください。",
+    "transactionBatchInsightsTitle": "トランザクションバッチの洞察",
+    "transactionApprovalCautionTitle": "トランザクション承認の注意",
+    "transactionApprovalCautionMessage": "トランザクションを注意深く確認してください。悪意のあるトランザクションを承認すると、資金が失われる可能性があります。",
+    "userRejected": "ユーザーがリクエストを拒否しました。",
+    "userRejectedAfterSimFailure": "シミュレーション失敗後、ユーザーが拒否しました。",
+    "userRejectedAfterError": "エラー後、ユーザーがポップアップを閉じました。",
+    "titles": {
+      "connectionRequest": "接続リクエスト",
+      "signMessage": "メッセージに署名",
+      "approveTransaction": "トランザクションを承認",
+      "approveMultipleTransactions_one": "{{count}}件のトランザクションを承認",
+      "approveMultipleTransactions_other": "{{count}}件のトランザクションを承認",
+      "transactionPreviewFailed": "トランザクションプレビュー失敗"
+    },
+    "errors": {
+      "invalidRequestParams": "無効なリクエスト：重要なパラメータがありません。",
+      "failedToRetrieveStagedData": "ステージングされたデータの取得に失敗しました：{{error}}",
+      "requiredDataNotFound": "リクエストID {{requestId}} に必要なデータが見つかりません。",
+      "sessionDataKeyMissing": "署名操作のセッションデータキーがありません。",
+      "unsupportedInteractionType": "サポートされていないインタラクションタイプ：{{type}}。",
+      "messageDataUnavailable": "メッセージデータが利用できないか、形式が正しくありません。",
+      "unknownDisplayFormat": "メッセージの表示形式が不明です。",
+      "errorDecodingMessage": "メッセージ内容のデコード中にエラーが発生しました。",
+      "missingRequestId": "重大なエラー：リクエストIDがありません。",
+      "passwordEmpty": "パスワードは空にできません。",
+      "unlockFailed": "パスワードが間違っているか、ロック解除に失敗しました。",
+      "noAccountSelected": "承認できません：アカウントが選択されていません。",
+      "cannotApproveSimFailed": "承認できません：トランザクションシミュレーションに失敗しました。{{error}}",
+      "cannotApproveBatchSimFailed": "承認できません：1つ以上のトランザクションシミュレーションに失敗しました。{{error}}",
+      "unexpectedError": "予期しないエラーが発生しました。このウィンドウを閉じることができます。",
+      "simulationFailedUnknown": "トランザクションシミュレーションが不明な理由で失敗しました。"
+    },
+    "placeholders": {
+        "enterPassword": "パスワードを入力"
+    },
+    "simulationFailedTitle": "シミュレーション失敗",
+    "simulationFailedRecommendNotProceed": "このトランザクションはネットワークに送信すると失敗する可能性が高いです。続行することはお勧めしません。"
+  },
+  "addViewOnlyAccount": {
+    "title": "閲覧専用アカウントを追加",
+    "description": "監視するSolanaアドレス（公開鍵）を入力します。",
+    "placeholders": {
+      "pasteAddress": "Solanaアドレスを貼り付け..."
+    },
+    "buttons": {
+      "validating": "検証中...",
+      "confirmAddress": "アドレスを確認"
+    },
+    "errors": {
+      "publicKeyRequired": "公開鍵を入力してください。",
+      "invalidPublicKey": "無効な公開鍵です。"
+    }
+  },
+  "fundedAccountSelector": {
+    "title": "アカウントをインポート",
+    "descriptionWithFunds": "フレーズから派生したアカウントのうち、インポートしたいものを選択してください。",
+    "descriptionWithoutFunds": "残高のあるアカウントが見つかりませんでした。デフォルトのアカウントをインポートできます。",
+    "noAccountsToDisplay": "表示するアカウントがありません。",
+    "accountNamePrefix": "アカウント",
+    "importButton_one": "{{count}}アカウントをインポート",
+    "importButton_other": "{{count}}アカウントをインポート"
+  },
+  "importOptions": {
+    "title": "既存のウォレットをインポート",
+    "tagline": "数秒でウォレットを安全にKyokuに取り込みます。",
+    "buttons": {
+      "seedPhrase": {
+        "label": "シークレットリカバリーフレーズでインポート",
+        "description": "12語または24語のシークレットリカバリーフレーズを使用します。"
+      },
+      "privateKey": {
+        "label": "秘密鍵でインポート",
+        "description": "Solanaの秘密鍵を手動でインポートします。"
+      },
+      "viewOnly": {
+        "label": "閲覧専用ウォレットとしてインポート",
+        "description": "完全なアクセスなしで公開アドレスを追跡します。"
+      }
+    }
+  },
+  "importPrivateKey": {
+    "title": "秘密鍵をインポート",
+    "description": "秘密鍵（Base58、Hex、またはバイト配列）を貼り付けます。",
+    "placeholders": {
+      "pastePrivateKey": "ここに秘密鍵を貼り付け..."
+    },
+    "buttons": {
+      "validating": "検証中...",
+      "confirmAndImport": "確認してインポート"
+    },
+    "errors": {
+      "pastePrivateKey": "秘密鍵を貼り付けてください。",
+      "validationFailedUnknown": "検証に失敗しました：不明なエラーです。"
+    }
+  },
+  "mnemonicSetup": {
+    "generatingPhrase": "安全なフレーズを生成中...",
+    "downloadFilename": "solana-recovery-phrase.txt",
+    "headers": {
+      "display": {
+        "title": "シークレットリカバリーフレーズ",
+        "description": "これを安全に保管してください！ウォレットを回復する唯一の方法です。"
+      },
+      "confirm": {
+        "title": "リカバリーフレーズを確認",
+        "description": "保存したフレーズを入力して確認します。"
+      },
+      "import": {
+        "title": "リカバリーフレーズをインポート",
+        "description": "{{count}}語のフレーズを入力してください。"
+      }
+    },
+    "importantWarning": {
+      "title": "重要！",
+      "message": "これらの単語を書き留めて安全に保管してください。誰とも共有しないでください。"
+    },
+    "confirmSaveCheckboxLabel": "リカバリーフレーズを紛失した場合、ウォレットにアクセスできなくなることを理解しています。",
+    "buttons": {
+      "copy": "コピー",
+      "copied": "コピーしました！",
+      "download": "ダウンロード",
+      "nextConfirm": "次へ：確認",
+      "pastePhrase": "フレーズを貼り付け",
+      "importWallet": "ウォレットをインポート",
+      "verifyAndContinue": "確認して続行"
+    },
+    "ariaLabels": {
+      "wordInput": "単語 {{number}}"
+    },
+    "errors": {
+      "generationFailed": "リカバリーフレーズを生成できませんでした。更新してください。",
+      "copyFailed": "フレーズをクリップボードにコピーできませんでした。",
+      "confirmSaveRequired": "リカバリーフレーズを安全に保存したことを確認してください。",
+      "pasteFailed": "クリップボードから読み取れませんでした。手動で貼り付けてください。",
+      "allWordsRequired": "すべての{{count}}語を入力してください。",
+      "invalidWordCount": "無効なフレーズ：12語または24語が必要ですが、{{count}}語が見つかりました。",
+      "invalidPhrase": "無効なリカバリーフレーズです。単語を確認して再試行してください。",
+      "phraseMismatch": "フレーズが生成されたものと一致しません。慎重に再入力してください。"
+    }
+  },
+  "onboardingApp": {
+    "checkingStatus": "ウォレットのステータスを確認中...",
+    "kyokuWalletSetup": "Kyokuウォレット設定",
+    "altKyokuLogo": "Kyokuウォレットロゴ",
+    "errorOccurredTitle": "エラーが発生しました",
+    "buttons": {
+      "restartSetup": "設定を再開",
+      "back": "戻る"
+    },
+    "setupCompleteTitle": "設定完了！",
+    "setupCompleteMessage": "Solanaウォレットの準備ができました。",
+    "importSuccessfulTitle": "インポート成功！",
+    "importSuccessfulMessage": "選択したアカウントが追加されました。",
+    "windowCloseMessage": "このウィンドウは自動的に閉じます。",
+    "errors": {
+      "verifyStatusFailed": "ウォレットのステータスを確認できませんでした。更新してください。",
+      "stateLost": "設定プロセスの状態が失われたか無効です。プロセスを再開してください。",
+      "mnemonicEmpty": "ニーモニックフレーズは空にできません。",
+      "addRootMnemonicFailed": "リカバリーフレーズの追加に失敗しました：{{error}}",
+      "prepareCreateFailed": "ウォレット作成の準備に失敗しました：{{error}}",
+      "accountScanFailed": "アカウントスキャンに失敗しました：{{error}}",
+      "selectOneAccount": "少なくとも1つのアカウントを選択してください。",
+      "importFailed": "インポートに失敗しました：{{error}}",
+      "mnemonicNotStaged": "ニーモニックが正しくステージングされていませんでした。",
+      "prepareImportFailed": "インポートの準備に失敗しました：{{error}}",
+      "addAccountFailed": "アカウントの追加に失敗しました：{{error}}",
+      "setupFailed": "設定に失敗しました：{{error}}",
+      "cannotInitWithViewOnly": "閲覧専用アカウントで新しいウォレットを初期化できません。",
+      "unexpectedError": "予期しないエラーが発生しました。"
+    }
+  },
+  "passwordPage": {
+    "loadingStatus": "ウォレットのステータスを読み込み中...",
+    "walletNotFoundTitle": "ウォレットが見つかりません",
+    "resetting": "リセット中...",
+    "placeholders": {
+      "password": "パスワード"
+    },
+    "buttons": {
+      "unlocking": "ロック解除中...",
+      "forgotPasswordReset": "パスワードをお忘れですか？ウォレットをリセット",
+      "goToSetup": "設定へ"
+    },
+    "errors": {
+      "verifyStatusFailed": "ウォレットのステータスを確認できませんでした。拡張機能が有効になっていることを確認し、再読み込みしてみてください。",
+      "walletNotFoundGoToOnboarding": "ウォレットが見つかりません。ウォレットを設定するには、onboarding.htmlに移動してください。",
+      "walletNotFoundOpenManually": "ウォレットが見つかりません。手動でonboarding.htmlを開いてください。",
+      "invalidStatusResponse": "バックグラウンドから無効なステータスを受信しました。ウォレットが設定されていない可能性があります。",
+      "contactBackgroundFailed": "バックグラウンドサービスへの接続中にエラーが発生しました。",
+      "passwordEmpty": "パスワードは空にできません。",
+      "communicationError": "通信エラー：{{error}}",
+      "unlockFailedTryAgain": "ロック解除に失敗しました。再試行してください。",
+      "walletNotSetUp": "ウォレットが設定されていません。",
+      "incorrectPassword": "パスワードが間違っています。",
+      "resetFailed": "リセットに失敗しました：{{error}}",
+      "resetCompleteGoToSetup": "リセットが完了しました。ウォレットを設定するには、onboarding.htmlに移動してください。",
+      "sendResetRequestFailed": "リセットリクエストの送信に失敗しました。",
+      "resetFailedUnknown": "リセットに失敗しました。"
+    },
+    "resetWallet": {
+      "warningConfirm": "警告：これにより、この拡張機能に保存されているすべてのウォレットデータ（キー、アカウント）が完全に削除されます。この操作は元に戻せません。本当に実行しますか？",
+      "finalConfirm": "最終確認：ウォレットをリセットすることを確認してください。すべてのデータが失われます。",
+      "successAlert": "ウォレットが正常にリセットされました。設定にリダイレクトしています。",
+      "manualSetupAlert": "リセットが完了しました。設定のために拡張機能を手動で再度開いてください。"
+    }
+  },
+  "actionButtons": {
+    "receive": "受信",
+    "send": "送信",
+    "stake": "ステーク",
+    "stakeClickedTodo": "ステークがクリックされました（TODO）"
+  },
+  "balanceCard": {
+    "refreshBalance": "残高を更新",
+    "loadErrorTitle": "読み込みエラー",
+    "loadErrorMessage": "残高を読み込めませんでした。",
+    "totalPortfolioValue": "ポートフォリオ総額",
+    "solBalanceLabel": "SOL残高"
+  },
+  "burnConfirmationModal": {
+    "title": "{{itemType}}のバーンを確認",
+    "aboutToBurn": "次のアイテムを完全にバーン（焼却）しようとしています：",
+    "warningTitle": "警告",
+    "irreversibleAction": "この操作は元に戻せません。一度バーンされると、{{itemType}}は回復できません。",
+    "rentRecoveryToken": "このトークンをバーンすると、関連するトークンアカウントも閉じられ、ウォレットにSOLのレント（賃料）が一部返還される場合があります。",
+    "permanentActionNft": "このNFTのバーンは永続的です。この操作を理解していることを確認してください。",
+    "loading": "{{itemType}}をバーン中...",
+    "burnFailedTitle": "バーン失敗",
+    "buttons": {
+      "confirmBurn": "バーンを確認",
+      "retryBurn": "バーンを再試行"
+    }
+  },
+  "footerNav": {
+    "home": "ホーム",
+    "swap": "スワップ",
+    "settings": "設定",
+    "swapClickedTodo": "スワップがクリックされました（TODO - デフォルトハンドラ）"
+  },
+  "header": {
+    "selectAccount": "アカウントを選択",
+    "addAccountImport": "アカウントを追加/インポート",
+    "walletsPageTitle": "ウォレット",
+    "accountOptions": "アカウントオプション"
+  },
+  "itemList": {
+    "nativeToken": "ネイティブトークン",
+    "noTokensToDisplay": "現在表示するトークンはありません。",
+    "tokenLogoAlt": "{{tokenSymbol}}のロゴ"
+  },
+  "nftCard": {
+    "unnamedNft": "無名のNFT",
+    "unknownCollectionPlaceholder": "不明なコレクション",
+    "altNftImage": "{{nftName}} NFT画像",
+    "ariaViewDetails": "{{nftName}}の詳細を表示"
+  },
+  "nftGrid": {
+    "unnamedCollection": "無名のコレクション",
+    "ariaViewCollection": "{{count}}個のアイテムがあるコレクション{{collectionName}}を表示",
+    "altCollectionImage": "{{collectionName}}コレクション画像",
+    "errorLoading": "コレクションの読み込み中にエラーが発生しました：{{errorDetail}}",
+    "noCollectiblesFound": "コレクションが見つかりません。"
+  },
+  "renameModal": {
+    "title": "ウォレット名を編集",
+    "inputAriaLabel": "新しいウォレット名"
+  },
+  "showPrivateKeyModal": {
+    "title": "秘密鍵を表示",
+    "forAccount": "アカウントの場合：",
+    "warning": "警告：秘密鍵を絶対に共有しないでください。秘密鍵を持つ人は誰でもあなたの資金にアクセスできます。",
+    "enterPasswordToReveal": "表示するにはパスワードを入力してください",
+    "placeholders": {
+      "walletPassword": "ウォレットのパスワード"
+    },
+    "buttons": {
+      "reveal": "秘密鍵を表示",
+      "copyKey": "キーをコピー"
+    },
+    "yourPrivateKeyFor": "{{accountName}}の秘密鍵：",
+    "storeKeySecurely": "このキーを安全に保管してください。紛失したり、共有したりしないでください。",
+    "copiedToClipboard": "秘密鍵がクリップボードにコピーされました！",
+    "errors": {
+      "passwordRequired": "パスワードが必要です。",
+      "failedToRetrieve": "秘密鍵の取得に失敗しました。",
+      "copyFailed": "秘密鍵のコピーに失敗しました。"
+    }
+  },
+  "showSeedPhraseModal": {
+    "title": "リカバリーフレーズを表示",
+    "forAccount": "アカウントの場合：",
+    "warning": "警告：リカバリーフレーズを絶対に共有しないでください。リカバリーフレーズを持つ人は誰でも、そこから派生したすべてのアカウントにアクセスできます。",
+    "enterPasswordToReveal": "表示するにはパスワードを入力してください",
+    "placeholders": {
+      "walletPassword": "ウォレットのパスワード"
+    },
+    "buttons": {
+      "revealPhrase": "フレーズを表示",
+      "copied": "コピーしました！",
+      "copyPhrase": "フレーズをコピー"
+    },
+    "yourRecoveryPhraseFor": "{{accountName}}のリカバリーフレーズ：",
+    "storePhraseSecurely": "このフレーズを安全に保管してください。紛失したり、共有したりしないでください。",
+    "errors": {
+      "passwordRequired": "パスワードが必要です。",
+      "failedToRetrieve": "シードフレーズの取得に失敗しました。",
+      "copyFailed": "シードフレーズのコピーに失敗しました。"
+    }
+  },
+  "tabSelector": {
+    "previousTab": "前のタブ",
+    "switchToTab": "{{tabName}}タブに切り替え",
+    "nextTab": "次のタブ",
+    "expandContentView": "コンテンツビューを展開"
+  },
+  "tokenDetails": {
+    "titleFallback": "トークンの詳細",
+    "detailsUnavailable": "トークンの詳細を利用できません。",
+    "backToDashboard": "ダッシュボードに戻る",
+    "loadingData": "トークンデータを読み込み中...",
+    "tokenFallback": "トークン",
+    "burnInitiatedTitle": "バーン開始！",
+    "transactionIdLabel": "トランザクションID",
+    "moreOptionsAriaLabel": "その他のオプション",
+    "fetchingLatestDetails": "最新の詳細を取得中...",
+    "viewOnlyWarning": "これは閲覧専用アカウントです。送信/バーンアクションは無効になっています。",
+    "sectionTitle": "トークン情報",
+    "labels": {
+      "name": "名前",
+      "symbol": "シンボル",
+      "pricePerToken": "トークンあたりの価格",
+      "addressMint": "アドレス（ミント）",
+      "explorer": "エクスプローラー"
+    },
+    "menu": {
+      "viewOnExplorer": "エクスプローラーで表示",
+      "burnToken": "トークンをバーン"
+    },
+    "buttons": {
+      "send": "送信",
+      "receive": "受信"
+    },
+    "burnSuccessMessage": "{{tokenName}}のバーンが正常に開始されました！",
+    "errors": {
+      "fetchFailed": "完全なトークンの詳細の取得に失敗しました。",
+      "detailsNotFound": "完全なトークンの詳細を取得できませんでした。",
+      "fetchInitiationFailed": "詳細取得の開始中にエラーが発生しました：{{error}}",
+      "burnMissingInfo": "バーンできません：アクティブなアカウントまたはトークンの詳細がありません。",
+      "burnUnknownError": "トークンのバーン中に不明なエラーが発生しました。"
+    }
+  },
+  "tokenManagement": {
+    "headerTitle": "トークンリストを管理",
+    "fallbackTokenName": "トークン",
+    "spamToggle": {
+      "label": "スパム/不明なトークンを表示",
+      "description": "スパム/不明なトークンとは、ロゴがなく、価格、名前、またはシンボルが欠落しているトークンです。デフォルトでは非表示になっています。"
+    },
+    "lowBalanceToggle": {
+      "label": "1ドル未満の価値のトークンを非表示にする"
+    },
+    "individualManagementInfo": {
+      "withSpam": "トークン（スパム/不明なトークンを含む）の表示を個別に管理します。",
+      "withoutSpam": "トークン（スパム/不明なトークンを除く）の表示を個別に管理します。"
+    },
+    "buttons": {
+      "hideAllBelow": "以下をすべて非表示",
+      "showAllBelow": "以下をすべて表示",
+      "showTokenAria": "{{tokenName}}を表示",
+      "hideTokenAria": "{{tokenName}}を非表示"
+    },
+    "loadingTokens": "トークンを読み込み中...",
+    "emptyState": {
+      "noNonNativeTokens": "このアカウントにネイティブ以外のトークンは見つかりませんでした。",
+      "noNonSpamToManage": "管理するスパム/不明なトークン以外のトークンはありません。「スパム/不明なトークンを表示」を有効にしてみてください。"
+    },
+    "errors": {
+      "loadFailed": "トークンの読み込み中にエラーが発生しました：{{error}}"
+    }
+  },
+  "tokenSelect": {
+    "modalTitleInput": "支払いトークンを選択",
+    "modalTitleOutput": "受信トークンを選択",
+    "modalTitleGeneric": "トークンを選択",
+    "searchPlaceholder": "名前、シンボルを検索、またはアドレスを貼り付け",
+    "loadingTokens": "トークンを読み込み中...",
+    "noTokensMatchSearch": "検索に一致するトークンが見つかりませんでした。",
+    "noTokensFoundShort": "トークンが見つかりませんでした。",
+    "customTokenName": "トークン（{{addressPart}}...）",
+    "unknownToken": "不明なトークン",
+    "customAddressLabel": "カスタムアドレス",
+    "ariaLabels": {
+      "selectToken": "{{tokenName}}を選択"
+    }
+  },
+  "swapErrorView": {
+    "title": "スワップ失敗",
+    "errorDetailsLabel": "エラーの詳細："
+  },
+  "swapSuccessView": {
+    "noDetailsFound": "成功の詳細が見つかりませんでした。",
+    "title": "スワップ成功！",
+    "swappedMessage": "{{amount}} {{symbol}}をスワップしました",
+    "forEstimatedMessage": "推定{{amount}} {{symbol}}に対して。",
+    "transactionIdLabel": "トランザクションID",
+    "buttons": {
+      "newSwap": "新しいスワップ"
+    }
+  },
+  "swapView": {
+    "title": "トークンをスワップ",
+    "loadingInterface": "スワップインターフェースを読み込み中...",
+    "settingsPlaceholderAlert": "スワップ設定プレースホルダー",
+    "kyokuWalletSwap": "Kyokuウォレットスワップ",
+    "kyokuWalletOrigin": "Kyokuウォレット",
+    "tokenIdentifierFallback": "TKN",
+    "fetchingBestPrice": "最良価格を取得中...",
+    "labels": {
+      "youPay": "支払い",
+      "youReceiveEstimated": "受取（推定）"
+    },
+    "tokenInput": {
+      "balancePrefix": "残高：",
+      "amountPlaceholder": "0.00",
+      "selectTokenFallback": "選択",
+      "selectTokenAria": "スワップ用の{{currentToken}}を選択"
+    },
+    "buttons": {
+      "max": "最大",
+      "fetchingQuote": "見積もりを取得中...",
+      "errorGettingQuote": "見積もり取得エラー",
+      "reviewSwap": "スワップを確認"
+    },
+    "quoteInfo": {
+      "rate": "レート",
+      "priceImpact": "価格への影響",
+      "minReceived": "最小受取額",
+      "route": "ルート",
+      "directRoute": "直接"
+    },
+    "ariaLabels": {
+      "closeSwap": "スワップを閉じる",
+      "swapSettings": "スワップ設定",
+      "usePercentage": "残高の{{percentage}}％を使用",
+      "swapDirection": "入力トークンと出力トークンをスワップ"
+    },
+    "errors": {
+      "invalidNumber": "有効な数値を入力してください（例：123.45）",
+      "amountExceedsBalance": "金額が利用可能な残高を超えています。",
+      "invalidInputForQuote": "見積もりを取得するための無効な入力です。",
+      "invalidInputAmount": "無効な入力金額です。",
+      "quoteFetchFailed": "見積もりの取得に失敗しました。金額またはペアを調整してみてください。",
+      "quoteRequestPrepFailed": "見積もりリクエストの準備中にエラーが発生しました。入力値を確認してください。",
+      "missingInfoForExecute": "スワップの実行に必要な情報がありません。",
+      "failedToGetJupiterTx": "Jupiterからのスワップトランザクションの取得に失敗しました。"
+    }
+  },
+  "networkSettings": {
+    "options": {
+      "mainnet": "メインネットベータ",
+      "devnet": "開発ネット",
+      "testnet": "テストネット",
+      "customRpc": "カスタムRPC"
+    },
+    "customRpcConfigurationTitle": "カスタムRPC設定",
+    "customRpcDescription": "カスタムネットワークアクセス用に独自のRPCエンドポイントURLを入力してください",
+    "customRpcInputAriaLabel": "カスタムRPCエンドポイントURL",
+    "placeholders": {
+      "rpcEndpoint": "https://your-rpc-endpoint.com"
+    },
+    "errors": {
+      "updateFailed": "ネットワークの更新に失敗しました：{{details}}"
+    }
+  },
+  "autoLockSettings": {
+    "title": "自動ロックタイマー",
+    "description": "ウォレットが自動的にロックされるタイミングを設定します。",
+    "enableLabel": "自動ロックを有効にする",
+    "enableAutoLockAria": "自動ロックを有効にする",
+    "disableAutoLockAria": "自動ロックを無効にする",
+    "durationLabel": "ロックまでの時間（分）",
+    "saveSuccessMessage": "設定が正常に保存されました",
+    "errors": {
+      "loadFailed": "設定の読み込みに失敗しました",
+      "saveFailed": "設定の保存に失敗しました",
+      "durationTooShort": "自動ロックの期間は少なくとも1分である必要があります"
+    }
+  },
+  "changePassword": {
+    "labels": {
+      "currentPassword": "現在のパスワード",
+      "newPassword": "新しいパスワード",
+      "confirmNewPassword": "新しいパスワードを確認"
+    },
+    "placeholders": {
+      "currentPassword": "現在のパスワードを入力",
+      "newPassword": "新しいパスワードを入力",
+      "confirmNewPassword": "新しいパスワードを確認"
+    },
+    "newPasswordHint": "少なくとも8文字である必要があります。",
+    "buttons": {
+      "changing": "変更中...",
+      "changePassword": "パスワードを変更"
+    },
+    "errors": {
+      "allFieldsRequired": "すべてのパスワードフィールドが必要です。",
+      "newPasswordsDoNotMatch": "新しいパスワードが一致しません。",
+      "newPasswordTooShort": "新しいパスワードは少なくとも8文字である必要があります。",
+      "newPasswordSameAsCurrent": "新しいパスワードは現在のパスワードと同じにできません。",
+      "changeFailedUnknown": "不明なエラーによりパスワードの変更に失敗しました。"
+    },
+    "successMessage": "パスワードが正常に変更されました！ウォレットはロックされます。"
+  },
+  "explorerSettings": {
+    "description": "優先するブロックエクスプローラーを選択してください。トランザクションとアドレスへのリンクはこの選択を使用します。",
+    "saveSuccessMessage": "設定が正常に保存されました！",
+    "saveFailedMessage": "設定の保存に失敗しました。再試行してください。",
+    "saveFailedMessageNoParam": "設定の保存に失敗しました"
+  },
+  "feeSettings": {
+    "description": "トランザクションのデフォルトの優先度を選択してください。これにより、特にネットワークが混雑している場合にトランザクションがどれだけ速く処理されるかが決まります。場合によっては、トランザクションごとにこれを上書きできる場合があります。",
+    "options": {
+      "auto": {
+        "label": "自動（推奨）",
+        "description": "ウォレットはネットワーク状況に基づいて最適な手数料を設定しようとします（デフォルトは中）。"
+      },
+      "low": {
+        "label": "低",
+        "description": "手数料が低く、確認時間が遅くなる可能性があります。"
+      },
+      "medium": {
+        "label": "中",
+        "description": "妥当な確認時間のためのバランスの取れた手数料。"
+      },
+      "high": {
+        "label": "高",
+        "description": "確認を早めるための高い手数料。混雑時に役立ちます。"
+      }
+    }
+  },
+  "aboutSettings": {
+    "title": "Kyokuウォレットについて",
+    "versionLabel": "バージョン",
+    "brandName": "Kyokuウォレット",
+    "links": {
+      "website": "ウェブサイト",
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー"
+    }
+  },
+  "addressBook": {
+    "title": "アドレス帳",
+    "loading": "アドレス帳を読み込み中...",
+    "addNewAddressTitle": "新しいアドレスを追加",
+    "editAddressTitle": "アドレスを編集",
+    "addressIdentifierForErrorCheck": "アドレス",
+    "labels": {
+      "name": "名前",
+      "address": "アドレス"
+    },
+    "placeholders": {
+      "nameExample": "例：友人のボブ",
+      "pasteAddress": "Solanaアドレスを貼り付け"
+    },
+    "buttons": {
+      "addNewAddress": "新しいアドレスを追加",
+      "editAddress": "{{name}}を編集",
+      "deleteAddress": "{{name}}を削除"
+    },
+    "emptyStateLine1": "アドレス帳は空です。",
+    "emptyStateLine2": "「+」ボタンをクリックしてアドレスを追加します。",
+    "confirmDeleteMessage": "このアドレスを本当に削除しますか？",
+    "errors": {
+      "loadFailed": "アドレス帳の読み込みに失敗しました",
+      "saveFailed": "アドレス帳の保存に失敗しました",
+      "nameAndAddressRequired": "名前とアドレスが必要です。",
+      "invalidSolanaAddress": "無効なSolanaアドレス形式です。",
+      "addressExists": "このアドレスは既にアドレス帳に存在します。",
+      "addressExistsDifferentName": "このアドレスは既に別の名前で存在します。"
+    }
+  },
+  "activityDetails": {
+    "detailsUnavailable": "トランザクションの詳細を利用できません。",
+    "backToActivities": "アクティビティに戻る",
+    "tokenFallback": "トークン",
+    "assetFallback": "アセット",
+    "headers": {
+      "default": "トランザクションの詳細",
+      "sentAsset": "{{assetName}}を送信しました",
+      "receivedAsset": "{{assetName}}を受信しました",
+      "swap": "スワップ：{{tokenA}}を{{tokenB}}に",
+      "dappInteractionNamed": "インタラクション：{{dappName}}",
+      "dappInteraction": "dAppインタラクション",
+      "interaction": "プログラムインタラクション"
+    },
+    "labels": {
+      "date": "日付",
+      "status": "ステータス",
+      "interaction": "インタラクション",
+      "from": "送信元",
+      "to": "送信先",
+      "source": "ソース",
+      "networkFee": "ネットワーク手数料",
+      "mintAddress": "ミントアドレス",
+      "externalLink": "外部リンク",
+      "explorer": "エクスプローラー"
+    },
+    "prefixes": {
+        "youPaid": "支払い額：",
+        "youReceived": "受取額：",
+        "amountSent": "送信額：",
+        "amountReceived": "受取額："
+    },
+    "statusConfirmed": "確認済み",
+    "transactionIdLabel": "トランザクションID",
+    "viewOnExplorer": "{{explorerName}}で表示"
+  },
+  "activityItem": {
+    "unknownActivity": "不明なアクティビティ",
+    "unknownToken": "トークン",
+    "actions": {
+      "sent": "送信済み",
+      "sentToken": "{{tokenSymbol}}を送信しました",
+      "received": "受信済み",
+      "receivedToken": "{{tokenSymbol}}を受信しました",
+      "swap": "スワップ",
+      "appInteraction": "アプリアクション",
+      "programInteraction": "プログラムアクション",
+      "approval": "承認"
+    },
+    "labels": {
+      "to": "宛先",
+      "from": "差出人",
+      "program": "プログラム",
+      "for": "対象",
+      "source": "ソース"
+    }
+  },
+  "activityView": {
+    "loadingFromCache": "キャッシュから読み込み中...",
+    "errorLoadingTitle": "アクティビティの読み込みエラー",
+    "noRecentActivityTitle": "最近のアクティビティはありません",
+    "transactionsAppearHere": "トランザクションはここに表示されます。",
+    "loadingMore": "さらに読み込み中...",
+    "noMoreActivities": "これ以上読み込むアクティビティはありません。"
+  },
+  "mainPopupApp": {
+    "loadingWallet": "ウォレットを読み込み中...",
+    "redirectingToSetup": "設定にリダイレクト中...",
+    "dismissErrorAriaLabel": "エラーを閉じる",
+    "deleteModal": {
+      "title": "アカウントを削除しますか？",
+      "messagePart1": "削除：",
+      "messagePart2": "？",
+      "warning": "この操作は元に戻せません。"
+    },
+    "errors": {
+      "connectFailed": "接続に失敗しました：{{error}}",
+      "getInitialStateFailed": "初期状態の取得に失敗しました。",
+      "noBackgroundResponse": "初期状態に対するバックグラウンドからの応答がありません。",
+      "commError": "通信エラー：{{error}}",
+      "loadAccountsFailedAfterUnlock": "ロック解除後にアカウントの読み込みに失敗しました。",
+      "accountSwitchFailed": "アカウントの切り替えに失敗しました：{{error}}",
+      "accountSwitchFailedUnknown": "アカウントの切り替えに失敗しました。",
+      "openOnboardingFailed": "オンボーディングの開始に失敗しました：{{error}}",
+      "renameFailed": "名前の変更に失敗しました：{{error}}",
+      "saveOrderFailed": "アカウント順序の保存に失敗しました。",
+      "accountNotFoundForDelete": "削除するアカウントが見つかりませんでした。",
+      "cannotDeleteLastNonViewOnly": "最後の閲覧専用でないアカウントは削除できません。最初に別のアカウントを作成するかインポートしてください。",
+      "deleteFailed": "削除に失敗しました：{{error}}",
+      "deleteFailedNamed": "アカウント「{{name}}」の削除に失敗しました。"
+    }
+  },
+  "dashboard": {
+    "tabs": {
+        "tokens": "トークン",
+        "collectibles": "コレクション",
+        "activity": "アクティビティ"
+    },
+    "manageTokenList": "トークンリストを管理",
+    "manageNftList": "NFTリストを管理",
+    "buttons": {
+        "createNewAccount": "新しいアカウントを作成",
+        "importRecoveryPhrase": "リカバリーフレーズをインポート",
+        "importPrivateKey": "秘密鍵をインポート",
+        "addViewOnlyAccount": "閲覧専用アカウントを追加"
+    },
+    "collectionTitleFallback": "コレクション",
+    "backToAllCollectibles": "すべてのコレクションに戻る",
+    "closeExpandedView": "展開ビューを閉じる"
+  },
+  "sendForm": {
+    "balanceLabel": "残高",
+    "toLabel": "宛先",
+    "amountLabel": "金額",
+    "sendingToSaved": "{{name}}に送信中",
+    "loadingContacts": "連絡先を読み込み中...",
+    "noMatchingContacts": "一致する連絡先が見つかりませんでした。",
+    "noContactsOrAccounts": "アドレス帳または他のアカウントに連絡先がありません。",
+    "startTypingToSearch": "連絡先を検索するには入力を開始してください。",
+    "buttons": {
+        "sendMax": "最大",
+        "reviewTransaction": "トランザクションを確認"
+    },
+    "placeholders": {
+        "recipientAddress": "Solanaアドレスを貼り付けるか、連絡先を選択",
+        "nftAmount": "1 (NFT)",
+        "tokenAmount": "0.00"
+    },
+    "ariaLabels": {
+        "clearRecipient": "受信者をクリア",
+        "showSuggestions": "提案を表示"
+    },
+    "errors": {
+        "recipientRequired": "受信者アドレスが必要です。",
+        "invalidSolanaAddress": "無効なSolanaアドレス形式です。",
+        "nftAmountMustBeOne": "NFTの金額は1である必要があります。",
+        "amountRequired": "金額が必要です。",
+        "validPositiveAmount": "有効な正の金額を入力してください。",
+        "amountExceedsBalance": "金額が利用可能な残高（{{balance}} {{symbol}}）を超えています。",
+        "couldNotVerifyRecipient": "受信者のステータスを確認できませんでした。",
+        "failedToVerifyRecipient": "受信者のステータスの確認に失敗しました。"
+    }
+  },
+  "transactionConfirm": {
+    "customRpcLabel": "カスタムRPC",
+    "youAreSending": "送信内容",
+    "fromLabel": "送信元",
+    "yourWalletLabel": "あなたのウォレット",
+    "toLabel": "送信先",
+    "networkLabel": "ネットワーク",
+    "networkFeeLabel": "ネットワーク手数料",
+    "calculatingFee": "手数料を計算中...",
+    "feeUnavailable": "手数料の見積もりができません",
+    "warningIrreversible": "警告：このトランザクションは元に戻せません。続行する前にすべての詳細を注意深く確認してください。",
+    "buttons": {
+        "sending": "送信中...",
+        "confirmAndSend": "確認して送信"
+    }
+  },
+  "sendView": {
+    "errors": {
+        "unexpectedError": "予期しないエラーが発生しました。",
+        "sendFromViewOnly": "閲覧専用アカウントからは送信できません。",
+        "activeAccountNotFound": "アクティブなアカウントが見つかりません。",
+        "feeEstimationFailed": "手数料の見積もりに失敗しました：{{error}}",
+        "decodeFailed": "デコードに失敗しました：{{error}}",
+        "couldNotSimulateFee": "手数料を見積もるためにトランザクションをシミュレートできませんでした。",
+        "missingDetailsOrAccount": "トランザクションの詳細またはアクティブなアカウントがありません。",
+        "swapFailedToSend": "スワップの送信に失敗しました。",
+        "errorLoadingTokens": "トークンの読み込み中にエラーが発生しました",
+        "feeNotReady": "手数料情報がまだ準備できていません。しばらくお待ちください。",
+        "transactionFailed": "トランザクションに失敗しました：{{error}}",
+        "unknownErrorOccurred": "不明なエラーが発生しました。"
+    },
+    "success": {
+        "title": "トランザクション送信済み！",
+        "message": "トランザクションは正常にネットワークに送信されました。",
+        "viewOnExplorer": "{{explorerName}}で表示"
+    },
+    "headers": {
+        "processingTransaction": "トランザクションを処理中...",
+        "selectToken": "トークンを選択",
+        "sendToken": "{{tokenSymbol}}を送信",
+        "confirmTransaction": "トランザクションを確認",
+        "transactionSent": "トランザクション送信済み",
+        "transactionFailed": "トランザクション失敗",
+        "send": "送信"
+    },
+    "noTokenSelected": "送信するトークンが選択されていません。",
+    "buttons": {
+        "selectToken": "トークンを選択"
+    },
+    "loadingForm": "フォームを読み込み中...",
+    "loadingTransactionDetails": "トランザクションの詳細を読み込み中...",
+    "tokenFallback": "トークン",
+    "errorSending": {
+        "title": "送信エラー"
+    },
+    "loadingState": "ステータ스를 로드하는 중..."
+  },
+  "accountSettings": {
+    "noAccountSelected": "アカウントが選択されていません。",
+    "menu": {
+        "walletAddress": "ウォレットアドレス",
+        "renameWallet": "ウォレット名を変更",
+        "showPrivateKey": "秘密鍵を表示",
+        "showRecoveryPhrase": "リカバリーフレーズを表示",
+        "removeWallet": "ウォレットを削除"
+    },
+    "errors": {
+        "copyFailed": "アドレスのコピーに失敗しました。"
+    }
+  },
+  "nftDetails": {
+    "menu": {
+        "viewOnExplorer": "エクスプローラーで表示",
+        "burnNft": "NFTをバーン",
+        "setAsProfilePicture": "プロフィール写真に設定",
+        "removeProfilePicture": "プロフィール写真を削除"
+    },
+    "profilePictureBadge": "プロフ写真",
+    "errors": {
+        "fetchFailed": "完全なNFT詳細の取得に失敗しました。",
+        "detailsNotFound": "完全なNFT詳細を取得できませんでした。",
+        "fetchInitiationFailed": "詳細取得の開始中にエラーが発生しました：{{error}}",
+        "burnMissingInfo": "バーンできません：アクティブなアカウントまたはNFTの詳細がありません。",
+        "burnUnknownError": "NFTのバーン中に不明なエラーが発生しました。",
+        "couldNotFetchFullDetails": "完全な詳細を取得できませんでした：{{error}}"
+    },
+    "moreOptionsAriaLabel": "その他のオプション",
+    "fetchingLatestDetails": "最新の詳細を取得中...",
+    "viewOnlyWarning": "これは閲覧専用アカウントです。送信/バーンアクションは無効になっています。",
+    "buttons": {
+        "sendNft": "NFTを送信"
+    },
+    "compressedBadge": "圧縮済み",
+    "sectionTitles": {
+        "description": "説明",
+        "aboutCollection": "{{collectionName}}コレクションについて",
+        "attributes": "属性",
+        "details": "詳細"
+    },
+    "labels": {
+        "mintAddress": "ミントアドレス",
+        "externalLink": "外部リンク",
+        "explorer": "エクスプローラー"
+    },
+    "links": {
+        "viewCollection": "コレクションを表示",
+        "viewAsset": "アセットを表示"
+    },
+    "burnSuccessMessage": "{{nftName}}のバーンが正常に開始されました！",
+    "transactionIdLabel": "トランザクションID",
+    "detailsUnavailable": "NFTの詳細を利用できません。",
+    "loadingData": "NFTデータを読み込み中..."
+  },
+  "nftManagement": {
+    "unnamedNft": "無名のNFT",
+    "potentialSpam": "潜在的なスパム",
+    "spamHidden": "スパム（非表示）",
+    "headerTitle": "NFTリストを管理",
+    "spamToggle": {
+        "label": "スパム/不明なNFTを表示",
+        "description": "スパム/不明なNFTとは、ロゴがなく、価格、名前、またはシンボルが欠落しているNFTです。デフォルトでは非表示になっています。"
+    },
+    "buttons": {
+        "showNftAria": "{{nftName}}を表示",
+        "hideNftAria": "{{nftName}}を非表示"
+    },
+    "loadingDataAndPreferences": "データと設定を読み込み中...",
+    "errors": {
+        "loadFailed": "NFTの読み込み中にエラーが発生しました：{{error}}"
+    },
+    "emptyState": {
+        "title": "管理するNFTはありません",
+        "description": "NFTを所有している場合、ここで表示を管理できます。"
+    },
+    "hiddenSpamInfo": "{{count}}個のスパム/不明なNFTが非表示になっています。表示するには上のトグルを切り替えてください。"
+  },
+  "connectedDapps": {
+    "errors": {
+        "loadFailed": "接続済みdAppの読み込みに失敗しました。",
+        "couldNotRetrieve": "接続済みdAppを取得できませんでした。",
+        "disconnectFailed": "切断に失敗しました。"
+    },
+    "loading": "接続済みdAppを読み込み中...",
+    "dAppIconAlt": "{{appName}} dAppアイコン",
+    "confirmDisconnect": "{{appName}}との接続を本当に切断しますか？",
+    "buttons": {
+        "disconnectAriaLabel": "{{appName}}との接続を切断",
+        "disconnect": "切断"
+    },
+    "connectedDateLabel": "接続日時",
+    "emptyState": {
+        "noAppsConnected": "接続済みのdAppはありません。",
+        "appsWillAppearHere": "接続したdAppはここに表示されます。"
+    },
+    "description": "ウォレットへのアクセス許可が付与されたアプリケーションを管理します。アクセスを取り消すと、アプリケーションは次回のインタラクション時に再度接続をリクエストする必要があります。"
+  },
+  "passwordSetup": {
+    "errors": {
+        "passwordsDoNotMatch": "パスワードが一致しません。",
+        "passwordTooShort": "パスワードは少なくとも8文字である必要があります。",
+        "initializationFailed": "ウォレットの初期化に失敗しました：{{error}}",
+        "setupFailedUnknown": "設定に失敗しました：{{error}}",
+        "secretNotStagedAlert": "設定プロセスで重大なエラーが発生しました（ステージングされたデータがありません）。オンボーディングプロセスを再開してください。",
+        "secretNotStagedDetailed": "設定プロセスでエラーが発生しました：ステージングされたデータがありません。戻ってウォレットの作成またはインポートプロセスを再開してください。",
+        "sendRequestFailed": "初期化リクエストの送信に失敗しました：{{error}}"
+    },
+    "title": "パスワードを作成",
+    "descriptionLine1": "このパスワードはKyokuウォレットのロックを解除するために使用されます。",
+    "descriptionLine2": "安全な場所に保管してください。",
+    "placeholders": {
+        "enterPassword": "パスワードを入力",
+        "confirmPassword": "パスワードを確認"
+    },
+    "ariaLabels": {
+        "hidePassword": "パスワードを非表示",
+        "showPassword": "パスワードを表示",
+        "hideConfirmPassword": "確認パスワードを非表示",
+        "showConfirmPassword": "確認パスワードを表示"
+    },
+    "buttons": {
+        "securingWallet": "ウォレットを保護中...",
+        "createWallet": "ウォレットを作成"
+    }
+  },
+  "walletSetup": {
+    "errors": {
+        "contactBackgroundFailed": "バックグラウンドサービスへの接続中にエラーが発生しました：{{error}}",
+        "invalidStatusResponse": "checkKeyringStatusからの無効な応答",
+        "sendStatusCheckFailed": "ステータス確認メッセージの送信中にエラーが発生しました",
+        "ensureExtensionEnabled": "拡張機能が有効になっていることを確認し、再読み込みしてみてください。"
+    },
+    "checkingStatus": "ウォレットのステータスを確認中...",
+    "alreadySetupTitle": "ウォレットは既に設定済みです！",
+    "alreadySetupMessage": "このブラウザには既にKyokuウォレットが存在します。拡張機能のアイコンからアクセスできます。",
+    "welcomeTitle": "Kyokuウォレットへようこそ",
+    "termsAgreementPrefix": "私は利用規約を読み、同意します",
+    "termsAndConditionsLink": "利用規約",
+    "createWalletTitle": "新しいウォレットを作成",
+    "createWalletDescription": "Kyokuを初めて使用する場合は、新しい安全なウォレットを生成してください。",
+    "importWalletTitle": "既存のウォレットをインポート",
+    "importWalletDescription": "シークレットリカバリーフレーズまたは秘密鍵を使用して既存のウォレットにアクセスします。",
+    "buttons": {
+        "createWallet": "ウォレットを作成",
+        "importWallet": "ウォレットをインポート"
+    }
+  },
+  "confirmSwap": {
+    "errors": {
+        "feeEstimationFailed": "手数料の見積もりに失敗しました。",
+        "decodeFailed": "デコードに失敗しました：{{error}}",
+        "couldNotVerifyLocally": "トランザクションをローカルで検証できませんでした。それでも承認できます。",
+        "missingDetailsOrAccount": "トランザクションの詳細またはアクティブなアカウントがありません。"
+    },
+    "ariaLabels": {
+        "rejectTransaction": "トランザクションを拒否"
+    },
+    "title": "スワップを確認",
+    "youAreSwapping": "スワップ内容：",
+    "tokenFallback": "トークン",
+    "toReceiveNet": "受取額（純額）：",
+    "afterPlatformFee": "（プラットフォーム手数料後）",
+    "estimatingNetworkFee": "ネットワーク手数料を見積もり中...",
+    "ourSimulationFailedTitle": "シミュレーション失敗",
+    "showLogs": "ログを表示"
+  }
+}

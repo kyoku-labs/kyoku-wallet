@@ -1,0 +1,19 @@
+/* Hide native scrollbar, but keep scrolling */
+.custom-scrollbar {
+    scrollbar-width: none;       /* Firefox */
+    -ms-overflow-style: none;    /* IE 10+ */
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    display: none;               /* Chrome/Safari/Webkit */
+  }
+  
+  /* Fade-out keyframes for the checkmark */
+  @keyframes fade-out {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
+  /* Apply the fade when showing the ✔️ */
+  .animate-fade-out {
+    animation: fade-out 1.5s ease-out forwards;
+  }
+  

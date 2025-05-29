@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html, #root {
+  width: 100%; /* Use full width for webpage */
+  height: 100%; /* Full height for webpage */
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-family: 'Roboto', sans-serif; /* Or any other clean font you prefer */
+  background-color: #090f14; /* Background color */
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* Add padding around the whole page for better spacing */
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Adjust as needed */
+  min-height: 100vh; /* Ensure the content takes full height */
+}
+
+/* Basic styling for header and title */
+h1, h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #DCE4EE;
+  text-align: center;
+}
+
+/* Ensure inputs and buttons are larger and have more breathing space */
+input, button {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+/* Styling for error message */
+.error-message {
+  color: #E63946;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+
+/* Animation for showing the content smoothly */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}

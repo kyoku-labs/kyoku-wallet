@@ -1,0 +1,1175 @@
+{
+  "common": {
+    "back": "Back",
+    "goBack": "Go Back",
+    "savePreference": "Save Preference",
+    "loading": "Loading...",
+    "loadingSettings": "Loading settings...",
+    "processing": "Processing...",
+    "processingSwap": "Processing Swap...",
+    "error": "Error",
+    "unknownError": "Unknown error",
+    "communicationError": "Communication error",
+    "notAvailable": "N/A",
+    "usdCurrencyCode": "USD",
+    "tokensFallback": "tokens",
+    "explorer": "Explorer",
+    "done": "Done",
+    "close": "Close",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copyAddress": "Copy Address",
+    "viewOnly": "View-Only",
+    "viewOnlyAccount": "View-Only Account",
+    "clearSearch": "Clear search",
+     "warning": "Warning" 
+  },
+  "buttons": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "reject": "Reject",
+    "tryAgain": "Try Again",
+    "close": "Close",
+    "continue": "Continue",
+    "unlock": "Unlock",
+    "ok": "OK",
+    "changeAccount": "Change Account",
+    "approve": "Approve",
+    "approveAnywayRisky": "Approve Anyway (Risky)",
+    "connect": "Connect",
+    "signIn": "Sign In",
+    "save": "Save",
+    "done": "Done" 
+  },
+  "main": {
+    "errors": {
+      "rootNotFound": "Error: Root element not found. Cannot render application."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "generalDescription": "Network, fee priority, explorer, currency, language",
+    "securityPrivacy": "Security & Privacy",
+    "securityPrivacyDescription": "Password, auto-lock, connected apps",
+    "addressBook": "Address Book",
+    "addressBookDescription": "Manage saved addresses",
+    "aboutKyoku": "About Kyoku",
+    "aboutKyokuDescription": "Version, terms, and policies",
+    "lockWallet": "Lock Wallet",
+    "lockWalletDescription": "Secure your wallet immediately",
+    "network": "Network",
+    "networkDescription": "Select blockchain network (Mainnet, Devnet)",
+    "transactionPriority": "Transaction Priority",
+    "transactionPriorityDescription": "Set default fee level for transactions",
+    "preferredExplorer": "Preferred Explorer",
+    "preferredExplorerDescription": "Choose your default block explorer",
+    "displayCurrency": "Display Currency",
+    "displayCurrencyDescription": "Set preferred fiat currency (e.g., USD, EUR)",
+    "displayLanguage": "Display Language",
+    "displayLanguageDescription": "Change the application language",
+    "autoLockTimer": "Auto-Lock Timer",
+    "autoLockTimerDescription": "Set wallet to lock after inactivity",
+    "changePassword": "Change Password",
+    "changePasswordDescription": "Update your wallet access password",
+    "connectedApps": "Connected Apps",
+    "connectedAppsDescription": "Manage permissions for dApps",
+    "categoryTitles": {
+        "main": "Settings",
+        "general": "General Settings",
+        "securityPrivacy": "Security & Privacy",
+        "addressBook": "Address Book",
+        "about": "About Kyoku"
+    },
+    "subViewTitles": {
+        "network": "Network Settings",
+        "explorer": "Explorer Settings",
+        "currency": "Display Currency",
+        "language": "Display Language",
+        "autoLock": "Auto-Lock Timer",
+        "changePassword": "Change Password",
+        "connectedDapps": "Connected Apps",
+        "addressBook": "Address Book",
+        "about": "About Kyoku",
+        "feeSettings": "Transaction Priority"
+    }
+  },
+  "currencySettings": {
+    "description": "Select your preferred currency for displaying fiat values."
+  },
+  "currency": {
+    "usd": "US Dollar",
+    "eur": "Euro",
+    "gbp": "British Pound",
+    "jpy": "Japanese Yen"
+  },
+  "languageSettings": {
+    "description": "Select your preferred language for the interface."
+  },
+  "languages": {
+    "english": { "name": "English", "nativeName": "English" },
+    "spanish": { "name": "Spanish", "nativeName": "Español" },
+    "chinese_simplified": { "name": "Chinese (Simplified)", "nativeName": "简体中文" },
+    "hindi": { "name": "Hindi", "nativeName": "हिन्दी" },
+    "vietnamese": { "name": "Vietnamese", "nativeName": "Tiếng Việt" },
+    "indonesian": { "name": "Indonesian", "nativeName": "Bahasa Indonesia" },
+    "japanese": { "name": "Japanese", "nativeName": "日本語" },
+    "korean": { "name": "Korean", "nativeName": "한국어" }
+  },
+  "dAppInfoCard": {
+    "altIconText": "dApp Icon",
+    "requestFrom": "Request from:",
+    "unknownDApp": "Unknown dApp"
+  },
+  "transactionSummary": {
+    "nftPlaceholder": "NFT",
+    "unknownTokenPlaceholder": "Unknown Token",
+    "accountLabel": "Account",
+    "loadingPreview": "Loading transaction preview...",
+    "simulationFailedSeeDetails": "Simulation failed. See details above.",
+    "simulationErrorTitle": "Simulation Error",
+    "simulationErrorDefault": "This transaction would likely fail if submitted.",
+    "solChangesLabel": "SOL Changes (for you):",
+    "tokenChangesLabel": "Token Changes (for you):",
+    "noDirectChanges": "No direct changes to your asset balances (other than network fee).",
+    "otherAccountChangesLabel": "Other Account Changes:",
+    "transactionInsightsTitle": "Transaction Insights",
+    "networkFeeDetailsTitle": "Network Fee Details:",
+    "baseFeeLabel": "Base Fee",
+    "baseFeeTooltip": "Standard fee based on the number of signatures required by the transaction.",
+    "priorityFeeLabel": "Priority Fee",
+    "priorityFeeTooltip": "Optional fee to help prioritize your transaction on the network. Estimated for 'medium' priority.",
+    "totalEstimatedFeeLabel": "Total Estimated Fee:",
+    "estComputeLimitLabel": "Est. Compute Limit",
+    "estComputeLimitTooltip": "The compute unit limit that will be requested for this transaction to accommodate the estimated priority fee.",
+    "estComputePriceLabel": "Est. Compute Price",
+    "estComputePriceTooltip": "The price per compute unit (in micro-lamports) for the estimated priority fee.",
+    "rawTxCUsConsumedLabel": "Raw Tx CUs Consumed",
+    "rawTxCUsConsumedTooltip": "Compute units consumed by the transaction in simulation (without explicit priority fee instructions)."
+  },
+  "warningDisplay": {
+    "defaultTitles": {
+      "critical": "Security Alert!",
+      "warning": "Caution",
+      "info": "Information"
+    }
+  },
+  "resetWalletModal": {
+    "title": "Confirm Wallet Reset",
+    "warning": {
+      "irreversible": "This action is irreversible and will permanently delete ALL wallet data (keys, accounts, settings) stored in this extension.",
+      "cannotBeUndone": "This action CANNOT be undone.",
+      "ensureBackup": "Ensure you have a backup of your Secret Recovery Phrase(s) if you wish to restore your accounts later."
+    },
+    "confirmButtonText": "Yes, Reset Wallet",
+    "processingReset": "Resetting Wallet..."
+  },
+  "confirmationApp": {
+    "analyzingTransaction": "Analyzing transaction...",
+    "loadingRequest": "Loading request...",
+    "requestErrorTitle": "Request Error",
+    "unlockWalletTitle": "Unlock Kyoku Wallet",
+    "unlockToApproveRequest": "To approve the request from <1>{{dappName}}</1>, please enter your password.",
+    "actionNotAllowedTitle": "Action Not Allowed",
+    "viewOnlyCannotSign": "The selected account <1>{{accountName}} ({{accountKey}}...)</1> is view-only and cannot be used for signing operations.",
+    "selectDifferentAccountOrReject": "Please select a different account or reject the request.",
+    "noOtherAccountsForAction": "You do not have any other accounts that can perform this action.",
+    "userRejectedUnlock": "User rejected unlock.",
+    "operationCancelledViewOnly": "Operation cancelled due to view-only account.",
+    "signingAs": "Signing as",
+    "connectAllowApp": "This will allow the application to:",
+    "connectViewAddress": "View your wallet address",
+    "connectRequestApproval": "Request approval for transactions (if this account can sign).",
+    "signInRequestDetailsTitle": "Sign-In Request Details:",
+    "signInDomain": "Domain",
+    "signInAddress": "Address",
+    "messageLabel": "Message ({{format}}):",
+    "transactionNumber": "Transaction {{number}}",
+    "assetChangesCount_one": "{{count}} asset change for you",
+    "assetChangesCount_other": "{{count}} asset changes for you",
+    "noDirectAssetChanges": "No direct changes to your assets",
+    "simulationFailedLabel": "Simulation Failed",
+    "simulationDataUnavailable": "Simulation data not available. Raw transaction data will be signed.",
+    "messageSigningTitle": "Message Signing",
+    "messageSigningInfo": "You are signing a message. Ensure you trust the requesting site and understand the message's content and purpose.",
+    "transactionBatchInsightsTitle": "Transaction Batch Insights",
+    "transactionApprovalCautionTitle": "Transaction Approval Caution",
+    "transactionApprovalCautionMessage": "Review transactions carefully. Approving a malicious transaction could lead to loss of funds.",
+    "userRejected": "User rejected the request.",
+    "userRejectedAfterSimFailure": "User rejected after simulation failure.",
+    "userRejectedAfterError": "Popup closed by user after error.",
+    "titles": {
+      "connectionRequest": "Connection Request",
+      "signMessage": "Sign Message",
+      "approveTransaction": "Approve Transaction",
+      "approveMultipleTransactions_one": "Approve {{count}} Transaction",
+      "approveMultipleTransactions_other": "Approve {{count}} Transactions",
+      "approveMultipleTransactions": "Approve {count} Transactions",
+      "transactionPreviewFailed": "Transaction Preview Failed"
+    },
+     "aggregatedTransactionSummary": "Summary of {count} Transactions",
+    "showDetails": "Show Transaction Details",
+    "hideDetails": "Hide Transaction Details",
+    "assetChangesCount": "{count} Asset Changes",
+    "errors": {
+      "invalidRequestParams": "Invalid request: Missing critical parameters.",
+      "failedToRetrieveStagedData": "Failed to retrieve staged data: {{error}}",
+      "requiredDataNotFound": "Required data not found for request ID {{requestId}}.",
+      "sessionDataKeyMissing": "Session data key missing for signing operation.",
+      "unsupportedInteractionType": "Unsupported interaction type: {{type}}.",
+      "messageDataUnavailable": "Message data not available or malformed.",
+      "unknownDisplayFormat": "Unknown display format for message.",
+      "errorDecodingMessage": "Error decoding message content.",
+      "missingRequestId": "Critical error: Request ID missing.",
+      "passwordEmpty": "Password cannot be empty.",
+      "unlockFailed": "Incorrect password or unlock failed.",
+      "noAccountSelected": "Cannot approve: No account selected.",
+      "cannotApproveSimFailed": "Cannot approve: Transaction simulation failed. {{error}}",
+      "cannotApproveBatchSimFailed": "Cannot approve: One or more transaction simulations failed. {{error}}",
+      "unexpectedError": "An unexpected error occurred. You can close this window.",
+      "simulationFailedUnknown": "Transaction simulation failed due to an unknown reason."
+    },
+    "placeholders": {
+        "enterPassword": "Enter password"
+    },
+    "simulationFailedTitle": "Simulation Failed",
+    "simulationFailedRecommendNotProceed": "This transaction would likely fail if submitted to the network. It's not recommended to proceed."
+  },
+  "addViewOnlyAccount": {
+    "title": "Add View-Only Account",
+    "description": "Enter the Solana address (public key) to watch.",
+    "placeholders": {
+      "pasteAddress": "Paste Solana address..."
+    },
+    "buttons": {
+      "validating": "Validating...",
+      "confirmAddress": "Confirm Address"
+    },
+    "errors": {
+      "publicKeyRequired": "Please enter the public key.",
+      "invalidPublicKey": "Invalid public key."
+    }
+  },
+  "fundedAccountSelector": {
+    "title": "Import Accounts",
+    "descriptionWithFunds": "Select the accounts derived from your phrase you wish to import.",
+    "descriptionWithoutFunds": "No accounts with balance found. You can import the default account.",
+    "noAccountsToDisplay": "No accounts to display.",
+    "accountNamePrefix": "Account",
+    "importButton_one": "Import {{count}} Account",
+    "importButton_other": "Import {{count}} Accounts"
+  },
+  "importOptions": {
+    "title": "Import Existing Wallet",
+    "tagline": "Securely bring your wallet into Kyoku in seconds.",
+    "buttons": {
+      "seedPhrase": {
+        "label": "Import with Secret Recovery Phrase",
+        "description": "Use your 12- or 24-word secret recovery phrase."
+      },
+      "privateKey": {
+        "label": "Import with Private Key",
+        "description": "Manually import your Solana private key."
+      },
+      "viewOnly": {
+        "label": "Import as View-Only Wallet",
+        "description": "Track a public address without full access."
+      }
+    }
+  },
+   "generateMnemonicPrompt": {
+    "headerTitle": "Add Recovery Phrase",
+    "mainHeading": "Add a Secret Recovery Phrase",
+    "descriptionLine1": "This wallet was likely set up with a private key, which doesn't allow creating new accounts.",
+    "descriptionLine2": "To enable creating multiple accounts, you need to add a primary recovery phrase."
+  },
+
+  "importPrivateKey": {
+    "title": "Import Private Key",
+    "description": "Paste your private key (Base58, Hex, or Byte Array).",
+    "placeholders": {
+      "pastePrivateKey": "Paste private key here..."
+    },
+    "buttons": {
+      "validating": "Validating...",
+      "confirmAndImport": "Confirm & Import"
+    },
+    "errors": {
+      "pastePrivateKey": "Please paste your private key.",
+      "validationFailedUnknown": "Validation failed: Unknown error."
+    }
+  },
+  "mnemonicSetup": {
+    "generatingPhrase": "Generating secure phrase...",
+    "downloadFilename": "solana-recovery-phrase.txt",
+    "headers": {
+      "display": {
+        "title": "Your Secret Recovery Phrase",
+        "description": "Save this securely! It's the only way to recover your wallet."
+      },
+      "confirm": {
+        "title": "Confirm Recovery Phrase",
+        "description": "Enter the phrase you saved to verify."
+      },
+      "import": {
+        "title": "Import Recovery Phrase",
+        "description": "Enter your {{count}}-word phrase."
+      }
+    },
+    "importantWarning": {
+      "title": "Important!",
+      "message": "Write down and store these words securely. Never share them with anyone."
+    },
+    "confirmSaveCheckboxLabel": "I understand that if I lose my recovery phrase, I will not be able to access my wallet.",
+    "buttons": {
+      "copy": "Copy",
+      "copied": "Copied!",
+      "download": "Download",
+      "nextConfirm": "Next: Confirm",
+      "pastePhrase": "Paste Phrase",
+      "importWallet": "Import Wallet",
+      "verifyAndContinue": "Verify & Continue"
+    },
+    "ariaLabels": {
+      "wordInput": "Word {{number}}"
+    },
+    "errors": {
+      "generationFailed": "Could not generate recovery phrase. Please refresh.",
+      "copyFailed": "Failed to copy phrase to clipboard.",
+      "confirmSaveRequired": "Please confirm you have securely saved your recovery phrase.",
+      "pasteFailed": "Could not read from clipboard. Please paste manually.",
+      "allWordsRequired": "Please enter all {{count}} words.",
+      "invalidWordCount": "Invalid phrase: Expected 12 or 24 words, found {{count}}.",
+      "invalidPhrase": "Invalid recovery phrase. Please check your words and try again.",
+      "phraseMismatch": "Phrase does not match the one generated. Please re-enter carefully."
+    }
+  },
+  "onboardingApp": {
+    "checkingStatus": "Checking Wallet Status...",
+    "kyokuWalletSetup": "Kyoku Wallet Setup",
+    "altKyokuLogo": "Kyoku Wallet Logo",
+    "errorOccurredTitle": "An Error Occurred",
+    "buttons": {
+      "restartSetup": "Restart Setup",
+      "back": "Back"
+    },
+    "setupCompleteTitle": "Setup Complete!",
+    "setupCompleteMessage": "Your Solana wallet is ready.",
+    "importSuccessfulTitle": "Import Successful!",
+    "importSuccessfulMessage": "The selected account(s) have been added.",
+    "windowCloseMessage": "This window will close automatically.",
+    "errors": {
+      "verifyStatusFailed": "Could not verify wallet status. Please refresh.",
+      "stateLost": "Setup process state lost or invalid. Please restart the process.",
+      "mnemonicEmpty": "Mnemonic phrase cannot be empty.",
+      "addRootMnemonicFailed": "Failed to add recovery phrase: {{error}}",
+      "prepareCreateFailed": "Failed to prepare wallet creation: {{error}}",
+      "accountScanFailed": "Account scan failed: {{error}}",
+      "selectOneAccount": "Select at least one account.",
+      "importFailed": "Import failed: {{error}}",
+      "mnemonicNotStaged": "Mnemonic was not correctly staged.",
+      "prepareImportFailed": "Failed to prepare import: {{error}}",
+      "addAccountFailed": "Add account failed: {{error}}",
+      "setupFailed": "Setup failed: {{error}}",
+      "cannotInitWithViewOnly": "Cannot initialize a new wallet with a view-only account.",
+      "unexpectedError": "An unexpected error occurred."
+    }
+  },
+
+   "receiveView": {
+    "headerTitle": "Receive",
+    "defaultAccountName": "My Account",
+    "importantPrefix": "Important",
+    "warningMessage": "Only send SOL or Solana-based tokens (SPL) to this address on the Solana network. Sending other assets may result in permanent loss.",
+    "noActiveAccount": "No active account selected to receive funds. Please select an account first.",
+    "errors": {
+      "copyFailed": "Failed to copy address to clipboard."
+    },
+    "buttons": {
+      "copyAddress": "Copy Address",
+      "addressCopied": "Address Copied!"
+    }
+  },
+  "passwordPage": {
+    "loadingStatus": "Loading Wallet Status...",
+    "walletNotFoundTitle": "Wallet Not Found",
+    "resetting": "Resetting...",
+    "placeholders": {
+      "password": "Password"
+    },
+    "buttons": {
+      "unlocking": "Unlocking...",
+      "forgotPasswordReset": "Forgot password? Reset Wallet",
+      "goToSetup": "Go to Setup"
+    },
+    "errors": {
+      "verifyStatusFailed": "Could not verify wallet status. Ensure the extension is enabled and try reloading.",
+      "walletNotFoundGoToOnboarding": "Wallet not found. Please go to onboarding.html to set up your wallet.",
+      "walletNotFoundOpenManually": "Wallet not found. Please open onboarding.html manually.",
+      "invalidStatusResponse": "Received invalid status from background. Wallet may not be set up.",
+      "contactBackgroundFailed": "Error contacting background service.",
+      "passwordEmpty": "Password cannot be empty.",
+      "communicationError": "Communication error: {{error}}",
+      "unlockFailedTryAgain": "Unlock failed. Please try again.",
+      "walletNotSetUp": "Wallet not set up.",
+      "incorrectPassword": "Incorrect password.",
+      "resetFailed": "Reset failed: {{error}}",
+      "resetCompleteGoToSetup": "Reset complete. Please go to onboarding.html to set up your wallet.",
+      "sendResetRequestFailed": "Failed to send reset request.",
+      "resetFailedUnknown": "Reset failed."
+    },
+    "resetWallet": {
+      "warningConfirm": "WARNING: This will permanently delete ALL wallet data (keys, accounts) stored in this extension. This action cannot be undone. Are you absolutely sure?",
+      "finalConfirm": "FINAL CONFIRMATION: Please confirm you want to reset the wallet. All data will be lost.",
+      "successAlert": "Wallet reset successfully. Redirecting to setup.",
+      "manualSetupAlert": "Reset complete. Please manually open the extension again for setup."
+    }
+  },
+  "actionButtons": {
+    "receive": "Receive",
+    "send": "Send",
+    "stake": "Stake",
+    "stakeClickedTodo": "Stake clicked (TODO)"
+  },
+  "balanceCard": {
+    "refreshBalance": "Refresh balance",
+    "loadErrorTitle": "Load Error",
+    "loadErrorMessage": "Could not load balance.",
+    "totalPortfolioValue": "Total Portfolio Value",
+    "solBalanceLabel": "SOL Balance"
+  },
+  "burnConfirmationModal": {
+    "title": "Confirm Burn {{itemType}}",
+    "aboutToBurn": "You are about to permanently burn:",
+    "warningTitle": "Warning",
+    "irreversibleAction": "This action is irreversible. Once burned, the {{itemType}} cannot be recovered.",
+    "rentRecoveryToken": "Burning this token will also attempt to close its associated token account, which may return some SOL rent to your wallet.",
+    "permanentActionNft": "Burning this NFT is permanent. Ensure you understand this action.",
+    "loading": "Burning {{itemType}}...",
+    "burnFailedTitle": "Burn Failed",
+    "buttons": {
+      "confirmBurn": "Confirm Burn",
+      "retryBurn": "Retry Burn"
+    }
+  },
+  "footerNav": {
+    "home": "Home",
+    "swap": "Swap",
+    "settings": "Settings",
+    "swapClickedTodo": "Swap Clicked (TODO - Default Handler)"
+  },
+  "header": {
+    "selectAccount": "Select Account",
+    "addAccountImport": "Add Account / Import",
+    "walletsPageTitle": "Wallets",
+    "accountOptions": "Account Options"
+  },
+  "itemList": {
+    "nativeToken": "Native Token",
+    "noTokensToDisplay": "You currently have no tokens to display.",
+    "tokenLogoAlt": "{{tokenSymbol}} logo"
+  },
+  "nftCard": {
+    "unnamedNft": "Unnamed NFT",
+    "unknownCollectionPlaceholder": "Unknown Collection",
+    "altNftImage": "{{nftName}} NFT image",
+    "ariaViewDetails": "View details for {{nftName}}"
+  },
+  "nftGrid": {
+    "unnamedCollection": "Unnamed Collection",
+    "ariaViewCollection": "View collection {{collectionName}} with {{count}} items",
+    "altCollectionImage": "{{collectionName}} collection image",
+    "errorLoading": "Error loading collectibles: {{errorDetail}}",
+    "noCollectiblesFound": "No collectibles found."
+  },
+  "renameModal": {
+    "title": "Edit Wallet Name",
+    "inputAriaLabel": "New wallet name"
+  },
+  "showPrivateKeyModal": {
+    "title": "Show Private Key",
+    "forAccount": "For account:",
+    "warning": "Warning: Never share your private key. Anyone with it can access your funds.",
+    "enterPasswordToReveal": "Enter Password to Reveal",
+    "placeholders": {
+      "walletPassword": "Your wallet password"
+    },
+    "buttons": {
+      "reveal": "Reveal Private Key",
+      "copyKey": "Copy Key"
+    },
+    "yourPrivateKeyFor": "Your private key for {{accountName}}:",
+    "storeKeySecurely": "Store this key securely. Do not lose it. Do not share it.",
+    "copiedToClipboard": "Private key copied to clipboard!",
+    "errors": {
+      "passwordRequired": "Password is required.",
+      "failedToRetrieve": "Failed to retrieve private key.",
+      "copyFailed": "Failed to copy private key."
+    }
+  },
+  "showSeedPhraseModal": {
+    "title": "Show Recovery Phrase",
+    "forAccount": "For account:",
+    "warning": "Warning: Never share your recovery phrase. Anyone with it can access all accounts derived from it.",
+    "enterPasswordToReveal": "Enter Password to Reveal",
+    "placeholders": {
+      "walletPassword": "Your wallet password"
+    },
+    "buttons": {
+      "revealPhrase": "Reveal Phrase",
+      "copied": "Copied!",
+      "copyPhrase": "Copy Phrase"
+    },
+    "yourRecoveryPhraseFor": "Your recovery phrase for {{accountName}}:",
+    "storePhraseSecurely": "Store this phrase securely. Do not lose it. Do not share it.",
+    "errors": {
+      "passwordRequired": "Password is required.",
+      "failedToRetrieve": "Failed to retrieve seed phrase.",
+      "copyFailed": "Failed to copy seed phrase."
+    }
+  },
+  "tabSelector": {
+    "previousTab": "Previous tab",
+    "switchToTab": "Switch to {{tabName}} tab",
+    "nextTab": "Next tab",
+    "expandContentView": "Expand content view"
+  },
+  "tokenDetails": {
+    "titleFallback": "Token Details",
+    "detailsUnavailable": "Token details not available.",
+    "backToDashboard": "Back to Dashboard",
+    "loadingData": "Loading token data...",
+    "tokenFallback": "Token",
+    "burnInitiatedTitle": "Burn Initiated!",
+    "transactionIdLabel": "Tx",
+    "moreOptionsAriaLabel": "More options",
+    "fetchingLatestDetails": "Fetching latest details...",
+    "viewOnlyWarning": "This is a view-only account. Send/Burn actions are disabled.",
+    "sectionTitle": "Token Information",
+    "labels": {
+      "name": "Name",
+      "symbol": "Symbol",
+      "pricePerToken": "Price per Token",
+      "addressMint": "Address (Mint)",
+      "explorer": "Explorer"
+    },
+    "menu": {
+      "viewOnExplorer": "View on Explorer",
+      "burnToken": "Burn Token"
+    },
+    "buttons": {
+      "send": "Send",
+      "receive": "Receive"
+    },
+    "burnSuccessMessage": "{{tokenName}} burn initiated successfully!",
+    "errors": {
+      "fetchFailed": "Failed to fetch full token details.",
+      "detailsNotFound": "Full token details could not be retrieved.",
+      "fetchInitiationFailed": "Error initiating detail fetch: {{error}}",
+      "burnMissingInfo": "Cannot burn: Active account or token details missing.",
+      "burnUnknownError": "Unknown error burning token.",
+      "burnInitiatedTitle": "Burn Completed!" 
+    }
+  },
+
+  
+  "tokenManagement": {
+    "headerTitle": "Manage Token List",
+    "fallbackTokenName": "Token",
+    "spamToggle": {
+      "label": "Show Spam/Unknown Tokens",
+      "description": "Spam/unknown tokens are those without a logo AND missing price, name, or symbol. By default, they are hidden."
+    },
+    "lowBalanceToggle": {
+      "label": "Hide Tokens Valued Below $1"
+    },
+    "individualManagementInfo": {
+      "withSpam": "Individually manage visibility for tokens (including spam/unknown tokens).",
+      "withoutSpam": "Individually manage visibility for tokens (excluding spam/unknown tokens)."
+    },
+    "buttons": {
+      "hideAllBelow": "Hide All Below",
+      "showAllBelow": "Show All Below",
+      "showTokenAria": "Show {{tokenName}}",
+      "hideTokenAria": "Hide {{tokenName}}"
+    },
+    "loadingTokens": "Loading tokens...",
+    "emptyState": {
+      "noNonNativeTokens": "No non-native tokens found in this account.",
+      "noNonSpamToManage": "No non-spam/unknown tokens to manage. Try enabling 'Show Spam/Unknown Tokens'."
+    },
+    "errors": {
+      "loadFailed": "Error loading tokens: {{error}}"
+    }
+  },
+  "tokenSelect": {
+    "modalTitleInput": "Select Payment Token",
+    "modalTitleOutput": "Select Receive Token",
+    "modalTitleGeneric": "Select Token",
+    "searchPlaceholder": "Search name, symbol, or paste address",
+    "loadingTokens": "Loading tokens...",
+    "noTokensMatchSearch": "No tokens found matching your search.",
+    "noTokensFoundShort": "No tokens found.",
+    "customTokenName": "Token ({{addressPart}}...)",
+    "unknownToken": "Unknown Token",
+    "customAddressLabel": "Custom Address",
+    "ariaLabels": {
+      "selectToken": "Select {{tokenName}}"
+    }
+  },
+  "swapErrorView": {
+    "title": "Swap Failed",
+    "errorDetailsLabel": "Error Details:"
+  },
+  "swapSuccessView": {
+    "noDetailsFound": "No success details found.",
+    "title": "Swap Successful!",
+    "swappedMessage": "You swapped {{amount}} {{symbol}}",
+    "forEstimatedMessage": "For an estimated {{amount}} {{symbol}}.",
+    "transactionIdLabel": "Tx",
+    "buttons": {
+      "newSwap": "New Swap"
+    }
+  },
+  "swapView": {
+    "title": "Swap Tokens",
+    "loadingInterface": "Loading Swap Interface...",
+    "settingsPlaceholderAlert": "Swap settings placeholder",
+    "kyokuWalletSwap": "Kyoku Wallet Swap",
+    "kyokuWalletOrigin": "Kyoku Wallet",
+    "tokenIdentifierFallback": "TKN",
+    "fetchingBestPrice": "Fetching best price...",
+    "labels": {
+      "youPay": "You Pay",
+      "youReceiveEstimated": "You Receive (Estimated)"
+    },
+    "tokenInput": {
+      "balancePrefix": "Balance: ",
+      "amountPlaceholder": "0.00",
+      "selectTokenFallback": "Select",
+      "selectTokenAria": "Select {{currentToken}} for swap"
+    },
+    "buttons": {
+      "max": "MAX",
+      "fetchingQuote": "Fetching Quote...",
+      "errorGettingQuote": "Error Getting Quote",
+      "reviewSwap": "Review Swap"
+    },
+    "quoteInfo": {
+      "rate": "Rate",
+      "priceImpact": "Price Impact",
+      "minReceived": "Minimum Received",
+      "route": "Route",
+      "directRoute": "Direct"
+    },
+    "ariaLabels": {
+      "closeSwap": "Close Swap",
+      "swapSettings": "Swap Settings",
+      "usePercentage": "Use {{percentage}}% of balance",
+      "swapDirection": "Swap input and output tokens"
+    },
+    "errors": {
+      "invalidNumber": "Please enter a valid number (e.g., 123.45)",
+      "amountExceedsBalance": "Amount exceeds available balance.",
+      "invalidInputForQuote": "Invalid input to fetch quote.",
+      "invalidInputAmount": "Invalid input amount.",
+      "quoteFetchFailed": "Failed to fetch quote. Try adjusting amount or pair.",
+      "quoteRequestPrepFailed": "Error preparing quote request. Check input values.",
+      "missingInfoForExecute": "Missing necessary information to execute swap.",
+      "failedToGetJupiterTx": "Failed to get swap transaction from Jupiter."
+    }
+  },
+  "networkSettings": {
+    "options": {
+      "mainnet": "Mainnet Beta",
+      "devnet": "Devnet",
+      "testnet": "Testnet",
+      "customRpc": "Custom RPC"
+    },
+    "customRpcConfigurationTitle": "Custom RPC Configuration",
+    "customRpcDescription": "Enter your own RPC endpoint URL for custom network access",
+    "customRpcInputAriaLabel": "Custom RPC Endpoint URL",
+    "placeholders": {
+      "rpcEndpoint": "https://your-rpc-endpoint.com"
+    },
+    "errors": {
+      "updateFailed": "Failed to update network: {{details}}"
+    }
+  },
+  "autoLockSettings": {
+    "title": "Auto-Lock Timer",
+    "description": "Configure when the wallet automatically locks.",
+    "enableLabel": "Enable Auto-Lock",
+    "enableAutoLockAria": "Enable auto-lock",
+    "disableAutoLockAria": "Disable auto-lock",
+    "durationLabel": "Lock after (minutes)",
+    "saveSuccessMessage": "Settings saved successfully",
+    "errors": {
+      "loadFailed": "Failed to load settings",
+      "saveFailed": "Failed to save settings",
+      "durationTooShort": "Auto-lock duration must be at least 1 minute"
+    }
+  },
+  "changePassword": {
+    "labels": {
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password"
+    },
+    "placeholders": {
+      "currentPassword": "Enter your current password",
+      "newPassword": "Enter new password",
+      "confirmNewPassword": "Confirm new password"
+    },
+    "newPasswordHint": "Must be at least 8 characters long.",
+    "buttons": {
+      "changing": "Changing...",
+      "changePassword": "Change Password"
+    },
+    "errors": {
+      "allFieldsRequired": "All password fields are required.",
+      "newPasswordsDoNotMatch": "New passwords do not match.",
+      "newPasswordTooShort": "New password must be at least 8 characters long.",
+      "newPasswordSameAsCurrent": "New password cannot be the same as the current password.",
+      "changeFailedUnknown": "Failed to change password due to an unknown error."
+    },
+    "successMessage": "Password changed successfully! Wallet will lock."
+  },
+  "explorerSettings": {
+    "description": "Choose your preferred block explorer. Links to transactions and addresses will use this selection.",
+    "saveSuccessMessage": "Preference saved successfully!",
+    "saveFailedMessage": "Failed to save preference. Please try again.",
+    "saveFailedMessageNoParam": "Failed to save preference"
+  },
+  "feeSettings": {
+    "description": "Choose a default priority for your transactions. This helps determine how quickly your transactions are processed, especially during network congestion. You may be able to override this on a per-transaction basis in some cases.",
+    "options": {
+      "auto": {
+        "label": "Automatic (Recommended)",
+        "description": "Wallet attempts to set an optimal fee based on network conditions (defaults to Medium)."
+      },
+      "low": {
+        "label": "Low",
+        "description": "Lower fee, potentially slower confirmation times."
+      },
+      "medium": {
+        "label": "Medium",
+        "description": "Balanced fee for reasonable confirmation times."
+      },
+      "high": {
+        "label": "High",
+        "description": "Higher fee for faster confirmation, useful during congestion."
+      }
+    }
+  },
+  "aboutSettings": {
+    "title": "About Kyoku Wallet",
+    "versionLabel": "Version",
+    "brandName": "Kyoku Wallet",
+    "links": {
+      "website": "Website",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "addressBook": {
+    "title": "Address Book",
+    "loading": "Loading address book...",
+    "addNewAddressTitle": "Add New Address",
+    "editAddressTitle": "Edit Address",
+    "addressIdentifierForErrorCheck": "address",
+    "labels": {
+      "name": "Name",
+      "address": "Address"
+    },
+    "placeholders": {
+      "nameExample": "e.g., My Friend Bob",
+      "pasteAddress": "Paste Solana address"
+    },
+    "buttons": {
+      "addNewAddress": "Add New Address",
+      "editAddress": "Edit {{name}}",
+      "deleteAddress": "Delete {{name}}"
+    },
+    "emptyStateLine1": "Your address book is empty.",
+    "emptyStateLine2": "Click the '+' button to add an address.",
+    "confirmDeleteMessage": "Are you sure you want to delete this address?",
+    "errors": {
+      "loadFailed": "Failed to load address book",
+      "saveFailed": "Failed to save address book",
+      "nameAndAddressRequired": "Name and address are required.",
+      "invalidSolanaAddress": "Invalid Solana address format.",
+      "addressExists": "This address already exists in the address book.",
+      "addressExistsDifferentName": "This address already exists with a different name."
+    }
+  },
+  "activityDetails": {
+    "detailsUnavailable": "Transaction details not available.",
+    "backToActivities": "Back to Activities",
+    "tokenFallback": "Token",
+    "assetFallback": "Asset",
+    "headers": {
+      "default": "Transaction Details",
+      "sentAsset": "Sent {{assetName}}",
+      "receivedAsset": "Received {{assetName}}",
+      "swap": "Swap: {{tokenA}} for {{tokenB}}",
+      "dappInteractionNamed": "Interaction: {{dappName}}",
+      "dappInteraction": "dApp Interaction",
+      "interaction": "Program Interaction"
+    },
+    "labels": {
+      "date": "Date",
+      "status": "Status",
+      "interaction": "Interaction",
+      "from": "From",
+      "to": "To",
+      "source": "Source",
+      "networkFee": "Network Fee",
+      "mintAddress": "Mint Address",
+      "externalLink": "External Link",
+      "explorer": "Explorer"
+    },
+    "prefixes": {
+        "youPaid": "You Paid: ",
+        "youReceived": "You Received: ",
+        "amountSent": "Amount Sent: ",
+        "amountReceived": "Amount Received: "
+    },
+    "statusConfirmed": "Confirmed",
+    "transactionIdLabel": "Transaction ID",
+    "viewOnExplorer": "View on {{explorerName}}"
+  },
+  "activityItem": {
+    "unknownActivity": "Unknown Activity",
+    "unknownToken": "Token",
+    "actions": {
+      "sent": "Sent",
+      "sentToken": "Sent {{tokenSymbol}}",
+      "received": "Received",
+      "receivedToken": "Received {{tokenSymbol}}",
+      "swap": "Swap",
+      "appInteraction": "App Interaction",
+      "programInteraction": "Program Interaction",
+      "approval": "Approval"
+    },
+    "labels": {
+      "to": "To",
+      "from": "From",
+      "program": "Program",
+      "for": "For",
+      "source": "Source"
+    }
+  },
+  "activityView": {
+    "loadingFromCache": "Loading from cache...",
+    "errorLoadingTitle": "Error Loading Activity",
+    "noRecentActivityTitle": "No Recent Activity",
+    "transactionsAppearHere": "Your transactions will appear here.",
+    "loadingMore": "Loading more...",
+    "noMoreActivities": "No more activities to load."
+  },
+  "mainPopupApp": {
+    "loadingWallet": "Loading Wallet...",
+    "redirectingToSetup": "Redirecting to setup...",
+    "dismissErrorAriaLabel": "Dismiss error",
+    "deleteModal": {
+      "title": "Delete Account?",
+      "messagePart1": "Delete:",
+      "messagePart2": "?",
+      "warning": "This action cannot be undone."
+    },
+    "errors": {
+      "connectFailed": "Failed to connect: {{error}}",
+      "getInitialStateFailed": "Failed to get initial state.",
+      "noBackgroundResponse": "No response from background for initial state.",
+      "commError": "Communication error: {{error}}",
+      "loadAccountsFailedAfterUnlock": "Failed to load accounts after unlock.",
+      "accountSwitchFailed": "Account switch failed: {{error}}",
+      "accountSwitchFailedUnknown": "Failed to switch account.",
+      "openOnboardingFailed": "Failed to open onboarding: {{error}}",
+      "renameFailed": "Rename failed: {{error}}",
+      "saveOrderFailed": "Failed to save account order.",
+      "accountNotFoundForDelete": "Account not found for deletion.",
+      "cannotDeleteLastNonViewOnly": "Cannot delete the last non-view-only account. Create another or import first.",
+      "deleteFailed": "Delete failed: {{error}}",
+      "deleteFailedNamed": "Failed to delete account '{{name}}'."
+    }
+  },
+  "dashboard": {
+    "tabs": {
+        "tokens": "Tokens",
+        "collectibles": "Collectibles",
+        "activity": "Activity"
+    },
+    "manageTokenList": "Manage Token List",
+    "manageNftList": "Manage NFT List",
+    "buttons": {
+        "createNewAccount": "Create New Account",
+        "importRecoveryPhrase": "Import Recovery Phrase",
+        "importPrivateKey": "Import Private Key",
+        "addViewOnlyAccount": "Add View-Only Account"
+    },
+    "collectionTitleFallback": "Collection",
+    "backToAllCollectibles": "Back to All Collectibles",
+    "closeExpandedView": "Close Expanded View"
+  },
+  "sendForm": {
+    "balanceLabel": "Balance",
+    "toLabel": "To",
+    "amountLabel": "Amount",
+    "sendingToSaved": "Sending to {{name}}",
+    "loadingContacts": "Loading contacts...",
+    "noMatchingContacts": "No matching contacts found.",
+    "noContactsOrAccounts": "No contacts in address book or your other accounts.",
+    "startTypingToSearch": "Start typing to search contacts.",
+    "buttons": {
+        "sendMax": "MAX",
+        "reviewTransaction": "Review Transaction"
+    },
+    "placeholders": {
+        "recipientAddress": "Paste Solana address or select contact",
+        "nftAmount": "1 (NFT)",
+        "tokenAmount": "0.00"
+    },
+    "ariaLabels": {
+        "clearRecipient": "Clear recipient",
+        "showSuggestions": "Show suggestions"
+    },
+    "errors": {
+        "recipientRequired": "Recipient address is required.",
+        "invalidSolanaAddress": "Invalid Solana address format.",
+        "nftAmountMustBeOne": "NFT amount must be 1.",
+        "amountRequired": "Amount is required.",
+        "validPositiveAmount": "Please enter a valid positive amount.",
+        "amountExceedsBalance": "Amount exceeds available balance ({{balance}} {{symbol}}).",
+        "couldNotVerifyRecipient": "Could not verify recipient status.",
+        "failedToVerifyRecipient": "Failed to verify recipient status."
+    }
+  },
+  "transactionConfirm": {
+    "customRpcLabel": "Custom RPC",
+    "youAreSending": "You are sending",
+    "fromLabel": "From",
+    "yourWalletLabel": "Your wallet",
+    "toLabel": "To",
+    "networkLabel": "Network",
+    "networkFeeLabel": "Network Fee",
+    "calculatingFee": "Calculating fee...",
+    "feeUnavailable": "Fee estimation unavailable",
+    "warningIrreversible": "Warning: This transaction is irreversible. Please review all details carefully before proceeding.",
+    "buttons": {
+        "sending": "Sending...",
+        "confirmAndSend": "Confirm & Send"
+    }
+  },
+  "sendView": {
+    "errors": {
+        "unexpectedError": "An unexpected error occurred.",
+        "sendFromViewOnly": "Cannot send from a view-only account.",
+        "activeAccountNotFound": "Active account not found.",
+        "feeEstimationFailed": "Fee estimation failed: {{error}}",
+        "decodeFailed": "Decode failed: {{error}}",
+        "couldNotSimulateFee": "Could not simulate transaction to estimate fee.",
+        "missingDetailsOrAccount": "Missing transaction details or active account.",
+        "swapFailedToSend": "Swap send failed.",
+        "errorLoadingTokens": "Error loading tokens",
+        "feeNotReady": "Fee information not ready. Please wait.",
+        "transactionFailed": "Transaction failed: {{error}}",
+        "unknownErrorOccurred": "An unknown error occurred."
+    },
+    "success": {
+        "title": "Transaction Sent!",
+        "message": "Your transaction has been successfully submitted to the network.",
+        "viewOnExplorer": "View on {{explorerName}}"
+    },
+    "headers": {
+        "processingTransaction": "Processing Transaction...",
+        "selectToken": "Select Token",
+        "sendToken": "Send {{tokenSymbol}}",
+        "confirmTransaction": "Confirm Transaction",
+        "transactionSent": "Transaction Sent",
+        "transactionFailed": "Transaction Failed",
+        "send": "Send"
+    },
+    "noTokenSelected": "No token selected for send.",
+    "buttons": {
+        "selectToken": "Select Token"
+    },
+    "loadingForm": "Loading form...",
+    "loadingTransactionDetails": "Loading transaction details...",
+    "tokenFallback": "Token",
+    "errorSending": {
+        "title": "Send Error"
+    },
+    "loadingState": "Loading state..."
+  },
+  "accountSettings": {
+    "noAccountSelected": "No account selected.",
+    "menu": {
+        "walletAddress": "Wallet Address",
+        "renameWallet": "Rename Wallet",
+        "showPrivateKey": "Show Private Key",
+        "showRecoveryPhrase": "Show Recovery Phrase",
+        "removeWallet": "Remove Wallet"
+    },
+    "errors": {
+        "copyFailed": "Failed to copy address."
+    }
+  },
+   "nftDetails": {
+    "menu": {
+        "viewOnExplorer": "View on Explorer",
+        "burnNft": "Burn NFT",
+        "setAsProfilePicture": "Set as Profile Picture",
+        "removeProfilePicture": "Remove Profile Picture" 
+    }, 
+    "profilePictureBadge": "Profile Pic", 
+    "errors": {
+        "fetchFailed": "Failed to fetch full NFT details.",
+        "detailsNotFound": "Full NFT details could not be retrieved.",
+        "fetchInitiationFailed": "Error initiating detail fetch: {{error}}",
+        "burnMissingInfo": "Cannot burn: Active account or NFT details missing.",
+        "burnUnknownError": "Unknown error burning NFT.",
+        "couldNotFetchFullDetails": "Could not fetch full details: {{error}}"
+    },
+    "moreOptionsAriaLabel": "More options",
+    "fetchingLatestDetails": "Fetching latest details...",
+    "viewOnlyWarning": "This is a view-only account. Send/Burn actions are disabled.",
+    "buttons": {
+        "sendNft": "Send NFT"
+    },
+    "compressedBadge": "Compressed",
+    "sectionTitles": {
+        "description": "Description",
+        "aboutCollection": "About Collection {{collectionName}}",
+        "attributes": "Attributes",
+        "details": "Details"
+    },
+    "labels": {
+        "mintAddress": "Mint Address",
+        "externalLink": "External Link",
+        "explorer": "Explorer"
+    },
+    "links": {
+        "viewCollection": "View Collection",
+        "viewAsset": "View Asset"
+    },
+    "burnSuccessMessage": "{{nftName}} burn initiated successfully!",
+    "transactionIdLabel": "Tx",
+    "detailsUnavailable": "NFT details not available.",
+    "loadingData": "Loading NFT data..."
+  },
+  "nftManagement": {
+    "unnamedNft": "Unnamed NFT",
+    "potentialSpam": "Potential Spam",
+    "spamHidden": "Spam (Hidden)",
+    "headerTitle": "Manage NFT List",
+    "spamToggle": {
+        "label": "Show Spam/Unknown NFTs",
+        "description": "Spam/unknown NFTs are those without a logo AND missing price, name, or symbol. By default, they are hidden."
+    },
+    "buttons": {
+        "showNftAria": "Show {{nftName}}",
+        "hideNftAria": "Hide {{nftName}}"
+    },
+    "loadingDataAndPreferences": "Loading data and preferences...",
+    "errors": {
+        "loadFailed": "Error loading NFTs: {{error}}"
+    },
+    "emptyState": {
+        "title": "No NFTs to Manage",
+        "description": "When you own NFTs, you can manage their visibility here."
+    },
+    "hiddenSpamInfo": "{{count}} spam/unknown NFTs are hidden. Toggle above to see them."
+  },
+  "connectedDapps": {
+    "errors": {
+        "loadFailed": "Failed to load connected dapps.",
+        "couldNotRetrieve": "Could not retrieve connected dapps.",
+        "disconnectFailed": "Failed to disconnect."
+    },
+    "loading": "Loading connected dapps...",
+    "dAppIconAlt": "{{appName}} dApp Icon",
+    "confirmDisconnect": "Are you sure you want to disconnect from {{appName}}?",
+    "buttons": {
+        "disconnectAriaLabel": "Disconnect from {{appName}}",
+        "disconnect": "Disconnect"
+    },
+    "connectedDateLabel": "Connected",
+    "emptyState": {
+        "noAppsConnected": "No dApps connected.",
+        "appsWillAppearHere": "dApps you connect to will appear here."
+    },
+    "description": "Manage applications that have been granted permission to access your wallet. Revoking access will require the application to request connection again on next interaction."
+  },
+  "passwordSetup": {
+    "errors": {
+        "passwordsDoNotMatch": "Passwords do not match.",
+        "passwordTooShort": "Password must be at least 8 characters long.",
+        "initializationFailed": "Wallet initialization failed: {{error}}",
+        "setupFailedUnknown": "Setup failed: {{error}}",
+        "secretNotStagedAlert": "Critical error in setup process (missing staged data). Please restart the onboarding process.",
+        "secretNotStagedDetailed": "Error in setup process: Missing staged data. Please go back and restart the wallet creation or import process.",
+        "sendRequestFailed": "Failed to send initialization request: {{error}}"
+    },
+    "title": "Create Password",
+    "descriptionLine1": "This password will be used to unlock your Kyoku Wallet.",
+    "descriptionLine2": "Make sure to store it in a safe place.",
+    "placeholders": {
+        "enterPassword": "Enter password",
+        "confirmPassword": "Confirm password"
+    },
+    "ariaLabels": {
+        "hidePassword": "Hide password",
+        "showPassword": "Show password",
+        "hideConfirmPassword": "Hide confirm password",
+        "showConfirmPassword": "Show confirm password"
+    },
+    "buttons": {
+        "securingWallet": "Securing Wallet...",
+        "createWallet": "Create Wallet"
+    }
+  },
+  "walletSetup": {
+    "errors": {
+        "contactBackgroundFailed": "Error contacting background service: {{error}}",
+        "invalidStatusResponse": "Invalid response from checkKeyringStatus",
+        "sendStatusCheckFailed": "Error sending status check message",
+        "ensureExtensionEnabled": "Please ensure the extension is enabled and try reloading."
+    },
+    "checkingStatus": "Checking Wallet Status...",
+    "alreadySetupTitle": "Wallet Already Set Up!",
+    "alreadySetupMessage": "A Kyoku Wallet already exists in this browser. You can access it from the extension icon.",
+    "welcomeTitle": "Welcome to Kyoku Wallet",
+    "termsAgreementPrefix": "I have read and agree to the",
+    "termsAndConditionsLink": "Terms and Conditions",
+    "createWalletTitle": "Create New Wallet",
+    "createWalletDescription": "If you're new to Kyoku, generate a new secure wallet.",
+    "importWalletTitle": "Import Existing Wallet",
+    "importWalletDescription": "Access an existing wallet using your secret recovery phrase or private key.",
+    "buttons": {
+        "createWallet": "Create Wallet",
+        "importWallet": "Import Wallet"
+    }
+  },
+  "confirmSwap": {
+    "errors": {
+        "feeEstimationFailed": "Fee estimation failed.",
+        "decodeFailed": "Decode failed: {{error}}",
+        "couldNotVerifyLocally": "Could not verify transaction locally. Can still approve.",
+        "missingDetailsOrAccount": "Missing transaction details or active account."
+    },
+    "ariaLabels": {
+        "rejectTransaction": "Reject transaction"
+    },
+    "title": "Confirm Swap",
+    "youAreSwapping": "You are swapping:",
+    "tokenFallback": "Token",
+    "toReceiveNet": "To Receive (Net):",
+    "afterPlatformFee": "(after platform fee)",
+    "estimatingNetworkFee": "Estimating network fee...",
+    "ourSimulationFailedTitle": "Our Simulation Failed",
+    "showLogs": "Show Logs"
+  }
+}

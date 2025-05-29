@@ -1,0 +1,1133 @@
+{
+  "common": {
+    "back": "返回",
+    "goBack": "返回",
+    "savePreference": "保存偏好",
+    "loading": "加载中...",
+    "loadingSettings": "加载设置中...",
+    "processing": "处理中...",
+    "processingSwap": "处理交换中...",
+    "error": "错误",
+    "unknownError": "未知错误",
+    "communicationError": "通讯错误",
+    "notAvailable": "不可用",
+    "usdCurrencyCode": "USD",
+    "tokensFallback": "代币",
+    "explorer": "浏览器",
+    "done": "完成",
+    "close": "关闭",
+    "copy": "复制",
+    "copied": "已复制!",
+    "copyAddress": "复制地址",
+    "viewOnly": "只读",
+    "viewOnlyAccount": "只读账户",
+    "clearSearch": "清除搜索"
+  },
+  "buttons": {
+    "confirm": "确认",
+    "cancel": "取消",
+    "delete": "删除",
+    "reject": "拒绝",
+    "tryAgain": "再试一次",
+    "close": "关闭",
+    "continue": "继续",
+    "unlock": "解锁",
+    "ok": "好的",
+    "changeAccount": "更换账户",
+    "approve": "批准",
+    "approveAnywayRisky": "仍然批准 (有风险)",
+    "connect": "连接",
+    "signIn": "登录",
+    "save": "保存"
+  },
+  "main": {
+    "errors": {
+      "rootNotFound": "错误：未找到根元素。无法呈现应用程序。"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "general": "通用",
+    "generalDescription": "网络、费用优先级、浏览器、货币、语言",
+    "securityPrivacy": "安全与隐私",
+    "securityPrivacyDescription": "密码、自动锁定、已连接的应用",
+    "addressBook": "地址簿",
+    "addressBookDescription": "管理已保存的地址",
+    "aboutKyoku": "关于 Kyoku",
+    "aboutKyokuDescription": "版本、条款和政策",
+    "lockWallet": "锁定钱包",
+    "lockWalletDescription": "立即保护您的钱包",
+    "network": "网络",
+    "networkDescription": "选择区块链网络 (主网、开发网)",
+    "transactionPriority": "交易优先级",
+    "transactionPriorityDescription": "设置交易的默认费用级别",
+    "preferredExplorer": "首选浏览器",
+    "preferredExplorerDescription": "选择您的默认区块浏览器",
+    "displayCurrency": "显示货币",
+    "displayCurrencyDescription": "设置首选法定货币 (例如美元、欧元)",
+    "displayLanguage": "显示语言",
+    "displayLanguageDescription": "更改应用程序语言",
+    "autoLockTimer": "自动锁定计时器",
+    "autoLockTimerDescription": "设置钱包在不活动后锁定",
+    "changePassword": "更改密码",
+    "changePasswordDescription": "更新您的钱包访问密码",
+    "connectedApps": "已连接的应用",
+    "connectedAppsDescription": "管理dApp的权限",
+    "categoryTitles": {
+        "main": "设置",
+        "general": "通用设置",
+        "securityPrivacy": "安全与隐私",
+        "addressBook": "地址簿",
+        "about": "关于 Kyoku"
+    },
+    "subViewTitles": {
+        "network": "网络设置",
+        "explorer": "浏览器设置",
+        "currency": "显示货币",
+        "language": "显示语言",
+        "autoLock": "自动锁定计时器",
+        "changePassword": "更改密码",
+        "connectedDapps": "已连接的应用",
+        "addressBook": "地址簿",
+        "about": "关于 Kyoku",
+        "feeSettings": "交易优先级"
+    }
+  },
+  "currencySettings": {
+    "description": "选择您首选的货币以显示法定货币值。"
+  },
+  "currency": {
+    "usd": "美元",
+    "eur": "欧元",
+    "gbp": "英镑",
+    "jpy": "日元"
+  },
+  "languageSettings": {
+    "description": "选择您首选的界面语言。"
+  },
+  "languages": {
+    "english": { "name": "英语", "nativeName": "English" },
+    "spanish": { "name": "西班牙语", "nativeName": "Español" },
+    "chinese_simplified": { "name": "简体中文", "nativeName": "简体中文" },
+    "hindi": { "name": "印地语", "nativeName": "हिन्दी" },
+    "vietnamese": { "name": "越南语", "nativeName": "Tiếng Việt" },
+    "indonesian": { "name": "印度尼西亚语", "nativeName": "Bahasa Indonesia" },
+    "japanese": { "name": "日语", "nativeName": "日本語" },
+    "korean": { "name": "韩语", "nativeName": "한국어" }
+  },
+  "dAppInfoCard": {
+    "altIconText": "dApp 图标",
+    "requestFrom": "请求来自：",
+    "unknownDApp": "未知 dApp"
+  },
+  "transactionSummary": {
+    "nftPlaceholder": "NFT",
+    "unknownTokenPlaceholder": "未知代币",
+    "accountLabel": "账户",
+    "loadingPreview": "正在加载交易预览...",
+    "simulationFailedSeeDetails": "模拟失败。请参阅上面的详细信息。",
+    "simulationErrorTitle": "模拟错误",
+    "simulationErrorDefault": "如果提交，此交易可能会失败。",
+    "solChangesLabel": "SOL 变动 (为您)：",
+    "tokenChangesLabel": "代币变动 (为您)：",
+    "noDirectChanges": "您的资产余额没有直接变化 (网络费用除外)。",
+    "otherAccountChangesLabel": "其他账户变动：",
+    "transactionInsightsTitle": "交易见解",
+    "networkFeeDetailsTitle": "网络费用详情：",
+    "baseFeeLabel": "基本费用",
+    "baseFeeTooltip": "基于交易所需签名数量的标准费用。",
+    "priorityFeeLabel": "优先费用",
+    "priorityFeeTooltip": "可选费用，用于帮助优先处理您在网络上的交易。估计为“中等”优先级。",
+    "totalEstimatedFeeLabel": "总估计费用：",
+    "estComputeLimitLabel": "估计计算限制",
+    "estComputeLimitTooltip": "为适应估计的优先费用，将为此交易请求的计算单位限制。",
+    "estComputePriceLabel": "估计计算价格",
+    "estComputePriceTooltip": "估计优先费用的每计算单位价格 (以微兰波特为单位)。",
+    "rawTxCUsConsumedLabel": "原始交易消耗的计算单位",
+    "rawTxCUsConsumedTooltip": "模拟中交易消耗的计算单位 (不含明确的优先费用指令)。"
+  },
+  "warningDisplay": {
+    "defaultTitles": {
+      "critical": "安全警报！",
+      "warning": "警告",
+      "info": "信息"
+    }
+  },
+  "confirmationApp": {
+    "analyzingTransaction": "正在分析交易...",
+    "loadingRequest": "正在加载请求...",
+    "requestErrorTitle": "请求错误",
+    "unlockWalletTitle": "解锁 Kyoku 钱包",
+    "unlockToApproveRequest": "要批准来自 <1>{{dappName}}</1> 的请求，请输入您的密码。",
+    "actionNotAllowedTitle": "操作不允许",
+    "viewOnlyCannotSign": "所选账户 <1>{{accountName}} ({{accountKey}}...)</1> 是只读的，不能用于签名操作。",
+    "selectDifferentAccountOrReject": "请选择其他账户或拒绝请求。",
+    "noOtherAccountsForAction": "您没有任何其他可以执行此操作的账户。",
+    "userRejectedUnlock": "用户拒绝了解锁。",
+    "operationCancelledViewOnly": "由于只读账户，操作已取消。",
+    "signingAs": "签名身份",
+    "connectAllowApp": "这将允许应用程序：",
+    "connectViewAddress": "查看您的钱包地址",
+    "connectRequestApproval": "请求交易批准 (如果此账户可以签名)。",
+    "signInRequestDetailsTitle": "登录请求详情：",
+    "signInDomain": "域名",
+    "signInAddress": "地址",
+    "messageLabel": "消息 ({{format}})：",
+    "transactionNumber": "交易 {{number}}",
+    "assetChangesCount_one": "{{count}} 个资产为您更改",
+    "assetChangesCount_other": "{{count}} 个资产为您更改",
+    "noDirectAssetChanges": "您的资产没有直接变化",
+    "simulationFailedLabel": "模拟失败",
+    "simulationDataUnavailable": "模拟数据不可用。将签署原始交易数据。",
+    "messageSigningTitle": "消息签名",
+    "messageSigningInfo": "您正在签署一条消息。请确保您信任请求站点并理解消息的内容和目的。",
+    "transactionBatchInsightsTitle": "交易批次见解",
+    "transactionApprovalCautionTitle": "交易批准警告",
+    "transactionApprovalCautionMessage": "请仔细审查交易。批准恶意交易可能导致资金损失。",
+    "userRejected": "用户拒绝了请求。",
+    "userRejectedAfterSimFailure": "用户在模拟失败后拒绝。",
+    "userRejectedAfterError": "错误后用户关闭了弹窗。",
+    "titles": {
+      "connectionRequest": "连接请求",
+      "signMessage": "签署消息",
+      "approveTransaction": "批准交易",
+      "approveMultipleTransactions_one": "批准 {{count}} 个交易",
+      "approveMultipleTransactions_other": "批准 {{count}} 个交易",
+      "transactionPreviewFailed": "交易预览失败"
+    },
+    "errors": {
+      "invalidRequestParams": "请求无效：缺少关键参数。",
+      "failedToRetrieveStagedData": "检索暂存数据失败：{{error}}",
+      "requiredDataNotFound": "未找到请求 ID {{requestId}} 的必需数据。",
+      "sessionDataKeyMissing": "签名操作缺少会话数据密钥。",
+      "unsupportedInteractionType": "不支持的交互类型：{{type}}。",
+      "messageDataUnavailable": "消息数据不可用或格式错误。",
+      "unknownDisplayFormat": "消息的未知显示格式。",
+      "errorDecodingMessage": "解码消息内容时出错。",
+      "missingRequestId": "严重错误：缺少请求 ID。",
+      "passwordEmpty": "密码不能为空。",
+      "unlockFailed": "密码不正确或解锁失败。",
+      "noAccountSelected": "无法批准：未选择账户。",
+      "cannotApproveSimFailed": "无法批准：交易模拟失败。{{error}}",
+      "cannotApproveBatchSimFailed": "无法批准：一个或多个交易模拟失败。{{error}}",
+      "unexpectedError": "发生意外错误。您可以关闭此窗口。",
+      "simulationFailedUnknown": "交易模拟因未知原因失败。"
+    },
+    "placeholders": {
+        "enterPassword": "输入密码"
+    },
+    "simulationFailedTitle": "模拟失败",
+    "simulationFailedRecommendNotProceed": "如果提交到网络，此交易可能会失败。不建议继续。"
+  },
+  "addViewOnlyAccount": {
+    "title": "添加只读账户",
+    "description": "输入要观察的 Solana 地址 (公钥)。",
+    "placeholders": {
+      "pasteAddress": "粘贴 Solana 地址..."
+    },
+    "buttons": {
+      "validating": "验证中...",
+      "confirmAddress": "确认地址"
+    },
+    "errors": {
+      "publicKeyRequired": "请输入公钥。",
+      "invalidPublicKey": "公钥无效。"
+    }
+  },
+  "fundedAccountSelector": {
+    "title": "导入账户",
+    "descriptionWithFunds": "选择您希望从助记词导入的派生账户。",
+    "descriptionWithoutFunds": "未找到有余额的账户。您可以导入默认账户。",
+    "noAccountsToDisplay": "没有可显示的账户。",
+    "accountNamePrefix": "账户",
+    "importButton_one": "导入 {{count}} 个账户",
+    "importButton_other": "导入 {{count}} 个账户"
+  },
+  "importOptions": {
+    "title": "导入现有钱包",
+    "tagline": "在几秒钟内安全地将您的钱包导入 Kyoku。",
+    "buttons": {
+      "seedPhrase": {
+        "label": "使用助记词导入",
+        "description": "使用您的 12 或 24 字助记词。"
+      },
+      "privateKey": {
+        "label": "使用私钥导入",
+        "description": "手动导入您的 Solana 私钥。"
+      },
+      "viewOnly": {
+        "label": "作为只读钱包导入",
+        "description": "跟踪公共地址而无需完全访问权限。"
+      }
+    }
+  },
+  "importPrivateKey": {
+    "title": "导入私钥",
+    "description": "粘贴您的私钥 (Base58、Hex 或字节数组)。",
+    "placeholders": {
+      "pastePrivateKey": "在此处粘贴私钥..."
+    },
+    "buttons": {
+      "validating": "验证中...",
+      "confirmAndImport": "确认并导入"
+    },
+    "errors": {
+      "pastePrivateKey": "请粘贴您的私钥。",
+      "validationFailedUnknown": "验证失败：未知错误。"
+    }
+  },
+  "mnemonicSetup": {
+    "generatingPhrase": "正在生成安全助记词...",
+    "downloadFilename": "solana-recovery-phrase.txt",
+    "headers": {
+      "display": {
+        "title": "您的助记词",
+        "description": "请妥善保管！这是恢复钱包的唯一方法。"
+      },
+      "confirm": {
+        "title": "确认助记词",
+        "description": "输入您保存的助记词进行验证。"
+      },
+      "import": {
+        "title": "导入助记词",
+        "description": "输入您的 {{count}} 字助记词。"
+      }
+    },
+    "importantWarning": {
+      "title": "重要！",
+      "message": "请写下并妥善保管这些词语。切勿与任何人分享。"
+    },
+    "confirmSaveCheckboxLabel": "我理解如果我丢失了助记词，我将无法访问我的钱包。",
+    "buttons": {
+      "copy": "复制",
+      "copied": "已复制！",
+      "download": "下载",
+      "nextConfirm": "下一步：确认",
+      "pastePhrase": "粘贴助记词",
+      "importWallet": "导入钱包",
+      "verifyAndContinue": "验证并继续"
+    },
+    "ariaLabels": {
+      "wordInput": "词语 {{number}}"
+    },
+    "errors": {
+      "generationFailed": "无法生成助记词。请刷新。",
+      "copyFailed": "无法将助记词复制到剪贴板。",
+      "confirmSaveRequired": "请确认您已妥善保管助记词。",
+      "pasteFailed": "无法从剪贴板读取。请手动粘贴。",
+      "allWordsRequired": "请输入所有 {{count}} 个词语。",
+      "invalidWordCount": "助记词无效：应为 12 或 24 个词语，但找到 {{count}} 个。",
+      "invalidPhrase": "助记词无效。请检查您的词语并重试。",
+      "phraseMismatch": "助记词与生成的词语不匹配。请仔细重新输入。"
+    }
+  },
+  "onboardingApp": {
+    "checkingStatus": "正在检查钱包状态...",
+    "kyokuWalletSetup": "Kyoku 钱包设置",
+    "altKyokuLogo": "Kyoku 钱包徽标",
+    "errorOccurredTitle": "发生错误",
+    "buttons": {
+      "restartSetup": "重新开始设置",
+      "back": "返回"
+    },
+    "setupCompleteTitle": "设置完成！",
+    "setupCompleteMessage": "您的 Solana 钱包已准备就绪。",
+    "importSuccessfulTitle": "导入成功！",
+    "importSuccessfulMessage": "所选账户已添加。",
+    "windowCloseMessage": "此窗口将自动关闭。",
+    "errors": {
+      "verifyStatusFailed": "无法验证钱包状态。请刷新。",
+      "stateLost": "设置过程状态丢失或无效。请重新开始该过程。",
+      "mnemonicEmpty": "助记词不能为空。",
+      "addRootMnemonicFailed": "添加助记词失败：{{error}}",
+      "prepareCreateFailed": "准备钱包创建失败：{{error}}",
+      "accountScanFailed": "账户扫描失败：{{error}}",
+      "selectOneAccount": "至少选择一个账户。",
+      "importFailed": "导入失败：{{error}}",
+      "mnemonicNotStaged": "助记词未正确暂存。",
+      "prepareImportFailed": "准备导入失败：{{error}}",
+      "addAccountFailed": "添加账户失败：{{error}}",
+      "setupFailed": "设置失败：{{error}}",
+      "cannotInitWithViewOnly": "无法使用只读账户初始化新钱包。",
+      "unexpectedError": "发生意外错误。"
+    }
+  },
+  "passwordPage": {
+    "loadingStatus": "正在加载钱包状态...",
+    "walletNotFoundTitle": "未找到钱包",
+    "resetting": "重置中...",
+    "placeholders": {
+      "password": "密码"
+    },
+    "buttons": {
+      "unlocking": "解锁中...",
+      "forgotPasswordReset": "忘记密码？重置钱包",
+      "goToSetup": "前往设置"
+    },
+    "errors": {
+      "verifyStatusFailed": "无法验证钱包状态。请确保扩展程序已启用并尝试重新加载。",
+      "walletNotFoundGoToOnboarding": "未找到钱包。请前往 onboarding.html 设置您的钱包。",
+      "walletNotFoundOpenManually": "未找到钱包。请手动打开 onboarding.html。",
+      "invalidStatusResponse": "从后台收到无效状态。钱包可能未设置。",
+      "contactBackgroundFailed": "联系后台服务时出错。",
+      "passwordEmpty": "密码不能为空。",
+      "communicationError": "通讯错误：{{error}}",
+      "unlockFailedTryAgain": "解锁失败。请重试。",
+      "walletNotSetUp": "钱包未设置。",
+      "incorrectPassword": "密码不正确。",
+      "resetFailed": "重置失败：{{error}}",
+      "resetCompleteGoToSetup": "重置完成。请前往 onboarding.html 设置您的钱包。",
+      "sendResetRequestFailed": "发送重置请求失败。",
+      "resetFailedUnknown": "重置失败。"
+    },
+    "resetWallet": {
+      "warningConfirm": "警告：这将永久删除此扩展程序中存储的所有钱包数据 (密钥、账户)。此操作无法撤销。您确定吗？",
+      "finalConfirm": "最终确认：请确认您要重置钱包。所有数据都将丢失。",
+      "successAlert": "钱包重置成功。正在重定向到设置。",
+      "manualSetupAlert": "重置完成。请再次手动打开扩展程序进行设置。"
+    }
+  },
+  "actionButtons": {
+    "receive": "接收",
+    "send": "发送",
+    "stake": "质押",
+    "stakeClickedTodo": "已点击质押 (待办)"
+  },
+  "balanceCard": {
+    "refreshBalance": "刷新余额",
+    "loadErrorTitle": "加载错误",
+    "loadErrorMessage": "无法加载余额。",
+    "totalPortfolioValue": "总投资组合价值",
+    "solBalanceLabel": "SOL 余额"
+  },
+  "burnConfirmationModal": {
+    "title": "确认销毁 {{itemType}}",
+    "aboutToBurn": "您即将永久销毁：",
+    "warningTitle": "警告",
+    "irreversibleAction": "此操作不可逆。一旦销毁，{{itemType}} 将无法恢复。",
+    "rentRecoveryToken": "销毁此代币还将尝试关闭其关联的代币账户，这可能会将一些 SOL 租金返还到您的钱包。",
+    "permanentActionNft": "销毁此 NFT 是永久性的。请确保您理解此操作。",
+    "loading": "正在销毁 {{itemType}}...",
+    "burnFailedTitle": "销毁失败",
+    "buttons": {
+      "confirmBurn": "确认销毁",
+      "retryBurn": "重试销毁"
+    }
+  },
+  "footerNav": {
+    "home": "主页",
+    "swap": "交换",
+    "settings": "设置",
+    "swapClickedTodo": "已点击交换 (待办 - 默认处理程序)"
+  },
+  "header": {
+    "selectAccount": "选择账户",
+    "addAccountImport": "添加/导入账户",
+    "walletsPageTitle": "钱包",
+    "accountOptions": "账户选项"
+  },
+  "itemList": {
+    "nativeToken": "原生代币",
+    "noTokensToDisplay": "您当前没有可显示的代币。",
+    "tokenLogoAlt": "{{tokenSymbol}} 徽标"
+  },
+  "nftCard": {
+    "unnamedNft": "未命名 NFT",
+    "unknownCollectionPlaceholder": "未知收藏",
+    "altNftImage": "{{nftName}} NFT 图片",
+    "ariaViewDetails": "查看 {{nftName}} 的详细信息"
+  },
+  "nftGrid": {
+    "unnamedCollection": "未命名收藏",
+    "ariaViewCollection": "查看包含 {{count}} 个项目的收藏 {{collectionName}}",
+    "altCollectionImage": "{{collectionName}} 收藏图片",
+    "errorLoading": "加载收藏品时出错：{{errorDetail}}",
+    "noCollectiblesFound": "未找到收藏品。"
+  },
+  "renameModal": {
+    "title": "编辑钱包名称",
+    "inputAriaLabel": "新钱包名称"
+  },
+  "showPrivateKeyModal": {
+    "title": "显示私钥",
+    "forAccount": "账户：",
+    "warning": "警告：切勿分享您的私钥。任何拥有它的人都可以访问您的资金。",
+    "enterPasswordToReveal": "输入密码以显示",
+    "placeholders": {
+      "walletPassword": "您的钱包密码"
+    },
+    "buttons": {
+      "reveal": "显示私钥",
+      "copyKey": "复制密钥"
+    },
+    "yourPrivateKeyFor": "您的 {{accountName}} 私钥：",
+    "storeKeySecurely": "请妥善保管此密钥。不要丢失。不要分享。",
+    "copiedToClipboard": "私钥已复制到剪贴板！",
+    "errors": {
+      "passwordRequired": "需要密码。",
+      "failedToRetrieve": "检索私钥失败。",
+      "copyFailed": "复制私钥失败。"
+    }
+  },
+  "showSeedPhraseModal": {
+    "title": "显示助记词",
+    "forAccount": "账户：",
+    "warning": "警告：切勿分享您的助记词。任何拥有它的人都可以访问从中派生的所有账户。",
+    "enterPasswordToReveal": "输入密码以显示",
+    "placeholders": {
+      "walletPassword": "您的钱包密码"
+    },
+    "buttons": {
+      "revealPhrase": "显示助记词",
+      "copied": "已复制！",
+      "copyPhrase": "复制助记词"
+    },
+    "yourRecoveryPhraseFor": "您的 {{accountName}} 助记词：",
+    "storePhraseSecurely": "请妥善保管此助记词。不要丢失。不要分享。",
+    "errors": {
+      "passwordRequired": "需要密码。",
+      "failedToRetrieve": "检索助记词失败。",
+      "copyFailed": "复制助记词失败。"
+    }
+  },
+  "tabSelector": {
+    "previousTab": "上一个标签页",
+    "switchToTab": "切换到 {{tabName}} 标签页",
+    "nextTab": "下一个标签页",
+    "expandContentView": "展开内容视图"
+  },
+  "tokenDetails": {
+    "titleFallback": "代币详情",
+    "detailsUnavailable": "代币详情不可用。",
+    "backToDashboard": "返回仪表板",
+    "loadingData": "正在加载代币数据...",
+    "tokenFallback": "代币",
+    "burnInitiatedTitle": "销毁已启动！",
+    "transactionIdLabel": "交易 ID",
+    "moreOptionsAriaLabel": "更多选项",
+    "fetchingLatestDetails": "正在获取最新详情...",
+    "viewOnlyWarning": "这是只读账户。发送/销毁操作已禁用。",
+    "sectionTitle": "代币信息",
+    "labels": {
+      "name": "名称",
+      "symbol": "符号",
+      "pricePerToken": "每代币价格",
+      "addressMint": "地址 (Mint)",
+      "explorer": "浏览器"
+    },
+    "menu": {
+      "viewOnExplorer": "在浏览器中查看",
+      "burnToken": "销毁代币"
+    },
+    "buttons": {
+      "send": "发送",
+      "receive": "接收"
+    },
+    "burnSuccessMessage": "{{tokenName}} 销毁已成功启动！",
+    "errors": {
+      "fetchFailed": "获取完整代币详情失败。",
+      "detailsNotFound": "无法检索完整代币详情。",
+      "fetchInitiationFailed": "启动详情获取时出错：{{error}}",
+      "burnMissingInfo": "无法销毁：缺少活动账户或代币详情。",
+      "burnUnknownError": "销毁代币时发生未知错误。"
+    }
+  },
+  "tokenManagement": {
+    "headerTitle": "管理代币列表",
+    "fallbackTokenName": "代币",
+    "spamToggle": {
+      "label": "显示垃圾/未知代币",
+      "description": "垃圾/未知代币是指没有徽标且缺少价格、名称或符号的代币。默认情况下，它们是隐藏的。"
+    },
+    "lowBalanceToggle": {
+      "label": "隐藏价值低于 $1 的代币"
+    },
+    "individualManagementInfo": {
+      "withSpam": "单独管理代币的可见性 (包括垃圾/未知代币)。",
+      "withoutSpam": "单独管理代币的可见性 (不包括垃圾/未知代币)。"
+    },
+    "buttons": {
+      "hideAllBelow": "隐藏以下所有",
+      "showAllBelow": "显示以下所有",
+      "showTokenAria": "显示 {{tokenName}}",
+      "hideTokenAria": "隐藏 {{tokenName}}"
+    },
+    "loadingTokens": "正在加载代币...",
+    "emptyState": {
+      "noNonNativeTokens": "此账户中未找到非原生代币。",
+      "noNonSpamToManage": "没有非垃圾/未知代币可管理。请尝试启用“显示垃圾/未知代币”。"
+    },
+    "errors": {
+      "loadFailed": "加载代币时出错：{{error}}"
+    }
+  },
+  "tokenSelect": {
+    "modalTitleInput": "选择支付代币",
+    "modalTitleOutput": "选择接收代币",
+    "modalTitleGeneric": "选择代币",
+    "searchPlaceholder": "搜索名称、符号或粘贴地址",
+    "loadingTokens": "正在加载代币...",
+    "noTokensMatchSearch": "未找到与您的搜索匹配的代币。",
+    "noTokensFoundShort": "未找到代币。",
+    "customTokenName": "代币 ({{addressPart}}...)",
+    "unknownToken": "未知代币",
+    "customAddressLabel": "自定义地址",
+    "ariaLabels": {
+      "selectToken": "选择 {{tokenName}}"
+    }
+  },
+  "swapErrorView": {
+    "title": "交换失败",
+    "errorDetailsLabel": "错误详情："
+  },
+  "swapSuccessView": {
+    "noDetailsFound": "未找到成功详情。",
+    "title": "交换成功！",
+    "swappedMessage": "您交换了 {{amount}} {{symbol}}",
+    "forEstimatedMessage": "估计获得 {{amount}} {{symbol}}。",
+    "transactionIdLabel": "交易 ID",
+    "buttons": {
+      "newSwap": "新交换"
+    }
+  },
+  "swapView": {
+    "title": "交换代币",
+    "loadingInterface": "正在加载交换界面...",
+    "settingsPlaceholderAlert": "交换设置占位符",
+    "kyokuWalletSwap": "Kyoku 钱包交换",
+    "kyokuWalletOrigin": "Kyoku 钱包",
+    "tokenIdentifierFallback": "TKN",
+    "fetchingBestPrice": "正在获取最佳价格...",
+    "labels": {
+      "youPay": "您支付",
+      "youReceiveEstimated": "您收到 (估计)"
+    },
+    "tokenInput": {
+      "balancePrefix": "余额：",
+      "amountPlaceholder": "0.00",
+      "selectTokenFallback": "选择",
+      "selectTokenAria": "选择 {{currentToken}} 进行交换"
+    },
+    "buttons": {
+      "max": "最大",
+      "fetchingQuote": "正在获取报价...",
+      "errorGettingQuote": "获取报价时出错",
+      "reviewSwap": "审查交换"
+    },
+    "quoteInfo": {
+      "rate": "汇率",
+      "priceImpact": "价格影响",
+      "minReceived": "最少收到",
+      "route": "路径",
+      "directRoute": "直接"
+    },
+    "ariaLabels": {
+      "closeSwap": "关闭交换",
+      "swapSettings": "交换设置",
+      "usePercentage": "使用 {{percentage}}% 的余额",
+      "swapDirection": "交换输入和输出代币"
+    },
+    "errors": {
+      "invalidNumber": "请输入有效数字 (例如 123.45)",
+      "amountExceedsBalance": "金额超过可用余额。",
+      "invalidInputForQuote": "获取报价的输入无效。",
+      "invalidInputAmount": "输入金额无效。",
+      "quoteFetchFailed": "获取报价失败。请尝试调整金额或交易对。",
+      "quoteRequestPrepFailed": "准备报价请求时出错。请检查输入值。",
+      "missingInfoForExecute": "执行交换缺少必要信息。",
+      "failedToGetJupiterTx": "从 Jupiter 获取交换交易失败。"
+    }
+  },
+  "networkSettings": {
+    "options": {
+      "mainnet": "主网 Beta",
+      "devnet": "开发网",
+      "testnet": "测试网",
+      "customRpc": "自定义 RPC"
+    },
+    "customRpcConfigurationTitle": "自定义 RPC 配置",
+    "customRpcDescription": "输入您自己的 RPC 端点 URL 以进行自定义网络访问",
+    "customRpcInputAriaLabel": "自定义 RPC 端点 URL",
+    "placeholders": {
+      "rpcEndpoint": "https://your-rpc-endpoint.com"
+    },
+    "errors": {
+      "updateFailed": "更新网络失败：{{details}}"
+    }
+  },
+  "autoLockSettings": {
+    "title": "自动锁定计时器",
+    "description": "配置钱包何时自动锁定。",
+    "enableLabel": "启用自动锁定",
+    "enableAutoLockAria": "启用自动锁定",
+    "disableAutoLockAria": "禁用自动锁定",
+    "durationLabel": "锁定时间 (分钟)",
+    "saveSuccessMessage": "设置保存成功",
+    "errors": {
+      "loadFailed": "加载设置失败",
+      "saveFailed": "保存设置失败",
+      "durationTooShort": "自动锁定持续时间必须至少为 1 分钟"
+    }
+  },
+  "changePassword": {
+    "labels": {
+      "currentPassword": "当前密码",
+      "newPassword": "新密码",
+      "confirmNewPassword": "确认新密码"
+    },
+    "placeholders": {
+      "currentPassword": "输入您当前的密码",
+      "newPassword": "输入新密码",
+      "confirmNewPassword": "确认新密码"
+    },
+    "newPasswordHint": "必须至少包含 8 个字符。",
+    "buttons": {
+      "changing": "更改中...",
+      "changePassword": "更改密码"
+    },
+    "errors": {
+      "allFieldsRequired": "所有密码字段均为必填项。",
+      "newPasswordsDoNotMatch": "新密码不匹配。",
+      "newPasswordTooShort": "新密码必须至少包含 8 个字符。",
+      "newPasswordSameAsCurrent": "新密码不能与当前密码相同。",
+      "changeFailedUnknown": "由于未知错误，更改密码失败。"
+    },
+    "successMessage": "密码更改成功！钱包将锁定。"
+  },
+  "explorerSettings": {
+    "description": "选择您首选的区块浏览器。交易和地址的链接将使用此选择。",
+    "saveSuccessMessage": "偏好保存成功！",
+    "saveFailedMessage": "保存偏好失败。请重试。",
+    "saveFailedMessageNoParam": "保存偏好失败"
+  },
+  "feeSettings": {
+    "description": "为您的交易选择默认优先级。这有助于确定您的交易处理速度，尤其是在网络拥堵期间。在某些情况下，您可能能够逐个交易覆盖此设置。",
+    "options": {
+      "auto": {
+        "label": "自动 (推荐)",
+        "description": "钱包会根据网络状况尝试设置最佳费用 (默认为中等)。"
+      },
+      "low": {
+        "label": "低",
+        "description": "费用较低，确认时间可能较慢。"
+      },
+      "medium": {
+        "label": "中等",
+        "description": "费用均衡，确认时间合理。"
+      },
+      "high": {
+        "label": "高",
+        "description": "费用较高，确认速度更快，在拥堵期间很有用。"
+      }
+    }
+  },
+  "aboutSettings": {
+    "title": "关于 Kyoku 钱包",
+    "versionLabel": "版本",
+    "brandName": "Kyoku 钱包",
+    "links": {
+      "website": "网站",
+      "terms": "服务条款",
+      "privacy": "隐私政策"
+    }
+  },
+  "addressBook": {
+    "title": "地址簿",
+    "loading": "正在加载地址簿...",
+    "addNewAddressTitle": "添加新地址",
+    "editAddressTitle": "编辑地址",
+    "addressIdentifierForErrorCheck": "地址",
+    "labels": {
+      "name": "名称",
+      "address": "地址"
+    },
+    "placeholders": {
+      "nameExample": "例如，我的朋友鲍勃",
+      "pasteAddress": "粘贴 Solana 地址"
+    },
+    "buttons": {
+      "addNewAddress": "添加新地址",
+      "editAddress": "编辑 {{name}}",
+      "deleteAddress": "删除 {{name}}"
+    },
+    "emptyStateLine1": "您的地址簿是空的。",
+    "emptyStateLine2": "点击“+”按钮添加地址。",
+    "confirmDeleteMessage": "您确定要删除此地址吗？",
+    "errors": {
+      "loadFailed": "加载地址簿失败",
+      "saveFailed": "保存地址簿失败",
+      "nameAndAddressRequired": "需要名称和地址。",
+      "invalidSolanaAddress": "Solana 地址格式无效。",
+      "addressExists": "此地址已存在于地址簿中。",
+      "addressExistsDifferentName": "此地址已存在且名称不同。"
+    }
+  },
+  "activityDetails": {
+    "detailsUnavailable": "交易详情不可用。",
+    "backToActivities": "返回活动",
+    "tokenFallback": "代币",
+    "assetFallback": "资产",
+    "headers": {
+      "default": "交易详情",
+      "sentAsset": "已发送 {{assetName}}",
+      "receivedAsset": "已收到 {{assetName}}",
+      "swap": "交换：{{tokenA}} 换 {{tokenB}}",
+      "dappInteractionNamed": "交互：{{dappName}}",
+      "dappInteraction": "dApp 交互",
+      "interaction": "程序交互"
+    },
+    "labels": {
+      "date": "日期",
+      "status": "状态",
+      "interaction": "交互",
+      "from": "来自",
+      "to": "至",
+      "source": "来源",
+      "networkFee": "网络费用",
+      "mintAddress": "Mint 地址",
+      "externalLink": "外部链接",
+      "explorer": "浏览器"
+    },
+    "prefixes": {
+        "youPaid": "您支付：",
+        "youReceived": "您收到：",
+        "amountSent": "已发送金额：",
+        "amountReceived": "已收到金额："
+    },
+    "statusConfirmed": "已确认",
+    "transactionIdLabel": "交易 ID",
+    "viewOnExplorer": "在 {{explorerName}} 上查看"
+  },
+  "activityItem": {
+    "unknownActivity": "未知活动",
+    "unknownToken": "代币",
+    "actions": {
+      "sent": "已发送",
+      "sentToken": "已发送 {{tokenSymbol}}",
+      "received": "已收到",
+      "receivedToken": "已收到 {{tokenSymbol}}",
+      "swap": "交换",
+      "appInteraction": "应用交互",
+      "programInteraction": "程序交互",
+      "approval": "批准"
+    },
+    "labels": {
+      "to": "至",
+      "from": "来自",
+      "program": "程序",
+      "for": "为",
+      "source": "来源"
+    }
+  },
+  "activityView": {
+    "loadingFromCache": "从缓存加载中...",
+    "errorLoadingTitle": "加载活动时出错",
+    "noRecentActivityTitle": "近期无活动",
+    "transactionsAppearHere": "您的交易将显示在此处。",
+    "loadingMore": "正在加载更多...",
+    "noMoreActivities": "没有更多活动可加载。"
+  },
+  "mainPopupApp": {
+    "loadingWallet": "正在加载钱包...",
+    "redirectingToSetup": "正在重定向到设置...",
+    "dismissErrorAriaLabel": "关闭错误",
+    "deleteModal": {
+      "title": "删除账户？",
+      "messagePart1": "删除：",
+      "messagePart2": "？",
+      "warning": "此操作无法撤销。"
+    },
+    "errors": {
+      "connectFailed": "连接失败：{{error}}",
+      "getInitialStateFailed": "获取初始状态失败。",
+      "noBackgroundResponse": "后台对初始状态无响应。",
+      "commError": "通讯错误：{{error}}",
+      "loadAccountsFailedAfterUnlock": "解锁后加载账户失败。",
+      "accountSwitchFailed": "账户切换失败：{{error}}",
+      "accountSwitchFailedUnknown": "切换账户失败。",
+      "openOnboardingFailed": "打开新手引导失败：{{error}}",
+      "renameFailed": "重命名失败：{{error}}",
+      "saveOrderFailed": "保存账户顺序失败。",
+      "accountNotFoundForDelete": "未找到要删除的账户。",
+      "cannotDeleteLastNonViewOnly": "无法删除最后一个非只读账户。请先创建另一个或导入。",
+      "deleteFailed": "删除失败：{{error}}",
+      "deleteFailedNamed": "删除账户 '{{name}}' 失败。"
+    }
+  },
+  "dashboard": {
+    "tabs": {
+        "tokens": "代币",
+        "collectibles": "收藏品",
+        "activity": "活动"
+    },
+    "manageTokenList": "管理代币列表",
+    "manageNftList": "管理 NFT 列表",
+    "buttons": {
+        "createNewAccount": "创建新账户",
+        "importRecoveryPhrase": "导入助记词",
+        "importPrivateKey": "导入私钥",
+        "addViewOnlyAccount": "添加只读账户"
+    },
+    "collectionTitleFallback": "收藏",
+    "backToAllCollectibles": "返回所有收藏品",
+    "closeExpandedView": "关闭展开视图"
+  },
+  "sendForm": {
+    "balanceLabel": "余额",
+    "toLabel": "至",
+    "amountLabel": "金额",
+    "sendingToSaved": "正在发送至 {{name}}",
+    "loadingContacts": "正在加载联系人...",
+    "noMatchingContacts": "未找到匹配的联系人。",
+    "noContactsOrAccounts": "地址簿或您的其他账户中没有联系人。",
+    "startTypingToSearch": "开始输入以搜索联系人。",
+    "buttons": {
+        "sendMax": "最大",
+        "reviewTransaction": "审查交易"
+    },
+    "placeholders": {
+        "recipientAddress": "粘贴 Solana 地址或选择联系人",
+        "nftAmount": "1 (NFT)",
+        "tokenAmount": "0.00"
+    },
+    "ariaLabels": {
+        "clearRecipient": "清除收款人",
+        "showSuggestions": "显示建议"
+    },
+    "errors": {
+        "recipientRequired": "需要收款人地址。",
+        "invalidSolanaAddress": "Solana 地址格式无效。",
+        "nftAmountMustBeOne": "NFT 金额必须为 1。",
+        "amountRequired": "需要金额。",
+        "validPositiveAmount": "请输入有效的正数金额。",
+        "amountExceedsBalance": "金额超过可用余额 ({{balance}} {{symbol}})。",
+        "couldNotVerifyRecipient": "无法验证收款人状态。",
+        "failedToVerifyRecipient": "验证收款人状态失败。"
+    }
+  },
+  "transactionConfirm": {
+    "customRpcLabel": "自定义 RPC",
+    "youAreSending": "您正在发送",
+    "fromLabel": "来自",
+    "yourWalletLabel": "您的钱包",
+    "toLabel": "至",
+    "networkLabel": "网络",
+    "networkFeeLabel": "网络费用",
+    "calculatingFee": "正在计算费用...",
+    "feeUnavailable": "无法估算费用",
+    "warningIrreversible": "警告：此交易不可逆。请在继续之前仔细检查所有详细信息。",
+    "buttons": {
+        "sending": "发送中...",
+        "confirmAndSend": "确认并发送"
+    }
+  },
+  "sendView": {
+    "errors": {
+        "unexpectedError": "发生意外错误。",
+        "sendFromViewOnly": "无法从只读账户发送。",
+        "activeAccountNotFound": "未找到活动账户。",
+        "feeEstimationFailed": "费用估算失败：{{error}}",
+        "decodeFailed": "解码失败：{{error}}",
+        "couldNotSimulateFee": "无法模拟交易以估算费用。",
+        "missingDetailsOrAccount": "缺少交易详情或活动账户。",
+        "swapFailedToSend": "交换发送失败。",
+        "errorLoadingTokens": "加载代币时出错",
+        "feeNotReady": "费用信息尚未准备好。请稍候。",
+        "transactionFailed": "交易失败：{{error}}",
+        "unknownErrorOccurred": "发生未知错误。"
+    },
+    "success": {
+        "title": "交易已发送！",
+        "message": "您的交易已成功提交到网络。",
+        "viewOnExplorer": "在 {{explorerName}} 上查看"
+    },
+    "headers": {
+        "processingTransaction": "正在处理交易...",
+        "selectToken": "选择代币",
+        "sendToken": "发送 {{tokenSymbol}}",
+        "confirmTransaction": "确认交易",
+        "transactionSent": "交易已发送",
+        "transactionFailed": "交易失败",
+        "send": "发送"
+    },
+    "noTokenSelected": "未选择代币进行发送。",
+    "buttons": {
+        "selectToken": "选择代币"
+    },
+    "loadingForm": "正在加载表单...",
+    "loadingTransactionDetails": "正在加载交易详情...",
+    "tokenFallback": "代币",
+    "errorSending": {
+        "title": "发送错误"
+    },
+    "loadingState": "正在加载状态..."
+  },
+  "accountSettings": {
+    "noAccountSelected": "未选择账户。",
+    "menu": {
+        "walletAddress": "钱包地址",
+        "renameWallet": "重命名钱包",
+        "showPrivateKey": "显示私钥",
+        "showRecoveryPhrase": "显示助记词",
+        "removeWallet": "移除钱包"
+    },
+    "errors": {
+        "copyFailed": "复制地址失败。"
+    }
+  },
+  "nftDetails": {
+    "menu": {
+        "viewOnExplorer": "在浏览器中查看",
+        "burnNft": "销毁 NFT",
+        "setAsProfilePicture": "设为头像",
+        "removeProfilePicture": "移除头像"
+    },
+    "profilePictureBadge": "头像",
+    "errors": {
+        "fetchFailed": "获取完整 NFT 详情失败。",
+        "detailsNotFound": "无法检索完整 NFT 详情。",
+        "fetchInitiationFailed": "启动详情获取时出错：{{error}}",
+        "burnMissingInfo": "无法销毁：缺少活动账户或 NFT 详情。",
+        "burnUnknownError": "销毁 NFT 时发生未知错误。",
+        "couldNotFetchFullDetails": "无法获取完整详情：{{error}}"
+    },
+    "moreOptionsAriaLabel": "更多选项",
+    "fetchingLatestDetails": "正在获取最新详情...",
+    "viewOnlyWarning": "这是只读账户。发送/销毁操作已禁用。",
+    "buttons": {
+        "sendNft": "发送 NFT"
+    },
+    "compressedBadge": "已压缩",
+    "sectionTitles": {
+        "description": "描述",
+        "aboutCollection": "关于收藏 {{collectionName}}",
+        "attributes": "属性",
+        "details": "详情"
+    },
+    "labels": {
+        "mintAddress": "Mint 地址",
+        "externalLink": "外部链接",
+        "explorer": "浏览器"
+    },
+    "links": {
+        "viewCollection": "查看收藏",
+        "viewAsset": "查看资产"
+    },
+    "burnSuccessMessage": "{{nftName}} 销毁已成功启动！",
+    "transactionIdLabel": "交易 ID",
+    "detailsUnavailable": "NFT 详情不可用。",
+    "loadingData": "正在加载 NFT 数据..."
+  },
+  "nftManagement": {
+    "unnamedNft": "未命名 NFT",
+    "potentialSpam": "潜在垃圾信息",
+    "spamHidden": "垃圾信息 (已隐藏)",
+    "headerTitle": "管理 NFT 列表",
+    "spamToggle": {
+        "label": "显示垃圾/未知 NFT",
+        "description": "垃圾/未知 NFT 是指没有徽标且缺少价格、名称或符号的 NFT。默认情况下，它们是隐藏的。"
+    },
+    "buttons": {
+        "showNftAria": "显示 {{nftName}}",
+        "hideNftAria": "隐藏 {{nftName}}"
+    },
+    "loadingDataAndPreferences": "正在加载数据和偏好设置...",
+    "errors": {
+        "loadFailed": "加载 NFT 失败：{{error}}"
+    },
+    "emptyState": {
+        "title": "无 NFT 可管理",
+        "description": "当您拥有 NFT 时，您可以在此处管理其可见性。"
+    },
+    "hiddenSpamInfo": "{{count}} 个垃圾/未知 NFT 已隐藏。在上面切换以查看它们。"
+  },
+  "connectedDapps": {
+    "errors": {
+        "loadFailed": "加载已连接的 dApp 失败。",
+        "couldNotRetrieve": "无法检索已连接的 dApp。",
+        "disconnectFailed": "断开连接失败。"
+    },
+    "loading": "正在加载已连接的 dApp...",
+    "dAppIconAlt": "{{appName}} dApp 图标",
+    "confirmDisconnect": "您确定要断开与 {{appName}} 的连接吗？",
+    "buttons": {
+        "disconnectAriaLabel": "断开与 {{appName}} 的连接",
+        "disconnect": "断开连接"
+    },
+    "connectedDateLabel": "已连接",
+    "emptyState": {
+        "noAppsConnected": "未连接任何 dApp。",
+        "appsWillAppearHere": "您连接的 dApp 将显示在此处。"
+    },
+    "description": "管理已授予访问您钱包权限的应用程序。撤销访问权限将要求应用程序在下次交互时重新请求连接。"
+  },
+  "passwordSetup": {
+    "errors": {
+        "passwordsDoNotMatch": "密码不匹配。",
+        "passwordTooShort": "密码必须至少包含 8 个字符。",
+        "initializationFailed": "钱包初始化失败：{{error}}",
+        "setupFailedUnknown": "设置失败：{{error}}",
+        "secretNotStagedAlert": "设置流程中出现严重错误 (缺少暂存数据)。请重新开始新手引导流程。",
+        "secretNotStagedDetailed": "设置流程中出现错误：缺少暂存数据。请返回并重新开始钱包创建或导入流程。",
+        "sendRequestFailed": "发送初始化请求失败：{{error}}"
+    },
+    "title": "创建密码",
+    "descriptionLine1": "此密码将用于解锁您的 Kyoku 钱包。",
+    "descriptionLine2": "请确保将其存放在安全的地方。",
+    "placeholders": {
+        "enterPassword": "输入密码",
+        "confirmPassword": "确认密码"
+    },
+    "ariaLabels": {
+        "hidePassword": "隐藏密码",
+        "showPassword": "显示密码",
+        "hideConfirmPassword": "隐藏确认密码",
+        "showConfirmPassword": "显示确认密码"
+    },
+    "buttons": {
+        "securingWallet": "保护钱包中...",
+        "createWallet": "创建钱包"
+    }
+  },
+  "walletSetup": {
+    "errors": {
+        "contactBackgroundFailed": "联系后台服务时出错：{{error}}",
+        "invalidStatusResponse": "从 checkKeyringStatus 收到无效响应",
+        "sendStatusCheckFailed": "发送状态检查消息时出错",
+        "ensureExtensionEnabled": "请确保扩展程序已启用并尝试重新加载。"
+    },
+    "checkingStatus": "正在检查钱包状态...",
+    "alreadySetupTitle": "钱包已设置！",
+    "alreadySetupMessage": "此浏览器中已存在 Kyoku 钱包。您可以从扩展程序图标访问它。",
+    "welcomeTitle": "欢迎使用 Kyoku 钱包",
+    "termsAgreementPrefix": "我已阅读并同意",
+    "termsAndConditionsLink": "条款和条件",
+    "createWalletTitle": "创建新钱包",
+    "createWalletDescription": "如果您是 Kyoku 新用户，请生成一个新的安全钱包。",
+    "importWalletTitle": "导入现有钱包",
+    "importWalletDescription": "使用您的助记词或私钥访问现有钱包。",
+    "buttons": {
+        "createWallet": "创建钱包",
+        "importWallet": "导入钱包"
+    }
+  },
+  "confirmSwap": {
+    "errors": {
+        "feeEstimationFailed": "费用估算失败。",
+        "decodeFailed": "解码失败：{{error}}",
+        "couldNotVerifyLocally": "无法在本地验证交易。仍可批准。",
+        "missingDetailsOrAccount": "缺少交易详情或活动账户。"
+    },
+    "ariaLabels": {
+        "rejectTransaction": "拒绝交易"
+    },
+    "title": "确认交换",
+    "youAreSwapping": "您正在交换：",
+    "tokenFallback": "代币",
+    "toReceiveNet": "净接收：",
+    "afterPlatformFee": "(平台费用后)",
+    "estimatingNetworkFee": "正在估算网络费用...",
+    "ourSimulationFailedTitle": "我们的模拟失败",
+    "showLogs": "显示日志"
+  }
+}
