@@ -4,18 +4,18 @@ import { TokenInfo } from '../../background/core/keyring/types';
 import { useTokenPreferences } from '../../hooks/useTokenPreferences';
 import { useAppStore } from '../../store/appStore';
 import { usePortfolio } from '../../hooks/usePortfolio';
-import { AlertTriangle } from 'lucide-react';
-import { useTranslation } from 'react-i18next'; // Import useTranslation
+import { AlertTriangle, ArrowLeft } from 'lucide-react'; // Added ArrowLeft
+import { useTranslation } from 'react-i18next';
 
-// renderTokenLogo now takes t function for alt text
+// Helper to render token logo (remains the same)
 const renderTokenLogo = (token: TokenInfo, t: Function) => {
-    const altText = t('itemList.tokenLogoAlt', { tokenSymbol: token.symbol || t('tokenManagement.fallbackTokenName') }); // Reusing key
+    const altText = t('itemList.tokenLogoAlt', { tokenSymbol: token.symbol || t('tokenManagement.fallbackTokenName') });
     if (token.logo) {
         return (
           <div className="w-8 h-8 rounded-full flex items-center justify-center overflow-hidden mr-3 flex-shrink-0">
             <img
               src={token.logo}
-              alt={altText} // Translated alt
+              alt={altText}
               className="w-full h-full object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
@@ -47,7 +47,7 @@ interface TokenManagementViewProps {
 const TokenManagementView: React.FC<TokenManagementViewProps> = ({
   onClose,
 }) => {
-  const { t } = useTranslation(); // Initialize useTranslation
+  const { t } = useTranslation();
   const activeAccount = useAppStore(s => s.activeAccount);
   const walletId = activeAccount?.uuid || 'default_tmv_wallet_id';
 
@@ -120,20 +120,29 @@ const TokenManagementView: React.FC<TokenManagementViewProps> = ({
   }, [tokensAvailableForToggling, preferences.hiddenTokens, updatePreferences]);
 
   return (
-    <div className="flex flex-col h-full bg-[#1A2433] text-[#F5F5F5]">
-      <div className="p-4 border-b border-[#4A5568] flex items-center justify-between flex-shrink-0">
-        <div className="flex items-center">
-          <button onClick={onClose} className="text-[#F5F5F5] hover:text-[#FF6B35] text-xl font-light mr-4" aria-label={t('common.back')}>
-            ←
-          </button>
-          <h2 className="text-lg font-medium">{t('tokenManagement.headerTitle')}</h2> {/* Translate */}
-        </div>
+    // MODIFIED: Main container background and text color
+    <div className="flex flex-col h-full bg-[#090f14] text-white">
+      {/* MODIFIED: Header styling and structure */}
+      <div className="flex items-center p-4 border-b border-[#243B55] relative flex-shrink-0 h-14">
+        <button
+          onClick={onClose}
+          className="p-1 text-gray-400 hover:text-white absolute left-4 top-1/2 transform -translate-y-1/2"
+          aria-label={t('common.back')}
+        >
+          <ArrowLeft size={20} />
+        </button>
+        <h2 className="text-lg font-semibold text-center text-[#A8DADC] absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 whitespace-nowrap">
+          {t('tokenManagement.headerTitle')}
+        </h2>
+        {/* Optional: Add a spacer if right-side elements are ever added to this specific header */}
       </div>
 
+      {/* MODIFIED: Content area padding */}
       <div className="flex-grow overflow-y-auto p-4 custom-scrollbar">
-        <div className="mb-3 p-3 bg-[#090f14] rounded-lg border border-[#4A5568]">
+        {/* MODIFIED: Toggle containers background and border */}
+        <div className="mb-3 p-3 bg-[#161E2D] rounded-lg border border-[#334155]">
           <div className="flex items-center justify-between mb-3">
-            <span className="font-medium text-sm">{t('tokenManagement.spamToggle.label')}</span> {/* Translate */}
+            <span className="font-medium text-sm text-white">{t('tokenManagement.spamToggle.label')}</span>
             <div
               className={`w-10 h-5 rounded-full p-0.5 cursor-pointer flex items-center ${preferences.showSpamTokens ? 'bg-green-500 justify-end' : 'bg-gray-600 justify-start'}`}
               onClick={handleToggleShowSpam}
@@ -146,14 +155,15 @@ const TokenManagementView: React.FC<TokenManagementViewProps> = ({
               <div className="bg-white w-4 h-4 rounded-full shadow-md transform transition-transform" />
             </div>
           </div>
-          <p className="text-xs text-[#9BA3AF]">
-            {t('tokenManagement.spamToggle.description')} {/* Translate */}
+          <p className="text-xs text-gray-400 mt-1.5">
+            {t('tokenManagement.spamToggle.description')}
           </p>
         </div>
 
-        <div className="mb-6 p-3 bg-[#090f14] rounded-lg border border-[#4A5568]">
+        {/* MODIFIED: Toggle containers background and border */}
+        <div className="mb-6 p-3 bg-[#161E2D] rounded-lg border border-[#334155]">
           <div className="flex items-center justify-between">
-            <span className="font-medium text-sm">{t('tokenManagement.lowBalanceToggle.label')}</span> {/* Translate */}
+            <span className="font-medium text-sm text-white">{t('tokenManagement.lowBalanceToggle.label')}</span>
             <div
               className={`w-10 h-5 rounded-full p-0.5 cursor-pointer flex items-center ${preferences.hideLowBalances ? 'bg-green-500 justify-end' : 'bg-gray-600 justify-start'}`}
               onClick={handleToggleHideLowBalances}
@@ -168,19 +178,19 @@ const TokenManagementView: React.FC<TokenManagementViewProps> = ({
           </div>
         </div>
 
-        <div className="mb-4 border-t border-b border-[#4A5568] py-3">
-          <p className="text-xs text-[#9BA3AF] mb-2 px-1">
+        <div className="mb-4 border-t border-b border-[#334155] py-3">
+          <p className="text-xs text-gray-400 mb-2 px-1">
             {preferences.showSpamTokens 
               ? t('tokenManagement.individualManagementInfo.withSpam') 
-              : t('tokenManagement.individualManagementInfo.withoutSpam')} {/* Translate */}
+              : t('tokenManagement.individualManagementInfo.withoutSpam')}
           </p>
           <div className="flex justify-center space-x-4">
             <button
               onClick={handleHideAllDisplayable}
               disabled={!tokensAvailableForToggling || tokensAvailableForToggling.length === 0}
-              className="text-[#5DADEC] text-xs hover:text-[#4A9BD7] disabled:text-gray-600 disabled:cursor-not-allowed"
+              className="text-blue-400 text-xs hover:text-blue-300 disabled:text-gray-600 disabled:cursor-not-allowed"
             >
-              {t('tokenManagement.buttons.hideAllBelow')} {/* Translate */}
+              {t('tokenManagement.buttons.hideAllBelow')}
             </button>
             <button
               onClick={handleShowAllDisplayable}
@@ -188,18 +198,18 @@ const TokenManagementView: React.FC<TokenManagementViewProps> = ({
                 !tokensAvailableForToggling || 
                 tokensAvailableForToggling.every(token => !preferences.hiddenTokens.includes(token.address))
               }
-              className="text-[#5DADEC] text-xs hover:text-[#4A9BD7] disabled:text-gray-600 disabled:cursor-not-allowed"
+              className="text-blue-400 text-xs hover:text-blue-300 disabled:text-gray-600 disabled:cursor-not-allowed"
             >
-              {t('tokenManagement.buttons.showAllBelow')} {/* Translate */}
+              {t('tokenManagement.buttons.showAllBelow')}
             </button>
           </div>
         </div>
         
-        {isLoadingPortfolio && <p className="text-center text-gray-500 py-2">{t('tokenManagement.loadingTokens')}</p>} {/* Translate */}
+        {isLoadingPortfolio && <p className="text-center text-gray-500 py-2">{t('tokenManagement.loadingTokens')}</p>}
         {portfolioError && (
           <div className="p-3 my-2 bg-red-900/30 border border-red-700 text-red-300 rounded-lg text-center text-sm">
             <AlertTriangle size={16} className="inline mr-2" />
-            {t('tokenManagement.errors.loadFailed', { error: portfolioError })} {/* Translate */}
+            {t('tokenManagement.errors.loadFailed', { error: portfolioError })}
           </div>
         )}
 
@@ -207,21 +217,20 @@ const TokenManagementView: React.FC<TokenManagementViewProps> = ({
           <div className="space-y-2">
             {allNonNativeTokens && tokensAvailableForToggling.length === 0 && (
               <p className="text-center text-gray-500 py-2 px-1">
-                {preferences.showSpamTokens ? t('tokenManagement.emptyState.noNonNativeTokens') : t('tokenManagement.emptyState.noNonSpamToManage')} {/* Translate */}
+                {preferences.showSpamTokens ? t('tokenManagement.emptyState.noNonNativeTokens') : t('tokenManagement.emptyState.noNonSpamToManage')}
               </p>
             )}
+            {/* MODIFIED: List items background and border */}
             {displayedTokensInList.map((token) => (
               <div
                 key={token.address}
-                className="flex items-center justify-between p-2.5 rounded-lg hover:bg-[#2A3447] bg-[#090f14] border border-[#4A5568]"
+                className="flex items-center justify-between p-2.5 rounded-lg hover:bg-[#2A3447] bg-[#161E2D] border border-[#334155]"
               >
                 <div className="flex items-center min-w-0">
-                  {renderTokenLogo(token, t)} {/* Pass t to renderTokenLogo */}
+                  {renderTokenLogo(token, t)}
                   <div className="ml-2 min-w-0">
-                    {/* title attribute removed */}
-                    <div className="font-medium text-sm truncate">{token.name || t('tokenManagement.fallbackTokenName')}</div>
-                    {/* title attribute removed */}
-                    <div className="text-xs text-[#9BA3AF] truncate">
+                    <div className="font-medium text-sm truncate text-white">{token.name || t('tokenManagement.fallbackTokenName')}</div>
+                    <div className="text-xs text-gray-400 truncate">
                       {token.symbol || token.address.slice(0, 6) + '...' + token.address.slice(-4)}
                     </div>
                   </div>
@@ -231,10 +240,9 @@ const TokenManagementView: React.FC<TokenManagementViewProps> = ({
                     preferences.hiddenTokens.includes(token.address) ? 'bg-gray-600 justify-start' : 'bg-green-500 justify-end'
                   }`}
                   onClick={() => handleToggleTokenVisibility(token.address)}
-                  role="switch" // For accessibility
-                  aria-checked={!preferences.hiddenTokens.includes(token.address)} // For accessibility
-                  aria-label={preferences.hiddenTokens.includes(token.address) ? t('tokenManagement.buttons.showTokenAria', { tokenName: token.name || t('tokenManagement.fallbackTokenName') }) : t('tokenManagement.buttons.hideTokenAria', { tokenName: token.name || t('tokenManagement.fallbackTokenName') })} // For accessibility
-                  // title attribute removed
+                  role="switch"
+                  aria-checked={!preferences.hiddenTokens.includes(token.address)}
+                  aria-label={preferences.hiddenTokens.includes(token.address) ? t('tokenManagement.buttons.showTokenAria', { tokenName: token.name || t('tokenManagement.fallbackTokenName') }) : t('tokenManagement.buttons.hideTokenAria', { tokenName: token.name || t('tokenManagement.fallbackTokenName') })}
                 >
                   <div className="bg-white w-4 h-4 rounded-full shadow-md transform transition-transform" />
                 </div>
